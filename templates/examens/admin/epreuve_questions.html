@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block title %}Questions — {{ epreuve.titre }}{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <a href="{% url 'admin_examens:epreuves_liste' %}" class="text-decoration-none small text-muted">
+        <i data-feather="arrow-left" style="width:14px;height:14px;"></i> Retour aux épreuves
+    </a>
+    <h1 class="h3 mb-1 mt-2">{{ epreuve.titre }}</h1>
+    <p class="text-muted mb-0">
+        {{ epreuve.filiere.nom }} — {{ epreuve.filiere.ecole.nom }} — {{ epreuve.annee }}
+        — <span class="badge bg-success">{{ questions.count }} question(s)</span>
+    </p>
+</div>
+
+<div class="row">
+
+    <!-- ── Liste des questions existantes ── -->
+    <div class="col-12 col-lg-7">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Questions de l'épreuve</h5>
+            </div>
+            <div class="card-body">
+                {% for question in questions %}
+                <div class="border rounded p-3 mb-3" style="border-color:var(--forest-pale) !important;">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <span class="badge" style="background:var(--forest-medium);color:#fff;">
+                            Question {{ question.ordre }}
+                        </span>
+                        <form method="post"
+                              action="{% url 'admin_examens:question_supprimer' epreuve.id question.id %}"
+                              onsubmit="return confirm('Supprimer cette question ?');">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-sm btn-outline-danger">
+                                <i data-feather="trash-2" style="width:14px;height:14px;"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <p class="mb-2">{{ question.texte }}</p>
+                    <ul class="list-unstyled mb-0">
+                        {% for choix in question.choix.all %}
+                        <li class="d-flex align-items-center mb-1">
+                            {% if choix.est_correct %}
+                                <i data-feather="check-circle" class="text-success me-2" style="width:16px;height:16px;"></i>
+                                <span class="fw-semibold text-success">{{ choix.texte }}</span>
+                            {% else %}
+                                <i data-feather="circle" class="text-muted me-2" style="width:16px;height:16px;"></i>
+                                <span class="text-muted">{{ choix.texte }}</span>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% empty %}
+                <p class="text-muted text-center py-4 mb-0">
+                    Aucune question pour le moment. Ajoutez-en une avec le formulaire à droite.
+                </p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Formulaire ajout question ── -->
+    <div class="col-12 col-lg-5">
+        <div class="card" style="position:sticky; top:1rem;">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Ajouter une question</h5>
+            </div>
+            <div class="card-body">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+
+                    <div class="row">
+                        <div class="col-9 mb-3">
+                            <label class="form-label fw-semibold">Texte de la question</label>
+                            {{ formulaire_question.texte }}
+                        </div>
+                        <div class="col-3 mb-3">
+                            <label class="form-label fw-semibold">Ordre</label>
+                            {{ formulaire_question.ordre }}
+                        </div>
+                    </div>
+
+                    <label class="form-label fw-semibold">Choix de réponse</label>
+                    <small class="text-muted d-block mb-2">Cochez la/les bonne(s) réponse(s)</small>
+
+                    {{ formset_choix.management_form }}
+
+                    {% for form_choix in formset_choix %}
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <div class="form-check">
+                            {{ form_choix.est_correct }}
+                        </div>
+                        <div class="flex-grow-1">
+                            {{ form_choix.texte }}
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                    {% if formset_choix.non_form_errors %}
+                        <div class="text-danger small mb-2">{{ formset_choix.non_form_errors.0 }}</div>
+                    {% endif %}
+
+                    <button type="submit" class="btn w-100 mt-2"
+                            style="background:var(--forest-medium);color:#fff;font-weight:600;">
+                        <i data-feather="plus-circle" class="me-1"></i> Ajouter la question
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

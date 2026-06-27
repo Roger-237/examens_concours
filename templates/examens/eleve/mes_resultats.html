@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Mes résultats{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+        <i class="align-middle" data-feather="book-open"></i>
+        <span class="align-middle">Passer un examen</span>
+    </a>
+</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+        <i class="align-middle" data-feather="bar-chart-2"></i>
+        <span class="align-middle">Mes résultats</span>
+    </a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="mb-4">
+    <h1 class="h4 mb-1">Mes résultats</h1>
+    <p class="text-muted">Historique de vos tentatives d'examens</p>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Épreuve</th>
+            <th>École / Filière</th>
+            <th>Année</th>
+            <th>Score</th>
+            <th>Date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for tentative in tentatives %}
+          <tr>
+            <td>{{ tentative.epreuve.titre }}</td>
+            <td>{{ tentative.epreuve.filiere.ecole.nom }} — {{ tentative.epreuve.filiere.nom }}</td>
+            <td>{{ tentative.epreuve.annee }}</td>
+            <td>{{ tentative.score }} pts</td>
+            <td>{{ tentative.date_fin|date:"d/m/Y H:i" }}</td>
+            <td><a href="{% url 'eleve:resultat_examen' tentative.id %}" class="btn btn-sm btn-outline-primary">Voir</a></td>
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan="6" class="text-center">
+              Vous n'avez pas encore passé d'examen. <a href="{% url 'eleve:choisir_ecole' %}">Commencer maintenant</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+    <script>
+    if (typeof feather !== 'undefined') feather.replace();
+    </script>
+{% endblock %}

@@ -1,0 +1,246 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{% block title %}Dashboard{% endblock %} | ExamensPro</title>
+
+  <link href="{% static 'css/app.css' %}" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-light: #40916c;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+    }
+
+    /* ── Sidebar ── */
+    .wrapper .sidebar,
+    .wrapper .sidebar-content,
+    #sidebar,
+    .sidebar,
+    .sidebar-content {
+      background: var(--forest-dark) !important;
+    }
+
+    .sidebar-brand {
+      color: #fff !important;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
+    }
+
+    .sidebar-brand:hover {
+      color: var(--forest-pale) !important;
+    }
+
+    .sidebar-nav .sidebar-header {
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 1.5rem 0 0.5rem 1.5rem;
+    }
+
+    .sidebar-nav .sidebar-item .sidebar-link,
+    .sidebar-link,
+    a.sidebar-link {
+      background: var(--forest-dark) !important;
+      color: rgba(255, 255, 255, 0.75) !important;
+      border-left: 3px solid transparent;
+    }
+
+    .sidebar-nav .sidebar-item .sidebar-link:hover,
+    a.sidebar-link:hover {
+      background: var(--forest-medium) !important;
+      color: #fff !important;
+    }
+
+    .sidebar-nav .sidebar-item .sidebar-link i,
+    .sidebar-nav .sidebar-item .sidebar-link svg {
+      color: rgba(255, 255, 255, 0.75) !important;
+      margin-right: 0.75rem;
+    }
+
+    .sidebar-item.active>.sidebar-link,
+    .sidebar-item.active>.sidebar-link:hover {
+      background: var(--forest-medium) !important;
+      border-left-color: var(--forest-accent) !important;
+      color: #fff !important;
+    }
+
+    .sidebar-item.active>.sidebar-link i,
+    .sidebar-item.active>.sidebar-link svg {
+      color: var(--forest-accent) !important;
+    }
+
+    /* ── Boutons ── */
+    .btn-primary {
+      background-color: var(--forest-medium) !important;
+      border-color: var(--forest-medium) !important;
+      color: #fff !important;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--forest-dark) !important;
+      border-color: var(--forest-dark) !important;
+    }
+
+    .navbar-bg {
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .badge.bg-success {
+      background-color: var(--forest-medium) !important;
+    }
+
+    .text-primary {
+      color: var(--forest-medium) !important;
+    }
+  </style>
+
+  {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- ── Sidebar ── -->
+    <nav id="sidebar" class="sidebar js-sidebar">
+      <div class="sidebar-content js-simplebar">
+        <a class="sidebar-brand" href="#">
+          <span class="align-middle"> ExamensPro</span>
+        </a>
+
+        <ul class="sidebar-nav">
+          <li class="sidebar-header">Navigation</li>
+
+          <li class="sidebar-item {% block nav_dashboard %}{% endblock %}">
+            <a class="sidebar-link" href="{% block dashboard_url %}#{% endblock %}">
+              <i class="align-middle" data-feather="grid"></i>
+              <span class="align-middle">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="{% url 'accueil' %}">
+              <i class="align-middle" data-feather="home"></i>
+              <span class="align-middle">Accueil</span>
+            </a>
+          </li>
+
+          {% block sidebar_extra %}{% endblock %}
+
+          <li class="sidebar-header">Compte</li>
+
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="#">
+              <i class="align-middle" data-feather="user"></i>
+              <span class="align-middle">
+                {{ request.user.username }}
+                <small class="d-block opacity-75">{{ request.user.get_role_display }}</small>
+              </span>
+            </a>
+          </li>
+
+          <li class="sidebar-item">
+            <form method="post" action="{% url 'comptes:deconnexion' %}">
+              {% csrf_token %}
+              <button type="submit" class="sidebar-link w-100 text-start border-0"
+                style="background:none; cursor:pointer;">
+                <i class="align-middle" data-feather="log-out"></i>
+                <span class="align-middle">Déconnexion</span>
+              </button>
+            </form>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ── Contenu principal ── -->
+    <div class="main">
+      <nav class="navbar navbar-expand navbar-light navbar-bg">
+        <a class="sidebar-toggle js-sidebar-toggle">
+          <i class="hamburger align-self-center"></i>
+        </a>
+        <div class="navbar-collapse collapse">
+          <ul class="navbar-nav navbar-align">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                <div class="d-inline-flex align-items-center justify-content-center rounded-circle me-1"
+                  style="width:32px;height:32px;background:var(--forest-medium);color:#fff;font-weight:700;font-size:14px;">
+                  {{ request.user.username|first|upper }}
+                </div>
+                <span class="text-dark">{{ request.user.username }}</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end">
+                <form method="post" action="{% url 'comptes:deconnexion' %}">
+                  {% csrf_token %}
+                  <button type="submit" class="dropdown-item border-0 bg-transparent w-100 text-start">
+                    <i class="align-middle me-1" data-feather="log-out"></i> Déconnexion
+                  </button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="content">
+        <div class="container-fluid p-0">
+
+          {% if messages %}
+          {% for message in messages %}
+          <div
+            class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags }}{% endif %} alert-dismissible fade show mx-3 mt-3">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+          {% endfor %}
+          {% endif %}
+
+          {% block content %}{% endblock %}
+
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row text-muted">
+            <div class="col-6 text-start">
+              <p class="mb-0"><strong>ExamensPro</strong> &copy; {% now "Y" %}</p>
+            </div>
+            <div class="col-6 text-end">
+              <small>Plateforme d'examens en ligne</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="{% static 'js/app.js' %}"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+
+</html>

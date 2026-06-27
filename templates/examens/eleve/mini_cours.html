@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}{{ epreuve.titre }} — Mini cours{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+        <i class="align-middle" data-feather="book-open"></i>
+        <span class="align-middle">Passer un examen</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+        <i class="align-middle" data-feather="bar-chart-2"></i>
+        <span class="align-middle">Mes résultats</span>
+    </a>
+</li>
+
+{% endblock %}
+
+{% block extra_css %}
+<script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+        svg: { fontCache: 'global' }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="mb-3"><a href="{% url 'eleve:choisir_epreuve' epreuve.filiere.id %}">&laquo; Retour aux épreuves</a></div>
+
+<h1 class="h4 mb-1">{{ epreuve.titre }}</h1>
+<p class="text-muted">{{ epreuve.filiere.nom }} — {{ epreuve.filiere.ecole.nom }} — {{ epreuve.annee }}</p>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Mini cours</h5>
+        {% if epreuve.mini_cours %}
+            <div class="mb-3">{{ epreuve.mini_cours }}</div>
+        {% else %}
+            <div class="mb-3 text-muted">Aucun cours préparatoire pour cette épreuve.</div>
+        {% endif %}
+
+        <hr>
+
+        <p class="mb-2"><strong>Prêt à commencer ?</strong></p>
+        <p class="mb-2">{{ epreuve.questions.count }} question(s) — <strong>10 secondes</strong> par question.</p>
+        <p class="mb-3">Bonne réponse : <strong>+1</strong>  |  Mauvaise réponse : <strong>-1</strong>  |  Pas de réponse : <strong>0</strong></p>
+
+        <a href="{% url 'eleve:demarrer_examen' epreuve.id %}" class="btn px-5" style="background:var(--forest-medium);color:#fff;font-weight:600;">Démarrer l'examen</a>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+
+    if (typeof feather !== 'undefined') feather.replace();
+
+{% endblock %}

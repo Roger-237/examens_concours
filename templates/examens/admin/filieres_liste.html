@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block title %}Filières{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="h3 mb-1">Filières</h1>
+        <p class="text-muted mb-0">Gérez les filières disponibles par école</p>
+    </div>
+    <a href="{% url 'admin_examens:filiere_ajouter' %}" class="btn"
+       style="background:var(--forest-medium);color:#fff;font-weight:600;">
+        <i data-feather="plus-circle" class="me-1"></i> Nouvelle filière
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nom</th>
+                        <th>École</th>
+                        <th>Épreuves</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for filiere in filieres %}
+                    <tr>
+                        <td>{{ filiere.id }}</td>
+                        <td class="fw-semibold">{{ filiere.nom }}</td>
+                        <td>
+                            <span class="badge" style="background:var(--forest-pale);color:var(--forest-dark);">
+                                {{ filiere.ecole.nom }}
+                            </span>
+                        </td>
+                        <td>{{ filiere.epreuves.count }}</td>
+                        <td class="text-end">
+                            <a href="{% url 'admin_examens:filiere_modifier' filiere.id %}"
+                               class="btn btn-sm btn-outline-secondary me-1">
+                                <i data-feather="edit-2" style="width:14px;height:14px;"></i>
+                            </a>
+                            <form method="post" action="{% url 'admin_examens:filiere_supprimer' filiere.id %}"
+                                  class="d-inline" onsubmit="return confirm('Supprimer cette filière et toutes ses données associées ?');">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-outline-danger">
+                                    <i data-feather="trash-2" style="width:14px;height:14px;"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5" class="text-center text-muted py-4">
+                            Aucune filière enregistrée. Cliquez sur "Nouvelle filière" pour commencer.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

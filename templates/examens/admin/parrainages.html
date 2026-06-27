@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+{% block title %}Parrainages{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'admin_examens:parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainages</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h3 mb-1">Parrainages</h1>
+    <p class="text-muted mb-0">Gérez les parrainages et les bonus à verser</p>
+</div>
+
+<!-- ── Bonus à payer ── -->
+{% if eleves_bonus %}
+<div class="card mb-4" style="border-left: 4px solid #f59e0b;">
+    <div class="card-header" style="background:#fff3cd;">
+        <h5 class="card-title mb-0">
+            💰 Bonus à verser ({{ eleves_bonus.count }} élève(s))
+        </h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>Élève</th>
+                        <th>Code parrainage</th>
+                        <th>Parrainages</th>
+                        <th>Montant</th>
+                        <th class="text-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for eleve in eleves_bonus %}
+                    <tr>
+                        <td class="fw-semibold">{{ eleve.nom_complet }}</td>
+                        <td>
+                            {% if eleve.code_parrainage %}
+                                <code>{{ eleve.code_parrainage.code }}</code>
+                            {% else %}—{% endif %}
+                        </td>
+                        <td>
+                            <span class="badge bg-success">{{ eleve.nb_parrainages }}</span>
+                        </td>
+                        <td class="fw-bold text-warning">2 500 FCFA</td>
+                        <td class="text-end">
+                            <form method="post" action="{% url 'admin_examens:bonus_paye' eleve.id %}"
+                                  onsubmit="return confirm('Confirmer le versement du bonus à {{ eleve.nom_complet }} ?');">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-success">
+                                    <i data-feather="check-circle" style="width:14px;height:14px;"></i>
+                                    Marquer comme payé
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- ── Historique parrainages ── -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">Historique des parrainages</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Parrain</th>
+                        <th>Filleul</th>
+                        <th>Date</th>
+                        <th>Statut bonus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in parrainages %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td class="fw-semibold">{{ p.parrain.nom_complet }}</td>
+                        <td>{{ p.filleul.nom_complet }}</td>
+                        <td>{{ p.date|date:"d/m/Y H:i" }}</td>
+                        <td>
+                            {% if p.bonus_paye %}
+                                <span class="badge bg-success">Payé</span>
+                            {% else %}
+                                <span class="badge bg-secondary">En attente</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5" class="text-center text-muted py-4">
+                            Aucun parrainage enregistré.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

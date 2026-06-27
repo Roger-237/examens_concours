@@ -1,0 +1,247 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Connexion | ExamensPro</title>
+
+    <link href="{% static 'css/app.css' %}" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --forest-dark: #1b4332;
+            --forest-medium: #2d6a4f;
+            --forest-light: #40916c;
+            --forest-accent: #52b788;
+            --forest-pale: #d8f3dc;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--forest-dark) 0%, var(--forest-medium) 100%);
+            min-height: 100vh;
+            font-family: "Inter", sans-serif;
+        }
+
+        .login-card {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .login-header {
+            background: linear-gradient(135deg, var(--forest-dark), var(--forest-medium));
+            border-radius: 16px 16px 0 0;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .login-header h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #fff;
+            margin: 0;
+        }
+
+        .login-header p {
+            color: var(--forest-pale);
+            margin: 0.5rem 0 0;
+            font-size: 0.9rem;
+        }
+
+        .form-control {
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            border: 1.5px solid #dee2e6;
+            font-size: 0.95rem;
+        }
+
+        .form-control:focus {
+            border-color: var(--forest-accent) !important;
+            box-shadow: 0 0 0 0.2rem rgba(82, 183, 136, 0.25) !important;
+        }
+
+        .btn-connexion {
+            background: linear-gradient(135deg, var(--forest-medium), var(--forest-light));
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 600;
+            padding: 0.75rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-connexion:hover {
+            background: linear-gradient(135deg, var(--forest-dark), var(--forest-medium));
+            color: #fff;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(27, 67, 50, 0.4);
+        }
+
+        .input-icon {
+            position: relative;
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--forest-medium);
+            z-index: 10;
+        }
+
+        .input-icon .form-control {
+            padding-left: 2.8rem;
+        }
+
+        .badge-role {
+            background: var(--forest-pale);
+            color: var(--forest-dark);
+            font-size: 0.75rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .parrainage-section {
+            border: 1.5px dashed var(--forest-accent);
+            border-radius: 10px;
+            padding: 1rem;
+            background: rgba(82,183,136,0.05);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="d-flex w-100 min-vh-100 align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-5 col-xl-4">
+
+                    <div class="card login-card">
+
+                        <!-- ── En-tête ── -->
+                        <div class="login-header">
+                            <div class="mb-2" style="font-size: 2.5rem;"></div>
+                            <h1>ExamensPro</h1>
+                            <p>Plateforme d'examens des grandes écoles</p>
+                        </div>
+
+                        <!-- ── Formulaire ── -->
+                        <div class="card-body p-4">
+
+                            <div class="text-center mb-4">
+                                <span class="badge-role">Espace élève & administrateur</span>
+                            </div>
+
+                            {% if messages %}
+                            {% for message in messages %}
+                            <div
+                                class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags }}{% endif %} alert-dismissible fade show">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                            {% endfor %}
+                            {% endif %}
+
+                            <form method="post" novalidate>
+                                {% csrf_token %}
+
+                                <!-- Identifiant / Nom complet -->
+                                <div class="mb-3">
+                                    <label class="form-label fw-semibold" for="id_identifiant">
+                                        Nom complet / Identifiant
+                                    </label>
+                                    <div class="input-icon">
+                                        <i data-feather="user"></i>
+                                        <input
+                                            class="form-control {% if form.identifiant.errors %}is-invalid{% endif %}"
+                                            type="text" name="identifiant" id="id_identifiant"
+                                            value="{{ form.identifiant.value|default:'' }}"
+                                            placeholder="Ex : Jean Dupont" autofocus />
+                                        {% if form.identifiant.errors %}
+                                        <div class="invalid-feedback">{{ form.identifiant.errors.0 }}</div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+
+                                <!-- Code d'accès -->
+                                <div class="mb-4">
+                                    <label class="form-label fw-semibold" for="id_code_acces">
+                                        Code d'accès
+                                    </label>
+                                    <div class="input-icon">
+                                        <i data-feather="key"></i>
+                                        <input class="form-control {% if form.code_acces.errors %}is-invalid{% endif %}"
+                                            type="password" name="code_acces" id="id_code_acces"
+                                            placeholder="Ex : jean4823" />
+                                        {% if form.code_acces.errors %}
+                                        <div class="invalid-feedback">{{ form.code_acces.errors.0 }}</div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+
+                                <!-- Code parrainage (optionnel) -->
+                                <div class="mb-4 parrainage-section">
+                                    <label class="form-label fw-semibold small" for="id_code_parrainage">
+                                        <i data-feather="gift" style="width:14px;height:14px;"></i>
+                                        Code parrainage <span class="text-muted fw-normal">(optionnel)</span>
+                                    </label>
+                                    <input
+                                        class="form-control form-control-sm"
+                                        type="text"
+                                        name="code_parrainage"
+                                        id="id_code_parrainage"
+                                        value="{{ form.code_parrainage.value|default:'' }}"
+                                        placeholder="Ex : jeandupont202655"
+                                    />
+                                    <small class="text-muted mt-1 d-block">
+                                        Si un ami vous a partagé son code, entrez-le ici.
+                                    </small>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-connexion">
+                                        Se connecter
+                                    </button>
+                                </div>
+                                <div class="d-grid mt-3">
+                                    <a href="https://wa.me/241062896159?text=Bonjour%2C%20je%20souhaite%20m%27inscrire%20sur%20ExamensPro%20et%20effectuer%20le%20paiement." target="_blank" rel="noopener" class="btn" style="background: rgba(255,255,255,0.95); color: var(--forest-dark); font-weight:600;">
+                                        Payer maintenant
+                                    </a>
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                        <!-- ── Pied ── -->
+                        <div class="card-footer text-center py-3"
+                            style="background: var(--forest-pale); border-radius: 0 0 16px 16px;">
+                            <small style="color: var(--forest-dark);">
+                                Votre accès est fourni par votre administrateur
+                            </small>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{% static 'js/app.js' %}"></script>
+    <script>
+        if (typeof feather !== 'undefined') feather.replace();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+{% block title %}Tableau de bord Admin{% endblock %}
+{% block nav_dashboard %}active{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainages</span>
+    </a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h3 mb-1">Tableau de bord</h1>
+    <p class="text-muted">Bienvenue, {{ request.user.username }} —
+        <span class="badge" style="background:var(--forest-medium);color:#fff;">Administrateur</span>
+    </p>
+</div>
+
+<!-- ── Notifications ── -->
+{% if notifications %}
+<div class="card mb-4" style="border-left:4px solid var(--forest-accent);">
+    <div class="card-header py-2">
+        <h6 class="card-title mb-0">🔔 Notifications</h6>
+    </div>
+    <div class="card-body py-3">
+        {% for notif in notifications %}
+        <div class="d-flex align-items-start gap-2 {% if not forloop.last %}mb-2 pb-2 border-bottom{% endif %}">
+            {% if notif.type_notif == 'bonus' %}
+                <span>💰</span>
+            {% else %}
+                <span>👥</span>
+            {% endif %}
+            <small>{{ notif.message }}</small>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- ── Stats ── -->
+<div class="row">
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Écoles</h5>
+                        <h1 class="mt-1 mb-0">{{ total_ecoles }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-medium);">
+                            <i class="align-middle" data-feather="book" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Épreuves</h5>
+                        <h1 class="mt-1 mb-0">{{ total_epreuves }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-accent);">
+                            <i class="align-middle" data-feather="file-text" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Élèves inscrits</h5>
+                        <h1 class="mt-1 mb-0">{{ total_eleves }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-light);">
+                            <i class="align-middle" data-feather="users" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Comptes suspendus</h5>
+                        <h1 class="mt-1 mb-0">{{ eleves_suspendus }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:#dc3545;">
+                            <i class="align-middle" data-feather="user-x" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carte bonus en attente -->
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Bonus en attente</h5>
+                        <h1 class="mt-1 mb-0">{{ bonus_en_attente }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:#f59e0b;">
+                            <i class="align-middle" data-feather="gift" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="{% url 'admin_examens:parrainages' %}" class="btn btn-sm w-100 mt-2"
+                   style="background:#fff3cd;color:#856404;">
+                    Gérer les bonus
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ── Accès rapides ── -->
+<div class="row mt-2">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Accès rapides</h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="{% url 'admin_examens:ecole_ajouter' %}" class="btn w-100 py-3"
+                            style="background:var(--forest-pale);color:var(--forest-dark);font-weight:600;border-radius:10px;">
+                            <i data-feather="plus-circle" class="me-2"></i> Nouvelle école
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="{% url 'admin_examens:epreuve_ajouter' %}" class="btn w-100 py-3"
+                            style="background:var(--forest-pale);color:var(--forest-dark);font-weight:600;border-radius:10px;">
+                            <i data-feather="plus-circle" class="me-2"></i> Nouvelle épreuve
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="{% url 'admin_examens:eleve_ajouter' %}" class="btn w-100 py-3"
+                            style="background:var(--forest-pale);color:var(--forest-dark);font-weight:600;border-radius:10px;">
+                            <i data-feather="user-plus" class="me-2"></i> Nouvel élève
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="{% url 'admin_examens:eleves_liste' %}?filtre=suspendus" class="btn w-100 py-3"
+                            style="background:#ffeaea;color:#dc3545;font-weight:600;border-radius:10px;">
+                            <i data-feather="alert-triangle" class="me-2"></i> Fraudes détectées
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

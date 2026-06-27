@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+{% block title %}Tableau de bord Élève{% endblock %}
+{% block nav_dashboard %}active{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+        <i class="align-middle" data-feather="book-open"></i>
+        <span class="align-middle">Passer un examen</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+        <i class="align-middle" data-feather="bar-chart-2"></i>
+        <span class="align-middle">Mes résultats</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:mes_parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainage</span>
+    </a>
+</li>
+
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h3 mb-1">Tableau de bord</h1>
+    <p class="text-muted">Bienvenue, {{ eleve.nom_complet }} —
+        <span class="badge" style="background:var(--forest-medium);color:#fff;">Élève</span>
+    </p>
+</div>
+
+<!-- ── Notifications ── -->
+{% if notifications %}
+<div class="card mb-4" style="border-left:4px solid var(--forest-accent);">
+    <div class="card-header py-2">
+        <h6 class="card-title mb-0">🔔 Notifications</h6>
+    </div>
+    <div class="card-body py-3">
+        {% for notif in notifications %}
+        <div class="d-flex align-items-start gap-2 {% if not forloop.last %}mb-2 pb-2 border-bottom{% endif %}">
+            {% if notif.type_notif == 'bonus' %}
+                <span>🎉</span>
+            {% else %}
+                <span>👥</span>
+            {% endif %}
+            <small>{{ notif.message }}</small>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<!-- ── Infos élève ── -->
+<div class="row">
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Mon code</h5>
+                        <h2 class="mt-1 mb-0" style="color:var(--forest-medium);font-family:monospace;">
+                            {{ eleve.code_acces }}
+                        </h2>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-medium);">
+                            <i class="align-middle" data-feather="key" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Statut</h5>
+                        <h2 class="mt-1 mb-0">
+                            {% if eleve.statut == 'actif' %}
+                            <span class="badge bg-success fs-6">Actif</span>
+                            {% else %}
+                            <span class="badge bg-danger fs-6">Suspendu</span>
+                            {% endif %}
+                        </h2>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-accent);">
+                            <i class="align-middle" data-feather="shield" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Examens passés</h5>
+                        <h1 class="mt-1 mb-0">{{ total_tentatives|default:0 }}</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-light);">
+                            <i class="align-middle" data-feather="file-text" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Membre depuis</h5>
+                        <h5 class="mt-1 mb-0">{{ eleve.date_inscription|date:"d/m/Y" }}</h5>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-medium);">
+                            <i class="align-middle" data-feather="calendar" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carte parrainage -->
+    <div class="col-sm-6 col-xl-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h5 class="card-title">Parrainages</h5>
+                        <h1 class="mt-1 mb-0">{{ total_parrainages }} / 5</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="stat" style="color:var(--forest-accent);">
+                            <i class="align-middle" data-feather="gift" style="width:32px;height:32px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <a href="{% url 'eleve:mes_parrainages' %}" class="btn btn-sm w-100 mt-2"
+                   style="background:var(--forest-pale);color:var(--forest-dark);">
+                    Gérer mon parrainage
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ── Commencer un examen ── -->
+<div class="row mt-2">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Commencer un examen</h5>
+            </div>
+            <div class="card-body text-center py-5">
+                <div style="font-size:4rem;">📚</div>
+                <h4 class="mt-3" style="color:var(--forest-dark);">Prêt à vous lancer ?</h4>
+                <p class="text-muted mb-4">
+                    Choisissez une école, une filière et une épreuve pour commencer.
+                </p>
+                <a href="{% url 'eleve:choisir_ecole' %}" class="btn btn-lg px-5"
+                    style="background:var(--forest-medium);color:#fff;border-radius:10px;font-weight:600;">
+                    <i data-feather="play-circle" class="me-2"></i> Choisir un examen
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

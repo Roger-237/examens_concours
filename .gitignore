@@ -1,0 +1,25 @@
+# Environnement
+env/
+.env
+*.pyc
+__pycache__/
+*.pyo
+
+# Base de données locale
+db.sqlite3
+
+# Fichiers statiques compilés
+staticfiles/
+
+# Certificat SSL
+ca.pem
+
+# Médias uploadés
+media/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

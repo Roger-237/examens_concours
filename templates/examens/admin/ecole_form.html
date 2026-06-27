@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}{{ titre }}{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h3 mb-1">{{ titre }}</h1>
+    <p class="text-muted mb-0">Renseignez le nom de l'école</p>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data" novalidate>
+                    {% csrf_token %}
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Nom de l'école</label>
+                        {{ form.nom }}
+                        {% if form.nom.errors %}
+                            <div class="text-danger small mt-1">{{ form.nom.errors.0 }}</div>
+                        {% endif %}
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Logo de l'école</label>
+                        {{ form.logo }}
+                        {% if form.logo.errors %}
+                            <div class="text-danger small mt-1">{{ form.logo.errors.0 }}</div>
+                        {% endif %}
+                        {% if form.instance.logo %}
+                            <div class="mt-2">
+                                <img src="{{ form.instance.logo.url }}" alt="Logo actuel" style="max-height: 100px;">
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button type="submit" class="btn"
+                                style="background:var(--forest-medium);color:#fff;font-weight:600;">
+                            <i data-feather="save" class="me-1"></i> Enregistrer
+                        </button>
+                        <a href="{% url 'admin_examens:ecoles_liste' %}" class="btn btn-outline-secondary">
+                            Annuler
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

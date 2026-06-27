@@ -1,0 +1,507 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ExamensPro — Préparez vos concours en ligne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'ui/images/apple-touch-icon.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'ui/images/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'ui/images/favicon-16x16.png' %}">
+
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+
+  <style>
+    :root {
+      --forest-dark   : #1b4332;
+      --forest-medium : #2d6a4f;
+      --forest-light  : #40916c;
+      --forest-accent : #52b788;
+      --forest-pale   : #d8f3dc;
+      --bs-primary: #2d6a4f;
+      --bs-primary-rgb: 45, 106, 79;
+    }
+
+    /* Keep text/link/border colors but avoid forcing .bg-primary globally */
+    .text-primary   { color: var(--forest-medium) !important; }
+    .link-primary   { color: var(--forest-medium) !important; }
+    .border-primary { border-color: var(--forest-medium) !important; }
+
+    /* Only force solid primary for buttons (leave .bg-primary + bg-opacity to Bootstrap) */
+    .btn-primary {
+      background-color: var(--bs-primary) !important;
+      border-color: var(--bs-primary) !important;
+    }
+    .btn-primary:hover {
+      background-color: var(--forest-dark) !important;
+      border-color: var(--forest-dark) !important;
+    }
+
+    /* Allow Bootstrap's bg-opacity mechanism to create pale backgrounds.
+       Provide explicit pale variants for icon-shape and badges using rgba(). */
+    .bg-primary.bg-opacity-10 {
+      /* rely on --bs-primary-rgb and Bootstrap's opacity; no forced solid color */
+    }
+    .icon-shape.bg-primary.bg-opacity-10 {
+      background-color: rgba(var(--bs-primary-rgb), 0.1);
+      color: var(--forest-medium);
+    }
+    .badge.bg-primary.bg-opacity-10 {
+      background-color: rgba(var(--bs-primary-rgb), 0.1);
+      color: var(--forest-dark);
+    }
+      .hero-img { filter: brightness(0.9); transition: filter .2s ease; }
+  </style>
+</head>
+
+<body>
+  <!-- ── Navbar ── -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-inline-flex gap-2 align-items-center lh-1" href="{% url 'accueil' %}">
+        <span class="text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-book">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+            <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+            <path d="M3 6l0 13" />
+            <path d="M12 6l0 13" />
+            <path d="M21 6l0 13" />
+          </svg>
+        </span>
+        <span class="fw-bold">ExamensPro</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="#hero" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="#epreuves" class="nav-link">Épreuves</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">Tarifs</a></li>
+        </ul>
+        <div class="d-flex gap-3 align-items-center">
+          <a href="{% url 'comptes:connexion' %}" class="btn btn-primary">Se connecter</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="py-lg-13 py-8 bg-white position-relative" id="hero">
+    <div class="circle-bg d-none d-lg-block"></div>
+    <div class="container">
+      <div class="row align-items-center gy-8">
+        <div class="col-lg-6">
+          <span class="badge bg-primary bg-opacity-10 text-primary px-4 py-3 fw-normal border border-primary rounded-pill">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="currentColor"
+                class="icon icon-tabler icons-tabler-filled icon-tabler-circle">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" />
+              </svg>
+            </span>
+            <span class="ms-1">Nouvelles épreuves disponibles</span>
+          </span>
+
+          <h1 class="display-4 fw-bold mt-4">
+            Préparez vos concours
+            <span class="text-primary">aux grandes écoles,</span>
+            où que vous soyez
+          </h1>
+
+          <p class="my-6 lead fw-normal">
+            Entraînez-vous sur les épreuves réelles de l'INPTIC, l'INSG, l'ITO, l'IST et bien d'autres.
+            Mini cours, examens chronométrés et correction immédiate.
+          </p>
+
+          <div class="d-flex flex-md-row flex-column justify-content-start gap-3">
+            <a href="{% url 'comptes:connexion' %}" class="btn btn-primary">
+              <span>Commencer maintenant</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-arrow-right ms-2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <line x1="13" y1="18" x2="19" y2="12"></line>
+                  <line x1="13" y1="6" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </a>
+            <a href="#epreuves" class="btn btn-light">
+              <span>Voir les écoles disponibles</span>
+            </a>
+          </div>
+
+          <div class="d-flex gap-6 mt-8">
+            <div class="d-flex align-items-center gap-2">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-users text-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                </svg>
+              </span>
+              <small class="mb-0"><span class="fw-bold">{{ total_eleves|default:"500" }}+</span> Élèves</small>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-book text-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <path d="M3 6l0 13" />
+                  <path d="M12 6l0 13" />
+                  <path d="M21 6l0 13" />
+                </svg>
+              </span>
+              <small class="mb-0"><span class="fw-bold">{{ total_epreuves|default:"50" }}+</span> Épreuves</small>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-award text-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M12 9m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+                  <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
+                  <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
+                </svg>
+              </span>
+              <small class="mb-0"><span class="fw-bold">{{ total_ecoles|default:"5" }}+</span> Écoles</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card p-3 rounded-5 shadow-sm">
+            <div class="position-relative">
+              <img src="{% static 'ui/images/hero3.jpg' %}" alt="Étudiant qui s'entraîne" class="rounded-5 img-fluid hero-img" />
+
+              <div class="position-absolute top-0 end-0 me-n8 mt-n4">
+                <div class="bg-white shadow-sm rounded-pill d-flex align-items-center gap-3 px-3 py-2 mb-4 border" style="width: 200px;">
+                  <div class="icon-shape icon-md rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-clock">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <circle cx="12" cy="12" r="9" />
+                      <polyline points="12 7 12 12 15 15" />
+                    </svg>
+                  </div>
+                  <div class="d-flex flex-column text-xs lh-sm">
+                    <span class="fw-bold">10 sec / question</span>
+                    <span>Mode chronométré</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="position-absolute bottom-0 start-0 ms-n8 mb-n8">
+                <div class="bg-white shadow-sm rounded-pill d-flex align-items-center gap-2 px-3 py-2 mb-4 border" style="width: 190px;">
+                  <div class="icon-shape icon-md rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-book text-primary">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                      <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                      <path d="M3 6l0 13"></path>
+                      <path d="M12 6l0 13"></path>
+                      <path d="M21 6l0 13"></path>
+                    </svg>
+                  </div>
+                  <div class="d-flex flex-column text-xs lh-sm">
+                    <span class="fw-bold">Mini cours inclus</span>
+                    <span>Avant chaque épreuve</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Épreuves (ex-Courses) ── -->
+  <section class="py-lg-13 py-8" id="epreuves">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 mx-auto">
+          <div class="mb-10">
+            <span class="text-primary text-uppercase small fw-semibold" style="letter-spacing: .125rem;">Écoles</span>
+            <h2 class="fw-bold mt-4 mb-4">Nos <span class="text-primary">grandes écoles</span> disponibles</h2>
+            <p class="mb-0">
+              Choisissez votre école et entraînez-vous sur des épreuves réelles avec correction immédiate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        {% for ecole in ecoles %}
+        <div class="col-lg-3 col-md-6">
+          <div class="card shadow-sm h-100 rounded-5 card-lift">
+            <div class="position-relative overflow-hidden">
+              {% if ecole.logo %}
+                <img src="{{ ecole.logo.url }}" class="rounded-top-5 card-img-top" alt="{{ ecole.nom }}">
+              {% else %}
+                <div class="rounded-top-5 card-img-top d-flex align-items-center justify-content-center" style="background: var(--forest-pale); height: 200px;">
+                  <span style="font-size: 4rem;">🎓</span>
+                </div>
+              {% endif %}
+              <div class="position-absolute top-0 start-0 p-3">
+                <span class="badge bg-success rounded-pill fw-normal text-xs">{{ ecole.filieres.count }} filière(s)</span>
+              </div>
+            </div>
+            <div class="card-body p-6">
+              <h3 class="mb-1 fs-6">{{ ecole.nom }}</h3>
+              <div class="text-xs d-flex gap-2 align-items-center mt-4 mb-8">
+                <span>Épreuves disponibles</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mt-4">
+                <span class="fs-5 text-dark fw-bold">
+                  {% with total=0 %}{% for f in ecole.filieres.all %}{{ f.epreuves.count }}{% endfor %}{% endwith %}
+                </span>
+                <a href="{% url 'comptes:connexion' %}" class="small link-primary">
+                  <span>Commencer</span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-arrow-right ms-1">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <line x1="13" y1="18" x2="19" y2="12"></line>
+                      <line x1="13" y1="6" x2="19" y2="12"></line>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% empty %}
+        <div class="col-12 text-center text-muted">
+          Aucune école disponible pour le moment.
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Pricing ── -->
+  <section class="py-lg-13 py-8" id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center mb-10">
+            <span class="text-primary text-uppercase small fw-semibold" style="letter-spacing: .125rem;">Tarifs</span>
+            <h2 class="fw-bold mt-4 mb-4">Un accès <span class="text-primary">simple et abordable</span></h2>
+            <p>Paiement par Airtel Money. Contactez-nous pour activer votre compte.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mx-xxl-13 justify-content-center">
+        <div class="col-lg-4">
+          <div class="card shadow-sm rounded-5 h-100 border-primary">
+            <div class="card-body p-6">
+              <div class="text-center mt-5 mb-9">
+                <span class="text-dark fs-5 fw-bold">Accès complet</span>
+                <p class="mt-1">Toutes les écoles et épreuves</p>
+                <div class="d-flex gap-0 justify-content-center align-items-end">
+                  <h3 class="fw-bold h2 mb-0">Sur devis</h3>
+                </div>
+              </div>
+              <div class="mb-4">
+                <ul class="list-unstyled mb-0 d-flex flex-column gap-2 small">
+                  <li class="d-flex gap-3">
+                    <span class="icon-shape icon-xs bg-primary bg-opacity-10 text-primary rounded-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                      </svg>
+                    </span>
+                    <span>Accès à toutes les écoles</span>
+                  </li>
+                  <li class="d-flex gap-3">
+                    <span class="icon-shape icon-xs bg-primary bg-opacity-10 text-primary rounded-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                      </svg>
+                    </span>
+                    <span>Examens chronométrés illimités</span>
+                  </li>
+                  <li class="d-flex gap-3">
+                    <span class="icon-shape icon-xs bg-primary bg-opacity-10 text-primary rounded-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                      </svg>
+                    </span>
+                    <span>Mini cours avant chaque épreuve</span>
+                  </li>
+                  <li class="d-flex gap-3">
+                    <span class="icon-shape icon-xs bg-primary bg-opacity-10 text-primary rounded-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                      </svg>
+                    </span>
+                    <span>Corrections détaillées</span>
+                  </li>
+                  <li class="d-flex gap-3">
+                    <span class="icon-shape icon-xs bg-primary bg-opacity-10 text-primary rounded-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-check">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                      </svg>
+                    </span>
+                    <span>Paiement via Airtel Money</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="d-grid">
+                <a href="https://wa.me/241062896159?text=Bonjour%2C%20je%20souhaite%20m%27inscrire%20sur%20ExamensPro%20et%20effectuer%20le%20paiement." class="btn btn-primary" target="_blank" rel="noopener">
+                  Payer maintenant
+                </a>
+              </div>
+            </div>
+            <div>
+              <span class="badge bg-primary position-absolute top-0 start-50 translate-middle-x mt-n3 rounded-pill text-xs">
+                Recommandé
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-8">
+        <div class="col-12 text-center">
+          <p class="mb-0 small">Contactez l'administrateur pour activer votre compte après paiement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="pt-lg-13 bg-light py-8">
+    <div class="container">
+      <div class="row gy-8">
+        <div class="col-md-4">
+          <a class="d-inline-flex gap-2 align-items-center lh-1" href="{% url 'accueil' %}">
+            <span class="text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-book">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                <path d="M3 6l0 13" />
+                <path d="M12 6l0 13" />
+                <path d="M21 6l0 13" />
+              </svg>
+            </span>
+            <span class="fw-bold">ExamensPro</span>
+          </a>
+          <p class="mt-4 mb-6">La plateforme de référence pour préparer vos concours aux grandes écoles.</p>
+          <div class="d-flex flex-column gap-2">
+            <span class="d-flex align-items-center gap-2">
+              <span class="text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                  <path d="M3 7l9 6l9 -6" />
+                </svg>
+              </span>
+              <span>contact@examenspro.ga</span>
+            </span>
+            <span class="d-flex align-items-center gap-2">
+              <span class="text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+              </span>
+              <span>+241 XX XXX XXX</span>
+            </span>
+            <span class="d-flex align-items-center gap-2">
+              <span class="text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+              </span>
+              <span>Libreville, Gabon</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <h4 class="fs-5 mb-4">Plateforme</h4>
+              <ul class="list-unstyled lh-lg small">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#epreuves">Écoles</a></li>
+                <li><a href="#pricing">Tarifs</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="fs-5 mb-4">Compte</h4>
+              <ul class="list-unstyled lh-lg small">
+                <li><a href="{% url 'comptes:connexion' %}">Se connecter</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="fs-5 mb-4">Écoles</h4>
+              <ul class="list-unstyled lh-lg small">
+                <li>INPTIC</li>
+                <li>INSG</li>
+                <li>ITO</li>
+                <li>IST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-top mt-8 pt-6 row small">
+        <div class="col-12 d-flex flex-column flex-md-row justify-content-between">
+          <p>© {% now "Y" %} ExamensPro. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="{% static 'ui/js/index.js' %}"></script>
+
+</body>
+</html>

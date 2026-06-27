@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Résultat — {{ tentative.epreuve.titre }}{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+        <i class="align-middle" data-feather="book-open"></i>
+        <span class="align-middle">Passer un examen</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+        <i class="align-middle" data-feather="bar-chart-2"></i>
+        <span class="align-middle">Mes résultats</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block extra_css %}
+<script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+        svg: { fontCache: 'global' }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ── Score global ── -->
+<div class="card mb-4" style="background:linear-gradient(135deg, var(--forest-dark), var(--forest-medium));border:none;">
+    <div class="card-body text-center py-5">
+        <div style="font-size:1rem;color:var(--forest-pale);">{{ tentative.epreuve.titre }}</div>
+        <div style="font-size:3.5rem;font-weight:700;color:#fff;">{{ tentative.score }} / {{ total_questions }}</div>
+        <div style="color:var(--forest-pale);">
+            {{ tentative.epreuve.filiere.nom }} — {{ tentative.epreuve.filiere.ecole.nom }} — {{ tentative.epreuve.annee }}
+        </div>
+    </div>
+</div>
+
+<!-- ── Corrections détaillées ── -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">Corrections détaillées</h5>
+    </div>
+    <div class="card-body">
+        {% for detail in details %}
+        <div class="border rounded p-3 mb-3" style="border-color:#e9ecef !important;">
+            <p class="fw-semibold mb-3">Q{{ detail.question.ordre }}. {{ detail.question.texte }}</p>
+            <ul class="list-unstyled mb-0">
+                {% for choix in detail.question.choix.all %}
+                <li class="d-flex align-items-center mb-2">
+                    {% if choix.est_correct %}
+                        <i data-feather="check-circle" class="text-success me-2" style="width:18px;height:18px;"></i>
+                        <span class="fw-semibold text-success">{{ choix.texte }}</span>
+                        <span class="badge bg-success ms-2">Bonne réponse</span>
+                    {% elif choix.id == detail.choix_eleve_id %}
+                        <i data-feather="x-circle" class="text-danger me-2" style="width:18px;height:18px;"></i>
+                        <span class="text-danger">{{ choix.texte }}</span>
+                        <span class="badge bg-danger ms-2">Votre réponse</span>
+                    {% else %}
+                        <i data-feather="circle" class="text-muted me-2" style="width:18px;height:18px;"></i>
+                        <span class="text-muted">{{ choix.texte }}</span>
+                    {% endif %}
+                </li>
+                {% endfor %}
+                {% if not detail.choix_eleve_id %}
+                <li class="text-warning small mt-1">
+                    <i data-feather="clock" style="width:14px;height:14px;"></i> Pas de réponse (temps écoulé)
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a href="{% url 'eleve:choisir_ecole' %}" class="btn px-5"
+       style="background:var(--forest-medium);color:#fff;font-weight:600;">
+        <i data-feather="refresh-cw" class="me-1"></i> Passer un autre examen
+    </a>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+&lt;script&gt;
+    if (typeof feather !== 'undefined') feather.replace();
+&lt;/script&gt;
+{% endblock %}

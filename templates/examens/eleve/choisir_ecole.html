@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Choisir une école{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+
+<li class="sidebar-item active">
+  <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+    <i class="align-middle" data-feather="book-open"></i>
+    <span class="align-middle">Passer un examen</span>
+  </a>
+</li>
+
+<li class="sidebar-item">
+  <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+    <i class="align-middle" data-feather="bar-chart-2"></i>
+    <span class="align-middle">Mes résultats</span>
+  </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+  <h1 class="h3 mb-1">Choisir une école</h1>
+  <p class="text-muted mb-0">Sélectionnez l'école pour laquelle vous souhaitez vous entraîner</p>
+</div>
+
+<div class="row g-4">
+  {% for ecole in ecoles %}
+  <div class="col-sm-6 col-lg-4">
+    <a href="{% url 'eleve:choisir_filiere' ecole.id %}" class="text-decoration-none">
+      <div class="card h-100" style="transition: transform 0.2s, box-shadow 0.2s;"
+         onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 30px rgba(27,67,50,0.15)';"
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 0 20px rgba(0,0,0,0.08)';">
+        <div class="card-body text-center py-5">
+          <div class="mx-auto mb-3 d-flex align-items-center justify-content-center rounded-circle"
+             style="width:64px;height:64px;background:var(--forest-pale);">
+            <i data-feather="book" style="width:28px;height:28px;color:var(--forest-medium);"></i>
+          </div>
+          <h5 class="mb-1" style="color:var(--forest-dark);">{{ ecole.nom }}</h5>
+          <p class="text-muted small mb-0">{{ ecole.filieres.count }} filière(s)</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% empty %}
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body text-center text-muted py-5">
+        Aucune école disponible pour le moment.
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  if (typeof feather !== 'undefined') feather.replace();
+</script>
+{% endblock %}

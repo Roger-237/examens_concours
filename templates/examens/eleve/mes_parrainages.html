@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block title %}Mes parrainages{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Mes examens</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:choisir_ecole' %}">
+        <i class="align-middle" data-feather="book-open"></i>
+        <span class="align-middle">Passer un examen</span>
+    </a>
+</li>
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'eleve:mes_resultats' %}">
+        <i class="align-middle" data-feather="bar-chart-2"></i>
+        <span class="align-middle">Mes résultats</span>
+    </a>
+</li>
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="{% url 'eleve:mes_parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainage</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h1 class="h3 mb-1">Mon parrainage</h1>
+    <p class="text-muted mb-0">Parrainez vos amis et gagnez des bonus</p>
+</div>
+
+<!-- ── Stats parrainage ── -->
+<div class="row mb-4">
+    <div class="col-sm-6 col-lg-4">
+        <div class="card">
+            <div class="card-body text-center py-4">
+                <div style="font-size:2.5rem;"></div>
+                <h2 class="mt-2 mb-0" style="color:var(--forest-medium);">{{ total }} / 5</h2>
+                <p class="text-muted small mb-0">Parrainages effectués</p>
+
+                <!-- Barre de progression -->
+                <div class="progress mt-3" style="height:8px;">
+                    <div class="progress-bar"
+                         style="width:{{ progression }}0%;background:var(--forest-medium);">
+                    </div>
+                </div>
+
+                {% if bonus_atteint %}
+                <div class="alert mt-3 mb-0 py-2"
+                     style="background:var(--forest-pale);color:var(--forest-dark);font-size:0.85rem;">
+                    🎉 Bonus de 2500 FCFA débloqué !
+                </div>
+                {% else %}
+                <small class="text-muted mt-2 d-block">
+                    Plus que {{ 5|add:"-"|add:total }} pour débloquer 2500 FCFA
+                </small>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-8">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Mon code parrainage</h5>
+            </div>
+            <div class="card-body d-flex align-items-center">
+                {% if request.user.eleve.code_parrainage %}
+                <div class="w-100">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <code style="font-size:1.3rem;background:var(--forest-pale);padding:0.5rem 1.5rem;border-radius:8px;color:var(--forest-dark);font-weight:700;letter-spacing:2px;">
+                            {{ request.user.eleve.code_parrainage.code }}
+                        </code>
+                        <button onclick="copierCode('{{ request.user.eleve.code_parrainage.code }}')"
+                                class="btn btn-sm btn-outline-secondary">
+                            <i data-feather="copy" style="width:14px;height:14px;"></i> Copier
+                        </button>
+                    </div>
+                    <small class="text-muted">
+                        Partagez ce code à vos amis. Quand ils l'entrent à leur première connexion, vous gagnez +1 parrainage.
+                    </small>
+                </div>
+                {% else %}
+                <div class="text-center w-100">
+                    <p class="text-muted mb-3">Vous n'avez pas encore de code parrainage.</p>
+                    <form method="post" action="{% url 'eleve:generer_parrainage' %}">
+                        {% csrf_token %}
+                        <button type="submit" class="btn"
+                                style="background:var(--forest-medium);color:#fff;font-weight:600;">
+                            <i data-feather="gift" class="me-1"></i> Générer mon code
+                        </button>
+                    </form>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ── Liste des filleuls ── -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">Mes filleuls</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nom</th>
+                        <th>Date</th>
+                        <th>Bonus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for p in parrainages %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td class="fw-semibold">{{ p.filleul.nom_complet }}</td>
+                        <td>{{ p.date|date:"d/m/Y" }}</td>
+                        <td>
+                            {% if p.bonus_paye %}
+                                <span class="badge bg-success">Payé</span>
+                            {% else %}
+                                <span class="badge bg-secondary">En attente</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="4" class="text-center text-muted py-4">
+                            Vous n'avez pas encore de filleuls. Partagez votre code !
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    if (typeof feather !== 'undefined') feather.replace();
+
+    function copierCode(code) {
+        navigator.clipboard.writeText(code).then(function() {
+            alert('Code copié : ' + code);
+        });
+    }
+</script>
+{% endblock %}
