@@ -160,3 +160,12 @@ class VueDeconnexion(View):
     def post(self, request):
         logout(request)
         return redirect('/')
+
+
+# ─────────────────────────────────────────
+#  POLITIQUE DE CONFIDENTIALITÉ
+# ─────────────────────────────────────────
+class VuePrivacyPolicy(View):
+
+    def get(self, request):
+        return render(request, 'privacy_policy.html')

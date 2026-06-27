@@ -85,7 +85,15 @@
           <li class="nav-item"><a href="#pricing" class="nav-link">Tarifs</a></li>
         </ul>
         <div class="d-flex gap-3 align-items-center">
-          <a href="{% url 'comptes:connexion' %}" class="btn btn-primary">Se connecter</a>
+          {% if request.user.is_authenticated %}
+            {% if request.user.role == 'admin' %}
+              <a href="/admin/tableau-de-bord/" class="btn btn-primary">Mon espace</a>
+            {% else %}
+              <a href="/eleve/tableau-de-bord/" class="btn btn-primary">Mon espace</a>
+            {% endif %}
+          {% else %}
+            <a href="{% url 'comptes:connexion' %}" class="btn btn-primary">Se connecter</a>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -436,7 +444,7 @@
                   <path d="M3 7l9 6l9 -6" />
                 </svg>
               </span>
-              <span>contact@examenspro.ga</span>
+              <span>examenconcour@gmail.com</span>
             </span>
             <span class="d-flex align-items-center gap-2">
               <span class="text-primary">
@@ -447,7 +455,7 @@
                   <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                 </svg>
               </span>
-              <span>+241 XX XXX XXX</span>
+              <span>+254065406978</span>
             </span>
             <span class="d-flex align-items-center gap-2">
               <span class="text-primary">
@@ -478,6 +486,7 @@
               <h4 class="fs-5 mb-4">Compte</h4>
               <ul class="list-unstyled lh-lg small">
                 <li><a href="{% url 'comptes:connexion' %}">Se connecter</a></li>
+                <li><a href="/privacy-policy/">Politique de confidentialité</a></li>
               </ul>
             </div>
             <div class="col-lg-4 col-md-6">

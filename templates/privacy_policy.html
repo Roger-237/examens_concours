@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Politique de confidentialité | ExamensPro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --bs-primary: #2d6a4f;
+      --bs-primary-rgb: 45, 106, 79;
+    }
+    .btn-primary { background-color: #2d6a4f !important; border-color: #2d6a4f !important; }
+    .text-primary { color: #2d6a4f !important; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-inline-flex gap-2 align-items-center lh-1" href="{% url 'accueil' %}">
+        <span class="text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+            <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+            <path d="M3 6l0 13" /><path d="M12 6l0 13" /><path d="M21 6l0 13" />
+          </svg>
+        </span>
+        <span class="fw-bold">ExamensPro</span>
+      </a>
+      <div class="d-flex gap-3 align-items-center">
+        <a href="{% url 'accueil' %}" class="btn btn-outline-secondary btn-sm">← Retour</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenu -->
+  <div class="container py-lg-10 py-8" style="max-width:800px;">
+    <h1 class="fw-bold mb-2" style="color:#1b4332;">Politique de confidentialité</h1>
+    <p class="text-muted mb-8">Dernière mise à jour : {% now "d/m/Y" %}</p>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">1. Collecte des données</h4>
+      <p>ExamensPro collecte les informations suivantes lors de votre inscription :</p>
+      <ul>
+        <li>Votre nom complet</li>
+        <li>Un code d'accès généré par l'administrateur</li>
+        <li>L'empreinte de votre appareil (pour sécuriser votre compte)</li>
+      </ul>
+      <p>Nous ne collectons pas d'adresse email, de numéro de téléphone ou de données bancaires directement via la plateforme.</p>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">2. Utilisation des données</h4>
+      <p>Vos données sont utilisées uniquement pour :</p>
+      <ul>
+        <li>Vous permettre d'accéder à la plateforme</li>
+        <li>Enregistrer vos résultats d'examens</li>
+        <li>Gérer le système de parrainage</li>
+        <li>Détecter les tentatives de fraude (partage de compte)</li>
+      </ul>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">3. Sécurité</h4>
+      <p>
+        Nous protégeons vos données en enregistrant une empreinte unique de votre appareil à la première connexion.
+        Toute connexion depuis un appareil différent est considérée comme suspecte et entraîne la suspension automatique du compte.
+      </p>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">4. Partage des données</h4>
+      <p>
+        Nous ne vendons, ne louons et ne partageons pas vos données personnelles avec des tiers.
+        Vos informations restent strictement confidentielles et accessibles uniquement à l'administrateur de la plateforme.
+      </p>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">5. Cookies</h4>
+      <p>
+        ExamensPro utilise des cookies de session uniquement pour maintenir votre connexion active.
+        Ces cookies sont supprimés à la fermeture de votre navigateur ou lors de la déconnexion.
+      </p>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">6. Vos droits</h4>
+      <p>Vous avez le droit de :</p>
+      <ul>
+        <li>Demander la suppression de votre compte</li>
+        <li>Demander l'accès à vos données</li>
+        <li>Contacter l'administrateur pour toute question</li>
+      </ul>
+      <p class="mb-0">
+        Contact : <a href="mailto:examenconcour@gmail.com" style="color:#2d6a4f;">examenconcour@gmail.com</a>
+        — <strong>+254065406978</strong>
+      </p>
+    </div>
+
+    <div class="card rounded-5 shadow-sm p-6 mb-4">
+      <h4 class="fw-bold mb-3" style="color:#2d6a4f;">7. Modifications</h4>
+      <p class="mb-0">
+        Nous nous réservons le droit de modifier cette politique à tout moment.
+        Les utilisateurs seront informés des changements importants via la plateforme.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Footer simple -->
+  <footer class="bg-light py-4 text-center">
+    <small class="text-muted">© {% now "Y" %} ExamensPro — <a href="{% url 'accueil' %}" style="color:#2d6a4f;">Retour à l'accueil</a></small>
+  </footer>
+
+  <script type="module" src="{% static 'ui/js/index.js' %}"></script>
+</body>
+</html>
