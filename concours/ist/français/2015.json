@@ -1,0 +1,285 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2015,
+        "mini_cours": "Grammaire, orthographe, conjugaison, vocabulaire, et syntaxe de la langue française.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Recherchez le mot mal orthographies",
+            "choix": [
+              {"texte": "a) erratum", "est_correct": false},
+              {"texte": "b) capharnaum", "est_correct": true},
+              {"texte": "c) critérium", "est_correct": false},
+              {"texte": "d) muséum", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Recherchez le mot mal orthographié",
+            "choix": [
+              {"texte": "a) la boite", "est_correct": true},
+              {"texte": "b) la chaîne", "est_correct": false},
+              {"texte": "c) le gîte", "est_correct": false},
+              {"texte": "d) la cime", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Un seul de ces termes est erroné :",
+            "choix": [
+              {"texte": "a) briqueterie", "est_correct": false},
+              {"texte": "b) boneterie", "est_correct": true},
+              {"texte": "c) billetterie", "est_correct": false},
+              {"texte": "d) lunetterie", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Recherchez l'orthographe correcte du mot composé :",
+            "choix": [
+              {"texte": "a) des porte monnaie", "est_correct": false},
+              {"texte": "b) des portemonnaie", "est_correct": false},
+              {"texte": "c) des portes-monnaie", "est_correct": false},
+              {"texte": "d) des porte-monnaie", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Quel est le pluriel d'étouffe- chrétien ?",
+            "choix": [
+              {"texte": "a) étouffe-chretien", "est_correct": false},
+              {"texte": "b) étouffe-chrétiens", "est_correct": true},
+              {"texte": "c) étouffés-chrétien", "est_correct": false},
+              {"texte": "d) étouffes-chrétiens", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Que désigne une « startup » ?",
+            "choix": [
+              {"texte": "a) une station balnéaire", "est_correct": false},
+              {"texte": "b) une célébrité", "est_correct": false},
+              {"texte": "c) une jeune entreprise dans les nouvelles technologies", "est_correct": true},
+              {"texte": "d) une nouvelle étoile", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Que signifie l'expression « politiquement correct » ?",
+            "choix": [
+              {"texte": "a) ensemble des règles qui correspondent et obéissent à la morale dominante", "est_correct": true},
+              {"texte": "b) code vestimentaire que se doivent de respecter les hommes politiques", "est_correct": false},
+              {"texte": "c) résultat d'une élection non entachée de fraude", "est_correct": false},
+              {"texte": "d) slogan repris dans certaines publicité", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "En un mot que signifie « être scrupuleux » ?",
+            "choix": [
+              {"texte": "a) indulgent", "est_correct": false},
+              {"texte": "b) consciencieux", "est_correct": true},
+              {"texte": "c) orgueilleux", "est_correct": false},
+              {"texte": "d) coléreux", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Que signifie le mot « Dilettante » ?",
+            "choix": [
+              {"texte": "a) un paresseux", "est_correct": false},
+              {"texte": "b) un vaurien", "est_correct": false},
+              {"texte": "c) un amateur", "est_correct": true},
+              {"texte": "d) un distra", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Que signifie le mot « houlette » ?",
+            "choix": [
+              {"texte": "a) ondulation", "est_correct": false},
+              {"texte": "b) bâton de berger", "est_correct": true},
+              {"texte": "c) touffe de cheveux", "est_correct": false},
+              {"texte": "d) rapace nocturne", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Que signifie le mot « réfringent » ?",
+            "choix": [
+              {"texte": "a) qui retient", "est_correct": false},
+              {"texte": "b) qui resserre", "est_correct": false},
+              {"texte": "c) qui refroidit", "est_correct": false},
+              {"texte": "d) qui réfracte", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Que signifie le mot « incurie » ?",
+            "choix": [
+              {"texte": "a) manque de soin", "est_correct": true},
+              {"texte": "b) accusation", "est_correct": false},
+              {"texte": "c) sans curiosité", "est_correct": false},
+              {"texte": "d) radiothérapie", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Que signifie le mot « Rombière » ?",
+            "choix": [
+              {"texte": "a) grosse femme", "est_correct": false},
+              {"texte": "b) femme prétentieuse", "est_correct": true},
+              {"texte": "c) bonne à tout faire", "est_correct": false},
+              {"texte": "d) salle de danse pour femmes", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Que signifie le mot « contus » ?",
+            "choix": [
+              {"texte": "a) qui est inventé", "est_correct": false},
+              {"texte": "b) qui est refermé", "est_correct": false},
+              {"texte": "c) qui est meurtri", "est_correct": true},
+              {"texte": "d) qui est incertain", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Que signifie le mot « goujat » ?",
+            "choix": [
+              {"texte": "a) un bourreau", "est_correct": false},
+              {"texte": "b) un menteur", "est_correct": false},
+              {"texte": "c) un hypocrite", "est_correct": false},
+              {"texte": "d) un homme grossier", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Trouvez le faux ami du sens la racine biblio :",
+            "choix": [
+              {"texte": "a) chercheur debible", "est_correct": true},
+              {"texte": "b) livre", "est_correct": false},
+              {"texte": "c) professeur", "est_correct": false},
+              {"texte": "d) planteur", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Quel terme fait exception à la règle , syntaxiquement ou sémantiquement ?",
+            "choix": [
+              {"texte": "a) émonder", "est_correct": true},
+              {"texte": "b) immaculé", "est_correct": false},
+              {"texte": "c) immondice", "est_correct": false},
+              {"texte": "d) immeuble", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Quel nom est au masculin",
+            "choix": [
+              {"texte": "a) interview", "est_correct": false},
+              {"texte": "b) auspice", "est_correct": true},
+              {"texte": "c) acropole", "est_correct": false},
+              {"texte": "d) anacoluthe", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Quel nom est au féminin ?",
+            "choix": [
+              {"texte": "a) octave", "est_correct": true},
+              {"texte": "b) chrysanthème", "est_correct": false},
+              {"texte": "c) tentacule", "est_correct": false},
+              {"texte": "d) disciple", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Quel nom peut être aussi bien au masculin et au féminin ?",
+            "choix": [
+              {"texte": "a) Agrafe", "est_correct": false},
+              {"texte": "b) délices", "est_correct": true},
+              {"texte": "c) mandibule", "est_correct": false},
+              {"texte": "d) météorite", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Quel nom peut être aussi bien au masculin et au féminin ?",
+            "choix": [
+              {"texte": "a) mille-feuille", "est_correct": true},
+              {"texte": "b) ouais", "est_correct": false},
+              {"texte": "c) auspice", "est_correct": false},
+              {"texte": "d) éphéméride", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "L'un de ces énoncés est incorrect :",
+            "choix": [
+              {"texte": "a) veiller qu'on ne fasse aucune faute", "est_correct": true},
+              {"texte": "b) veiller à la bonne marche du service", "est_correct": false},
+              {"texte": "c) veiller à ne faire aucune faute", "est_correct": false},
+              {"texte": "d) veiller à ce qu'on ne fasse aucune faut", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Quelle est la nature de « ici on lisait »",
+            "choix": [
+              {"texte": "a) conjonction", "est_correct": false},
+              {"texte": "b) préposition", "est_correct": false},
+              {"texte": "c) adverbe", "est_correct": true},
+              {"texte": "d) complément de lieu", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Quelle est la fonction de « que pourra » dans « advienne que pourra » ?",
+            "choix": [
+              {"texte": "a) COI du verbe Advienne", "est_correct": false},
+              {"texte": "b) COD du verbe demander", "est_correct": false},
+              {"texte": "c) complément de l'antécédent", "est_correct": false},
+              {"texte": "d) sujet du verbe advienne", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Cochez la phrase contenant un attribut du COD",
+            "choix": [
+              {"texte": "a) cet homme a touché le gros lot", "est_correct": false},
+              {"texte": "b) les députés ont voté un nouveau projet de loi", "est_correct": false},
+              {"texte": "c) le tribunal le reconnaitre innocent", "est_correct": true},
+              {"texte": "d) le cheval de tête a remporté cette fatidique épreuve :", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Cochez la phrase contenant un complément d'attribution :",
+            "choix": [
+              {"texte": "a) cette boutique offre des réductions aux jeunes", "est_correct": true},
+              {"texte": "b) cette comédienne débutante est talentueuse", "est_correct": false},
+              {"texte": "c) il est étrange qu'on laisse cet acte impuni", "est_correct": false},
+              {"texte": "d) les travaux pratiques sont réalisés par les élèves", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Cochez la réponse qu'admet l'usage concernant le mode subjonctif",
+            "choix": [
+              {"texte": "a) nous souhaitons que vous écoutassiez nos conseils", "est_correct": false},
+              {"texte": "b) nous souhaitons que vous eussiez écouté nos conseils", "est_correct": false},
+              {"texte": "c) nous souhaitons que vous ayez écouté nos conseils", "est_correct": false},
+              {"texte": "d) nous souhaitons que vous écoutiez nos conseils", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

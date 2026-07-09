@@ -1,0 +1,315 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "PREMIERE ANNEE",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2020,
+        "mini_cours": "RAPPELS GRAMMATICAUX — ANGLAIS\n\n1. LES MODAUX\n• must (obligation absolue) : You must wear a seatbelt.\n• have to (obligation externe) : I have to work tomorrow.\n• should (conseil) : You should eat vegetables.\n• ATTENTION : 'must to' n'existe PAS en anglais.\n\n2. LE PRESENT PERFECT\n• Forme : have/has + participe passé\n• Usage : action commencée dans le passé qui continue\n• Ex : I have played the piano since age 5.\n• Marqueurs : since, for, already, yet, ever, never\n\n3. LE PRÉTÉRIT SIMPLE\n• Usage : action terminée à un moment précis du passé\n• Ex : She died yesterday at noon.\n• Marqueurs : yesterday, last year, in 2010, ago\n\n4. LES COMPARATIFS ET SUPERLATIFS\n• Comparatif : cheaper THAN (+ court) / more expensive THAN (+ long)\n• Superlatif : THE cheapest / THE most expensive\n• Ex : Ethiopian Airways is cheaper than Air France.\n• Ex : The Ogooué is the longest river of Gabon.\n\n5. UNLESS = IF NOT\n• Ex : You won't enter UNLESS you wear a tie.\n• = You won't enter IF you DON'T wear a tie.\n\n6. LES PRONOMS RELATIFS\n• who → sujet personne\n• which → sujet/objet chose\n• whose → possession\n• where → lieu\n• Ex : This is a firm WHOSE products are exported worldwide.\n\n7. LES ARTICLES\n• a → avant consonne : a university (u = son 'you')\n• an → avant voyelle : an apple\n• the → défini\n• Ø → généralités\n\n8. USED TO + BV / BE USED TO + V-ING\n• used to do = habitude passée révolue\n• be used to doing = être habitué à\n• Ex : Bob is not used to BEING left alone."
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "...... did you do that for?",
+            "choix": [
+              {"texte": "a- which", "est_correct": false},
+              {"texte": "b - how", "est_correct": false},
+              {"texte": "c - what", "est_correct": true},
+              {"texte": "d - whose", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "You have to go on......difficulties you meet.",
+            "choix": [
+              {"texte": "a- whenever", "est_correct": false},
+              {"texte": "b- however", "est_correct": false},
+              {"texte": "c - whatever", "est_correct": true},
+              {"texte": "d- whichever", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "I was thirsty and poured......a full glass of milk.",
+            "choix": [
+              {"texte": "a- to me", "est_correct": false},
+              {"texte": "b- to myself", "est_correct": false},
+              {"texte": "c- myself", "est_correct": true},
+              {"texte": "d- me", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "This is the room where I work, and this one is........",
+            "choix": [
+              {"texte": "a- Of our children", "est_correct": false},
+              {"texte": "b- to our children's", "est_correct": false},
+              {"texte": "c- our children's", "est_correct": true},
+              {"texte": "d - children", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Paul went there.......",
+            "choix": [
+              {"texte": "a- to him", "est_correct": false},
+              {"texte": "b- him", "est_correct": false},
+              {"texte": "c - by himself", "est_correct": true},
+              {"texte": "d- to himself", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "I know they spoke to........yesterday.",
+            "choix": [
+              {"texte": "a- Themselves", "est_correct": false},
+              {"texte": "b - them", "est_correct": false},
+              {"texte": "c- each other", "est_correct": true},
+              {"texte": "d - yourself", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "We received........letters than we expected.",
+            "choix": [
+              {"texte": "a - much", "est_correct": false},
+              {"texte": "b - fewer", "est_correct": true},
+              {"texte": "c - many", "est_correct": false},
+              {"texte": "d - little", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "........ are you going to call the baby ?",
+            "choix": [
+              {"texte": "a- whom", "est_correct": false},
+              {"texte": "b- which", "est_correct": false},
+              {"texte": "c - who", "est_correct": false},
+              {"texte": "d - what", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "They will be back by ...... month.",
+            "choix": [
+              {"texte": "a - an end of the", "est_correct": false},
+              {"texte": "b - and end of the of", "est_correct": false},
+              {"texte": "c- the end of the a", "est_correct": false},
+              {"texte": "d - the end", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "I saw no reason ..... we should get up early.",
+            "choix": [
+              {"texte": "a- That", "est_correct": false},
+              {"texte": "b - why", "est_correct": true},
+              {"texte": "c - how", "est_correct": false},
+              {"texte": "d - because", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Mr Roberts ..... all the furniture out of Jane's bedroom.",
+            "choix": [
+              {"texte": "a - move", "est_correct": false},
+              {"texte": "b - moved", "est_correct": true},
+              {"texte": "c - moove", "est_correct": false},
+              {"texte": "d - movet", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Paul and Tom ...... Helen's bedroom in the afternoon.",
+            "choix": [
+              {"texte": "a- paint", "est_correct": false},
+              {"texte": "b - painting", "est_correct": false},
+              {"texte": "c- painted", "est_correct": true},
+              {"texte": "d- paind", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Jeremy ..... football yesterday.",
+            "choix": [
+              {"texte": "a- playing", "est_correct": false},
+              {"texte": "b - play", "est_correct": false},
+              {"texte": "c- played", "est_correct": true},
+              {"texte": "d- is playing", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "The French Open is a famous ..........",
+            "choix": [
+              {"texte": "a- car", "est_correct": false},
+              {"texte": "b - victory", "est_correct": false},
+              {"texte": "c - tournament", "est_correct": true},
+              {"texte": "d - country", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Venus Williams has won the Wimbledon ...... at least five times.",
+            "choix": [
+              {"texte": "a - party", "est_correct": false},
+              {"texte": "b - championship", "est_correct": true},
+              {"texte": "c - weather", "est_correct": false},
+              {"texte": "d - dress", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Doris: Are Dallas and Ft. Worth very far from each other?\nDavid: No, they're quite close. There's....................distance between them",
+            "choix": [
+              {"texte": "a ) Little", "est_correct": true},
+              {"texte": "b ) few", "est_correct": false},
+              {"texte": "c ) a little", "est_correct": false},
+              {"texte": "d ) a few", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Denver is located at the foot of....................Rocky Mountains.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Toronto is located on....................Lake Ontario.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": false},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": true},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "San Diego is located near....................Mexican border.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Let's go to....................Mexico.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": false},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": true},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "....................Nile is the longest river in the world.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "....................Sahara is the world's biggest desert.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "I spoke with....................Swedish film director that I told you about.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Do you speak....................Swedish?",
+            "choix": [
+              {"texte": "a ) The", "est_correct": false},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": true},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "I need....................Bottle of water.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": false},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Spain is one of....................largest European countries.",
+            "choix": [
+              {"texte": "a ) The", "est_correct": true},
+              {"texte": "b ) an", "est_correct": false},
+              {"texte": "c ) no article", "est_correct": false},
+              {"texte": "d ) a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Are there....................people at all the bus stop?",
+            "choix": [
+              {"texte": "a ) some", "est_correct": false},
+              {"texte": "b ) any", "est_correct": true},
+              {"texte": "c ) no", "est_correct": false},
+              {"texte": "d ) an", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "That's reason to be rude",
+            "choix": [
+              {"texte": "a ) some", "est_correct": false},
+              {"texte": "b ) any", "est_correct": false},
+              {"texte": "c ) no", "est_correct": true},
+              {"texte": "d ) an", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "I'd like........time off next week when I move house.",
+            "choix": [
+              {"texte": "a ) some", "est_correct": true},
+              {"texte": "b ) any", "est_correct": false},
+              {"texte": "c ) no", "est_correct": false},
+              {"texte": "d ) an", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "There's....................coffee left ; could you get some while you're out ?",
+            "choix": [
+              {"texte": "a ) some", "est_correct": false},
+              {"texte": "b ) any", "est_correct": false},
+              {"texte": "c ) no", "est_correct": true},
+              {"texte": "d ) an", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

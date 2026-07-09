@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2018,
+        "mini_cours": "Orthographe, grammaire, conjugaison, accords des participes passés et expressions idiomatiques de la langue française.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Quel est le mot correctement écrit ?",
+            "choix": [
+              {"texte": "a) Avoisiner", "est_correct": true},
+              {"texte": "b) avoisinner", "est_correct": false},
+              {"texte": "c) avouasiner", "est_correct": false},
+              {"texte": "d) avouaziner", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Cochez le mot mal orthographié :",
+            "choix": [
+              {"texte": "a) Gencive", "est_correct": false},
+              {"texte": "b) Génocide", "est_correct": false},
+              {"texte": "c) Gamain", "est_correct": true},
+              {"texte": "d) Patin", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Cochez le mot mal écrit",
+            "choix": [
+              {"texte": "a) Non-valeur", "est_correct": false},
+              {"texte": "b) Non recevoir", "est_correct": true},
+              {"texte": "c) Non-lieu", "est_correct": false},
+              {"texte": "d) Non-avenu", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Cochez le mot bien orthographié",
+            "choix": [
+              {"texte": "a) Subordonné", "est_correct": true},
+              {"texte": "b) Circonstantiel", "est_correct": false},
+              {"texte": "c) Conditionel", "est_correct": false},
+              {"texte": "d) Sollenel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Cherchez l'intrus :",
+            "choix": [
+              {"texte": "a) Œnophile", "est_correct": false},
+              {"texte": "b) philosophe", "est_correct": false},
+              {"texte": "c) philanthrope", "est_correct": false},
+              {"texte": "d) philippique", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Un intrus se cache dans cette liste :",
+            "choix": [
+              {"texte": "a) Prédestination", "est_correct": false},
+              {"texte": "b) finition", "est_correct": false},
+              {"texte": "c) finalité", "est_correct": false},
+              {"texte": "d) Dessein", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Quel est l'antonyme de « important » dans cette liste ?",
+            "choix": [
+              {"texte": "a) Distingué", "est_correct": false},
+              {"texte": "b) considérable", "est_correct": false},
+              {"texte": "c) impertinent", "est_correct": true},
+              {"texte": "d) Respectable", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Lequel de ces mots désigne la transformation d'une culture au contact d'une autre ?",
+            "choix": [
+              {"texte": "a) Accumulation", "est_correct": false},
+              {"texte": "b) déculturation", "est_correct": false},
+              {"texte": "c) exoculturation", "est_correct": false},
+              {"texte": "d) une métaphore", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Quand le char de l'état navigue sur un volcan, on peut d'un moment à l'autre être surpris par une explosion. Une figure de style prédomine dans cette phrase. Il s'agit :",
+            "choix": [
+              {"texte": "a) Un parallélisme", "est_correct": false},
+              {"texte": "b) une antithèse", "est_correct": false},
+              {"texte": "c) une hyperbole", "est_correct": false},
+              {"texte": "d) une métaphore", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) Des portes-avions sont visibles au larg.", "est_correct": false},
+              {"texte": "b) Des portes -avions sont visibles au larg.", "est_correct": false},
+              {"texte": "c) Des porte-avions sont visibles au large.", "est_correct": true},
+              {"texte": "d) Des porte-avions sont visibles au large.", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Cochez la phrase incorrecte",
+            "choix": [
+              {"texte": "a) Les enfants que j'ai entendus crier.", "est_correct": false},
+              {"texte": "b) Les fleurs que j'ai regardées ceuillir", "est_correct": true},
+              {"texte": "c) Les habitudes qu'on a laissées s'enraciner.", "est_correct": false},
+              {"texte": "d) L'indignation que j'ai sentie monter en m.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) Quel que soient les conséquences.", "est_correct": false},
+              {"texte": "b) Quelques soient les conséquences", "est_correct": false},
+              {"texte": "c) Quels que soient les conséquences.", "est_correct": false},
+              {"texte": "d) Quelles que soient les conséquences.", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser le mot souligné : « Que tu es beau ! »",
+            "choix": [
+              {"texte": "a) Pronom relatif", "est_correct": false},
+              {"texte": "b) Adverbe de quantité", "est_correct": false},
+              {"texte": "c) Pronom exclamatif", "est_correct": true},
+              {"texte": "d) Conjonction de subordination", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser le mot souligné : « comme il vous plaira ! »",
+            "choix": [
+              {"texte": "a) Adverbe circonstanciel de temps", "est_correct": false},
+              {"texte": "b) Adverbe de manière", "est_correct": true},
+              {"texte": "c) Adverbe de comparaison", "est_correct": false},
+              {"texte": "d) Adverbe de coordination", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "« Je lui ai demandé s'il allait bien ». Cette phrase est :",
+            "choix": [
+              {"texte": "a) Déclarative", "est_correct": true},
+              {"texte": "b) exclamative", "est_correct": false},
+              {"texte": "c) interrogative", "est_correct": false},
+              {"texte": "d) impérative", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "choisissez la réponse qui vous semble le mieux convenir pour caractériser le mot souligné : « Dure fut la chute ».",
+            "choix": [
+              {"texte": "a) Sujet du verbe", "est_correct": false},
+              {"texte": "b) Adverbe de manière", "est_correct": false},
+              {"texte": "c) Epithète", "est_correct": false},
+              {"texte": "d) Attribut du sujet", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Cochez le mot incorrect",
+            "choix": [
+              {"texte": "a) Des gardes-bœufs", "est_correct": false},
+              {"texte": "b) Des gardes-corps", "est_correct": true},
+              {"texte": "c) Des gardes-malades", "est_correct": false},
+              {"texte": "d) Des gardes-vue", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Cochez la proposition incorrecte",
+            "choix": [
+              {"texte": "a) La ville toute entière", "est_correct": false},
+              {"texte": "b) Tout chrétiens qu'ils étaient restés", "est_correct": true},
+              {"texte": "c) Toutes raisonnables quelles sont", "est_correct": false},
+              {"texte": "d) Toutes hardies qu'elles sont", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Quelle forme à l'impératif comporte une erreur ?",
+            "choix": [
+              {"texte": "a) Viens", "est_correct": false},
+              {"texte": "b) Croise", "est_correct": false},
+              {"texte": "c) Finis", "est_correct": false},
+              {"texte": "d) acquitté", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Quel est le participe passé du verbe acquérir ?",
+            "choix": [
+              {"texte": "a) acquéri", "est_correct": false},
+              {"texte": "b) acquit", "est_correct": false},
+              {"texte": "c) acquis", "est_correct": true},
+              {"texte": "d) acquitté", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Je crains que cette fièvre persistante ne (dissimuler) une maladie sérieuse.",
+            "choix": [
+              {"texte": "a) dissimulât", "est_correct": false},
+              {"texte": "b) ait dissimulé", "est_correct": false},
+              {"texte": "c) dissimule", "est_correct": true},
+              {"texte": "d) dissimulait", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Des échangeurs sont construits qui (permettre) de désengorger la circulation.",
+            "choix": [
+              {"texte": "a) permettraient", "est_correct": false},
+              {"texte": "b) ont permis", "est_correct": false},
+              {"texte": "c) permettent", "est_correct": true},
+              {"texte": "d) permettront", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Laquelle des phrases suivantes comprend un verbe intransitif ?",
+            "choix": [
+              {"texte": "a) il est parti de la maison tôt ce matin.", "est_correct": true},
+              {"texte": "b) Il a quitté la maison pour la rue.", "est_correct": false},
+              {"texte": "c) Elle m'a donné du travail.", "est_correct": false},
+              {"texte": "d) Elle a réparé la roue de la voiture.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Je désirerais que (pouvoir) cesser les calomnies sur un prétendu harcèlement sexuel.",
+            "choix": [
+              {"texte": "a) pussent", "est_correct": false},
+              {"texte": "b) puissent", "est_correct": true},
+              {"texte": "c) peuvent", "est_correct": false},
+              {"texte": "d) pourraient", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Des maisons, mon oncle en a (construire) plus que ses frères. Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) construite", "est_correct": false},
+              {"texte": "b) construit", "est_correct": false},
+              {"texte": "c) construites", "est_correct": false},
+              {"texte": "d) construits", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Mais les filières qu'elle s'est (choisir) ne me plaisent guère.",
+            "choix": [
+              {"texte": "a) choisis", "est_correct": false},
+              {"texte": "b) choisi", "est_correct": false},
+              {"texte": "c) choisie", "est_correct": false},
+              {"texte": "d) choisies", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Elles ne sont (donner) rendez-vous à Akebe-ville. Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) donner", "est_correct": false},
+              {"texte": "b) donné", "est_correct": true},
+              {"texte": "c) donnés", "est_correct": false},
+              {"texte": "d) données", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Ses robes, elle les a souvent (acheter) en hivernage. Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) achetées", "est_correct": true},
+              {"texte": "b) achetés", "est_correct": false},
+              {"texte": "c) achetée", "est_correct": false},
+              {"texte": "d) acheter", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "« Elles ne sont (laisser) (laver) par leur mère. » Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a) Elles se sont laissées lavés par leur mère.", "est_correct": false},
+              {"texte": "b) Elles se sont laissées laver par leur mère.", "est_correct": true},
+              {"texte": "c) Elles se sont laissé laver par leur mère.", "est_correct": false},
+              {"texte": "d) Elles se sont laissé lavées par leur mère.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "Une seule de ces expressions peut s'employer sans erreur, laquelle ?",
+            "choix": [
+              {"texte": "a) je vais acheter du pain.", "est_correct": true},
+              {"texte": "b) je vais acheter le pain.", "est_correct": false},
+              {"texte": "c) je vais payer du pain.", "est_correct": false},
+              {"texte": "d) je vais payer le pain.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "Cochez la phrase correcte :",
+            "choix": [
+              {"texte": "a) Nous souhaiterions que vous nous écrivissiez.", "est_correct": true},
+              {"texte": "b) je souhaiterions qu'on nous écrivasse.", "est_correct": false},
+              {"texte": "c) Nous souhaiterions qu'on nous écrivit.", "est_correct": false},
+              {"texte": "d) Nous souhaiterions que vous nous écriviez.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Cochez la phrase correcte",
+            "choix": [
+              {"texte": "a) Après qu'il soit venu, j'ai compris ses intentions.", "est_correct": false},
+              {"texte": "b) Après son départ, je revins sur ma décision.", "est_correct": true},
+              {"texte": "c) Avant qu'ils vinssent, prenons du thé.", "est_correct": false},
+              {"texte": "d) Avant que nous demandassions notre chemin, il disparut.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "En un mot, que signifie « Elles ne sont (la discussion est devenue oiseuse » ?",
+            "choix": [
+              {"texte": "a) utile", "est_correct": false},
+              {"texte": "b) importante", "est_correct": false},
+              {"texte": "c) vaine", "est_correct": true},
+              {"texte": "d) intéressante", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Que signifie l'expression « talon d'Achille » ?",
+            "choix": [
+              {"texte": "a) Le point faible.", "est_correct": true},
+              {"texte": "b) Chaussures à haut talon.", "est_correct": false},
+              {"texte": "c) Unité de mesure.", "est_correct": false},
+              {"texte": "d) Chevilles solides.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Quel nom est au féminin ?",
+            "choix": [
+              {"texte": "a) Armistice", "est_correct": false},
+              {"texte": "b) Balustre", "est_correct": false},
+              {"texte": "c) Spore", "est_correct": true},
+              {"texte": "d) Auspice", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Lequel des quatre mots suivants est hybride (possède les deux genres) ?",
+            "choix": [
+              {"texte": "a) Espace", "est_correct": true},
+              {"texte": "b) pourcentage", "est_correct": false},
+              {"texte": "c) Espérance", "est_correct": false},
+              {"texte": "d) Enthousiasme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "Quel est le sens du mot syndrome ?",
+            "choix": [
+              {"texte": "a) Un problème récurrent.", "est_correct": false},
+              {"texte": "b) Une maladie incurable.", "est_correct": false},
+              {"texte": "c) Ensemble de signes, de symptômes aux causes multiples.", "est_correct": true},
+              {"texte": "d) Une difficulté liée à une maladie virale.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "Que signifie l'expression « tomber des nues » ?",
+            "choix": [
+              {"texte": "a) perdre son prestige.", "est_correct": false},
+              {"texte": "b) Etre extrêmement surpris.", "est_correct": true},
+              {"texte": "c) Essuyer un échec.", "est_correct": false},
+              {"texte": "d) Descendre de son piédestal.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "L'expression « ... à bâtons rompus » se dit d':",
+            "choix": [
+              {"texte": "a) une discussion suivie d'une bagarre.", "est_correct": false},
+              {"texte": "b) une bagarre rangée à coups de bâtons.", "est_correct": false},
+              {"texte": "c) un entretien ou personne n'écoute personne.", "est_correct": false},
+              {"texte": "d) Un exposé fait de manière non suivie, discontinue.", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "Que signifie \"porter aux nues\" ?",
+            "choix": [
+              {"texte": "a) Déshabiller quelqu'un.", "est_correct": false},
+              {"texte": "b) Exalter quelqu'un.", "est_correct": true},
+              {"texte": "c) Découronner quelqu'un.", "est_correct": false},
+              {"texte": "d) Sous-estimer quelqu'un.", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

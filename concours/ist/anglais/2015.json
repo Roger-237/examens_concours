@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2015,
+        "mini_cours": "Grammar, relative pronouns, tenses, vocabulary, conditional clauses, and general knowledge acronyms in English.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "The entrance test was not difficult ; however , a lot of candidates ___________ at the test",
+            "choix": [
+              {"texte": "a) have failled", "est_correct": false},
+              {"texte": "b) failed", "est_correct": true},
+              {"texte": "c) failled", "est_correct": false},
+              {"texte": "d) didn't fail", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "The room___________ I entered was so drak!",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": true},
+              {"texte": "b) in", "est_correct": false},
+              {"texte": "c) in which", "est_correct": false},
+              {"texte": "d) who", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "You ___________ smoke in this room. It is not forbidden",
+            "choix": [
+              {"texte": "a) may", "est_correct": true},
+              {"texte": "b) should", "est_correct": false},
+              {"texte": "c) musn't", "est_correct": false},
+              {"texte": "d) must", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "If I ___________ you , I wouldn't do it because it is very dangerous",
+            "choix": [
+              {"texte": "a) am", "est_correct": false},
+              {"texte": "b) were", "est_correct": true},
+              {"texte": "c) did", "est_correct": false},
+              {"texte": "d) was", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Do you know ___________ ?",
+            "choix": [
+              {"texte": "a) am", "est_correct": false},
+              {"texte": "b) my", "est_correct": false},
+              {"texte": "c) hers", "est_correct": false},
+              {"texte": "d) him", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "You can ask them ___________ you want , they will answer",
+            "choix": [
+              {"texte": "a) that", "est_correct": false},
+              {"texte": "b) which", "est_correct": false},
+              {"texte": "c) whatever", "est_correct": true},
+              {"texte": "d) whichever", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Peter is a friend of ___________",
+            "choix": [
+              {"texte": "a) your", "est_correct": false},
+              {"texte": "b) me", "est_correct": false},
+              {"texte": "c) I", "est_correct": false},
+              {"texte": "d) yours", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "___________ poverty is a social phenomenon due to the economic crisis",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": true},
+              {"texte": "b) the", "est_correct": false},
+              {"texte": "c) a", "est_correct": false},
+              {"texte": "d) all", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "60 % of ___________ are serious and have two ___________",
+            "choix": [
+              {"texte": "a) housewife; children", "est_correct": false},
+              {"texte": "b) housewives; children", "est_correct": true},
+              {"texte": "c) housewifes; childrens", "est_correct": false},
+              {"texte": "d) housewifes; children", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "They ___________ each other for a very long time",
+            "choix": [
+              {"texte": "a) have not seen", "est_correct": true},
+              {"texte": "b) have not saw", "est_correct": false},
+              {"texte": "c) not see", "est_correct": false},
+              {"texte": "d) didn't se", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Now , she ___________ all my parents since I am old enough",
+            "choix": [
+              {"texte": "a) is knowing", "est_correct": false},
+              {"texte": "b) has known", "est_correct": false},
+              {"texte": "c) knows", "est_correct": true},
+              {"texte": "d) knew", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "The brother of John is ___________ than Ibrahim",
+            "choix": [
+              {"texte": "a) fat", "est_correct": false},
+              {"texte": "b) fatter", "est_correct": true},
+              {"texte": "c) fater", "est_correct": false},
+              {"texte": "d) more fat", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Friday is the ___________ day of the week",
+            "choix": [
+              {"texte": "a) fiveth", "est_correct": false},
+              {"texte": "b) fith", "est_correct": false},
+              {"texte": "c) five", "est_correct": false},
+              {"texte": "d) fifth", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "December is the ___________ month of the year",
+            "choix": [
+              {"texte": "a) twelfth", "est_correct": true},
+              {"texte": "b) twelth", "est_correct": false},
+              {"texte": "c) twelve", "est_correct": false},
+              {"texte": "d) twelveth", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Do you know ___________ in that village , we would like to visit ?",
+            "choix": [
+              {"texte": "a) nobody", "est_correct": false},
+              {"texte": "b) no one", "est_correct": false},
+              {"texte": "c) anybody", "est_correct": true},
+              {"texte": "d) somebody", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "The geese ___________ away from that river since the last century",
+            "choix": [
+              {"texte": "a) has flied", "est_correct": false},
+              {"texte": "b) have fly", "est_correct": false},
+              {"texte": "c) has flyed", "est_correct": false},
+              {"texte": "d) have flown", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "We ___________ that noise last night",
+            "choix": [
+              {"texte": "a) have heard", "est_correct": false},
+              {"texte": "b) heard", "est_correct": true},
+              {"texte": "c) hear", "est_correct": false},
+              {"texte": "d) could heard", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "I hate ___________ to public places with my parents",
+            "choix": [
+              {"texte": "a) to be going", "est_correct": false},
+              {"texte": "b) go", "est_correct": false},
+              {"texte": "c) to go", "est_correct": false},
+              {"texte": "d) going", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "About two thirds of the world is inhabited by people. (traduisez le mot souligné )",
+            "choix": [
+              {"texte": "a) habité", "est_correct": true},
+              {"texte": "b) inhabité", "est_correct": false},
+              {"texte": "c) habitué", "est_correct": false},
+              {"texte": "d) pas habitué", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "The Nyanga is one of the ___________ rivers in Gabon",
+            "choix": [
+              {"texte": "a) most long", "est_correct": false},
+              {"texte": "b) most longest", "est_correct": false},
+              {"texte": "c) longest", "est_correct": true},
+              {"texte": "d) longer", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "___________ a lot of sweets when you were a child ?",
+            "choix": [
+              {"texte": "a) have you eaten", "est_correct": false},
+              {"texte": "b) had you", "est_correct": false},
+              {"texte": "c) eat you", "est_correct": false},
+              {"texte": "d) did you eat", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "I ___________ back three days ago",
+            "choix": [
+              {"texte": "a) came", "est_correct": true},
+              {"texte": "b) come", "est_correct": false},
+              {"texte": "c) am coming", "est_correct": false},
+              {"texte": "d) was coming", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "....... Apart'' ___________ Chinua Achebe",
+            "choix": [
+              {"texte": "a) wrote", "est_correct": false},
+              {"texte": "b) was written", "est_correct": true},
+              {"texte": "c) was writen", "est_correct": false},
+              {"texte": "d) was wrote", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "I ___________ agree with you about this matter",
+            "choix": [
+              {"texte": "a) am", "est_correct": false},
+              {"texte": "b) Ø", "est_correct": true},
+              {"texte": "c) have", "est_correct": false},
+              {"texte": "d) is", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "The teacher asked Paul and Ken , but they couldn't give him the answer because ___________ them knew the answer",
+            "choix": [
+              {"texte": "a) both of", "est_correct": false},
+              {"texte": "b) either of", "est_correct": false},
+              {"texte": "c) neither", "est_correct": false},
+              {"texte": "d) none of", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "My brother ___________ years old last at the same period",
+            "choix": [
+              {"texte": "a) has fourty", "est_correct": false},
+              {"texte": "b) is fourty", "est_correct": false},
+              {"texte": "c) was forty", "est_correct": true},
+              {"texte": "d) is forty", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "My brother and ___________ live together in the same room",
+            "choix": [
+              {"texte": "a) me", "est_correct": false},
+              {"texte": "b) I", "est_correct": true},
+              {"texte": "c) my", "est_correct": false},
+              {"texte": "d) mine", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "When Tom ___________ , the car bumped him violently",
+            "choix": [
+              {"texte": "a) was walking", "est_correct": true},
+              {"texte": "b) is marching", "est_correct": false},
+              {"texte": "c) was going", "est_correct": false},
+              {"texte": "d) walked", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Children, stop making noise ___________ ?",
+            "choix": [
+              {"texte": "a) shall they", "est_correct": false},
+              {"texte": "b) stop they", "est_correct": false},
+              {"texte": "c) don't they", "est_correct": false},
+              {"texte": "d) will you", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "I look forward to ___________ a reply from you",
+            "choix": [
+              {"texte": "a) receiving", "est_correct": true},
+              {"texte": "b) receive", "est_correct": false},
+              {"texte": "c) have received", "est_correct": false},
+              {"texte": "d) shall receive", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "When ___________ school ?",
+            "choix": [
+              {"texte": "a) did you lef", "est_correct": false},
+              {"texte": "b) you left", "est_correct": false},
+              {"texte": "c) did you leave", "est_correct": true},
+              {"texte": "d) you did leave", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Ebola is the ___________ virus",
+            "choix": [
+              {"texte": "a) worst", "est_correct": true},
+              {"texte": "b) badest", "est_correct": false},
+              {"texte": "c) worse", "est_correct": false},
+              {"texte": "d) bad", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "Eliane went to party with ___________ sister and ___________ brother",
+            "choix": [
+              {"texte": "a) his/his", "est_correct": false},
+              {"texte": "b) her/his", "est_correct": false},
+              {"texte": "c) his/her", "est_correct": false},
+              {"texte": "d) her/her", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "AYO has been living in Libreville ___________ a long time He's lived there",
+            "choix": [
+              {"texte": "a) since", "est_correct": false},
+              {"texte": "b) for", "est_correct": true},
+              {"texte": "c) ago", "est_correct": false},
+              {"texte": "d) during", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "If NZAMBI had known that , he ___________ to the party",
+            "choix": [
+              {"texte": "a) wouldn't come", "est_correct": false},
+              {"texte": "b) wouldn't has come", "est_correct": false},
+              {"texte": "c) wouldn't have come", "est_correct": true},
+              {"texte": "d) wouldn't have came", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Ten by four gives ___________",
+            "choix": [
+              {"texte": "a) four", "est_correct": false},
+              {"texte": "b) forty", "est_correct": true},
+              {"texte": "c) fourteen", "est_correct": false},
+              {"texte": "d) fourty", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "Did you understand ___________ the lecturer said about the President's programme '",
+            "choix": [
+              {"texte": "a) what", "est_correct": true},
+              {"texte": "b) that", "est_correct": false},
+              {"texte": "c) which", "est_correct": false},
+              {"texte": "d) whom", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "He was ___________",
+            "choix": [
+              {"texte": "a) the only one to look happy", "est_correct": false},
+              {"texte": "b) the only one which looked happy", "est_correct": false},
+              {"texte": "c) the only one who looked happy", "est_correct": true},
+              {"texte": "d) the only one looked happy", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "CD-ROM means : ___________",
+            "choix": [
+              {"texte": "a) computer Destop read only memory", "est_correct": false},
+              {"texte": "b) compact disk read only memory", "est_correct": true},
+              {"texte": "c) compact document read only memory", "est_correct": false},
+              {"texte": "d) computer disk read only memory", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "U.N.E.S.C.O stands for ___________",
+            "choix": [
+              {"texte": "a) union nation of education science and culture organisation", "est_correct": false},
+              {"texte": "b) unified notification of economy service organisation", "est_correct": false},
+              {"texte": "c) unity nonsense of ecology saving opportunity", "est_correct": false},
+              {"texte": "d) united nations education , scientific and cultural organization", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

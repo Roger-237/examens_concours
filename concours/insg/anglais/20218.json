@@ -1,0 +1,326 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Gestion",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2018,
+        "mini_cours": "Vocabulaire et grammaire de base en anglais.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Where ...... in Libreville ?",
+            "choix": [
+              {"texte": "a- Are you born", "est_correct": false},
+              {"texte": "b- were you born", "est_correct": true},
+              {"texte": "c-have you been born", "est_correct": false},
+              {"texte": "d- did you born", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "How long ..... English ?",
+            "choix": [
+              {"texte": "a- Have you been learning", "est_correct": true},
+              {"texte": "b- are you learning", "est_correct": false},
+              {"texte": "c- were you learning", "est_correct": false},
+              {"texte": "d- do you learn", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "The Ogooué is ..... river in Gabon",
+            "choix": [
+              {"texte": "a- Longer", "est_correct": false},
+              {"texte": "b- the longest", "est_correct": true},
+              {"texte": "c- the most long", "est_correct": false},
+              {"texte": "d- longest", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "What ..... to you last night ?",
+            "choix": [
+              {"texte": "a- Has happened", "est_correct": false},
+              {"texte": "b- happened", "est_correct": true},
+              {"texte": "c- was happened", "est_correct": false},
+              {"texte": "d- was happening", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "If I ....... you I would ne OK !",
+            "choix": [
+              {"texte": "a- Was", "est_correct": false},
+              {"texte": "b- am", "est_correct": false},
+              {"texte": "c- were", "est_correct": true},
+              {"texte": "d- are", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Thank you ......... me yesterday",
+            "choix": [
+              {"texte": "a- For helping", "est_correct": true},
+              {"texte": "b- that you helping", "est_correct": false},
+              {"texte": "c- to have helped", "est_correct": false},
+              {"texte": "d- to help", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "The news we got this morning ....... Excellent",
+            "choix": [
+              {"texte": "a- Were", "est_correct": false},
+              {"texte": "b- have been", "est_correct": false},
+              {"texte": "c-was", "est_correct": true},
+              {"texte": "d-are", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "We went to see them two weeks .............",
+            "choix": [
+              {"texte": "a- Since", "est_correct": false},
+              {"texte": "b- ago", "est_correct": true},
+              {"texte": "c- for", "est_correct": false},
+              {"texte": "d- during", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "She took .......... Bag and went away",
+            "choix": [
+              {"texte": "a- His", "est_correct": false},
+              {"texte": "b- her", "est_correct": true},
+              {"texte": "c- hers", "est_correct": false},
+              {"texte": "d- our", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Have you ....... A fish ?",
+            "choix": [
+              {"texte": "a- Caught", "est_correct": true},
+              {"texte": "b-catched", "est_correct": false},
+              {"texte": "c- caunght", "est_correct": false},
+              {"texte": "d- catches", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "NGUEMA will enter INSG as soon as he ..... his examen",
+            "choix": [
+              {"texte": "a- Will pass", "est_correct": false},
+              {"texte": "b-passes", "est_correct": true},
+              {"texte": "c-has passed", "est_correct": false},
+              {"texte": "d-would pass", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Where did you ..... on holidays last year ?",
+            "choix": [
+              {"texte": "a- Went", "est_correct": false},
+              {"texte": "b- go", "est_correct": true},
+              {"texte": "c- goes", "est_correct": false},
+              {"texte": "d- gone", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "If you come late to the examen , you ..... be admitted in class",
+            "choix": [
+              {"texte": "a- Will", "est_correct": false},
+              {"texte": "b- are", "est_correct": false},
+              {"texte": "c- won't", "est_correct": true},
+              {"texte": "d- wont", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "How old ........ you ....... In 2019 ?",
+            "choix": [
+              {"texte": "a- Are – Ø", "est_correct": true},
+              {"texte": "b- have – been", "est_correct": false},
+              {"texte": "c- will - be", "est_correct": false},
+              {"texte": "d-will - have", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Listen MOUSSAVOU! You ........... worry about this matter !",
+            "choix": [
+              {"texte": "a- Mustn't", "est_correct": false},
+              {"texte": "b- not must", "est_correct": false},
+              {"texte": "c-don't", "est_correct": false},
+              {"texte": "d- will – have", "est_correct": false},
+              {"texte": "needn't", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "That tree is almost as tall ............. the one we saw in the park",
+            "choix": [
+              {"texte": "a- Tham", "est_correct": false},
+              {"texte": "b- that", "est_correct": false},
+              {"texte": "c- like", "est_correct": false},
+              {"texte": "d- as", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Whenever he ..................... textsomething he never gives it back",
+            "choix": [
+              {"texte": "a- Will borrow", "est_correct": false},
+              {"texte": "b- lends", "est_correct": false},
+              {"texte": "c- borrows", "est_correct": true},
+              {"texte": "d- will lend", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Since he ......... general manager , he....................... Selfish",
+            "choix": [
+              {"texte": "a- Becomes ; is becoming", "est_correct": false},
+              {"texte": "b) is becoming", "est_correct": false},
+              {"texte": "c- became ; has become", "est_correct": true},
+              {"texte": "d- will become ; would would become", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Jessica ..................... a book when she heard a knock at the door",
+            "choix": [
+              {"texte": "a- Has been reading", "est_correct": false},
+              {"texte": "b- reads", "est_correct": false},
+              {"texte": "c- is reading", "est_correct": false},
+              {"texte": "d- was reading", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Could you give me some more .................... about this projects ?",
+            "choix": [
+              {"texte": "a- Information", "est_correct": true},
+              {"texte": "b- informs", "est_correct": false},
+              {"texte": "c- informations", "est_correct": false},
+              {"texte": "d- in form", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "I was not able to persuade him ...................... me anything",
+            "choix": [
+              {"texte": "a- To tell", "est_correct": true},
+              {"texte": "b- to tell to", "est_correct": false},
+              {"texte": "c- to say", "est_correct": false},
+              {"texte": "d- to inform", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Everyone will come to the meeting ……………….. ?",
+            "choix": [
+              {"texte": "a- Won't him", "est_correct": false},
+              {"texte": "b- won't her", "est_correct": false},
+              {"texte": "c- won't they", "est_correct": true},
+              {"texte": "d- won't you", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "When we ………………………….. at the station , the train ………………..",
+            "choix": [
+              {"texte": "a- Arrive , has left", "est_correct": false},
+              {"texte": "b- were arriving left", "est_correct": false},
+              {"texte": "c- arrived , had left", "est_correct": true},
+              {"texte": "d- had arrived , wa leaving", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "After more than 3 hours they succeeded .................. the missing child .",
+            "choix": [
+              {"texte": "a- To find", "est_correct": false},
+              {"texte": "b- in locating", "est_correct": true},
+              {"texte": "c- finding", "est_correct": false},
+              {"texte": "d- to locate", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Brian is good ................ English",
+            "choix": [
+              {"texte": "a- On", "est_correct": false},
+              {"texte": "b- in", "est_correct": false},
+              {"texte": "c-with", "est_correct": false},
+              {"texte": "d- at", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "John , in .................. car I came home , lives next door",
+            "choix": [
+              {"texte": "a- Which", "est_correct": false},
+              {"texte": "b- what", "est_correct": false},
+              {"texte": "c- whom", "est_correct": false},
+              {"texte": "d- whose", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": " ................ people have never seen a ghost in their life",
+            "choix": [
+              {"texte": "a- Most of", "est_correct": false},
+              {"texte": "b- most", "est_correct": true},
+              {"texte": "c- the most", "est_correct": false},
+              {"texte": "d- the most of", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Just ten people came to the meeting because only ................. of them had received the letter .",
+            "choix": [
+              {"texte": "a- A few", "est_correct": true},
+              {"texte": "b- most", "est_correct": false},
+              {"texte": "c- little", "est_correct": false},
+              {"texte": "d- minority", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Her boss is the kind of person ................. will always be prepared to listen",
+            "choix": [
+              {"texte": "a- That", "est_correct": true},
+              {"texte": "b- what", "est_correct": false},
+              {"texte": "c- which", "est_correct": false},
+              {"texte": "d- whom", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "If the police search the house , they will discover that the money is ........... there",
+            "choix": [
+              {"texte": "a- Still", "est_correct": true},
+              {"texte": "b- yet", "est_correct": false},
+              {"texte": "c- always", "est_correct": false},
+              {"texte": "d- no", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "the football team trained hard , ......... they lost the game",
+            "choix": [
+              {"texte": "a- Although", "est_correct": false},
+              {"texte": "b- and", "est_correct": false},
+              {"texte": "c- despite", "est_correct": false},
+              {"texte": "d- yet", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

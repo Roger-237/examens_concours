@@ -1,0 +1,411 @@
+{% extends "base.html" %}
+{% block title %}{{ tentative.epreuve.titre }} — Examen{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/eleve/tableau-de-bord/{% endblock %}
+{% block sidebar_extra %}{% endblock %}
+
+{% block extra_css %}
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+  :root {
+    --forest-dark   : #1b4332;
+    --forest-medium : #2d6a4f;
+    --forest-light  : #40916c;
+    --forest-accent : #52b788;
+    --forest-pale   : #d8f3dc;
+  }
+
+  .exam-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.5rem;
+    min-height: calc(100vh - 120px);
+  }
+
+  .exam-sidebar {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    padding: 1rem;
+    position: sticky;
+    top: 1rem;
+    height: fit-content;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+  }
+
+  .chrono-box {
+    background: var(--forest-dark);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .chrono-box .temps {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
+
+  .chrono-box.danger { background: #dc3545; animation: pulse 1s infinite; }
+
+  @keyframes pulse {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+
+  .questions-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    margin-bottom: 1rem;
+  }
+
+  .q-btn {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .q-btn:hover         { border-color: var(--forest-medium); color: var(--forest-medium); }
+  .q-btn.active        { background: var(--forest-medium); border-color: var(--forest-medium); color: #fff; }
+  .q-btn.repondue      { background: var(--forest-pale); border-color: var(--forest-accent); color: var(--forest-dark); }
+  .q-btn.active.repondue { background: var(--forest-medium); color: #fff; }
+
+  .exam-main { display: flex; flex-direction: column; gap: 1rem; }
+
+  .question-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    padding: 2rem;
+    display: none;
+  }
+
+  .question-card.active { display: block; }
+
+  .question-numero {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--forest-medium);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  .question-texte {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+  }
+
+  .choix-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 1.2rem;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .choix-item:hover { border-color: var(--forest-accent); background: var(--forest-pale); }
+
+  .choix-item.selected {
+    border-color: var(--forest-medium);
+    background: var(--forest-pale);
+    font-weight: 600;
+  }
+
+  .choix-radio { display: none; }
+
+  .choix-lettre {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    transition: all 0.15s;
+  }
+
+  .choix-item.selected .choix-lettre {
+    background: var(--forest-medium);
+    color: #fff;
+  }
+
+  .nav-examens {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .progression-bar {
+    height: 6px;
+    background: #e9ecef;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+
+  .progression-fill {
+    height: 100%;
+    background: var(--forest-medium);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    .exam-layout { grid-template-columns: 1fr; }
+    .exam-sidebar { position: static; max-height: 200px; }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<form method="post" id="form-examen">
+  {% csrf_token %}
+
+  <div class="exam-layout">
+    <div class="exam-sidebar">
+      <div class="chrono-box" id="chrono-box">
+        <div class="small mb-1 opacity-75">Temps restant</div>
+        <div class="temps" id="chrono">--:--</div>
+      </div>
+
+      <div class="text-center mb-3">
+        <div class="fw-semibold" style="color:var(--forest-dark);font-size:0.9rem;">{{ tentative.epreuve.titre }}</div>
+        <div class="text-muted small">{{ tentative.epreuve.annee }}</div>
+      </div>
+
+      <div class="d-flex gap-2 mb-2 flex-wrap">
+        <span class="d-flex align-items-center gap-1">
+          <div style="width:12px;height:12px;background:var(--forest-pale);border:2px solid var(--forest-accent);border-radius:3px;"></div>
+          <small>Répondue</small>
+        </span>
+        <span class="d-flex align-items-center gap-1">
+          <div style="width:12px;height:12px;background:#fff;border:2px solid #dee2e6;border-radius:3px;"></div>
+          <small>Non répondue</small>
+        </span>
+      </div>
+
+      <div class="questions-grid" id="questions-grid">
+        {% for q in questions %}
+        <button type="button" class="q-btn" id="qbtn-{{ q.id }}" onclick="allerQuestion({{ forloop.counter0 }})">
+          {{ q.ordre }}
+        </button>
+        {% endfor %}
+      </div>
+
+      <div class="text-center mt-2">
+        <small class="text-muted">
+          <span id="nb-repondues">0</span> / {{ total }} répondues
+        </small>
+      </div>
+    </div>
+
+    <div class="exam-main">
+      <div class="progression-bar">
+        <div class="progression-fill" id="progression" style="width:0%;"></div>
+      </div>
+
+      {% for q in questions %}
+      <div class="question-card {% if forloop.first %}active{% endif %}" id="question-{{ forloop.counter0 }}">
+        <div class="question-numero">Question {{ q.ordre }} / {{ total }}</div>
+        <div class="question-texte">{{ q.texte }}</div>
+
+        {% for choix in q.choix.all %}
+        <label class="choix-item" id="label-{{ q.id }}-{{ choix.id }}">
+          <input type="radio" name="question_{{ q.id }}" value="{{ choix.id }}"
+                 class="choix-radio" id="choix-{{ choix.id }}"
+                 onchange="marquerRepondue({{ forloop.parentloop.counter0 }}, '{{ q.id }}')">
+          <div class="choix-lettre">{% if forloop.counter == 1 %}A{% elif forloop.counter == 2 %}B{% elif forloop.counter == 3 %}C{% elif forloop.counter == 4 %}D{% elif forloop.counter == 5 %}E{% else %}{{ forloop.counter }}{% endif %}</div>
+          <span>{{ choix.texte }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+      <div class="nav-examens">
+        <button type="button" class="btn btn-outline-secondary" id="btn-precedent" onclick="questionPrecedente()" disabled>← Précédent</button>
+
+        <div class="text-center">
+          <span class="text-muted small" id="nav-info">Question 1 / {{ total }}</span>
+        </div>
+
+        <div class="d-flex gap-2">
+          <button type="button" class="btn" style="background:var(--forest-medium);color:#fff;" id="btn-suivant" onclick="questionSuivante()">Suivant →</button>
+          <button type="button" class="btn btn-danger d-none" id="btn-terminer" onclick="confirmerSoumission()">Terminer l'examen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  const TOTAL          = {{ total }};
+  const TEMPS_RESTANT  = {{ temps_restant }};
+  const REPONSES       = {{ reponses_json|safe }};
+  const QUESTIONS      = {{ questions_json|safe }};
+
+  let questionActuelle = 0;
+  let reponses         = { ...REPONSES };
+  let tempsRestant     = TEMPS_RESTANT;
+
+  document.addEventListener('DOMContentLoaded', function() {
+    Object.keys(reponses).forEach(qId => {
+      const choixId = reponses[qId];
+      const input   = document.getElementById(`choix-${choixId}`);
+      if (input) {
+        input.checked = true;
+        input.closest('.choix-item').classList.add('selected');
+      }
+      const qIndex = QUESTIONS.findIndex(q => String(q.id) === String(qId));
+      if (qIndex >= 0) marquerBoutonRepondu(qIndex);
+    });
+
+    mettreAJourNavigation();
+    mettreAJourStats();
+    demarrerChrono();
+
+    if (typeof feather !== 'undefined') feather.replace();
+  });
+
+  function allerQuestion(index) {
+    document.getElementById(`question-${questionActuelle}`).classList.remove('active');
+    document.getElementById(`qbtn-${QUESTIONS[questionActuelle].id}`).classList.remove('active');
+
+    questionActuelle = index;
+
+    document.getElementById(`question-${questionActuelle}`).classList.add('active');
+    document.getElementById(`qbtn-${QUESTIONS[questionActuelle].id}`).classList.add('active');
+
+    mettreAJourNavigation();
+    document.getElementById(`question-${questionActuelle}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function questionSuivante() {
+    if (questionActuelle < TOTAL - 1) allerQuestion(questionActuelle + 1);
+  }
+
+  function questionPrecedente() {
+    if (questionActuelle > 0) allerQuestion(questionActuelle - 1);
+  }
+
+  function mettreAJourNavigation() {
+    const btnPrec    = document.getElementById('btn-precedent');
+    const btnSuiv    = document.getElementById('btn-suivant');
+    const btnTerminer = document.getElementById('btn-terminer');
+    const navInfo    = document.getElementById('nav-info');
+
+    btnPrec.disabled = questionActuelle === 0;
+    navInfo.textContent = `Question ${questionActuelle + 1} / ${TOTAL}`;
+
+    document.querySelectorAll('.q-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(`qbtn-${QUESTIONS[questionActuelle].id}`).classList.add('active');
+
+    if (questionActuelle === TOTAL - 1) {
+      btnSuiv.classList.add('d-none');
+      btnTerminer.classList.remove('d-none');
+    } else {
+      btnSuiv.classList.remove('d-none');
+      btnTerminer.classList.add('d-none');
+    }
+
+    const pct = ((questionActuelle + 1) / TOTAL * 100).toFixed(0);
+    document.getElementById('progression').style.width = pct + '%';
+  }
+
+  function marquerRepondue(index, qId) {
+    reponses[qId] = document.querySelector(`input[name="question_${qId}"]:checked`)?.value;
+    marquerBoutonRepondu(index);
+    mettreAJourStats();
+
+    document.querySelectorAll(`input[name="question_${qId}"]`).forEach(input => {
+      input.closest('.choix-item').classList.remove('selected');
+    });
+    const checked = document.querySelector(`input[name="question_${qId}"]:checked`);
+    if (checked) checked.closest('.choix-item').classList.add('selected');
+  }
+
+  function marquerBoutonRepondu(index) {
+    const btn = document.getElementById(`qbtn-${QUESTIONS[index].id}`);
+    if (btn) btn.classList.add('repondue');
+  }
+
+  function mettreAJourStats() {
+    const nb = Object.keys(reponses).filter(k => reponses[k]).length;
+    document.getElementById('nb-repondues').textContent = nb;
+  }
+
+  function demarrerChrono() {
+    const chronoEl  = document.getElementById('chrono');
+    const chronoBox = document.getElementById('chrono-box');
+
+    function afficherTemps() {
+      const h = Math.floor(tempsRestant / 3600);
+      const m = Math.floor((tempsRestant % 3600) / 60);
+      const s = tempsRestant % 60;
+      chronoEl.textContent =
+        (h > 0 ? String(h).padStart(2,'0') + ':' : '') +
+        String(m).padStart(2,'0') + ':' +
+        String(s).padStart(2,'0');
+
+      if (tempsRestant <= 300) chronoBox.classList.add('danger');
+      if (tempsRestant <= 0) {
+        clearInterval(interval);
+        document.getElementById('form-examen').submit();
+      }
+    }
+
+    afficherTemps();
+    const interval = setInterval(function() {
+      tempsRestant--;
+      afficherTemps();
+    }, 1000);
+  }
+
+  function confirmerSoumission() {
+    const nb       = Object.keys(reponses).filter(k => reponses[k]).length;
+    const restantes = TOTAL - nb;
+
+    let message = `Vous avez répondu à ${nb} question(s) sur ${TOTAL}.`;
+    if (restantes > 0) message += `\n⚠ ${restantes} question(s) sans réponse (score 0).`;
+    message += '\n\nConfirmer la soumission ?';
+
+    if (confirm(message)) {
+      document.getElementById('form-examen').submit();
+    }
+  }
+</script>
+{% endblock %}

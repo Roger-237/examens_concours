@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2014,
+        "mini_cours": "Analyse grammaticale, fonctions syntaxiques, homonymes, conjugaison et vocabulaire.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Quelle est la fonction du groupe de mots soulignés dans la phrase : « Je l'ai trouvé qui lisait ».",
+            "choix": [
+              {"texte": "a) COD", "est_correct": false},
+              {"texte": "b) Attribut du COD", "est_correct": true},
+              {"texte": "c) Proposition subordonnée", "est_correct": false},
+              {"texte": "d) COI", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Quelle est la fonction de qui dans la phrase : « Je préfère les villes qui s'adossent a la montagne. »",
+            "choix": [
+              {"texte": "a) COD", "est_correct": false},
+              {"texte": "b) Attribut du sujet", "est_correct": false},
+              {"texte": "c) Sujet", "est_correct": true},
+              {"texte": "d) Pronom relatif", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "La nature de « que » dans la phrase : « Nous sommes tous des jeunes enfants que nos jouets neu[f]s émerveillent »",
+            "choix": [
+              {"texte": "a) Conjonction de coordination", "est_correct": false},
+              {"texte": "b) Pronom relatif", "est_correct": true},
+              {"texte": "c) Complément d'objet direct", "est_correct": false},
+              {"texte": "d) Conjonction de subordination", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "« Ayez prévu » est :",
+            "choix": [
+              {"texte": "a) Subjonctif passé", "est_correct": true},
+              {"texte": "b) Un subjonctif plus-que-parfait", "est_correct": false},
+              {"texte": "c) Un conditionnel passé 1ere forme", "est_correct": false},
+              {"texte": "d) Un conditionnel passé 2eme forme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Cochez le passé indéfini :",
+            "choix": [
+              {"texte": "a) Il dormit", "est_correct": false},
+              {"texte": "b) Je tomberais comme une fleur", "est_correct": false},
+              {"texte": "c) Il chanta", "est_correct": false},
+              {"texte": "d) J'ai fini de parler", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Cochez le passé du conditionnel 2eme forme",
+            "choix": [
+              {"texte": "a) Il eût baillé", "est_correct": true},
+              {"texte": "b) Il eut baillé", "est_correct": false},
+              {"texte": "c) Qu'il aurait baillé", "est_correct": false},
+              {"texte": "d) Qu'il eût baillé", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Je vous .... Quand j' .... Ma décision »",
+            "choix": [
+              {"texte": "a) aurais prévenu --- avais pris", "est_correct": false},
+              {"texte": "b) aurais prévenu --- ai pris", "est_correct": false},
+              {"texte": "c) préviendrais --- aurais pris", "est_correct": true},
+              {"texte": "d) préviendrais --- aurais pris", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Les actrices de la ville que j'ai .... Jouer étaient excellentes ».",
+            "choix": [
+              {"texte": "a) Vu", "est_correct": true},
+              {"texte": "b) Vue", "est_correct": false},
+              {"texte": "c) Vues", "est_correct": false},
+              {"texte": "d) Vus", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Quelle peur nous avons .... »",
+            "choix": [
+              {"texte": "a) eue", "est_correct": true},
+              {"texte": "b) eu", "est_correct": false},
+              {"texte": "c) eus", "est_correct": false},
+              {"texte": "d) eues", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Ils sont .... Mauvais humeur parce que leurs am[is] .... Font la fête. »",
+            "choix": [
+              {"texte": "a) en---leurs", "est_correct": false},
+              {"texte": "b) en---leur", "est_correct": false},
+              {"texte": "c) de---leur", "est_correct": true},
+              {"texte": "d) de---leurs", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Cochez le futur du passé :",
+            "choix": [
+              {"texte": "a) Nous avions pressenti que le Brésil ne remporterais pas la coupe du monde", "est_correct": true},
+              {"texte": "b) Un jour un pays africain pourrait remporter la coupe du monde", "est_correct": false},
+              {"texte": "c) Si les panthères s'étaient bien préparées/ elles se qualifieraient pour cette coupe du monde", "est_correct": false},
+              {"texte": "d) sans la complaisance de l'arbitre, les éléphants atteindraient même les quarts de finale.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Cochez l'impératif bien orthographié :",
+            "choix": [
+              {"texte": "a) méfies-toi", "est_correct": false},
+              {"texte": "b) craincs", "est_correct": false},
+              {"texte": "c) prends", "est_correct": true},
+              {"texte": "d) sèches-toi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Cochez l'impératif bien orthographié :",
+            "choix": [
+              {"texte": "a) Quelque soit la vitesse du vent, le catamaran maintient le cap.", "est_correct": false},
+              {"texte": "b) La pêche à la baleine quelques soit les protestations, n'est pas encore interdite", "est_correct": false},
+              {"texte": "c) Quelqu'ait pu être son courage, le capitaine abandonna son navire", "est_correct": false},
+              {"texte": "d) Quelques lointaines qu'elles paraissent, ces îles sont habitées", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Quel mot grec s'écrit avec un « r »",
+            "choix": [
+              {"texte": "a) ca--osse", "est_correct": false},
+              {"texte": "b) ca--ière", "est_correct": false},
+              {"texte": "c) cha--iot", "est_correct": false},
+              {"texte": "d) gué--rilla", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "L'un de ces énoncés est incorrect :",
+            "choix": [
+              {"texte": "a) demander à boire", "est_correct": false},
+              {"texte": "b) demander qu'on apporte a boire", "est_correct": false},
+              {"texte": "c) demander une boisson", "est_correct": false},
+              {"texte": "d) demander à ce qu'on apporte a boire", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Cochez la phrase incorrecte :",
+            "choix": [
+              {"texte": "a) Avant qu'ils arrivassent, je m'étendis sur le sol", "est_correct": false},
+              {"texte": "b) Apres qu'il se soit expliqué, nous lavons libé[ré]", "est_correct": false},
+              {"texte": "c) Avant qu'il s'en alla, nous lui offrîmes des présents", "est_correct": true},
+              {"texte": "d) Apres son départ, nous fumes soulagé", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Choisissez la paire d'homonyme appropriée : « Je suis -- de la porte, -- à partir. »",
+            "choix": [
+              {"texte": "a) près, près", "est_correct": false},
+              {"texte": "b) près, prêt", "est_correct": true},
+              {"texte": "c) prêt, prêt", "est_correct": false},
+              {"texte": "d) prêt, près", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Choisissez la paire d'homonyme appropriée : « Il a déjà rédigé -- lettre, il -- postée devant moi. »",
+            "choix": [
+              {"texte": "a) l'a, l'a", "est_correct": true},
+              {"texte": "b) la, la", "est_correct": false},
+              {"texte": "c) l'a, la", "est_correct": false},
+              {"texte": "d) la, l'a", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Choisissez la paire d'homonyme appropriée : « Voyez – lunettes là, ce sont – lunettes. »",
+            "choix": [
+              {"texte": "a) ces, ses", "est_correct": true},
+              {"texte": "b) ses, ces", "est_correct": false},
+              {"texte": "c) ses, ses", "est_correct": false},
+              {"texte": "d) ces, ces", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Choisissez la paire d'homonyme appropriée : « -- Le chef qui – trompé. »",
+            "choix": [
+              {"texte": "a) ses, c'est", "est_correct": false},
+              {"texte": "b) c'est, c'est", "est_correct": true},
+              {"texte": "c) c'est, s'est", "est_correct": false},
+              {"texte": "d) ses, s'es", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Choisissez la paire d'homonyme appropriée : « -- chaussures – faisaient mal. »",
+            "choix": [
+              {"texte": "a) leur, leurs", "est_correct": false},
+              {"texte": "b) leurs, leurs", "est_correct": false},
+              {"texte": "c) leurs, leur", "est_correct": true},
+              {"texte": "d) leur, leur", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Choisissez la paire d'homonyme appropriée : « J'ai rendez-vous avec – relations qui ont –arge[nt] utiles pour mes affaires. »",
+            "choix": [
+              {"texte": "a) quelque, quelque", "est_correct": false},
+              {"texte": "b) quelque, quelques", "est_correct": false},
+              {"texte": "c) quelques, quelques", "est_correct": false},
+              {"texte": "d) quelques, quelque", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Identifier le mot dont le h n'est pas aspiré.",
+            "choix": [
+              {"texte": "a) hall", "est_correct": false},
+              {"texte": "b) harpe", "est_correct": false},
+              {"texte": "c) horaire", "est_correct": true},
+              {"texte": "d) homard", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Un seul de ses vocables comporte un singulier.",
+            "choix": [
+              {"texte": "a) confins", "est_correct": false},
+              {"texte": "b) décombres", "est_correct": false},
+              {"texte": "c) agapes", "est_correct": true},
+              {"texte": "d) noces", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Identifier l'adjectif variable.",
+            "choix": [
+              {"texte": "a) standard", "est_correct": false},
+              {"texte": "b) ébahi", "est_correct": true},
+              {"texte": "c) chic", "est_correct": false},
+              {"texte": "d) mastoc", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "L'un de ces mots est masculin.",
+            "choix": [
+              {"texte": "a) antre", "est_correct": true},
+              {"texte": "b) autoroute", "est_correct": false},
+              {"texte": "c) équivoque", "est_correct": false},
+              {"texte": "d) patère", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Identifier le mot masculin.",
+            "choix": [
+              {"texte": "a) ovale", "est_correct": true},
+              {"texte": "b) clepsydre", "est_correct": false},
+              {"texte": "c) anagramme", "est_correct": false},
+              {"texte": "d) drachme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Identifier le mot féminin.",
+            "choix": [
+              {"texte": "a) jute", "est_correct": false},
+              {"texte": "b) espèce", "est_correct": true},
+              {"texte": "c) ovule", "est_correct": false},
+              {"texte": "d) haltère", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Trouvez le faux ami du sens de la racine chrono.",
+            "choix": [
+              {"texte": "a) chronologie", "est_correct": false},
+              {"texte": "b) nécrologie", "est_correct": true},
+              {"texte": "c) historique", "est_correct": false},
+              {"texte": "d) événementiel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "En un mot, que signifie « être un goujat »",
+            "choix": [
+              {"texte": "a) vaniteux", "est_correct": false},
+              {"texte": "b) grossier", "est_correct": true},
+              {"texte": "c) intrépide", "est_correct": false},
+              {"texte": "d) froussard", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "Trouvez le faux ami du sens de la racine hydr.",
+            "choix": [
+              {"texte": "a) hydraulique", "est_correct": false},
+              {"texte": "b) hydrographique", "est_correct": false},
+              {"texte": "c) humide", "est_correct": false},
+              {"texte": "d) hypothétique", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Trouvez le faux ami du sens de la racine croix.",
+            "choix": [
+              {"texte": "a) crudité", "est_correct": true},
+              {"texte": "b) cruciverbiste", "est_correct": false},
+              {"texte": "c) croisement", "est_correct": false},
+              {"texte": "d) crucifiement", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "En un mot que signifie « jeter de la poudre aux yeux ».",
+            "choix": [
+              {"texte": "a) choquer", "est_correct": false},
+              {"texte": "b) impressionner", "est_correct": true},
+              {"texte": "c) inquiéter", "est_correct": false},
+              {"texte": "d) déranger", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Que signifie l'expression suivante : « collationner ».",
+            "choix": [
+              {"texte": "a) Prendre un léger repas.", "est_correct": false},
+              {"texte": "b) Recueillir des textes", "est_correct": false},
+              {"texte": "c) Vérifier si un écrit est complet", "est_correct": true},
+              {"texte": "d) Être collet monté.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Trouvez le faux ami du sens de la racine nez.",
+            "choix": [
+              {"texte": "a) angioplastie", "est_correct": true},
+              {"texte": "b) rhinite", "est_correct": false},
+              {"texte": "c) nasiller", "est_correct": false},
+              {"texte": "d) inhaler", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "En un mot que signifie « se laisser griser par le succès »?",
+            "choix": [
+              {"texte": "a) décevoir", "est_correct": false},
+              {"texte": "b) dominer", "est_correct": false},
+              {"texte": "c) dépasser", "est_correct": false},
+              {"texte": "d) enivrer", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "Que signifie l'expression suivante : « être républicain ».",
+            "choix": [
+              {"texte": "a) Qui se rapporte au peuple", "est_correct": false},
+              {"texte": "b) Qui se rapporte à un parti légal.", "est_correct": false},
+              {"texte": "c) Qui se rapporte à la république.", "est_correct": true},
+              {"texte": "d) Qui désigne un membre de l'opposition.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "En mot, que signifie « c'est une menteuse invétérée » ?",
+            "choix": [
+              {"texte": "a) incorrigible", "est_correct": true},
+              {"texte": "b) occasionnelle", "est_correct": false},
+              {"texte": "c) courageuse", "est_correct": false},
+              {"texte": "d) timide", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "Quel terme fait exception à la règle, syntaxiquement ou sémantiquement ?",
+            "choix": [
+              {"texte": "a) orthographe", "est_correct": false},
+              {"texte": "b) écriture", "est_correct": false},
+              {"texte": "c) biographe", "est_correct": false},
+              {"texte": "d) sépulture", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "Quel terme fait exception à la règle, syntaxiquement ou sémantiquement ?",
+            "choix": [
+              {"texte": "a) soudure", "est_correct": false},
+              {"texte": "b) futur", "est_correct": true},
+              {"texte": "c) ordure", "est_correct": false},
+              {"texte": "d) torture", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

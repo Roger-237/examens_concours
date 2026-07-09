@@ -14,8 +14,8 @@ urlpatterns = [
     path('mes-resultats/', vues_eleve.VueMesResultats.as_view(), name='mes_resultats'),
     # Examen
     path('epreuves/<int:epreuve_id>/demarrer/', vues_eleve.VueDemarrerExamen.as_view(), name='demarrer_examen'),
-    path('tentatives/<int:tentative_id>/question/<int:ordre>/', vues_eleve.VuePasserQuestion.as_view(), name='passer_question'),
-    path('tentatives/<int:tentative_id>/terminer/', vues_eleve.VueTerminerExamen.as_view(), name='terminer_examen'),
+    path('tentatives/<int:tentative_id>/examen/', vues_eleve.VuePasserExamen.as_view(), name='passer_examen'),
+    path('tentatives/<int:tentative_id>/soumettre/', vues_eleve.VueSoumettreExamen.as_view(), name='soumettre_examen'),
     path('tentatives/<int:tentative_id>/resultat/', vues_eleve.VueResultatExamen.as_view(), name='resultat_examen'),
     # Parrainage
     path('parrainage/generer/',  vues_eleve.VueGenererCodeParrainage.as_view(), name='generer_parrainage'),

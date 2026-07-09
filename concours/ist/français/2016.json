@@ -1,0 +1,413 @@
+[
+  {
+    "ecole": "Institut Supérieur de Technologie",
+    "filiere": "GEA et TC",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2016,
+        "mini_cours": "Vocabulaire, orthographe, conjugaison, syntaxe et figures de style du français.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Quel est le pluriel de passe-lacet ?",
+            "choix": [
+              {"texte": "a- passe-lacets", "est_correct": true},
+              {"texte": "b- passes-lacets", "est_correct": false},
+              {"texte": "c- passes-lacet", "est_correct": false},
+              {"texte": "d- passe-lacet", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Chercher l'intrus :",
+            "choix": [
+              {"texte": "a- Vous ne semblez pas autrement affecté.", "est_correct": false},
+              {"texte": "b- Il n'était guère fâché", "est_correct": false},
+              {"texte": "c- heureux, il était très modérément.", "est_correct": false},
+              {"texte": "d- elle était excessivement pâle.", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Lequel de ces mots n'est pas une conjonction de coordination",
+            "choix": [
+              {"texte": "a- ni", "est_correct": false},
+              {"texte": "b- où", "est_correct": true},
+              {"texte": "c- car", "est_correct": false},
+              {"texte": "d- mais", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Chercher la phrase incorrecte :",
+            "choix": [
+              {"texte": "a- ce sont des verres dits incassables", "est_correct": false},
+              {"texte": "b- Le prétendu marquis était un escroc", "est_correct": false},
+              {"texte": "c- ce sont des verres soi-disant incassables", "est_correct": true},
+              {"texte": "d- ce sont des verres prétendument incassables", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Un intrus se cache dans cette liste, où est-il ?",
+            "choix": [
+              {"texte": "a- in fine", "est_correct": false},
+              {"texte": "b- à la fin", "est_correct": false},
+              {"texte": "c- infime", "est_correct": true},
+              {"texte": "d- finalement", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Quel est le mot inadapté au reste de la liste ?",
+            "choix": [
+              {"texte": "a- un rouquin", "est_correct": true},
+              {"texte": "b- un lourdaud", "est_correct": false},
+              {"texte": "c- un nullard", "est_correct": false},
+              {"texte": "d- un sanguin", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Lequel de ces noms est masculin ?",
+            "choix": [
+              {"texte": "a- amalgame", "est_correct": true},
+              {"texte": "b- sentinelle", "est_correct": false},
+              {"texte": "c- échappatoire", "est_correct": false},
+              {"texte": "d- paroi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Quel adjectif ne comporte pas de jugement de valeur ?",
+            "choix": [
+              {"texte": "a- drôle", "est_correct": false},
+              {"texte": "b- brillant", "est_correct": false},
+              {"texte": "c- séducteur", "est_correct": false},
+              {"texte": "d- célibataire", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Que signifie l'expression suivante : « après quelques avatars » ?",
+            "choix": [
+              {"texte": "a- après quelques transformations", "est_correct": false},
+              {"texte": "b- après quelque temps", "est_correct": false},
+              {"texte": "c- après quelques mésaventures", "est_correct": true},
+              {"texte": "d- après délibération", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Quelle caractéristique ne vous paraît pas convenir au « vivant petit clocher de plumes » du poète ?",
+            "choix": [
+              {"texte": "a- une métaphore", "est_correct": false},
+              {"texte": "b- une périphrase", "est_correct": false},
+              {"texte": "c- un coq", "est_correct": false},
+              {"texte": "d- une expression ironique", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Quel est l'antonyme de « considérable » dans cette liste ?",
+            "choix": [
+              {"texte": "a- éminent", "est_correct": false},
+              {"texte": "b- fameux", "est_correct": false},
+              {"texte": "c- modique", "est_correct": true},
+              {"texte": "d- insigne", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Dans quelle phrase ne trouve-t-on aucune nuance subjective de la pensée ?",
+            "choix": [
+              {"texte": "a- Embrassons-nous Folleville.", "est_correct": true},
+              {"texte": "b- Nous nous embrasserions Folleville ?", "est_correct": false},
+              {"texte": "c- Je crois que nous allons nous embrasser Folleville", "est_correct": false},
+              {"texte": "d- Il faut peut-être que je vous embrasse Folleville", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "« le plus avantageux » a fonction et degré :",
+            "choix": [
+              {"texte": "a- épithète liée, au degré superlatif absolu de supériorité", "est_correct": false},
+              {"texte": "b- épithète détachée, au degré superlatif absolu de supériorité", "est_correct": false},
+              {"texte": "c- épithète détachée, au degré superlatif relatif de supériorité", "est_correct": false},
+              {"texte": "d- épithète liée, au degré superlatif relatif de supériorité", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Chercher l'intrus",
+            "choix": [
+              {"texte": "a- philanthrope", "est_correct": false},
+              {"texte": "b- philippique", "est_correct": true},
+              {"texte": "c- oenophile", "est_correct": false},
+              {"texte": "d- philosophe", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Dans quelle phrase le vocabulaire est-il employé à bon escient",
+            "choix": [
+              {"texte": "a- il jouit d'une mauvaise santé", "est_correct": false},
+              {"texte": "b- il explore le moindre petit détail", "est_correct": false},
+              {"texte": "c- dépêchons-nous, il y a péril en la demeure", "est_correct": true},
+              {"texte": "d- ce livre est excessivement passionnant", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Quel est le mot inadapté au reste de la liste ?",
+            "choix": [
+              {"texte": "a- génome", "est_correct": false},
+              {"texte": "b- génotype", "est_correct": false},
+              {"texte": "c- congénital", "est_correct": false},
+              {"texte": "d- genouillère", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Quel terme n'a pas sa place, sauf règle d'exception ?",
+            "choix": [
+              {"texte": "a- tonneau", "est_correct": false},
+              {"texte": "b- tonitruant", "est_correct": true},
+              {"texte": "c- tonnelier", "est_correct": false},
+              {"texte": "d- entonner", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Un seul mot possède une racine différente des autres, lequel ?",
+            "choix": [
+              {"texte": "a- humble", "est_correct": false},
+              {"texte": "b- inhumer", "est_correct": true},
+              {"texte": "c- humilier", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Trouver le faux ami du sens de la racine lumi :",
+            "choix": [
+              {"texte": "a- orangé", "est_correct": true},
+              {"texte": "b- brillant", "est_correct": false},
+              {"texte": "c- opalescent", "est_correct": false},
+              {"texte": "d- scintillant", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Dans quelle phrase le vocabulaire est-il employé à bon escient ?",
+            "choix": [
+              {"texte": "a- il a commis un acte héroïque", "est_correct": true},
+              {"texte": "b- vous n'avez qu'une alternative", "est_correct": false},
+              {"texte": "c- il faut choisir entre ces deux alternatives", "est_correct": false},
+              {"texte": "d- on trouve cela aux quatre coins de l'Hexagone", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Une seule de ces expressions peut s'employer sans erreur, laquelle ?",
+            "choix": [
+              {"texte": "a- une belle opportunité", "est_correct": false},
+              {"texte": "b- un monopole exclusif", "est_correct": false},
+              {"texte": "c- un âge conséquent", "est_correct": false},
+              {"texte": "d- mettre son veto", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Lequel de ces verbes n'appartient pas aux verbes dites essentiellement pronominaux ?",
+            "choix": [
+              {"texte": "a- envoler", "est_correct": false},
+              {"texte": "b- ingénier", "est_correct": false},
+              {"texte": "c- excéder", "est_correct": true},
+              {"texte": "d- repentir", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Cherchez l'erreur parmi ces formes au présent de l'indicatif :",
+            "choix": [
+              {"texte": "a- je conclus", "est_correct": false},
+              {"texte": "b- je bats", "est_correct": false},
+              {"texte": "c- j'astreins", "est_correct": false},
+              {"texte": "d- je tressaille", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Quel participe passé est mal accordé ?",
+            "choix": [
+              {"texte": "a- la nouvelle est tombée à treize heures.", "est_correct": false},
+              {"texte": "b- les enfants ont cassé leurs jouets", "est_correct": false},
+              {"texte": "c- les paquets qu'ils ont envoyés sont retournés à la poste", "est_correct": false},
+              {"texte": "d- les tableaux que l'artiste a commencé n'ont jamais été achevés", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Quelle forme verbale est mal orthographiée ?",
+            "choix": [
+              {"texte": "a- tu modèles", "est_correct": false},
+              {"texte": "b- il cisèle", "est_correct": false},
+              {"texte": "c- il grommèle", "est_correct": true},
+              {"texte": "d- je démantèle", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Quelle forme à l'impératif comporte une erreur ?",
+            "choix": [
+              {"texte": "a- chantes", "est_correct": true},
+              {"texte": "b- finis", "est_correct": false},
+              {"texte": "c- balaie", "est_correct": false},
+              {"texte": "d- ris", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Dans quelle phrase le verbe « jeter » est-il mal orthographié ?",
+            "choix": [
+              {"texte": "a- je jette ma langue au chat", "est_correct": false},
+              {"texte": "b- jetez-vous à terre !", "est_correct": false},
+              {"texte": "c- auriez-vous jeté mon journal au feu ?", "est_correct": false},
+              {"texte": "d- nous jettons nos bonnets par-dessus les moulins", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Quelle est la phrase qui ne comporte pas de verbe au subjonctif ?",
+            "choix": [
+              {"texte": "a- j'aimerais qu'elle m'appelle", "est_correct": false},
+              {"texte": "b- tu préviendras", "est_correct": true},
+              {"texte": "c- pourvu qu'il appelât une fois par semaine elle était contente", "est_correct": false},
+              {"texte": "d- il est temps qu'ils appellent les secours", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Où se trouve le participe passé mal orthographié ?",
+            "choix": [
+              {"texte": "a- elles se sont lavées les mains", "est_correct": true},
+              {"texte": "b- elles se sont souri", "est_correct": false},
+              {"texte": "c- ils se sont regardés", "est_correct": false},
+              {"texte": "d- ils s'en sont toujours voulu", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "Cochez la réponse qu'exige la règle concernant le mode subjonctif",
+            "choix": [
+              {"texte": "a- les policiers exigèrent que nous leur présentassions nos pièces d'identité", "est_correct": true},
+              {"texte": "b- les policiers exigèrent que nous leur eussions présenté nos pièces d'identité", "est_correct": false},
+              {"texte": "c- les policiers exigèrent que nous leur présentions nos pièces d'identité", "est_correct": false},
+              {"texte": "d- les policiers exigèrent que nous leur ayons présenté nos pièces d'identité", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "Quelle phrase n'exprime pas une condition ?",
+            "choix": [
+              {"texte": "a- le cas échéant nous aviserions", "est_correct": false},
+              {"texte": "b- il ne t'as pas dit s'il venait", "est_correct": true},
+              {"texte": "c- il cirerait ses chaussures ce serait déjà", "est_correct": false},
+              {"texte": "d- si vous n'êtes pas d'accord dites-le", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Quelle phrase comporte une syntaxe incorrecte",
+            "choix": [
+              {"texte": "a- peu s'en fallut qu'il n'abandonnait tant la route était longue", "est_correct": false},
+              {"texte": "b- faut-il que je t'aime", "est_correct": false},
+              {"texte": "c- il faut que je parte pour Paris", "est_correct": false},
+              {"texte": "d- il faut qu'elle prend sont temps", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "Quelle syntaxe n'est pas correcte ?",
+            "choix": [
+              {"texte": "a- quelle heure est-il ?", "est_correct": false},
+              {"texte": "b- tu ne m'as pas dit c'est laquelle", "est_correct": true},
+              {"texte": "c- je ne sais pas le quel il veut", "est_correct": false},
+              {"texte": "d- laquelle est-ce ?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Retrouvez la phrase qui ne comporte pas d'erreur :",
+            "choix": [
+              {"texte": "a- en encourageant les enfants d'arrêter de sucer leur pouce on protège leur dentition", "est_correct": false},
+              {"texte": "b- les problèmes politiques auxquels lui-même était en prises l'empêchèrent d'agir vite", "est_correct": false},
+              {"texte": "c- elle n'a vu de tableaux et de paysages que ceux devant lesquels je l'ai mise", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Quel est la bonne syntaxe ?",
+            "choix": [
+              {"texte": "a- Avant qu'il ne soit parti je ne peux rien faire", "est_correct": true},
+              {"texte": "b- Avant qu'il est parti je ne peux rien faire", "est_correct": false},
+              {"texte": "c- Avant qu'il sera parti je ne peux rien faire", "est_correct": false},
+              {"texte": "d- Avant qu'il ne fût parti je ne peut rien faire", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Quelle est la fonction de vous dans la phrase : « est-ce ma faute si je ne suis pas vous ? »",
+            "choix": [
+              {"texte": "a- Sujet", "est_correct": false},
+              {"texte": "b- COD", "est_correct": false},
+              {"texte": "c- Attribut du sujet", "est_correct": true},
+              {"texte": "d- COI", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "Quelle phrase n'exprime pas de nuance de concession ?",
+            "choix": [
+              {"texte": "a- quand bien même vous le feriez cela ne me toucherait pas", "est_correct": false},
+              {"texte": "b- Si encore il faisait un effort !", "est_correct": true},
+              {"texte": "c- même si les sondages avaient raison cela ne suffirait pas", "est_correct": false},
+              {"texte": "d- on avait beau les encourager ils ne se défendaient pas", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "De ces propositions conditionnelles laquelle est incorrecte ?",
+            "choix": [
+              {"texte": "a- si j'avais su je ne serais pas venu", "est_correct": false},
+              {"texte": "b- si tout ce passait bien il serait la dans deux minutes", "est_correct": true},
+              {"texte": "c- j'aurais fait vite si on ne m'avait pas reconnu", "est_correct": false},
+              {"texte": "d- s'il avait été la cela ne serait pas arrivé", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "Quelle phrase interrogative est correctement construite ?",
+            "choix": [
+              {"texte": "a- Peut-être que demain ira-t-on un peu plus vers les chaines périphériques", "est_correct": false},
+              {"texte": "b- Quinze jours plus tôt qui sait si on n'eût pas préféré l'autre solution ?", "est_correct": true},
+              {"texte": "c- Es ce que ce sentiment d'insécurité n'est-il pas fondé ?", "est_correct": false},
+              {"texte": "d- Le problèmes est de savoir qu'est-ce-qui fait qu'on obéit à des lois", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "Quelle phrase a une syntaxe incorrecte",
+            "choix": [
+              {"texte": "a- Après que le train a démarré, elle prend son journal", "est_correct": false},
+              {"texte": "b- Après la réunion qui s'est tenue hier ; les dossiers avancent vite", "est_correct": false},
+              {"texte": "c- Après qu'il ait été vu en sa compagnie, il ne cacha plus", "est_correct": true},
+              {"texte": "d- Après que le sort en eut été jeter, César marcha sur Rome", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

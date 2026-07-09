@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2014,
+        "mini_cours": "Grammar, tenses, pronouns, articles, vocabulary, and sentence structure in English.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "we will finish in ................ hour",
+            "choix": [
+              {"texte": "a) the", "est_correct": false},
+              {"texte": "b) a", "est_correct": false},
+              {"texte": "c) an", "est_correct": true},
+              {"texte": "d) some", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "................ Gabon is a rich country. However, the population seems poor.",
+            "choix": [
+              {"texte": "a) the", "est_correct": false},
+              {"texte": "b) Ø", "est_correct": true},
+              {"texte": "c) a", "est_correct": false},
+              {"texte": "d) my", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "The bag over there is ................",
+            "choix": [
+              {"texte": "a) mine", "est_correct": true},
+              {"texte": "b) her", "est_correct": false},
+              {"texte": "c) our", "est_correct": false},
+              {"texte": "d) your", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "The pupils have done ................ homework.",
+            "choix": [
+              {"texte": "a) our", "est_correct": false},
+              {"texte": "b) his", "est_correct": false},
+              {"texte": "c) their", "est_correct": true},
+              {"texte": "d) my", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "My sister went to the hospital with ................ mother and ................ junior sister",
+            "choix": [
+              {"texte": "a) his/ his", "est_correct": false},
+              {"texte": "b) her/ her", "est_correct": true},
+              {"texte": "c) his/ her", "est_correct": false},
+              {"texte": "d) her/ his", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "I studied English ................ One year.",
+            "choix": [
+              {"texte": "a) since", "est_correct": false},
+              {"texte": "b) for", "est_correct": true},
+              {"texte": "c) in", "est_correct": false},
+              {"texte": "d) Ø", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "You can take these copies now, they have................ Finished.",
+            "choix": [
+              {"texte": "a) yet", "est_correct": false},
+              {"texte": "b) again", "est_correct": false},
+              {"texte": "c) still", "est_correct": false},
+              {"texte": "d) already", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "................ Can you say that?",
+            "choix": [
+              {"texte": "a) what", "est_correct": false},
+              {"texte": "b) when", "est_correct": false},
+              {"texte": "c) how", "est_correct": true},
+              {"texte": "d) who", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Did you understand................ the lecturer said about AIDS.",
+            "choix": [
+              {"texte": "a) that", "est_correct": false},
+              {"texte": "b) which", "est_correct": false},
+              {"texte": "c) whom", "est_correct": false},
+              {"texte": "d) what", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "The president of Mambo association met................ yesterday.",
+            "choix": [
+              {"texte": "a) us", "est_correct": true},
+              {"texte": "b) we", "est_correct": false},
+              {"texte": "c) she", "est_correct": false},
+              {"texte": "d) he", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "I guess the dog would like to drink................ water.",
+            "choix": [
+              {"texte": "a) a little", "est_correct": false},
+              {"texte": "b) some", "est_correct": true},
+              {"texte": "c) the", "est_correct": false},
+              {"texte": "d) of", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Do you know ............ in thus classroom.",
+            "choix": [
+              {"texte": "a) nobody", "est_correct": false},
+              {"texte": "b) somebody", "est_correct": false},
+              {"texte": "c) no one", "est_correct": false},
+              {"texte": "d) anybody", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "My father ................ years old.",
+            "choix": [
+              {"texte": "a) has fourty", "est_correct": false},
+              {"texte": "b) is fourty", "est_correct": false},
+              {"texte": "c) is forty", "est_correct": true},
+              {"texte": "d) has forty", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "In 1961 we became a new republic.",
+            "choix": [
+              {"texte": "a) ninety sixty one", "est_correct": false},
+              {"texte": "b) nineteen sixty-one", "est_correct": true},
+              {"texte": "c) ninety sixty-one", "est_correct": false},
+              {"texte": "d) nineteen sixty one", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "the 2/3 of candidates have succeeded.",
+            "choix": [
+              {"texte": "a) two thirds", "est_correct": true},
+              {"texte": "b) two three", "est_correct": false},
+              {"texte": "c) two threes", "est_correct": false},
+              {"texte": "d) two third", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Most of the time, the more you eat, ................ you get.",
+            "choix": [
+              {"texte": "a) more fat", "est_correct": false},
+              {"texte": "b) the fater", "est_correct": false},
+              {"texte": "c) the more fater", "est_correct": false},
+              {"texte": "d) the fatter", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "I am the first son of my family but Jerry is................",
+            "choix": [
+              {"texte": "a) the taller", "est_correct": false},
+              {"texte": "b) the tallest", "est_correct": true},
+              {"texte": "c) the higher", "est_correct": false},
+              {"texte": "d) the highest", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Ebola is the................ virus known in the world.",
+            "choix": [
+              {"texte": "a) worst", "est_correct": true},
+              {"texte": "b) worse", "est_correct": false},
+              {"texte": "c) badest", "est_correct": false},
+              {"texte": "d) bad", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "The babysitter is a woman who................ babies.",
+            "choix": [
+              {"texte": "a) looks for", "est_correct": false},
+              {"texte": "b) looks on", "est_correct": false},
+              {"texte": "c) looks by", "est_correct": false},
+              {"texte": "d) looks after", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "There................ mangoes in the trees this year!",
+            "choix": [
+              {"texte": "a) are; much", "est_correct": false},
+              {"texte": "b) his; much", "est_correct": false},
+              {"texte": "c) are; many", "est_correct": true},
+              {"texte": "d) is; many", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "I ................ Agreed with about that point.",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": true},
+              {"texte": "b) have", "est_correct": false},
+              {"texte": "c) am", "est_correct": false},
+              {"texte": "d) is", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Lola................ an apple.",
+            "choix": [
+              {"texte": "a) ates", "est_correct": false},
+              {"texte": "b) eat", "est_correct": false},
+              {"texte": "c) is eating", "est_correct": true},
+              {"texte": "d) has ate", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Kengue................ every Saturday morning along the seaside.",
+            "choix": [
+              {"texte": "a) runs", "est_correct": true},
+              {"texte": "b) is running", "est_correct": false},
+              {"texte": "c) walk", "est_correct": false},
+              {"texte": "d) go", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Many candidates didn't................ at the entrance test.",
+            "choix": [
+              {"texte": "a) succeeded", "est_correct": false},
+              {"texte": "b) have succeeded", "est_correct": false},
+              {"texte": "c) success", "est_correct": false},
+              {"texte": "d) succeed", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "If I................ you, I wouldn't do it.",
+            "choix": [
+              {"texte": "a) were", "est_correct": true},
+              {"texte": "b) am", "est_correct": false},
+              {"texte": "c) have", "est_correct": false},
+              {"texte": "d) was", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "She ................very often................ Grandmother at Ntoum",
+            "choix": [
+              {"texte": "a) Is visiting; her", "est_correct": false},
+              {"texte": "b) visits; her", "est_correct": true},
+              {"texte": "c) visit; her", "est_correct": false},
+              {"texte": "d) is visiting; his", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "They................ each other for ages.",
+            "choix": [
+              {"texte": "a) knew", "est_correct": false},
+              {"texte": "b) know", "est_correct": false},
+              {"texte": "c) have had known", "est_correct": false},
+              {"texte": "d) have known", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "“ Long Walk for Freedom”................ by Nelson MANDELA",
+            "choix": [
+              {"texte": "a) wrote", "est_correct": false},
+              {"texte": "b) was written", "est_correct": true},
+              {"texte": "c) was written", "est_correct": true},
+              {"texte": "d) have known", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "When I was a child a used to................ with pets.",
+            "choix": [
+              {"texte": "a) play", "est_correct": true},
+              {"texte": "b) played", "est_correct": false},
+              {"texte": "c) was playing", "est_correct": false},
+              {"texte": "d) playing", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "Mummy has come,................?",
+            "choix": [
+              {"texte": "a) isn't it", "est_correct": false},
+              {"texte": "b) is it", "est_correct": false},
+              {"texte": "c) has it", "est_correct": false},
+              {"texte": "d) hasn't it", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "................ You ................ go to the garden after lunch?",
+            "choix": [
+              {"texte": "a) will; to", "est_correct": false},
+              {"texte": "b) would ; to", "est_correct": false},
+              {"texte": "c) will ; Ø", "est_correct": true},
+              {"texte": "d) should ; to", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Let's do please................",
+            "choix": [
+              {"texte": "a) will you?", "est_correct": false},
+              {"texte": "b) shall we?", "est_correct": true},
+              {"texte": "c) do it?", "est_correct": false},
+              {"texte": "d) will they?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "You................ smoke in this room. It is forbidden.",
+            "choix": [
+              {"texte": "a) should", "est_correct": false},
+              {"texte": "b) can", "est_correct": false},
+              {"texte": "c) mustn't", "est_correct": true},
+              {"texte": "d) must", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Look, the door is opened, the prisoner................ gone",
+            "choix": [
+              {"texte": "a) might have", "est_correct": true},
+              {"texte": "b) might has", "est_correct": false},
+              {"texte": "c) should", "est_correct": false},
+              {"texte": "d) ought to", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Does your son play tennis? –No,................",
+            "choix": [
+              {"texte": "a) she don't", "est_correct": false},
+              {"texte": "b) she doesn't", "est_correct": false},
+              {"texte": "c) he don't", "est_correct": false},
+              {"texte": "d) he doesn't", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "If she had known, she................ it",
+            "choix": [
+              {"texte": "a) wouldn't to", "est_correct": false},
+              {"texte": "b) wouldn't has done", "est_correct": false},
+              {"texte": "c) wouldn't have done", "est_correct": true},
+              {"texte": "d) will not do", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "You................ talk like that!",
+            "choix": [
+              {"texte": "a) shouldn't", "est_correct": true},
+              {"texte": "b) couldn't", "est_correct": false},
+              {"texte": "c) wouldn't", "est_correct": false},
+              {"texte": "d) don't", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "Have you read the newspaper?-No,................",
+            "choix": [
+              {"texte": "a) I don't", "est_correct": false},
+              {"texte": "b) I can't", "est_correct": false},
+              {"texte": "c) I couldn't", "est_correct": false},
+              {"texte": "d) I haven't", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "Everybody does it................",
+            "choix": [
+              {"texte": "a) don't they?", "est_correct": true},
+              {"texte": "b) doesn't it?", "est_correct": false},
+              {"texte": "c) doesn't he?", "est_correct": false},
+              {"texte": "d) do they?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "................you................ yet?",
+            "choix": [
+              {"texte": "a) Don't ; haven't finished", "est_correct": false},
+              {"texte": "b) Haven't ; finished", "est_correct": false},
+              {"texte": "c) Do ; have finished", "est_correct": false},
+              {"texte": "d) Have ; finished", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

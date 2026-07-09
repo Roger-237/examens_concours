@@ -1,0 +1,553 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2016,
+        "mini_cours": "Grammar, pronouns, tenses, conditional sentences, vocabulary, and question tags in English.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "I own a dog _______ is called Snoopy.",
+            "choix": [
+              {"texte": "a) who", "est_correct": false},
+              {"texte": "b) that", "est_correct": true},
+              {"texte": "c) whose", "est_correct": false},
+              {"texte": "d) it", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "It's the first time, I ___________ such a difficult test .",
+            "choix": [
+              {"texte": "a) am passing", "est_correct": false},
+              {"texte": "b) pass", "est_correct": false},
+              {"texte": "c) have passed", "est_correct": true},
+              {"texte": "d) will pass", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "My boy is the one ___________ is in blue jacket",
+            "choix": [
+              {"texte": "a) that", "est_correct": false},
+              {"texte": "b) who", "est_correct": true},
+              {"texte": "c) which", "est_correct": false},
+              {"texte": "d) Ø", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "I don't know ___________ to go holiday",
+            "choix": [
+              {"texte": "a) who", "est_correct": false},
+              {"texte": "b) that", "est_correct": false},
+              {"texte": "c) whose", "est_correct": false},
+              {"texte": "d) where", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "do you have ___________ cheese left in your fridge ?",
+            "choix": [
+              {"texte": "a) any", "est_correct": true},
+              {"texte": "b) some", "est_correct": false},
+              {"texte": "c) nor", "est_correct": false},
+              {"texte": "d) none", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "___________ is my house , brother ?",
+            "choix": [
+              {"texte": "a) that", "est_correct": false},
+              {"texte": "b) where", "est_correct": true},
+              {"texte": "c) what", "est_correct": false},
+              {"texte": "d) this", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "isn't this the Clinton's car ?- Oh, no! ___________ is blue",
+            "choix": [
+              {"texte": "a) them", "est_correct": false},
+              {"texte": "b) their", "est_correct": false},
+              {"texte": "c) theirs", "est_correct": true},
+              {"texte": "d) they", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Malinga is ___________ town from LBV.",
+            "choix": [
+              {"texte": "a) The farthest", "est_correct": true},
+              {"texte": "b) farther", "est_correct": false},
+              {"texte": "c) farthest", "est_correct": false},
+              {"texte": "d) far", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "I ___________ agree with you",
+            "choix": [
+              {"texte": "a) have not", "est_correct": false},
+              {"texte": "b) don't", "est_correct": true},
+              {"texte": "c) am not", "est_correct": false},
+              {"texte": "d) is not", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "French is mainly ___________ in Africa",
+            "choix": [
+              {"texte": "a) spoking", "est_correct": false},
+              {"texte": "b) speaking", "est_correct": false},
+              {"texte": "c) spoken", "est_correct": true},
+              {"texte": "d) speaken", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Mitchell ___________ know anyone in gabon for the moment",
+            "choix": [
+              {"texte": "a) don't", "est_correct": false},
+              {"texte": "b) will", "est_correct": false},
+              {"texte": "c) won't", "est_correct": false},
+              {"texte": "d) doesn't", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "the dog ___________ yesterday night",
+            "choix": [
+              {"texte": "a) died", "est_correct": true},
+              {"texte": "b) dyed", "est_correct": false},
+              {"texte": "c) killed", "est_correct": false},
+              {"texte": "d) cutted life", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "A teacher ___________ smoke in class.",
+            "choix": [
+              {"texte": "a) Can to", "est_correct": false},
+              {"texte": "b) cannot to", "est_correct": false},
+              {"texte": "c) cannot", "est_correct": true},
+              {"texte": "d) can", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "___________ I use your mobile for a minute?",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": false},
+              {"texte": "b) may", "est_correct": true},
+              {"texte": "c) might", "est_correct": false},
+              {"texte": "d) it's possible", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "___________ you go two the supermarket for me ?",
+            "choix": [
+              {"texte": "a) Can", "est_correct": true},
+              {"texte": "b) may", "est_correct": false},
+              {"texte": "c) did", "est_correct": false},
+              {"texte": "d) any of a, b or c", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "yesterday I ___________ to leave the house at 6 a.m.",
+            "choix": [
+              {"texte": "a) Was able", "est_correct": true},
+              {"texte": "b) be able", "est_correct": false},
+              {"texte": "c) were able", "est_correct": false},
+              {"texte": "d) manage", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "You can drive a car , ___________ ?",
+            "choix": [
+              {"texte": "a) Can't you", "est_correct": true},
+              {"texte": "b) can you", "est_correct": false},
+              {"texte": "c) do you", "est_correct": false},
+              {"texte": "d) don't you", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "send me the message ___________ telephone !",
+            "choix": [
+              {"texte": "a) With", "est_correct": false},
+              {"texte": "b) in", "est_correct": false},
+              {"texte": "c) by", "est_correct": true},
+              {"texte": "d) on", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "You can live in Africa without ___________ because people help one another",
+            "choix": [
+              {"texte": "a) Work", "est_correct": false},
+              {"texte": "b) sleep", "est_correct": false},
+              {"texte": "c) sleeping", "est_correct": false},
+              {"texte": "d) working", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "now, I ___________ at Lycée Joseph Avaro Ambourouet",
+            "choix": [
+              {"texte": "a) am learning", "est_correct": true},
+              {"texte": "b) learn", "est_correct": false},
+              {"texte": "c) have learnt", "est_correct": false},
+              {"texte": "d) learned", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "For two years I ___________",
+            "choix": [
+              {"texte": "a) failed", "est_correct": false},
+              {"texte": "b) have failed", "est_correct": true},
+              {"texte": "c) fail", "est_correct": false},
+              {"texte": "d) have fail", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "The gospel is ___________ in church",
+            "choix": [
+              {"texte": "a) sung", "est_correct": true},
+              {"texte": "b) sing", "est_correct": false},
+              {"texte": "c) sang", "est_correct": false},
+              {"texte": "d) song", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Is John ___________ ?",
+            "choix": [
+              {"texte": "a) Your friend", "est_correct": false},
+              {"texte": "b) a friend of yours", "est_correct": true},
+              {"texte": "c) yours friend", "est_correct": false},
+              {"texte": "d) a your friend", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "he ___________ us « Hello ».",
+            "choix": [
+              {"texte": "a) telled", "est_correct": false},
+              {"texte": "b) tell", "est_correct": false},
+              {"texte": "c) tolds", "est_correct": false},
+              {"texte": "d) told", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Barack Obama ___________ the U.S.A for seven years now.",
+            "choix": [
+              {"texte": "a) is leading", "est_correct": false},
+              {"texte": "b) has leaded", "est_correct": false},
+              {"texte": "c) lead", "est_correct": false},
+              {"texte": "d) has been leading", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "I ___________ tennis a lot, but I don't play very often now",
+            "choix": [
+              {"texte": "a) was playing", "est_correct": false},
+              {"texte": "b) was used to play", "est_correct": false},
+              {"texte": "c) used to play", "est_correct": true},
+              {"texte": "d) played", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "children were watching T.V. when their father's telephone___________",
+            "choix": [
+              {"texte": "a) rings", "est_correct": false},
+              {"texte": "b) rang", "est_correct": true},
+              {"texte": "c) has rung", "est_correct": false},
+              {"texte": "d) was ringing", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "today I am ___________ than yesterday .",
+            "choix": [
+              {"texte": "a) happy", "est_correct": false},
+              {"texte": "b) happi", "est_correct": false},
+              {"texte": "c) happier", "est_correct": true},
+              {"texte": "d) happiest", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Kouely is ___________ of all Mboda's children",
+            "choix": [
+              {"texte": "a) the old", "est_correct": false},
+              {"texte": "b) the eld", "est_correct": false},
+              {"texte": "c) the oldest", "est_correct": false},
+              {"texte": "d) the eldest", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "___________ television is the most spread and popular means of communication",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": true},
+              {"texte": "b) the", "est_correct": false},
+              {"texte": "c) a", "est_correct": false},
+              {"texte": "d) every", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "The baby sitter is a woman whose job consists of ___________ babies",
+            "choix": [
+              {"texte": "a) looking", "est_correct": false},
+              {"texte": "b) looking on", "est_correct": false},
+              {"texte": "c) looking up", "est_correct": false},
+              {"texte": "d) looking after", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "“ Go slowly , the path is slippery and wet “___________",
+            "choix": [
+              {"texte": "a) shall you ?", "est_correct": false},
+              {"texte": "b) will you ?", "est_correct": true},
+              {"texte": "c) please you ?", "est_correct": false},
+              {"texte": "d) go they ?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "I am a newcomer in this universe of university , ___________",
+            "choix": [
+              {"texte": "a) am not I ?", "est_correct": false},
+              {"texte": "b) am I ?", "est_correct": false},
+              {"texte": "c) am'nt I ?", "est_correct": false},
+              {"texte": "d) aren't I ?", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "look ! the door is opened , the prisoner ___________ gone",
+            "choix": [
+              {"texte": "a) might have", "est_correct": true},
+              {"texte": "b) might has", "est_correct": false},
+              {"texte": "c) should", "est_correct": false},
+              {"texte": "d) ought to", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Nobody ___________ her since .",
+            "choix": [
+              {"texte": "a) hasn't seen", "est_correct": false},
+              {"texte": "b) hasn't saw", "est_correct": false},
+              {"texte": "c) has seen", "est_correct": true},
+              {"texte": "d) saw", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Est-il allé nager ?",
+            "choix": [
+              {"texte": "a) did he go to swim ?", "est_correct": true},
+              {"texte": "b) did he gone to swim ?", "est_correct": false},
+              {"texte": "c) has he go to swim ?", "est_correct": false},
+              {"texte": "d) has he got to swim ?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "The mice ___________ by the cat.",
+            "choix": [
+              {"texte": "a) were ate", "est_correct": false},
+              {"texte": "b) was eaten", "est_correct": false},
+              {"texte": "c) were eaten", "est_correct": true},
+              {"texte": "d) were eat", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "Let's have a drink, ___________ !",
+            "choix": [
+              {"texte": "a) would you", "est_correct": false},
+              {"texte": "b) shall you", "est_correct": true},
+              {"texte": "c) do you", "est_correct": false},
+              {"texte": "d) should you", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "Children were playing football when one of them ___________ his leg .",
+            "choix": [
+              {"texte": "a) broke", "est_correct": true},
+              {"texte": "b) breaks", "est_correct": false},
+              {"texte": "c) brokes", "est_correct": false},
+              {"texte": "d) was broken", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "I look forward to ___________ a reply from you",
+            "choix": [
+              {"texte": "a) receive", "est_correct": false},
+              {"texte": "b) have received", "est_correct": false},
+              {"texte": "c) receiving", "est_correct": true},
+              {"texte": "d) shall receive", "est_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Français",
+        "annee": 2014,
+        "mini_cours": "Analyse grammaticale, fonctions syntaxiques, conjugaison des modes conditionnel, subjonctif et impératif.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Quelle est la fonction du groupe de mots soulignés dans la phrase : « Je l'ai trouvé qui lisait ».",
+            "choix": [
+              {"texte": "a) COD", "est_correct": false},
+              {"texte": "b) Attribut du COD", "est_correct": true},
+              {"texte": "c) Proposition subordonnée", "est_correct": false},
+              {"texte": "d) COI", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Quelle est la fonction de qui dans la phrase : « Je préfère les villes qui s'adossent a la montagne. »",
+            "choix": [
+              {"texte": "a) COD", "est_correct": false},
+              {"texte": "b) Attribut du sujet", "est_correct": false},
+              {"texte": "c) Sujet", "est_correct": true},
+              {"texte": "d) Pronom relatif", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "La nature de « que » dans la phrase : « Nous sommes tous des jeunes enfants que nos jouets neu[f]s émerveillent »",
+            "choix": [
+              {"texte": "a) Conjonction de coordination", "est_correct": false},
+              {"texte": "b) Pronom relatif", "est_correct": true},
+              {"texte": "c) Complément d'objet direct", "est_correct": false},
+              {"texte": "d) Conjonction de subordination", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "« Ayez prévu » est :",
+            "choix": [
+              {"texte": "a) Subjonctif passé", "est_correct": true},
+              {"texte": "b) Un subjonctif plus-que-parfait", "est_correct": false},
+              {"texte": "c) Un conditionnel passé 1ere forme", "est_correct": false},
+              {"texte": "d) Un conditionnel passé 2eme forme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Cochez le passé indéfini :",
+            "choix": [
+              {"texte": "a) Il dormit", "est_correct": false},
+              {"texte": "b) Je tomberais comme une fleur", "est_correct": false},
+              {"texte": "c) Il chanta", "est_correct": false},
+              {"texte": "d) J'ai fini de parler", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Cochez le passé du conditionnel 2eme forme",
+            "choix": [
+              {"texte": "a) Il eût baillé", "est_correct": true},
+              {"texte": "b) Il eut baillé", "est_correct": false},
+              {"texte": "c) Qu'il aurait baillé", "est_correct": false},
+              {"texte": "d) Qu'il eût baillé", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Je vous .... Quand j' .... Ma décision »",
+            "choix": [
+              {"texte": "a) aurais prévenu --- avais pris", "est_correct": false},
+              {"texte": "b) aurais prévenu --- ai pris", "est_correct": false},
+              {"texte": "c) préviendrais --- aurais pris", "est_correct": true},
+              {"texte": "d) préviendrais --- aurais pris", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Les actrices de la ville que j'ai .... Jouer étaient excellentes ».",
+            "choix": [
+              {"texte": "a) Vu", "est_correct": false},
+              {"texte": "b) Vue", "est_correct": false},
+              {"texte": "c) Vues", "est_correct": true},
+              {"texte": "d) Vus", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Quelle peur nous avons .... »",
+            "choix": [
+              {"texte": "a) eue", "est_correct": true},
+              {"texte": "b) eu", "est_correct": false},
+              {"texte": "c) eus", "est_correct": false},
+              {"texte": "d) eues", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Cochez la bonne réponse pour cette phrase : « Ils sont .... Mauvais humeur parce que leurs am[is] .... Font la fête. »",
+            "choix": [
+              {"texte": "a) en---leurs", "est_correct": false},
+              {"texte": "b) en---leur", "est_correct": false},
+              {"texte": "c) de---leur", "est_correct": true},
+              {"texte": "d) de---leurs", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Cochez le futur du passé :",
+            "choix": [
+              {"texte": "a) Nous avions pressenti que le Brésil ne remporterais pas la coupe du monde", "est_correct": true},
+              {"texte": "b) Un jour un pays africain pourrait remporter la coupe du monde", "est_correct": false},
+              {"texte": "c) Si les panthères s'étaient bien préparées/ elles se qualifieraient pour cette coupe du monde", "est_correct": false},
+              {"texte": "d) sans la complaisance de l'arbitre, les éléphants atteindraient même les quarts de finale.",
+              "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Cochez l'impératif bien orthographié :",
+            "choix": [
+              {"texte": "a) méfies-toi", "est_correct": false},
+              {"texte": "b) craincs", "est_correct": false},
+              {"texte": "c) prends", "est_correct": true},
+              {"texte": "d) sèches-toi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Cochez l'impératif bien orthographié :",
+            "choix": [
+              {"texte": "a) Quelque soit la vitesse du vent, le catamaran maintient le cap.", "est_correct": false},
+              {"texte": "b) La pêche à la baleine quelques soit les protestations, n'est pas encore interdite", "est_correct": false},
+              {"texte": "c) Quelqu'ait pu être son courage, le capitaine abandonna son navire", "est_correct": false},
+              {"texte": "d) Quelques lointaines qu'elles paraissent, ces îles sont habitées", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

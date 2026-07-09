@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2020,
+        "mini_cours": "Orthographe, grammaire, expressions idiomatiques, adages et culture générale du Gabon et de l'Afrique.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Quelle est la forme correcte consacrée ?",
+            "choix": [
+              {"texte": "a. Science sans conscience peut ruiner l'âme", "est_correct": false},
+              {"texte": "b. Une Science sans une conscience ruine l'âme", "est_correct": false},
+              {"texte": "c. La Science sans la conscience ne peut que ruiner l'âme", "est_correct": false},
+              {"texte": "d. Science sans conscience n'est que ruine de l'âme", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Un intrus se cache dans cette liste",
+            "choix": [
+              {"texte": "a. complaisance", "est_correct": false},
+              {"texte": "b. contentement", "est_correct": false},
+              {"texte": "c. condescendance", "est_correct": true},
+              {"texte": "d. consentement", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Trouver l'intrus",
+            "choix": [
+              {"texte": "a. recalés", "est_correct": false},
+              {"texte": "b. repêchés", "est_correct": true},
+              {"texte": "c. ajournés", "est_correct": false},
+              {"texte": "d. refusés", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Quel est l'antonyme de « confiner » dans cette liste ?",
+            "choix": [
+              {"texte": "a. étendre", "est_correct": true},
+              {"texte": "b. isoler", "est_correct": false},
+              {"texte": "c. friser", "est_correct": false},
+              {"texte": "d. reléguer", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a. Quelles que soient ses fonctions", "est_correct": true},
+              {"texte": "b. Quel que soient ses fonctions", "est_correct": false},
+              {"texte": "c. Quelques soient ses fonctions", "est_correct": false},
+              {"texte": "d. Quels que soient ses fonctions", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a. la messe est terminée", "est_correct": false},
+              {"texte": "b. la messe est achevée", "est_correct": false},
+              {"texte": "c. la messe est finie", "est_correct": false},
+              {"texte": "d. la messe est dite", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Quelle est la forme correcte",
+            "choix": [
+              {"texte": "a. Nous avons prévu des portes-bagages", "est_correct": false},
+              {"texte": "b. Nous avons ptxSvt1 des porte-bagages", "est_correct": false},
+              {"texte": "c. nous avons prévu des portes –bagage", "est_correct": false},
+              {"texte": "d. Nous avons prévu des porte-bagage", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Cherchez l'intrus",
+            "choix": [
+              {"texte": "a. élève", "est_correct": true},
+              {"texte": "b. collègue", "est_correct": false},
+              {"texte": "c. acolyte", "est_correct": false},
+              {"texte": "d. complice", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser le mot souligné : « Qu'elle est jolie ! »",
+            "choix": [
+              {"texte": "a. pronom relatif", "est_correct": false},
+              {"texte": "b. adverbe de quantité", "est_correct": true},
+              {"texte": "c. pronom exclamatif", "est_correct": false},
+              {"texte": "d. conjonction de subordination", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser le proverbe suivant pris dans son sens métaphorique: « comme on fait son lit, on se couche ».",
+            "choix": [
+              {"texte": "a. pour bien dormir, il faut, au préalable, bien arranger son lit", "est_correct": false},
+              {"texte": "b. le bon sommeil dépendra de la manière dont le lit est fait", "est_correct": false},
+              {"texte": "c. quels que soient nos actes, il faudra en assumer les conséquences", "est_correct": true},
+              {"texte": "d. en toutes choses, il faut savoir se préparer", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser l'expression soulignée : « Il y est arrivé à cheval ».",
+            "choix": [
+              {"texte": "a. complément d'agent", "est_correct": false},
+              {"texte": "b. complément d'attribution", "est_correct": false},
+              {"texte": "c. complément circonstanciel de moyen", "est_correct": true},
+              {"texte": "d. complément d'objet direct", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Choisissez la réponse qui vous semble le mieux convenir pour caractériser le mot souligné : « pertinente fut sa réplique ».",
+            "choix": [
+              {"texte": "a. sujet du verbe", "est_correct": false},
+              {"texte": "b. attribut du sujet", "est_correct": true},
+              {"texte": "c. épithète", "est_correct": false},
+              {"texte": "d. adverbe de manière", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "cochez la phrase correcte",
+            "choix": [
+              {"texte": "a. Les femmes se sont partagé les bijoux", "est_correct": true},
+              {"texte": "b. Les femmes se sont partagées les bijoux", "est_correct": false},
+              {"texte": "c. Les femmes se sont partagés les bijoux", "est_correct": false},
+              {"texte": "d. Les femmes se sont partager les bijoux", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "« cette robe est magnifique ! ». Cette phrase est :",
+            "choix": [
+              {"texte": "a. interrogative", "est_correct": false},
+              {"texte": "b. déclarative", "est_correct": false},
+              {"texte": "c. exclamative", "est_correct": true},
+              {"texte": "d. impérative", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Cochez le mot bien orthographié",
+            "choix": [
+              {"texte": "a. distancier", "est_correct": false},
+              {"texte": "b. distansion", "est_correct": false},
+              {"texte": "c. distancer", "est_correct": true},
+              {"texte": "d. distanciation", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Cochez le mot mal orthographié de la liste",
+            "choix": [
+              {"texte": "a. visioconférence", "est_correct": false},
+              {"texte": "b. vidéoconférence", "est_correct": false},
+              {"texte": "c. visiomonde", "est_correct": true},
+              {"texte": "d. mondovision", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Laquelle des phrases suivantes est correcte ?",
+            "choix": [
+              {"texte": "a. l'homme qu'ils ont fait les poches", "est_correct": false},
+              {"texte": "b. l'homme à qui ils ont fait les poches", "est_correct": true},
+              {"texte": "c. l'homme à qui ils lui ont fait les poches", "est_correct": false},
+              {"texte": "d. l'homme pour qui ils ont fait les poches", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Quelle forme à l'impératif présent comporte une erreur ?",
+            "choix": [
+              {"texte": "a. tiens", "est_correct": false},
+              {"texte": "b. suis", "est_correct": false},
+              {"texte": "c. commences", "est_correct": true},
+              {"texte": "d. crois", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Elles se sont (donner) rendez-vous à Oyem. Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "a. donné", "est_correct": true},
+              {"texte": "b. donner", "est_correct": false},
+              {"texte": "c. donnés", "est_correct": false},
+              {"texte": "d. données", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Ses douleurs abdominales, elle les a (hériter). Quelle est la forme correcte",
+            "choix": [
+              {"texte": "a. hériter", "est_correct": false},
+              {"texte": "b. héritées", "est_correct": true},
+              {"texte": "c. hérités", "est_correct": false},
+              {"texte": "d. hérité", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Compléter l'adage « pierre qui roule... »",
+            "choix": [
+              {"texte": "a. .....tombe dans un trou", "est_correct": false},
+              {"texte": "b. .... peut faire mal", "est_correct": false},
+              {"texte": "c. .... n'amasse pas mousse", "est_correct": true},
+              {"texte": "d. .... se perd à jamais", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Compléter l'adage « un tien... »",
+            "choix": [
+              {"texte": "a. .......vaut mieux que rien", "est_correct": false},
+              {"texte": "b. .....ne vaut rien", "est_correct": false},
+              {"texte": "c. ...vaut mieux que deux tu l'auras", "est_correct": true},
+              {"texte": "d. .....vaut autant que tu l'auras", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Compléter l'adage « qui veut aller loin... »",
+            "choix": [
+              {"texte": "a. se repose bien d'abord", "est_correct": false},
+              {"texte": "b. s'informe sur sa destination", "est_correct": false},
+              {"texte": "c. prépare bien son voyage", "est_correct": false},
+              {"texte": "d. .... ménage sa monture", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Compléter l'adage « qui ne dit mot... »",
+            "choix": [
+              {"texte": "a. .... comprend", "est_correct": false},
+              {"texte": "b. .... consent", "est_correct": true},
+              {"texte": "c. d'éfend", "est_correct": false},
+              {"texte": "d. .... reprenc", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Qui a dit : « En Afrique, quand un vieillard meurt, c'est toute une bibliothèque qui brûle » ?",
+            "choix": [
+              {"texte": "a. Cheikh Amidou Kane", "est_correct": false},
+              {"texte": "b. Amadou Hampaté Bâ", "est_correct": true},
+              {"texte": "c. Sembène Ousmane", "est_correct": false},
+              {"texte": "d. Henri Lopès", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Un seul de ces énoncés est correct :",
+            "choix": [
+              {"texte": "a. Il ne siège pas à l'assemblée Nationale", "est_correct": true},
+              {"texte": "b. Il ne siège pas dans l'assemblée Nationale", "est_correct": false},
+              {"texte": "c. Il ne siège pas en Assemblée Nationale", "est_correct": false},
+              {"texte": "d. Il n'a pas un siège dans l'Assemblée Nationale", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Cochez la phrase correcte",
+            "choix": [
+              {"texte": "a. après qu'il soit venu, j'ai compris ses intentions", "est_correct": false},
+              {"texte": "b. avant qu'ils vinssent, prenons du thé", "est_correct": false},
+              {"texte": "c. avant que nous demandassions notre chemin, il disparut", "est_correct": false},
+              {"texte": "d. après son départ, je revins sur ma décision", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Cochez la phrase correcte",
+            "choix": [
+              {"texte": "a. Nous souhaiterions qu'on nous écrivasse", "est_correct": false},
+              {"texte": "b. Nous souhaiterions qu'on nous écrivit", "est_correct": false},
+              {"texte": "c. Nous souhaiterions que vous nous écriviez", "est_correct": false},
+              {"texte": "d. Nous souhaiterions que vous nous écrivissiez", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Quelle phrase comporte une syntaxe incorrecte ?",
+            "choix": [
+              {"texte": "a. Peu s'en fallut qu'il abandonnât, tant la route était longue", "est_correct": false},
+              {"texte": "b. Il faut qu'elle prit son temps", "est_correct": true},
+              {"texte": "c. Il faut que je parte pour Paris", "est_correct": false},
+              {"texte": "d. Faut-il que je t'aime ?", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "En un mot, que signifie « être acculturé » ?",
+            "choix": [
+              {"texte": "a. vivre sans culture aucune", "est_correct": false},
+              {"texte": "b. vivre dans un no man's land culturel", "est_correct": false},
+              {"texte": "c. être entièrement assimilé à une culture étrangère", "est_correct": true},
+              {"texte": "d. être enraciné dans sa culture et ouvert aux autres (cultures)", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "Que signifie le sigle V I H ?",
+            "choix": [
+              {"texte": "a. Virus Infectant l'Humain", "est_correct": false},
+              {"texte": "b. Vins Invariant de l'Humus", "est_correct": false},
+              {"texte": "c. Virulentes et Infectieuses Hormones", "est_correct": false},
+              {"texte": "d. Virus de l'Immunodéficience Humaine", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Quelle est la patrie du Docteur de Lambaréné, Albert Schweitzer ?",
+            "choix": [
+              {"texte": "a. L'Allemagne", "est_correct": true},
+              {"texte": "b. La Suisse", "est_correct": false},
+              {"texte": "c. Le Gabon", "est_correct": false},
+              {"texte": "d. La France", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "Le sigle BAD signifie :",
+            "choix": [
+              {"texte": "a. Budget actuel de développement", "est_correct": false},
+              {"texte": "b. Banque Africaine de développement", "est_correct": true},
+              {"texte": "c. Banque Asiatique de développement", "est_correct": false},
+              {"texte": "d. Budget africain de développement", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Les Conférences nationales ont eu lieu, en Afrique, en",
+            "choix": [
+              {"texte": "a. 1960", "est_correct": false},
+              {"texte": "b. 1990", "est_correct": true},
+              {"texte": "c. 2000", "est_correct": false},
+              {"texte": "d. 2009", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Retrouver l'intrus",
+            "choix": [
+              {"texte": "a. Léon Mebiame", "est_correct": false},
+              {"texte": "b. Paulin Obame Nguéma", "est_correct": false},
+              {"texte": "c. Casimir Oyé Mba", "est_correct": false},
+              {"texte": "d. Richard Nguéma Bekale", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Que signifie \"Tomber des nues\" ?",
+            "choix": [
+              {"texte": "a. Essuyer un échec", "est_correct": false},
+              {"texte": "b. Descendre de son piédestal", "est_correct": false},
+              {"texte": "c. Perdre son prestige", "est_correct": false},
+              {"texte": "d. Etre extrêmement surpris", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "L'Almamy Samory Touré, né en Guinée Conakry, est mort en 1900 à",
+            "choix": [
+              {"texte": "a. Miniambaladougou", "est_correct": false},
+              {"texte": "b. Ndjolé", "est_correct": true},
+              {"texte": "c. Dakar", "est_correct": false},
+              {"texte": "d. Tombouctou", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "L'hymne national du Gabon, la « Concorde », a été composé par",
+            "choix": [
+              {"texte": "a. Georges Damas Aléka", "est_correct": true},
+              {"texte": "b. Claude Damas Ozimo", "est_correct": false},
+              {"texte": "c. Léon Mba", "est_correct": false},
+              {"texte": "d. Paul-Marie Yembi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "« L'impératrice Eugénie » du Gabon une réalité& Est-ce le nom d' :",
+            "choix": [
+              {"texte": "a. Une sculpture sur Pierre de Mbigou", "est_correct": true},
+              {"texte": "b. Un masque Punu", "est_correct": false},
+              {"texte": "c. Une reine Kota du 18éme siècle", "est_correct": false},
+              {"texte": "d. Un barrage hydroélectrique", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "Laquelle de ces institutions de l'Organisation des Nations Unies s'occupe de l'enfance ?",
+            "choix": [
+              {"texte": "a. OMS", "est_correct": false},
+              {"texte": "b. PNUD", "est_correct": false},
+              {"texte": "c. UNESCO", "est_correct": false},
+              {"texte": "d. UNICEF", "est_correct": true}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -33,8 +33,6 @@
 {% endblock %}
 
 {% block content %}
-
-
 <div class="mb-3"><a href="{% url 'eleve:choisir_epreuve' epreuve.filiere.id %}">&laquo; Retour aux épreuves</a></div>
 
 <h1 class="h4 mb-1">{{ epreuve.titre }}</h1>
@@ -44,7 +42,7 @@
     <div class="card-body">
         <h5 class="card-title">Mini cours</h5>
         {% if epreuve.mini_cours %}
-            <div class="mb-3">{{ epreuve.mini_cours }}</div>
+            <div class="mb-3" style="white-space: pre-line;">{{ epreuve.mini_cours }}</div>
         {% else %}
             <div class="mb-3 text-muted">Aucun cours préparatoire pour cette épreuve.</div>
         {% endif %}
@@ -52,17 +50,14 @@
         <hr>
 
         <p class="mb-2"><strong>Prêt à commencer ?</strong></p>
-        <p class="mb-2">{{ epreuve.questions.count }} question(s) — <strong>10 secondes</strong> par question.</p>
+        <p class="mb-2">{{ epreuve.questions.count }} question(s) — <strong>1 heure</strong> pour l'examen.</p>
         <p class="mb-3">Bonne réponse : <strong>+1</strong>  |  Mauvaise réponse : <strong>-1</strong>  |  Pas de réponse : <strong>0</strong></p>
 
-        <a href="{% url 'eleve:demarrer_examen' epreuve.id %}" class="btn px-5" style="background:var(--forest-medium);color:#fff;font-weight:600;">Démarrer l'examen</a>
+        <a href="{% url 'eleve:demarrer_examen' epreuve.id %}" class="btn px-5" style="background:var(--forest-medium);color:#fff;font-weight:600;">Commencer l'examen</a>
     </div>
 </div>
-
 {% endblock %}
 
 {% block extra_js %}
-
     if (typeof feather !== 'undefined') feather.replace();
-
 {% endblock %}

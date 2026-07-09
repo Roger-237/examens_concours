@@ -1,0 +1,315 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Gestion",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2019,
+        "mini_cours": "RAPPELS GRAMMATICAUX — ANGLAIS\n\n1. LES MODAUX\n• must (obligation absolue) : You must wear a seatbelt.\n• have to (obligation externe) : I have to work tomorrow.\n• should (conseil) : You should eat vegetables.\n• ATTENTION : 'must to' n'existe PAS en anglais.\n\n2. LE PRESENT PERFECT\n• Forme : have/has + participe passé\n• Usage : action commencée dans le passé qui continue\n• Ex : I have played the piano since age 5.\n• Marqueurs : since, for, already, yet, ever, never\n\n3. LE PRÉTÉRIT SIMPLE\n• Usage : action terminée à un moment précis du passé\n• Ex : She died yesterday at noon.\n• Marqueurs : yesterday, last year, in 2010, ago\n\n4. LES COMPARATIFS ET SUPERLATIFS\n• Comparatif : cheaper THAN (+ court) / more expensive THAN (+ long)\n• Superlatif : THE cheapest / THE most expensive\n• Ex : Ethiopian Airways is cheaper than Air France.\n• Ex : The Ogooué is the longest river of Gabon.\n\n5. UNLESS = IF NOT\n• Ex : You won't enter UNLESS you wear a tie.\n• = You won't enter IF you DON'T wear a tie.\n\n6. LES PRONOMS RELATIFS\n• who → sujet personne\n• which → sujet/objet chose\n• whose → possession\n• where → lieu\n• Ex : This is a firm WHOSE products are exported worldwide.\n\n7. LES ARTICLES\n• a → avant consonne : a university (u = son 'you')\n• an → avant voyelle : an apple\n• the → défini\n• Ø → généralités\n\n8. USED TO + BV / BE USED TO + V-ING\n• used to do = habitude passée révolue\n• be used to doing = être habitué à\n• Ex : Bob is not used to BEING left alone.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "He was in black from ... to toe.",
+            "choix": [
+              {"texte": "a- tap", "est_correct": false},
+              {"texte": "b- top", "est_correct": true},
+              {"texte": "c- tock", "est_correct": false},
+              {"texte": "d- tick", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Doctor Adams is a general ...",
+            "choix": [
+              {"texte": "a- physicist", "est_correct": false},
+              {"texte": "b- physician", "est_correct": false},
+              {"texte": "c- practitioner", "est_correct": true},
+              {"texte": "d- therapist", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "If I ............ you, I'd see a doctor as soon as possible.",
+            "choix": [
+              {"texte": "a- were", "est_correct": true},
+              {"texte": "b- would be", "est_correct": false},
+              {"texte": "c- would", "est_correct": false},
+              {"texte": "d- am to be", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "You will have to ............. a complete check-up.",
+            "choix": [
+              {"texte": "a- undergo", "est_correct": true},
+              {"texte": "b- undertake", "est_correct": false},
+              {"texte": "c- underscore", "est_correct": false},
+              {"texte": "d- underline", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Jessica ..................... a book when she heard a knock at the door.",
+            "choix": [
+              {"texte": "a- has been reading", "est_correct": false},
+              {"texte": "b- reads", "est_correct": false},
+              {"texte": "c- is reading", "est_correct": false},
+              {"texte": "d- was reading", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Could you give me some more .......................... about this project?",
+            "choix": [
+              {"texte": "a- information", "est_correct": true},
+              {"texte": "b- informs", "est_correct": false},
+              {"texte": "c- informations", "est_correct": false},
+              {"texte": "d- in from", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "I was not able to persuade him ............... me anything.",
+            "choix": [
+              {"texte": "a- to tell", "est_correct": true},
+              {"texte": "b- to tell to", "est_correct": false},
+              {"texte": "c- to say", "est_correct": false},
+              {"texte": "d- to inform", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "I seem to have lost my wallet. Could you ............ me a couple of pounds?",
+            "choix": [
+              {"texte": "a- borrow", "est_correct": false},
+              {"texte": "b- lend", "est_correct": true},
+              {"texte": "c- let", "est_correct": false},
+              {"texte": "d- lent", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "The manager is currently on sick- .....................",
+            "choix": [
+              {"texte": "a- leaf", "est_correct": false},
+              {"texte": "b- leave", "est_correct": true},
+              {"texte": "c- live", "est_correct": false},
+              {"texte": "d- lease", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "After more than 3 hours they succeeded .................. the missing child.",
+            "choix": [
+              {"texte": "a- to find", "est_correct": false},
+              {"texte": "b- in locating", "est_correct": true},
+              {"texte": "c- finding", "est_correct": false},
+              {"texte": "d- to locate", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "That tree is almost as tall ...................... the one we saw in the park.",
+            "choix": [
+              {"texte": "a- than", "est_correct": false},
+              {"texte": "b- that", "est_correct": false},
+              {"texte": "c- like", "est_correct": false},
+              {"texte": "d- as", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Whenever he..................... something he never gives it back.",
+            "choix": [
+              {"texte": "a- will borrow", "est_correct": false},
+              {"texte": "b- lends", "est_correct": false},
+              {"texte": "c- borrows", "est_correct": true},
+              {"texte": "d- will lend", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "This person does not like,.......................sugar in his coffee.",
+            "choix": [
+              {"texte": "a- many", "est_correct": false},
+              {"texte": "b- several", "est_correct": false},
+              {"texte": "c- a lot", "est_correct": false},
+              {"texte": "d- much", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "As he was walking in the street he........................on the ice and broke his leg.",
+            "choix": [
+              {"texte": "a- went on", "est_correct": false},
+              {"texte": "b- felt", "est_correct": false},
+              {"texte": "c- glistened", "est_correct": false},
+              {"texte": "d- slipped", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "............................people have never seen a ghost in their life.",
+            "choix": [
+              {"texte": "a- Most of", "est_correct": false},
+              {"texte": "b- most", "est_correct": true},
+              {"texte": "c- the most", "est_correct": false},
+              {"texte": "d- the most of", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "If NDONG had worked hard, he ................... .",
+            "choix": [
+              {"texte": "a- would have succeeded", "est_correct": true},
+              {"texte": "b- would has succeeded", "est_correct": false},
+              {"texte": "c- will succeed", "est_correct": false},
+              {"texte": "d- would succeed", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "We went to see them two months ..............",
+            "choix": [
+              {"texte": "a- since", "est_correct": false},
+              {"texte": "b- for", "est_correct": false},
+              {"texte": "c- ago", "est_correct": true},
+              {"texte": "d- during", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "I.....................my pen yesterday.",
+            "choix": [
+              {"texte": "a- breaked", "est_correct": false},
+              {"texte": "b- broke", "est_correct": true},
+              {"texte": "c- broken", "est_correct": false},
+              {"texte": "d- have broken", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "MBA has been working here ..........",
+            "choix": [
+              {"texte": "a- for six months", "est_correct": true},
+              {"texte": "b- since six months", "est_correct": false},
+              {"texte": "c- six months ago", "est_correct": false},
+              {"texte": "d- during six months", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "I've lost one of my gloves. I ................. it somewhere.",
+            "choix": [
+              {"texte": "a- must drop", "est_correct": false},
+              {"texte": "b- must have dropped", "est_correct": true},
+              {"texte": "c- must be dropping", "est_correct": false},
+              {"texte": "d- must have dropping", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "The exam was quite easy. It was...........we expected.",
+            "choix": [
+              {"texte": "a- more easy that", "est_correct": false},
+              {"texte": "b- more easy than", "est_correct": false},
+              {"texte": "c- easier than", "est_correct": true},
+              {"texte": "d- easier as", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "I ....................... since I was twenty five.",
+            "choix": [
+              {"texte": "a- didn't smoke", "est_correct": false},
+              {"texte": "b- haven't smoked", "est_correct": true},
+              {"texte": "c- wasn't smoking", "est_correct": false},
+              {"texte": "d- am not smoking", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "My hair .........shorter than…………….",
+            "choix": [
+              {"texte": "a- are / your", "est_correct": false},
+              {"texte": "b- are / yours", "est_correct": false},
+              {"texte": "c- is / you", "est_correct": false},
+              {"texte": "d- is / yours", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Ethiopian Airways is……………….than Air France.",
+            "choix": [
+              {"texte": "a- cheapest", "est_correct": false},
+              {"texte": "b- the cheapest", "est_correct": false},
+              {"texte": "c- the cheaper", "est_correct": false},
+              {"texte": "d- cheaper", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "……………………of the population are Chinese.",
+            "choix": [
+              {"texte": "a- two on three", "est_correct": false},
+              {"texte": "b- two in third", "est_correct": false},
+              {"texte": "c- two thirds", "est_correct": true},
+              {"texte": "d- two threeth", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "She…………………yesterday at noon.",
+            "choix": [
+              {"texte": "a- has died", "est_correct": false},
+              {"texte": "b- dead", "est_correct": false},
+              {"texte": "c- is dying", "est_correct": false},
+              {"texte": "d- died", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "The UK has been in the European Community………………more than 30 years.",
+            "choix": [
+              {"texte": "a- since", "est_correct": false},
+              {"texte": "b- for", "est_correct": true},
+              {"texte": "c- ago", "est_correct": false},
+              {"texte": "d- during", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "NGUEMA will enter INSG as soon as he ............ to his exam.",
+            "choix": [
+              {"texte": "a- will succeed", "est_correct": false},
+              {"texte": "b- succeeds", "est_correct": true},
+              {"texte": "c- has succeeded", "est_correct": false},
+              {"texte": "d- would succed", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "What you are saying is completely true; so………………………………. .",
+            "choix": [
+              {"texte": "a- I am agree with you", "est_correct": false},
+              {"texte": "b- I agree with you", "est_correct": true},
+              {"texte": "c- I have agree with you", "est_correct": false},
+              {"texte": "d- I will have agree with you", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "If you come late to the exam, you……………………be admitted in the class.",
+            "choix": [
+              {"texte": "a- will", "est_correct": false},
+              {"texte": "b- are", "est_correct": false},
+              {"texte": "c- won't", "est_correct": true},
+              {"texte": "d- wont", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

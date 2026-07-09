@@ -1,0 +1,415 @@
+[
+  {
+    "ecole": "INSTITUT SUPERIEUR DE TECHNOLOGIE",
+    "filiere": "Pour toutes les filières",
+    "epreuves": [
+      {
+        "titre": "Anglais",
+        "annee": 2018,
+        "mini_cours": "Grammar, pronouns, tag questions, vocabulary, translations, and mathematical expressions in English.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "When someone says : \"my name is MBA NDONG Joseph\". MBA is his........",
+            "choix": [
+              {"texte": "a) First name", "est_correct": false},
+              {"texte": "b) nickname", "est_correct": false},
+              {"texte": "c) christian name", "est_correct": false},
+              {"texte": "d) last name", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "He asked ........... if it would be good day.",
+            "choix": [
+              {"texte": "a) To itself", "est_correct": false},
+              {"texte": "b) itself", "est_correct": false},
+              {"texte": "c) himself", "est_correct": false},
+              {"texte": "d) to himself", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Everybody wants to eat, ........... ?",
+            "choix": [
+              {"texte": "a) Don't they ?", "est_correct": true},
+              {"texte": "b) do they ?", "est_correct": false},
+              {"texte": "c) doesn't he ?", "est_correct": false},
+              {"texte": "d) does he ?" , "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "If you come late to the exam, you ............... be admitted in class.",
+            "choix": [
+              {"texte": "a) won't", "est_correct": true},
+              {"texte": "b) will", "est_correct": false},
+              {"texte": "c) wont", "est_correct": false},
+              {"texte": "d) are", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "P.I.N. code stands for :",
+            "choix": [
+              {"texte": "a) Permitted", "est_correct": false},
+              {"texte": "b) Personal Identification Number", "est_correct": true},
+              {"texte": "c) permitted Informal Number", "est_correct": false},
+              {"texte": "d) Permanent Incorrect Number", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Mont NKOUM is ........... mountain in Gabon.",
+            "choix": [
+              {"texte": "a) The more high", "est_correct": false},
+              {"texte": "b) the highest", "est_correct": true},
+              {"texte": "c) the higher", "est_correct": false},
+              {"texte": "d) the most high", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "My little brother likes ....................... football.",
+            "choix": [
+              {"texte": "a) practice", "est_correct": false},
+              {"texte": "b) to do", "est_correct": false},
+              {"texte": "c) playing", "est_correct": true},
+              {"texte": "d) play", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "NZAMBA and ............... are brothers.",
+            "choix": [
+              {"texte": "a) me", "est_correct": false},
+              {"texte": "b) my", "est_correct": false},
+              {"texte": "c) mine", "est_correct": false},
+              {"texte": "d) I", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "It's my phone that's ringing, not ............... !",
+            "choix": [
+              {"texte": "a) your", "est_correct": false},
+              {"texte": "b) yours", "est_correct": true},
+              {"texte": "c) mines", "est_correct": false},
+              {"texte": "d) mine", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "In basketball two teams which have 0/0 are said to be :",
+            "choix": [
+              {"texte": "a) Love / love", "est_correct": false},
+              {"texte": "b) nil / nil", "est_correct": true},
+              {"texte": "c) zero / zero", "est_correct": false},
+              {"texte": "d) 0 / 0", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "/............... Queen Elizabeth is still alive !",
+            "choix": [
+              {"texte": "a) Ø", "est_correct": true},
+              {"texte": "b) A", "est_correct": false},
+              {"texte": "c) An", "est_correct": false},
+              {"texte": "d) The", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Who ............... you such an excellent English ?",
+            "choix": [
+              {"texte": "a) teach", "est_correct": false},
+              {"texte": "b) teaches", "est_correct": true},
+              {"texte": "c) will teach", "est_correct": false},
+              {"texte": "d) taught", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "I saw ........................... orange on the tree.",
+            "choix": [
+              {"texte": "a) a", "est_correct": false},
+              {"texte": "b) an", "est_correct": true},
+              {"texte": "c) Ø", "est_correct": false},
+              {"texte": "d) two", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "I am a candidate, .............",
+            "choix": [
+              {"texte": "a) aim't I ?", "est_correct": false},
+              {"texte": "b) am I ?", "est_correct": false},
+              {"texte": "c) aren't I", "est_correct": true},
+              {"texte": "d) wasn't I", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Allan hates people ............... here.",
+            "choix": [
+              {"texte": "a) smoking", "est_correct": true},
+              {"texte": "b) to smoke", "est_correct": false},
+              {"texte": "c) are smoking", "est_correct": false},
+              {"texte": "d) smoke", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Ten by four equais :",
+            "choix": [
+              {"texte": "a) fifty", "est_correct": false},
+              {"texte": "b) thirty", "est_correct": false},
+              {"texte": "c) fourty", "est_correct": false},
+              {"texte": "d) forty", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "The plural of leaf is:",
+            "choix": [
+              {"texte": "a) leafs", "est_correct": false},
+              {"texte": "b) leafes", "est_correct": false},
+              {"texte": "c) leaves", "est_correct": true},
+              {"texte": "d) lefts", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "You ........................ park in this ares, it is not forbidden.",
+            "choix": [
+              {"texte": "a) shouldn't", "est_correct": false},
+              {"texte": "b) may", "est_correct": true},
+              {"texte": "c) must", "est_correct": false},
+              {"texte": "d) musn't", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Do you have ........................ money left .",
+            "choix": [
+              {"texte": "a) some", "est_correct": false},
+              {"texte": "b) no", "est_correct": false},
+              {"texte": "c) few", "est_correct": false},
+              {"texte": "d) any", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "The police ........................ trouble makers.",
+            "choix": [
+              {"texte": "a) is arrested", "est_correct": false},
+              {"texte": "b) has arrested", "est_correct": false},
+              {"texte": "c) have arrested", "est_correct": true},
+              {"texte": "d) are arrested", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "It's high time we ........................ together.",
+            "choix": [
+              {"texte": "a) stood", "est_correct": false},
+              {"texte": "b) stand", "est_correct": true},
+              {"texte": "c) standed", "est_correct": false},
+              {"texte": "d) have standed", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "We will eat very well when we ............... at home.",
+            "choix": [
+              {"texte": "a) will be", "est_correct": false},
+              {"texte": "b) are", "est_correct": true},
+              {"texte": "c) shall be", "est_correct": false},
+              {"texte": "d) were", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "we look forward to ........................ from you.",
+            "choix": [
+              {"texte": "a) hear", "est_correct": false},
+              {"texte": "b) to hear", "est_correct": false},
+              {"texte": "c) hearing", "est_correct": true},
+              {"texte": "d) to have heard", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Her monther would give her a gift if she .............",
+            "choix": [
+              {"texte": "a) succeeds.", "est_correct": false},
+              {"texte": "b) will succeed.", "est_correct": false},
+              {"texte": "c) successes", "est_correct": false},
+              {"texte": "d) succeeded", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "........... sky is very far from ........... moon.",
+            "choix": [
+              {"texte": "a) a / a", "est_correct": false},
+              {"texte": "b) the / a", "est_correct": false},
+              {"texte": "c) the / the", "est_correct": true},
+              {"texte": "d) a / the", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "when we arrived at the party most of people ........................ (leave).",
+            "choix": [
+              {"texte": "a) have left", "est_correct": false},
+              {"texte": "b) leave", "est_correct": false},
+              {"texte": "c) left", "est_correct": false},
+              {"texte": "d) had left", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Do not say that ........................",
+            "choix": [
+              {"texte": "a) i am not agree with her", "est_correct": false},
+              {"texte": "b) I agreed not with her", "est_correct": false},
+              {"texte": "c) i agreed not with her", "est_correct": false},
+              {"texte": "d) I do not agree with her", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "BIBANG is a young Gabonese student. He was born......Oyem and now lives......Nkembo",
+            "choix": [
+              {"texte": "a) in ; in", "est_correct": true},
+              {"texte": "b) at ; at", "est_correct": false},
+              {"texte": "c) in ; at", "est_correct": false},
+              {"texte": "d) at ; in", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "If I am late, I ............ In.",
+            "choix": [
+              {"texte": "a) Will come", "est_correct": false},
+              {"texte": "b) come", "est_correct": true},
+              {"texte": "c) came", "est_correct": false},
+              {"texte": "d) won't come", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "A woman or a man whose job is cooking is a :",
+            "choix": [
+              {"texte": "a) cook", "est_correct": true},
+              {"texte": "b) cooker", "est_correct": false},
+              {"texte": "c) cooking", "est_correct": false},
+              {"texte": "d) cookry", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "We ............... mandarin two years ago.",
+            "choix": [
+              {"texte": "a) have study", "est_correct": false},
+              {"texte": "b) studied", "est_correct": true},
+              {"texte": "c) study", "est_correct": false},
+              {"texte": "d) have studies", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "I don't have ........................ brothers in the room.",
+            "choix": [
+              {"texte": "a) any", "est_correct": true},
+              {"texte": "b) no", "est_correct": false},
+              {"texte": "c) a few", "est_correct": false},
+              {"texte": "d) some", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "My feet ........................ too much everytime.",
+            "choix": [
+              {"texte": "a) are hurting", "est_correct": false},
+              {"texte": "b) have hurting", "est_correct": false},
+              {"texte": "c) is hurting", "est_correct": false},
+              {"texte": "d) hurt", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Le 12ème in English is:",
+            "choix": [
+              {"texte": "a) the twelveth", "est_correct": false},
+              {"texte": "b) the twelf", "est_correct": false},
+              {"texte": "c) the twelfth", "est_correct": true},
+              {"texte": "d) the twelve", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "John has been living in Ghana ............ ages.",
+            "choix": [
+              {"texte": "a) for", "est_correct": true},
+              {"texte": "b) since", "est_correct": false},
+              {"texte": "c) ago", "est_correct": false},
+              {"texte": "d) while", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Elle m'a beaucoup déçu.",
+            "choix": [
+              {"texte": "a) I was much received in her!", "est_correct": false},
+              {"texte": "b) I was much deceived in her!", "est_correct": false},
+              {"texte": "c) I was much disappointed in her!", "est_correct": true},
+              {"texte": "d) I was much confused in her!"}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "I will be an engineer when I .................... old.",
+            "choix": [
+              {"texte": "a) shall be", "est_correct": false},
+              {"texte": "b) would", "est_correct": false},
+              {"texte": "c) am", "est_correct": true},
+              {"texte": "d) will be", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "4/3 in English is:",
+            "choix": [
+              {"texte": "a) the quart three", "est_correct": false},
+              {"texte": "b) the quart two", "est_correct": false},
+              {"texte": "c) the four thirds", "est_correct": true},
+              {"texte": "d) the four third", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "2018 (year) is read:",
+            "choix": [
+              {"texte": "a) the twenty one century", "est_correct": false},
+              {"texte": "b) the twentieth century", "est_correct": false},
+              {"texte": "c) two and height", "est_correct": false},
+              {"texte": "d) twenty eighteen", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "had I got flat means that :",
+            "choix": [
+              {"texte": "a) He has got a flat", "est_correct": false},
+              {"texte": "b) He regrets not possessing a flat", "est_correct": true},
+              {"texte": "c) He will get a flat", "est_correct": false},
+              {"texte": "d) He hasn's got a flat", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

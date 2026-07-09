@@ -1,0 +1,315 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Gestion",
+    "epreuves": [
+      {
+        "titre": "Français",
+        "annee": 2018,
+        "mini_cours": "RAPPELS GRAMMATICAUX — FRANÇAIS\n\n1. LES PROPOSITIONS SUBORDONNÉES\n• Relative : introduite par qui, que, dont, où, lequel...\n  Ex : L'étudiant QUI travaille réussit.\n• Conjonctive : introduite par que, parce que, bien que, si...\n  Ex : Je pense QU'il viendra.\n• Circonstancielle : temps, cause, but, concession...\n\n2. LES MODES VERBAUX\n• Indicatif : fait réel → Il VIENT demain.\n• Subjonctif : doute, souhait, obligation\n  → Bien qu'il SOIT fatigué...\n  → Il faut que tu VIENNES.\n• Conditionnel : hypothèse → Si j'avais le temps, je LIRAIS.\n• Infinitif : après préposition → Il part POUR travailler.\n\n3. LES TEMPS DU PASSÉ\n• Passé composé : action terminée avec lien au présent\n• Imparfait : description, habitude passée\n• Plus-que-parfait : action antérieure à une autre passée\n• Passé simple : récit littéraire\n\n4. L'ACCORD DU PARTICIPE PASSÉ\n• Avec être : s'accorde avec le sujet\n  Ex : Elle est PARTIE.\n• Avec avoir : s'accorde avec le COD si placé avant\n  Ex : La lettre qu'il a ÉCRITE.\n\n5. LES FIGURES DE STYLE\n• Métaphore : comparaison sans outil\n• Comparaison : avec comme, tel, ainsi que\n• Personnification : donner des traits humains à un objet\n• Hyperbole : exagération\n• Antithèse : opposition de deux idées\n\n6. LA PONCTUATION\n• Virgule : séparation d'éléments de même nature\n• Point-virgule : séparation de propositions liées\n• Deux-points : annonce une explication ou une liste\n• Guillemets : citation ou discours direct"
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Cette forêt, je l'ai (retrouver) (dégarnir)",
+            "choix": [
+              {"texte": "a- Retrouvé dégarnir", "est_correct": false},
+              {"texte": "b- retrouvé dégarnie", "est_correct": false},
+              {"texte": "c- retrouvée dégarnie", "est_correct": true},
+              {"texte": "d- retrouvée dégarni", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Lequel de ces mots est mal orthographié ?",
+            "choix": [
+              {"texte": "a- Disfonctionner", "est_correct": false},
+              {"texte": "b- disphonctionner", "est_correct": false},
+              {"texte": "c- dysfonctionner", "est_correct": true},
+              {"texte": "d- dysfonctioner", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Vous n'y arriverez pas (....)",
+            "choix": [
+              {"texte": "a- Quelque soit vous efforts et quoique vous fassiez", "est_correct": false},
+              {"texte": "b- quel que soient vos efforts et quoique vous fassiez", "est_correct": false},
+              {"texte": "c- quels que soient vos efforts et quoi que vous fassiez", "est_correct": true},
+              {"texte": "d- quel que soit vos efforts et quoi que vous fassiez", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "L'écrivain Aimé Césaire était de nationalité",
+            "choix": [
+              {"texte": "a- Malgache", "est_correct": false},
+              {"texte": "b- camerounais", "est_correct": false},
+              {"texte": "c- française", "est_correct": true},
+              {"texte": "d- belge", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Indiquer l'expression correcte : Les enfants n'ont pas vu l'entrée de la grotte",
+            "choix": [
+              {"texte": "a- Ne l'on pas vu", "est_correct": false},
+              {"texte": "b- ne les ont pas vue", "est_correct": false},
+              {"texte": "c- ne les ont pas vus", "est_correct": false},
+              {"texte": "d- ne l'ont pas vue", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Au mode indicatif, au passé antérieur, à la première personne du singulier, comment se conjugue le verbe « rire » ?",
+            "choix": [
+              {"texte": "a- J'avais ri", "est_correct": false},
+              {"texte": "b- j'eus ri", "est_correct": true},
+              {"texte": "c- j'aurai ri", "est_correct": false},
+              {"texte": "d- j'ai ri", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Respecter la concordance des temps et de mode dans cette phrase",
+            "choix": [
+              {"texte": "a- J'avais craint qu'il vienne", "est_correct": false},
+              {"texte": "b- j'avais craint qu'il ne vînt", "est_correct": true},
+              {"texte": "c- j'avais craint qu'il ne fût venu", "est_correct": false},
+              {"texte": "d- j'avais craint qu'il ne fusse venu", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Quel est le synonyme de pléthore",
+            "choix": [
+              {"texte": "a- Abondance excessive", "est_correct": true},
+              {"texte": "b- excitante", "est_correct": false},
+              {"texte": "c- présence", "est_correct": false},
+              {"texte": "d- exactitude", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Indiquer l'expression correcte (se succéder)",
+            "choix": [
+              {"texte": "a- Ils ses ont succédées", "est_correct": false},
+              {"texte": "b- ils se sont succédé", "est_correct": true},
+              {"texte": "c- ils se sont succéder", "est_correct": false},
+              {"texte": "d- ils se sont succédées", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Indiquer l'expression correcte : Les deux amis (se téléphoner) tous les jours",
+            "choix": [
+              {"texte": "a- Les deux amis ses sont téléphoné tous les jours", "est_correct": false},
+              {"texte": "b- les deux amis se sont téléphoné tous les jours", "est_correct": true},
+              {"texte": "c- les deux amis se sont téléphoner tous les jours", "est_correct": false},
+              {"texte": "d- les deux amis ses ont téléphonées tous les jours", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Identifiez la phrase qui ne comporte pas d'incorrection",
+            "choix": [
+              {"texte": "a- J'aperçois de braves bonshommes vêtus de chemises bleues-verts", "est_correct": false},
+              {"texte": "b- j'aperçois de braves bonshommes vêtus de chemises bleu-vert", "est_correct": true},
+              {"texte": "c- j'aperçois de braves bonshommes vêtus de chemises bleues-vertes", "est_correct": false},
+              {"texte": "d- j'aperçois de bonshommes vêtus de chemises bleu-vert", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Les débuts d'une chose sont les :",
+            "choix": [
+              {"texte": "a- Prémices", "est_correct": true},
+              {"texte": "b- prémisses", "est_correct": false},
+              {"texte": "c- prémhices", "est_correct": false},
+              {"texte": "d- prémhisses", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Indiquer l'expression correcte",
+            "choix": [
+              {"texte": "a- La bagnole dont j'ai rêvée", "est_correct": false},
+              {"texte": "b- la bagnole dont j'aie rêvée", "est_correct": false},
+              {"texte": "c- la bagnole dont j'ai rêvé", "est_correct": true},
+              {"texte": "d- la bagnole dont j'ai rêver", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "« J'AVAIS VECU » conjugué au :",
+            "choix": [
+              {"texte": "a- Passé composé", "est_correct": false},
+              {"texte": "b- passé antérieur", "est_correct": false},
+              {"texte": "c- plus-que-parfait", "est_correct": true},
+              {"texte": "d- passé simple", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Dans la phrase suivante, accorde le participe passé : « les arrhes que ces antiquaires (.....) équivalent à la moitié du prix d'achat du tableau »",
+            "choix": [
+              {"texte": "a- Reçurent", "est_correct": false},
+              {"texte": "b- ont reçus", "est_correct": false},
+              {"texte": "c- ont reçu", "est_correct": false},
+              {"texte": "d- ont reçues", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Doit-on écrire ?",
+            "choix": [
+              {"texte": "a- Ilétrisme", "est_correct": false},
+              {"texte": "b- illéttrisme", "est_correct": false},
+              {"texte": "c- illettrisme", "est_correct": true},
+              {"texte": "d- iletrisme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Indiquer l'expression correcte",
+            "choix": [
+              {"texte": "a- Nos amours lointain", "est_correct": false},
+              {"texte": "b- Nos amours lointaines", "est_correct": true},
+              {"texte": "c- Nos amours lointains", "est_correct": false},
+              {"texte": "d- Nos amours lointaint", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Le barbarisme est :",
+            "choix": [
+              {"texte": "a- Une faute de prononciation", "est_correct": false},
+              {"texte": "b- une faute due à l'altération du sens d'un mot", "est_correct": true},
+              {"texte": "c- une faute d'accord", "est_correct": false},
+              {"texte": "d- une faute de syntaxe", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Dans la phrase suivante, accorder le participe passé : Après le casting, ces charmantes demoiselles (....) de rêver devenir miss",
+            "choix": [
+              {"texte": "a- Se sont permies", "est_correct": false},
+              {"texte": "b- se sont permises", "est_correct": false},
+              {"texte": "c- se sont permis", "est_correct": true},
+              {"texte": "d- se sont permi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Le délit par lequel un fonctionnaire se rend coupable de percevoir des sommes qui ne sont pas dues est une :",
+            "choix": [
+              {"texte": "a- Une gabegie", "est_correct": false},
+              {"texte": "b- une concussion", "est_correct": true},
+              {"texte": "c- une prévarication", "est_correct": false},
+              {"texte": "d- une concupiscence", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Accorder le verbe dans cette expression : Jacques, le mécanicien (raidir) à son poste",
+            "choix": [
+              {"texte": "a- Raidis", "est_correct": false},
+              {"texte": "b- raidit", "est_correct": true},
+              {"texte": "c- raidi", "est_correct": false},
+              {"texte": "d- raidie", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "La phrase correcte est :",
+            "choix": [
+              {"texte": "a- Les parents sont rentrées", "est_correct": false},
+              {"texte": "b- les parents sont renté", "est_correct": false},
+              {"texte": "c- les parents sont rentrer", "est_correct": false},
+              {"texte": "d- les parents sont rentrés", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Quel est le synonyme de pléthore ?",
+            "choix": [
+              {"texte": "a- Abondance excessive", "est_correct": true},
+              {"texte": "b- excitante", "est_correct": false},
+              {"texte": "c- présence", "est_correct": false},
+              {"texte": "d- exactitude", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Choisir parmi les quatre mots l'antonyme ou celui qui a le sens contraire du mot : factice",
+            "choix": [
+              {"texte": "a- Honnête", "est_correct": false},
+              {"texte": "b- artificiel", "est_correct": false},
+              {"texte": "c- naturel", "est_correct": true},
+              {"texte": "d- essentiel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Léa a encouragé ses amies. On dira qu'elle .......",
+            "choix": [
+              {"texte": "a- l'a encoyragé", "est_correct": false},
+              {"texte": "b- les ont encouragée", "est_correct": false},
+              {"texte": "c- les a encouragées", "est_correct": true},
+              {"texte": "d- les a encourag", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Ils avaient (rencontrer) dans le désert les nomades qui avaient (égorger) des moutons pour boire leur sang",
+            "choix": [
+              {"texte": "a- Rencontré ... égorgé", "est_correct": true},
+              {"texte": "b- rencontrés....égorgé", "est_correct": false},
+              {"texte": "c- rencontrés.... Egorgés", "est_correct": false},
+              {"texte": "d- rencontré...égorger", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Après le casting, ces charmantes demoiselles (....) de rêver devenir miss",
+            "choix": [
+              {"texte": "a- Se sont permies", "est_correct": false},
+              {"texte": "b- se sont permises", "est_correct": false},
+              {"texte": "c- se sont permis", "est_correct": true},
+              {"texte": "d- se sont permi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Ecrit-on ....",
+            "choix": [
+              {"texte": "a- Qu'en-t-à moi ? je suis excellent en orthographe", "est_correct": false},
+              {"texte": "b- Quant à moi ? je suis excellent en orthographe", "est_correct": true},
+              {"texte": "c- quant t'à moi ? je suis excellent en orthographe", "est_correct": false},
+              {"texte": "d- quant à moi ? je suis excellent en orthographe", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Quelle série de mots complète correctement l'expression ci-après : C'est dans la …. Que je …. Ma farine …. Au mois de ….. j'y aussi quelques ….. qui se conservent, pour les consommer en cas de besoin",
+            "choix": [
+              {"texte": "a- Mai/ mets/mais /mai/mais /maies", "est_correct": false},
+              {"texte": "b- maie/mets/mais/mai/mets/mets", "est_correct": true},
+              {"texte": "c- maie/mais/mets/mets/mets/mais", "est_correct": false},
+              {"texte": "d- mai/maies /mai/mais/mais/mets", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "Quelle série de mots complète correctement l'expression ci-après : C'est à … que, soignant une maladie de .. il enfin trouvé la …. Et je crois que cette ………. c'est profondément ancré en lui",
+            "choix": [
+              {"texte": "a- Foie/foi/foie/fois", "est_correct": true},
+              {"texte": "b- foix/foie/foi/fois", "est_correct": false},
+              {"texte": "c- foix/fois/foie/foi", "est_correct": false},
+              {"texte": "d- foie/foie/foie/fo...", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

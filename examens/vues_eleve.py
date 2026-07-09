@@ -1,3 +1,4 @@
+import json
 from django.views import View
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
@@ -90,84 +91,119 @@ class VueDemarrerExamen(EleveRequis, View):
         epreuve = get_object_or_404(Epreuve, id=epreuve_id)
         eleve = request.user.eleve
 
-        # Crée une nouvelle tentative
         tentative = Tentative.objects.create(eleve=eleve, epreuve=epreuve)
 
-        return redirect('eleve:passer_question', tentative_id=tentative.id, ordre=1)
+        request.session[f'tentative_{tentative.id}_debut'] = timezone.now().isoformat()
+        request.session[f'tentative_{tentative.id}_reponses'] = {}
+
+        return redirect('eleve:passer_examen', tentative_id=tentative.id)
 
 
 # ─────────────────────────────────────────
-#  PASSER UNE QUESTION
+#  PASSER L'EXAMEN — PAGE UNIQUE
 # ─────────────────────────────────────────
-class VuePasserQuestion(EleveRequis, View):
+class VuePasserExamen(EleveRequis, View):
 
-    def get(self, request, tentative_id, ordre):
+    def get(self, request, tentative_id):
         tentative = get_object_or_404(Tentative, id=tentative_id, eleve=request.user.eleve)
 
         if tentative.terminee:
             return redirect('eleve:resultat_examen', tentative_id=tentative.id)
 
-        questions = list(tentative.epreuve.questions.prefetch_related('choix').all())
-        total_questions = len(questions)
+        questions = list(tentative.epreuve.questions.prefetch_related('choix').order_by('ordre'))
 
-        if int(ordre) > total_questions:
-            return redirect('eleve:terminer_examen', tentative_id=tentative.id)
+        debut_str = request.session.get(f'tentative_{tentative.id}_debut')
+        if debut_str:
+            debut = timezone.datetime.fromisoformat(debut_str)
+            if timezone.is_naive(debut):
+                debut = timezone.make_aware(debut)
+            ecoule = (timezone.now() - debut).total_seconds()
+            restant = max(0, 3600 - int(ecoule))
+        else:
+            restant = 3600
 
-        question = questions[int(ordre) - 1]
+        if restant <= 0:
+            return redirect('eleve:soumettre_examen', tentative_id=tentative.id)
 
-        return render(request, 'examens/eleve/passer_question.html', {
+        reponses_session = request.session.get(f'tentative_{tentative.id}_reponses', {})
+
+        questions_data = []
+        for q in questions:
+            choix_list = [{'id': c.id, 'texte': c.texte} for c in q.choix.all()]
+            questions_data.append({
+                'id': q.id,
+                'ordre': q.ordre,
+                'texte': q.texte,
+                'choix': choix_list,
+                'reponse_donnee': reponses_session.get(str(q.id)),
+            })
+
+        return render(request, 'examens/eleve/passer_examen.html', {
             'tentative': tentative,
-            'question': question,
-            'ordre': int(ordre),
-            'total_questions': total_questions,
+            'questions': questions,
+            'questions_json': json.dumps(questions_data),
+            'total': len(questions),
+            'temps_restant': restant,
+            'reponses_json': json.dumps(reponses_session),
         })
 
-    def post(self, request, tentative_id, ordre):
+    def post(self, request, tentative_id):
         tentative = get_object_or_404(Tentative, id=tentative_id, eleve=request.user.eleve)
-        questions = list(tentative.epreuve.questions.all())
-        question = questions[int(ordre) - 1]
 
-        choix_id = request.POST.get('choix')
-        choix = None
-        if choix_id:
-            choix = Choix.objects.filter(id=choix_id, question=question).first()
+        if tentative.terminee:
+            return redirect('eleve:resultat_examen', tentative_id=tentative.id)
 
-        # Enregistre la réponse (une seule fois par question)
-        ReponseEleve.objects.update_or_create(
-            tentative=tentative,
-            question=question,
-            defaults={'choix': choix},
-        )
+        reponses = {}
+        for key, value in request.POST.items():
+            if key.startswith('question_'):
+                question_id = key.replace('question_', '')
+                reponses[question_id] = value
 
-        ordre_suivant = int(ordre) + 1
-        if ordre_suivant > len(questions):
-            return redirect('eleve:terminer_examen', tentative_id=tentative.id)
+        request.session[f'tentative_{tentative.id}_reponses'] = reponses
+        request.session.modified = True
 
-        return redirect('eleve:passer_question', tentative_id=tentative.id, ordre=ordre_suivant)
+        return redirect('eleve:soumettre_examen', tentative_id=tentative.id)
 
 
 # ─────────────────────────────────────────
-#  TERMINER L'EXAMEN — calcul du score
+#  SOUMETTRE L'EXAMEN — CALCUL SCORE
 # ─────────────────────────────────────────
-class VueTerminerExamen(EleveRequis, View):
+class VueSoumettreExamen(EleveRequis, View):
 
     def get(self, request, tentative_id):
         tentative = get_object_or_404(Tentative, id=tentative_id, eleve=request.user.eleve)
 
         if not tentative.terminee:
+            reponses_session = request.session.get(f'tentative_{tentative.id}_reponses', {})
+            questions = tentative.epreuve.questions.prefetch_related('choix').all()
+
             score = 0
-            for reponse in tentative.reponses.select_related('choix', 'question'):
-                if reponse.choix is None:
-                    continue  # pas répondu → 0
-                if reponse.choix.est_correct:
-                    score += 1
-                else:
-                    score -= 1
+            for question in questions:
+                choix_id = reponses_session.get(str(question.id))
+                choix = None
+
+                if choix_id:
+                    choix = Choix.objects.filter(id=choix_id, question=question).first()
+
+                ReponseEleve.objects.update_or_create(
+                    tentative=tentative,
+                    question=question,
+                    defaults={'choix': choix},
+                )
+
+                if choix:
+                    if choix.est_correct:
+                        score += 1
+                    else:
+                        score -= 1
 
             tentative.score = score
             tentative.terminee = True
             tentative.date_fin = timezone.now()
             tentative.save()
+
+            request.session.pop(f'tentative_{tentative.id}_debut', None)
+            request.session.pop(f'tentative_{tentative.id}_reponses', None)
 
         return redirect('eleve:resultat_examen', tentative_id=tentative.id)
 
