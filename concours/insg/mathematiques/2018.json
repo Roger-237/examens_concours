@@ -1,0 +1,324 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Première Année",
+    "epreuves": [
+      {
+        "titre": "Mathématiques",
+        "annee": 2018,
+        "latex": true,
+        "mini_cours": "Algèbre, analyse, probabilités, statistiques, fonctions logarithmes et exponentielles, géométrie analytique.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Une maison coute $100\\,000$ euro. On ajoute une taxe de $10\\%$ à ce prix. Combien coutera cette maison ?",
+            "choix": [
+              {"texte": "a- $155\\,000$ euro", "est_correct": false},
+              {"texte": "b- $150\\,000$ euro", "est_correct": false},
+              {"texte": "c- $110\\,000$ euro", "est_correct": true},
+              {"texte": "d- $105\\,000$ euro", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "On donne la fonction numérique : $f(x) = \\dfrac{x^3 + 5x^2 + 8}{x^2 + 2x + 4}$, son ensemble de définition est :",
+            "choix": [
+              {"texte": "a- $\\mathbb{R}$", "est_correct": true},
+              {"texte": "b- $\\mathbb{R} \\setminus \\{2\\}$", "est_correct": false},
+              {"texte": "c- $\\mathbb{R}^+$", "est_correct": false},
+              {"texte": "d- $\\mathbb{R}^*$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "On donne la fonction numérique : $f(x) = \\dfrac{x^3 + 27}{x^2 - 3x + 9}$, après simplification, $f(x)$ est égal :",
+            "choix": [
+              {"texte": "a- $f(x) = x + 3$", "est_correct": true},
+              {"texte": "b- $f(x) = x^2$", "est_correct": false},
+              {"texte": "c- $f(x) = x^2 + 9$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Donner l'expression équivalente à $\\dfrac{x - 1}{x + 3} + \\dfrac{x + 1}{2(x + 3)}$ :",
+            "choix": [
+              {"texte": "a- $\\dfrac{3x + 1}{2(x + 3)}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{3x - 1}{2(x + 3)}$", "est_correct": true},
+              {"texte": "c- $\\dfrac{2x}{2(x + 3)}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Résoudre l'équation suivante : $f(x) = \\ln(e^{x - 2} \\times e^{2x - 5}) = -1$",
+            "choix": [
+              {"texte": "a- $X = \\ln 2$", "est_correct": false},
+              {"texte": "b- $X = -2$", "est_correct": false},
+              {"texte": "c- $X = e^2$", "est_correct": false},
+              {"texte": "d- $X = 2$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Dans la division euclidienne, quelle est le reste de $2x^2 + 6x + 9$ par $(x - 3)$ ?",
+            "choix": [
+              {"texte": "a- $9$", "est_correct": false},
+              {"texte": "b- $45$", "est_correct": true},
+              {"texte": "c- $12$", "est_correct": false},
+              {"texte": "d- $0$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Les solutions de l'équation : $x^2 + 3x = 40$",
+            "choix": [
+              {"texte": "a- $X = 8$ ou $X = -5$", "est_correct": false},
+              {"texte": "b- $X = -5$ ou $X = -8$", "est_correct": false},
+              {"texte": "c- $X = -8$ ou $X = 5$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Soit un triangle $(ABC)$, rectangle en $A$ tel que $AB = 3\\text{ cm}$ et $AC = 4\\text{ cm}$ , sa surface $S$.",
+            "choix": [
+              {"texte": "a- $S = 12\\text{ cm}^2$", "est_correct": false},
+              {"texte": "b- $S = 6\\text{ cm}^2$", "est_correct": true},
+              {"texte": "c- $S = 7\\text{ cm}^2$", "est_correct": false},
+              {"texte": "d- $S = 24\\text{ cm}^2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Déterminer le domaine de définition de la fonction : $x^2 + 4x + \\dfrac{4}{x^2 + 4}$",
+            "choix": [
+              {"texte": "a- $[0\\;; +\\infty[$", "est_correct": false},
+              {"texte": "b- $]-\\infty\\;; 0]$", "est_correct": false},
+              {"texte": "c- $\\mathbb{R}$", "est_correct": true},
+              {"texte": "d- $\\mathbb{R}^*$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Calculer le quart de la racine carrée de $144$",
+            "choix": [
+              {"texte": "a- $4/3$", "est_correct": false},
+              {"texte": "b- $12$", "est_correct": false},
+              {"texte": "c- $3$", "est_correct": true},
+              {"texte": "d- $4$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Calculer la limite de $f(x) = e^{-x}$ quand $x$ tend vers $-\\infty$",
+            "choix": [
+              {"texte": "a- $0$", "est_correct": false},
+              {"texte": "b- $-\\infty$", "est_correct": false},
+              {"texte": "c- $+\\infty$", "est_correct": true},
+              {"texte": "d- $1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "A l'achat d'une marchandise qui vaut $150\\,000\\text{ F}$, le commerçant octroie à un client une remise de $30\\%$. Que payera le client ?",
+            "choix": [
+              {"texte": "a- $100\\,000$", "est_correct": false},
+              {"texte": "b- $120\\,000$", "est_correct": false},
+              {"texte": "c- $185\\,000$", "est_correct": false},
+              {"texte": "d- $105\\,000$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Donner le résultat de $\\dfrac{6 + 3\\ln(e^2)}{2}$",
+            "choix": [
+              {"texte": "a- $5$", "est_correct": false},
+              {"texte": "b- $6$", "est_correct": true},
+              {"texte": "c- $\\ln(2)$", "est_correct": false},
+              {"texte": "d- $1/4$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "On pose $f(x) = \\dfrac{4}{4x^2 - 1}$ , sa limite à l'infini est :",
+            "choix": [
+              {"texte": "a- $1$", "est_correct": false},
+              {"texte": "b- $0$", "est_correct": true},
+              {"texte": "c- $+\\infty$", "est_correct": false},
+              {"texte": "d- $-\\infty$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Soit : $f(x) = \\dfrac{4}{4x^2 - 1}$, $f$ est dérivable sur :",
+            "choix": [
+              {"texte": "a- $\\mathbb{R}$", "est_correct": false},
+              {"texte": "b- $\\mathbb{R} \\setminus \\left\\{-\\dfrac{1}{2}\\;; \\dfrac{1}{2}\\right\\}$", "est_correct": true},
+              {"texte": "c- $\\mathbb{R}^*$", "est_correct": false},
+              {"texte": "d- $\\mathbb{R}^+$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "$I = \\,]0\\;; +\\infty[\\,; f(x) = \\ln(3x) + \\ln 3$. L'expression de la dérivée $f'(x)$ est :",
+            "choix": [
+              {"texte": "a- $\\dfrac{1}{3x} + \\dfrac{1}{3}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{1}{3}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{1}{3x}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{1}{x}$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "$I = \\mathbb{R}; f(x) = (x + 3)e^{-x}$. L'expression de la dérivée $f'(x)$ est :",
+            "choix": [
+              {"texte": "a- $(x + 2)e^{-x}$", "est_correct": false},
+              {"texte": "b- $(x + 2)e^x$", "est_correct": false},
+              {"texte": "c- $(-x - 2)e^{-x}$", "est_correct": true},
+              {"texte": "d- $(x - 2)e^{-x}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Le personnel d'une entreprise se répartit de la façon suivante : Hommes Parlent anglais (180), Ne parlent pas anglais (50), Total (230) | Femmes Parlent anglais (60), Ne parlent pas anglais (60), Total (260) | Total Parlent anglais (380), Ne parlent pas anglais (110), Total (490). On choisit au hasard un individu parmi le personnel de cette entreprise. On considère les évènements : $H$ : \"cette personne est un homme\" ; $A$ : \"cette personne parle anglais\". $P(H)$ est égale à :",
+            "choix": [
+              {"texte": "a- $\\dfrac{18}{49}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{23}{49}$", "est_correct": true},
+              {"texte": "c- $\\dfrac{18}{23}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{13}{23}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "En utilisant le tableau de l'entreprise précédente, $P(A)$ est égale à :",
+            "choix": [
+              {"texte": "a- $\\dfrac{38}{49}$", "est_correct": true},
+              {"texte": "b- $\\dfrac{11}{49}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{9}{19}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{11}{19}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "En utilisant le tableau de l'entreprise précédente, $P(A \\cap H)$ est égale à :",
+            "choix": [
+              {"texte": "a- $\\dfrac{18}{38}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{18}{23}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{18}{49}$", "est_correct": true},
+              {"texte": "d- $\\dfrac{18}{26}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Lorsque l'on applique à un article une TVA de $8{,}5\\%$ le coefficient multiplicateur est :",
+            "choix": [
+              {"texte": "a- $0{,}085$", "est_correct": false},
+              {"texte": "b- $1{,}085$", "est_correct": true},
+              {"texte": "c- $0{,}85$", "est_correct": false},
+              {"texte": "d- $1{,}85$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Le prix de l'essence a subi plusieurs augmentations successives : $+5{,}2\\%$ en novembre ; $+4\\%$ en février ; $+2{,}6\\%$ en mars. Globalement, arrondi au centième près de pourcentage, le prix de l'essence a augmenté de :",
+            "choix": [
+              {"texte": "a- $11{,}8\\%$", "est_correct": false},
+              {"texte": "b- $12{,}50\\%$", "est_correct": false},
+              {"texte": "c- $12{,}25\\%$", "est_correct": true},
+              {"texte": "d- $12{,}80\\%$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "La population d'une ville a diminuée de $7{,}5\\%$ entre 1960 puis a augmenté de $5{,}5\\%$ entre 1960 et 1990 puis a augmenté de $5{,}5\\%$ entre 1990 et 2015. Entre 1960 et 2015, la population a :",
+            "choix": [
+              {"texte": "a- Baissé de $2\\%$", "est_correct": false},
+              {"texte": "b- augmenté de $2\\%$", "est_correct": false},
+              {"texte": "c- baissé d'environ $2{,}4\\%$", "est_correct": true},
+              {"texte": "d- baissé d'environ $1{,}4\\%$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Dans le plan muni d'un repère orthogonal $(O\\;; \\vec{i}, \\vec{j})$, on a les points $A(1\\;; 3)$ et $B(-2\\;; 15)$ une équation de la droite $(AB)$ est :",
+            "choix": [
+              {"texte": "a- $Y = 4x - 7$", "est_correct": false},
+              {"texte": "b- $y = -4x + 7$", "est_correct": true},
+              {"texte": "c- $y = -4x - 7$", "est_correct": false},
+              {"texte": "d- $y = 4x + 7$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Dans le plan muni d'un repère orthogonal $(O\\;; \\vec{i}, \\vec{j})$, on a la droite $D$ d'équation : $\\dfrac{1}{4}x + 3y = 5$ l'équation réduit de $D$ est :",
+            "choix": [
+              {"texte": "a- $Y = -\\dfrac{1}{7}x + \\dfrac{5}{3}$", "est_correct": false},
+              {"texte": "b- $y = -\\dfrac{1}{12}x + \\dfrac{5}{3}$", "est_correct": true},
+              {"texte": "c- $y = \\dfrac{1}{12}x - \\dfrac{5}{3}$", "est_correct": false},
+              {"texte": "d- $y = \\dfrac{1}{12}x - \\dfrac{5}{3}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Dans le plan muni d'un repère orthogonal $(O\\;; \\vec{i}, \\vec{j})$ on a deux droites d'équation : $D_1 : y = -\\dfrac{1}{3}x + 4$ et $D_2 : y = \\dfrac{2}{3}x + 7$. Le couple de coordonnées du point d'intersection de $D_1$ et $D_2$ est :",
+            "choix": [
+              {"texte": "a- $I(-3\\;; 5)$", "est_correct": true},
+              {"texte": "b- $I(0\\;; -2)$", "est_correct": false},
+              {"texte": "c- $I(3\\;; 3)$", "est_correct": false},
+              {"texte": "d- $I(12\\;; 0)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "$\\ln(3) + \\ln(2)$ est égale à :",
+            "choix": [
+              {"texte": "a- $\\ln(5)$", "est_correct": false},
+              {"texte": "b- $\\ln\(\\dfrac{2}{3}\)$", "est_correct": false},
+              {"texte": "c- $\\ln(6)$", "est_correct": true},
+              {"texte": "d- $\\ln\(\\dfrac{3}{2}\)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "on peut calculer $\\ln(x^2 - 1)$ sur l'intervalle :",
+            "choix": [
+              {"texte": "a- $]0\\;; +\\infty[$", "est_correct": false},
+              {"texte": "b- $]-\\infty\\;; 0]$", "est_correct": false},
+              {"texte": "c- $]-1\\;; 1[$", "est_correct": false},
+              {"texte": "d- $]1\\;; +\\infty[$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "$\\dfrac{e^5 \\times e^3}{e^9}$ est égale à :",
+            "choix": [
+              {"texte": "a- $e^{-1}$", "est_correct": true},
+              {"texte": "b- $e^6$", "est_correct": false},
+              {"texte": "c- $e$", "est_correct": false},
+              {"texte": "d- $\\dfrac{1}{e^{-1}}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "$\\ln(e^7)$ est égale à :",
+            "choix": [
+              {"texte": "a- $\\ln(7)$", "est_correct": false},
+              {"texte": "b- $7$", "est_correct": true},
+              {"texte": "c- $e^7$", "est_correct": false},
+              {"texte": "d- $\\exp(7)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "L'ensemble des solutions de l'inéquation $(x + 1)e^x > 0$ est :",
+            "choix": [
+              {"texte": "a- $\\mathbb{R}$", "est_correct": false},
+              {"texte": "b- $]1\\;; +\\infty[$", "est_correct": false},
+              {"texte": "c- $]-1\\;; +\\infty[$", "est_correct": true},
+              {"texte": "d- $[-1\\;; +\\infty[$", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+

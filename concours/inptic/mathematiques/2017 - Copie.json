@@ -1,0 +1,256 @@
+[
+{
+"ecole": "INPTIC",
+"filiere": "GENIE INFORMATIQUE",
+"epreuves": [
+{
+"titre": "Mathématiques",
+"annee": 2017,
+"latex": true,
+"mini_cours": "--- STRATÉGIES ET FORMULES CLÉS (INPTIC MATHS 2017) ---\n\n1. GÉOMÉTRIE ET COMPLEXES DANS LE PLAN ET L'ESPACE :\n- Distance dans le plan complexe : Pour deux points d'affixes $z_A$ et $z_B$, la distance vaut $AB = |z_B - z_A| = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}$.\n- Distance dans l'espace orthonormé : Pour deux points $A(x_A, y_A, z_A)$ et $B(x_B, y_B, z_B)$, la distance est $AB = \\sqrt{(x_B-x_A)^2 + (y_B-y_A)^2 + (z_B-z_A)^2}$.\n- Nature d'un triangle : Calculez les carrés des longueurs des trois côtés ($AB^2$, $BC^2$, $AC^2$). Si deux carrés sont égaux, le triangle est isocèle. Si les longueurs vérifient la relation de Pythagore $AB^2 + BC^2 = AC^2$, le triangle est rectangle en $B$.\n\n2. STATISTIQUES, FLUCTUATION ET CONFIANCE :\n- Intervalle de fluctuation asymptotique ($95\\%$) : Pour un échantillon de taille $n \\geq 30$ et une proportion théorique $p$ (avec $np \\geq 5$ et $n(1-p) \\geq 5$), l'intervalle est : $I = \\left[ p - 1{,}96 \\dfrac{\\sqrt{p(1-p)}}{\\sqrt{n}} \\;; p + 1{,}96 \\dfrac{\\sqrt{p(1-p)}}{\\sqrt{n}} \right]$. Pour $n = 100$ et $p = 0{,}5$, l'intervalle est $I = [0{,}5 - 0{,}098 \\;; 0{,}5 + 0{,}098] = [0{,}402 \\;; 0{,}598]$.\n- Intervalle de confiance et taille minimale d'échantillon : L'intervalle de confiance usuel au niveau de confiance de $95\\%$ possède une amplitude maximale de $A = \\dfrac{2}{\\sqrt{n}}$. Pour obtenir une amplitude strictement inférieure à un seuil $d$, on résout l'inéquation $\\dfrac{2}{\\sqrt{n}} < d \\iff \\sqrt{n} > \\dfrac{2}{d} \\iff n > \\dfrac{4}{d^2}$. Pour $d = 0{,}05$, on trouve $n > \\dfrac{4}{(0{,}05)^2} = 1600$ individus.\n\n3. RECURRENCE ET EXPLICITATION DES SUITES :\n- Suite définie par récurrence : Le terme suivant est exprimé en fonction du précédent ($u_{n+1} = f(u_n)$). Par exemple, avec $u_{n+1} = 3u_n + 6$ et $u_0 = 1$, le premier terme calculé est $u_1 = 3(1) + 6 = 9$.\n- Suite géométrique : Définie par la relation $u_{n+1} = q \times u_n$. Son terme général s'exprime par $u_n = u_p \times q^{n-p}$.\n- Somme de termes géométriques consécutifs : $S = u_{\text{premier}} \times \\dfrac{q^{N} - 1}{q - 1}$ (où $N$ est le nombre total de termes sommés).\n\n4. ANALYSE ET DÉRIVATION (FONCTIONS COMPOSÉES ET INVERSES) :\n- Dérivées des fonctions usuelles et trigonométriques :\n  * Dérivée de l'arc tangente : $(\\arctan(x))' = \\dfrac{1}{1+x^2}$.\n  * Identité de trigonométrie inverse : $\\cos\\left(\\arctan\\left(\\dfrac{1}{x}\right)\right) = \\sin(\\arctan(x))$ pour tout $x > 0$.\n  * Dérivée de la composée exponentielle : $(e^{u})' = u' e^u$. Ainsi, pour $f(x) = e^{-x^2}$, sa dérivée est $f'(x) = -2xe^{-x^2}$.\n  * Dérivée d'un produit : $(uv)' = u'v + uv'$. Pour $f(x) = x e^{-x}$, on obtient $f'(x) = 1 \\cdot e^{-x} + x \\cdot (-e^{-x}) = (1-x)e^{-x}$.\n- Tangente à une courbe : L'équation réduite de la tangente à la courbe représentative de $f$ en un point d'abscisse $a$ est donnée par : $y = f'(a)(x-a) + f(a)$.\n\n5. CONVEXITÉ ET CONCAVITÉ :\n- Une fonction deux fois dérivable $f$ est dite concave sur un intervalle $I$ si sa dérivée seconde est négative ($f''(x) \\leq 0$) pour tout $x \\in I$. Elle est dite convexe si sa dérivée seconde est positive ($f''(x) \\geq 0$) sur cet intervalle.\n\n6. INTÉGRATION ET PRIMITIVES :\n- Primitive de l'exponentielle affine : Une primitive de la fonction $x \\mapsto e^{ax+b}$ sur $\\mathbb{R}$ est la fonction $x \\mapsto \\dfrac{1}{a} e^{ax+b} + C$.\n- Primitive de la fonction logarithme : Une primitive de la fonction $x \\mapsto \\ln(x)$ sur $]0\\;; +\\infty[$ est la fonction $x \\mapsto x \\ln(x) - x + C$.\n\n7. PROBABILITÉS ÉLÉMENTAIRES :\n- Événement certain : Événement dont la probabilité est égale à $1$ (sa réalisation est garantie).\n- Événement impossible : Événement dont la probabilité est égale à $0$ (il ne peut pas se réaliser).\n- Événements incompatibles : Deux événements $A$ et $B$ sont incompatibles si et seulement si leur intersection est vide ($A \\cap B = \\emptyset$), ce qui implique que $P(A \\cap B) = 0$.\n- Probabilité sous équiprobabilité : $P(A) = \\dfrac{\text{Nombre de cas favorables}}{\text{Nombre de cas possibles}}$.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Dans le plan complexe, les points $A$, $B$ et $C$ ont pour affixes $-2+3i$, $-3-i$ et $2{,}08+1{,}98i$. Le triangle $ABC$ est :",
+"choix": [
+{"texte": "a- Isocèle et non rectangle", "est_correct": false},
+{"texte": "b- Rectangle et non isocèle", "est_correct": true},
+{"texte": "c- Rectangle et isocèle", "est_correct": false},
+{"texte": "d- Ni rectangle ni isocèle", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "On lance une pièce de monnaie bien équilibrée 100 fois de suite. Lequel des intervalles ci-dessous est un intervalle de fluctuation asymptotique au seuil de $95\\%$ de la fréquence d'apparition de la face pile ?",
+"choix": [
+{"texte": "a- $[0{,}371\\;; 0{,}637]$", "est_correct": false},
+{"texte": "b- $[0{,}480\\;; 0{,}523]$", "est_correct": false},
+{"texte": "c- $[0{,}402\\;; 0{,}598]$", "est_correct": true},
+{"texte": "d- $[0{,}412\\;; 0{,}695]$", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Une entreprise veut estimer la proportion de personnes de plus de 60 ans parmi ses clients, au niveau de confiance de $95\\%$, avec un intervalle d'amplitude inférieure à $0{,}05$. Quel est le nombre minimum de clients à interroger ?",
+"choix": [
+{"texte": "a- 400", "est_correct": false},
+{"texte": "b- 800", "est_correct": false},
+{"texte": "c- 1600", "est_correct": true},
+{"texte": "d- 3200", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Dans un repère orthonormé de l'espace, on considère les points $A(2\\;;5\\;;-1)$, $B(3\\;;2\\;;1)$ et $C(1\\;;3\\;;-2)$. Le triangle $ABC$ est :",
+"choix": [
+{"texte": "a- Rectangle et non isocèle", "est_correct": false},
+{"texte": "b- Isocèle et non rectangle", "est_correct": true},
+{"texte": "c- Rectangle et isocèle", "est_correct": false},
+{"texte": "d- Equilatéral", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "La suite définie par $u_{n+1} = 3u_n + 6$ avec $u_0 = 1$ est :",
+"choix": [
+{"texte": "a- Une suite explicite où $u_1 = 8$", "est_correct": false},
+{"texte": "b- Une suite explicite où $u_1 = 8$", "est_correct": false},
+{"texte": "c- Une suite récurrente où $u_1 = 9$", "est_correct": true},
+{"texte": "d- Une suite récurrente où $u_2 = 8$", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Quelle est la dérivée de $\\arctan(x)$ ?",
+"choix": [
+{"texte": "a- $\\dfrac{1}{\\cos^2(x)}$", "est_correct": false},
+{"texte": "b- $\\cos(x)$", "est_correct": false},
+{"texte": "c- $\\dfrac{1}{1+x^2}$", "est_correct": true},
+{"texte": "d- $\\sinh(x)$", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "$\\cos\\!\\left(\\arctan\\!\\left(\\dfrac{1}{x}\right)\right) = ?$",
+"choix": [
+{"texte": "a- $\\sin(\\arccos(x))$", "est_correct": false},
+{"texte": "b- $\\sin(\\arctan(x))$", "est_correct": true},
+{"texte": "c- $\\cos(\\arcsin(x))$", "est_correct": false},
+{"texte": "d- $\\sin\\!\\left(\\dfrac{1}{\\arctan(x)}\right)$", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Quelle est la dérivée de la fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = e^{-x^2}$ ?",
+"choix": [
+{"texte": "a- $f'(x) = -xe^{-x^2}$", "est_correct": false},
+{"texte": "b- $f'(x) = -2xe^{-x^2}$", "est_correct": true},
+{"texte": "c- $f'(x) = xe^{-x^2}$", "est_correct": false},
+{"texte": "d- $f'(x) = e^{-2a}$", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Soit $h$ définie sur $\\mathbb{R}$ par $h(x) = (7x - 23)e^x$. L'équation $h(x) = 0$ :",
+"choix": [
+{"texte": "a- a pour solution $2{,}718$", "est_correct": false},
+{"texte": "b- a deux solutions sur $\\mathbb{R}$", "est_correct": false},
+{"texte": "c- a une solution sur $[0\\;;+\\infty[$", "est_correct": true},
+{"texte": "d- a une solution sur $]-\\infty\\;;0]$", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Soit $f$ définie sur $\\mathbb{R}$ par $f(x) = xe^{-x}$. Pour tout réel $x$, $f'(x) =$",
+"choix": [
+{"texte": "a- $f'(x) = e^{-x}$", "est_correct": false},
+{"texte": "b- $f'(x) = -e^{-x}$", "est_correct": false},
+{"texte": "c- $f'(x) = (1-x)e^{-x}$", "est_correct": true},
+{"texte": "d- $f'(x) = (1+x)e^{-x}$", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Soit $f$ définie sur $\\mathbb{R}$ par $f(x) = xe^x$. L'équation réduite de la tangente à la courbe de $f$ au point d'abscisse $0$ est :",
+"choix": [
+{"texte": "a- $y = x$", "est_correct": true},
+{"texte": "b- $y = x - 1$", "est_correct": false},
+{"texte": "c- $y = 2x$", "est_correct": false},
+{"texte": "d- $y = 2x - 1$", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Soit $f$ définie sur $\\mathbb{R}$ par $f(x) = xe^{-x}$. La fonction $f$ est :",
+"choix": [
+{"texte": "a- concave sur $[0\\;;1]$", "est_correct": true},
+{"texte": "b- concave sur $[0\\;;+\\infty[$", "est_correct": false},
+{"texte": "c- convexe sur $[0\\;;+\\infty[$", "est_correct": false},
+{"texte": "d- convexe sur $[0\\;;+\\infty[$", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "La fonction $f$ est définie pour tout réel $x$ par $f(x) = e^{2x+5}$. $f$ est la dérivée de $F$ définie sur $\\mathbb{R}$ par :",
+"choix": [
+{"texte": "a- $F(x) = 2e^{2x+5}$", "est_correct": false},
+{"texte": "b- $F(x) = e^{2x+5x}$", "est_correct": false},
+{"texte": "c- $F(x) = e^{2x+5}$", "est_correct": false},
+{"texte": "d- $F(x) = \\dfrac{1}{2}e^{2x+5}$", "est_correct": true}
+]
+},
+{
+"ordre": 14,
+"texte": "Dans une urne, il y a des boules rouges, jaunes et bleues. On tire une boule au hasard. Quel événement est certain ?",
+"choix": [
+{"texte": "a- « Tirer une boule blanche »", "est_correct": false},
+{"texte": "b- « Tirer une boule rouge ou jaune »", "est_correct": false},
+{"texte": "c- « Tirer une boule bleue »", "est_correct": false},
+{"texte": "d- « Tirer une boule »", "est_correct": true}
+]
+},
+{
+"ordre": 15,
+"texte": "On lance un dé à 6 faces numérotées de 1 à 6. Quel événement est impossible ?",
+"choix": [
+{"texte": "a- « Obtenir un nombre pair »", "est_correct": false},
+{"texte": "b- « Obtenir 0 »", "est_correct": true},
+{"texte": "c- « Obtenir un nombre positif »", "est_correct": false},
+{"texte": "d- « Obtenir au plus 7 »", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "On tire au hasard une carte d'un jeu de 32 cartes et on considère l'événement « La carte choisie est rouge ». Quel événement est incompatible avec celui-ci ?",
+"choix": [
+{"texte": "a- « La carte choisie est un roi »", "est_correct": false},
+{"texte": "b- « La carte choisie est une figure »", "est_correct": false},
+{"texte": "c- « La carte choisie est un cœur »", "est_correct": false},
+{"texte": "d- « La carte choisie est un trèfle »", "est_correct": true}
+]
+},
+{
+"ordre": 17,
+"texte": "On tire au hasard un jeton d'un sac contenant 20 jetons dont 5 rouges. Les autres jetons sont bleus. Quelle est la probabilité de tirer un jeton bleu ?",
+"choix": [
+{"texte": "a- $\\dfrac{5}{20}$", "est_correct": false},
+{"texte": "b- $\\dfrac{1}{3}$", "est_correct": false},
+{"texte": "c- $\\dfrac{3}{4}$", "est_correct": true},
+{"texte": "d- $\\dfrac{2}{3}$", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Dans une urne, il y a 10 boules rouges et 20 boules noires. La probabilité de tirer une boule rouge est :",
+"choix": [
+{"texte": "a- $\\dfrac{1}{3}$", "est_correct": true},
+{"texte": "b- $\\dfrac{1}{2}$", "est_correct": false},
+{"texte": "c- $\\dfrac{2}{3}$", "est_correct": false},
+{"texte": "d- $1$", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Soit $(u_n)$ la suite définie par $u_0 = 4$ et $u_{n+1} = 2u_n - 0{,}5u_n$ :",
+"choix": [
+{"texte": "a- $(u_n)$ n'est pas une suite géométrique", "est_correct": false},
+{"texte": "b- $(u_n)$ est une suite géométrique de raison $1{,}5$", "est_correct": true},
+{"texte": "c- $(u_n)$ est une suite géométrique de raison $2$", "est_correct": false},
+{"texte": "d- $(u_n)$ est une suite géométrique de raison $0{,}5$", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "$(u_n)$ est une suite géométrique de premier terme $u_1 = 3$ et de raison $q = 2$. Alors pour tout $n$ :",
+"choix": [
+{"texte": "a- $u_n = 3 \times 2^n$", "est_correct": false},
+{"texte": "b- $u_n = 2 \times 3^n$", "est_correct": false},
+{"texte": "c- $u_n = 3 \times 2^{n-1}$", "est_correct": true},
+{"texte": "d- $u_n = 2 \times 3^{n-1}$", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Soit $(u_n)$ la suite géométrique de premier terme $u_0 = 2$ et de raison $q = 4$. Alors $u_0 + u_1 + \\cdots + u_7 =$",
+"choix": [
+{"texte": "a- $43\\,690$", "est_correct": true},
+{"texte": "b- $10\\,922$", "est_correct": false},
+{"texte": "c- $174\\,762$", "est_correct": false},
+{"texte": "d- $21\\,845$", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Quelle est la fonction réduite de l'expression : $15x - 7x^2 - 6 + 5x^2 - 2x$ ?",
+"choix": [
+{"texte": "a- $2x^2 + 17x - 6$", "est_correct": false},
+{"texte": "b- $12x^2 + 13x - 6$", "est_correct": false},
+{"texte": "c- $12x^2 + 17x - 6$", "est_correct": false},
+{"texte": "d- $-2x^2 + 13x - 6$", "est_correct": true}
+]
+},
+{
+"ordre": 23,
+"texte": "Soit $f$ définie sur $]0\\;;+\\infty[$ par $f(x) = \\ln(x)$. Une primitive de $f$ est la fonction $F$ définie sur $]0\\;;+\\infty[$ par :",
+"choix": [
+{"texte": "a- $F(x) = \\dfrac{1}{x}$", "est_correct": false},
+{"texte": "b- $F(x) = x\\ln x$", "est_correct": false},
+{"texte": "c- $F(x) = x\\ln x - x$", "est_correct": true},
+{"texte": "d- $F(x) = e^x$", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "La fonction $F$ définie sur $\\mathbb{R}$ par $F(x) = e^{-x^2}$ est une primitive de la fonction $f$ définie par :",
+"choix": [
+{"texte": "a- $f(x) = -xe^{-x^2}$", "est_correct": false},
+{"texte": "b- $f(x) = -2xe^{-x^2}$", "est_correct": true},
+{"texte": "c- $f(x) = xe^{-x^2}$", "est_correct": false},
+{"texte": "d- $f(x) = e^{-2x}$", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

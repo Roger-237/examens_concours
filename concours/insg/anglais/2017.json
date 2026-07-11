@@ -1,316 +1,316 @@
 [
-  {
-    "ecole": "INSG",
-    "filiere": "Gestion",
-    "epreuves": [
-      {
-        "titre": "Anglais",
-        "annee": 2017,
-        "mini_cours": "RAPPELS GRAMMATICAUX — ANGLAIS\n\n1. LES MODAUX\n• must (obligation absolue) : You must wear a seatbelt.\n• have to (obligation externe) : I have to work tomorrow.\n• should (conseil) : You should eat vegetables.\n• ATTENTION : 'must to' n'existe PAS en anglais.\n\n2. LE PRESENT PERFECT\n• Forme : have/has + participe passé\n• Usage : action commencée dans le passé qui continue\n• Ex : I have played the piano since age 5.\n• Marqueurs : since, for, already, yet, ever, never\n\n3. LE PRÉTÉRIT SIMPLE\n• Usage : action terminée à un moment précis du passé\n• Ex : She died yesterday at noon.\n• Marqueurs : yesterday, last year, in 2010, ago\n\n4. LES COMPARATIFS ET SUPERLATIFS\n• Comparatif : cheaper THAN (+ court) / more expensive THAN (+ long)\n• Superlatif : THE cheapest / THE most expensive\n• Ex : Ethiopian Airways is cheaper than Air France.\n• Ex : The Ogooué is the longest river of Gabon.\n\n5. UNLESS = IF NOT\n• Ex : You won't enter UNLESS you wear a tie.\n• = You won't enter IF you DON'T wear a tie.\n\n6. LES PRONOMS RELATIFS\n• who → sujet personne\n• which → sujet/objet chose\n• whose → possession\n• where → lieu\n• Ex : This is a firm WHOSE products are exported worldwide.\n\n7. LES ARTICLES\n• a → avant consonne : a university (u = son 'you')\n• an → avant voyelle : an apple\n• the → défini\n• Ø → généralités\n\n8. USED TO + BV / BE USED TO + V-ING\n• used to do = habitude passée révolue\n• be used to doing = être habitué à\n• Ex : Bob is not used to BEING left alone.",
-        "questions": [
-          {
-            "ordre": 1,
-            "texte": "He wants to get a better ......... and earn more money.",
-            "choix": [
-              {"texte": "a) employ", "est_correct": false},
-              {"texte": "b) job", "est_correct": true},
-              {"texte": "c) work", "est_correct": false},
-              {"texte": "d) employment", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 2,
-            "texte": "Managers set objectives, and decide .......... their organization can achieve them.",
-            "choix": [
-              {"texte": "a) what", "est_correct": false},
-              {"texte": "b) how", "est_correct": true},
-              {"texte": "c) which", "est_correct": false},
-              {"texte": "d) because", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 3,
-            "texte": "Obviously, objectives occasionally ........... be modified or changed.",
-            "choix": [
-              {"texte": "a) have to", "est_correct": true},
-              {"texte": "b) must to", "est_correct": false},
-              {"texte": "c) from", "est_correct": false},
-              {"texte": "d) during", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 4,
-            "texte": "A defect can be caused .......... negligence by one of the members of the team.",
-            "choix": [
-              {"texte": "a) by", "est_correct": true},
-              {"texte": "b) to", "est_correct": false},
-              {"texte": "c) at", "est_correct": false},
-              {"texte": "d) in", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 5,
-            "texte": "I .......... the piano since the age of five.",
-            "choix": [
-              {"texte": "a) played", "est_correct": false},
-              {"texte": "b) am playing", "est_correct": false},
-              {"texte": "c) play", "est_correct": false},
-              {"texte": "d) have played", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 6,
-            "texte": "The unions now represent less .......... 10% of the French work force.",
-            "choix": [
-              {"texte": "a) of", "est_correct": false},
-              {"texte": "b) in", "est_correct": false},
-              {"texte": "c) than", "est_correct": true},
-              {"texte": "d) then", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 7,
-            "texte": ".......... some employers oppose the very existence of unions, many theorists stress the necessity of unions.",
-            "choix": [
-              {"texte": "a) Because", "est_correct": true},
-              {"texte": "b) Due to", "est_correct": false},
-              {"texte": "c) than", "est_correct": false},
-              {"texte": "d) then", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 8,
-            "texte": "Managers who are ambitious are .......... oriented managers.",
-            "choix": [
-              {"texte": "a) socially", "est_correct": false},
-              {"texte": "b) success", "est_correct": true},
-              {"texte": "c) wel", "est_correct": false},
-              {"texte": "d) non", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 9,
-            "texte": "Warning! No unauthorized personnel .......... this point.",
-            "choix": [
-              {"texte": "a) about", "est_correct": false},
-              {"texte": "b) from", "est_correct": false},
-              {"texte": "c) beyond", "est_correct": true},
-              {"texte": "d) on", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 10,
-            "texte": "You won't be allowed into the club .......... you wear a suit a tie.",
-            "choix": [
-              {"texte": "a) if", "est_correct": false},
-              {"texte": "b) unless", "est_correct": true},
-              {"texte": "c) whether", "est_correct": false},
-              {"texte": "d) apart", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 11,
-            "texte": "I watched her. I .......... her bag into her car.",
-            "choix": [
-              {"texte": "a) saw her put", "est_correct": true},
-              {"texte": "b) her saw put", "est_correct": false},
-              {"texte": "c) saw she put", "est_correct": false},
-              {"texte": "d) see her put", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 12,
-            "texte": "A friend of mine phoned .......... me fora party",
-            "choix": [
-              {"texte": "a) for invite", "est_correct": false},
-              {"texte": "b) to invite", "est_correct": true},
-              {"texte": "c) for inviting", "est_correct": false},
-              {"texte": "d) for to invite", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 13,
-            "texte": "This should be done with a view to .......... the inflation rate.",
-            "choix": [
-              {"texte": "a) have decreased", "est_correct": false},
-              {"texte": "b) decreased", "est_correct": false},
-              {"texte": "c) decrease", "est_correct": false},
-              {"texte": "d) decreasing", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 14,
-            "texte": "Is it really worth ........ ?",
-            "choix": [
-              {"texte": "a) to try", "est_correct": false},
-              {"texte": "b) of trying", "est_correct": false},
-              {"texte": "c) try", "est_correct": false},
-              {"texte": "d) trying", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 15,
-            "texte": ".......... of them had any luck.",
-            "choix": [
-              {"texte": "a) none", "est_correct": true},
-              {"texte": "b) some", "est_correct": false},
-              {"texte": "c) any", "est_correct": false},
-              {"texte": "d) all", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 16,
-            "texte": "The boss .......... the workshop enlarged.",
-            "choix": [
-              {"texte": "a) had", "est_correct": true},
-              {"texte": "b) made", "est_correct": false},
-              {"texte": "c) is made", "est_correct": false},
-              {"texte": "d) caused", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 17,
-            "texte": "We'll shoot till they .......... .",
-            "choix": [
-              {"texte": "a) will answer", "est_correct": false},
-              {"texte": "b) should answer", "est_correct": false},
-              {"texte": "c) answered", "est_correct": false},
-              {"texte": "d) answer", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 18,
-            "texte": "Bob is not used to .......... left alone.",
-            "choix": [
-              {"texte": "a) be", "est_correct": false},
-              {"texte": "b) being", "est_correct": true},
-              {"texte": "c) have been", "est_correct": false},
-              {"texte": "d) been", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 19,
-            "texte": "I wish .......... her more often.",
-            "choix": [
-              {"texte": "a) we see", "est_correct": false},
-              {"texte": "b) we saw", "est_correct": true},
-              {"texte": "c) we are seeing", "est_correct": false},
-              {"texte": "d) us seeing", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 20,
-            "texte": "This is a large firm .......... products are exported all over the world.",
-            "choix": [
-              {"texte": "a) which", "est_correct": false},
-              {"texte": "b) whose", "est_correct": true},
-              {"texte": "c) where", "est_correct": false},
-              {"texte": "d) what", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 21,
-            "texte": "There is no reason for ......... .",
-            "choix": [
-              {"texte": "a) he working so much", "est_correct": false},
-              {"texte": "b) his so much working", "est_correct": false},
-              {"texte": "c) his working so much", "est_correct": true},
-              {"texte": "d) him to so much work", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 22,
-            "texte": "My father is .......... univesity teacher.",
-            "choix": [
-              {"texte": "a) An", "est_correct": false},
-              {"texte": "b) a", "est_correct": true},
-              {"texte": "c) the", "est_correct": false},
-              {"texte": "d) Ø (nothing)", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 23,
-            "texte": " Ethiopian Airways is ......... than Air France.",
-            "choix": [
-              {"texte": "a) Cheapest", "est_correct": false},
-              {"texte": "b) the cheapest", "est_correct": false},
-              {"texte": "c) the cheaper", "est_correct": false},
-              {"texte": "d) cheaper", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 24,
-            "texte": "The Ogooué is …………… river of Gabon.",
-            "choix": [
-              {"texte": "a) Longer", "est_correct": false},
-              {"texte": "b) the longest", "est_correct": true},
-              {"texte": "c) the most long", "est_correct": false},
-              {"texte": "d) longest", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 25,
-            "texte": " MOUSSAVOU is a young Gabonese student. He ………. born in Oyem. ",
-            "choix": [
-              {"texte": "a) is", "est_correct": false},
-              {"texte": "b) was", "est_correct": true},
-              {"texte": "c) has been", "est_correct": false},
-              {"texte": "d) had been", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 26,
-            "texte": " She took …………… bag and went away. ",
-            "choix": [
-              {"texte": "a) His", "est_correct": false},
-              {"texte": "b) her", "est_correct": true},
-              {"texte": "c) hers", "est_correct": false},
-              {"texte": "d) our", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 27,
-            "texte": " Nowadays Aids is ………… dangerous disease. ",
-            "choix": [
-              {"texte": "a) Most", "est_correct": false},
-              {"texte": "b) a more", "est_correct": false},
-              {"texte": "c) the most", "est_correct": false},
-              {"texte": "d)  the more", "est_correct": false},
-              {"texte": "a very", "est_correct": true} 
-            ]
-          },
-          {
-            "ordre": 28,
-            "texte": " 2/3 of the …………… population are Chinese. ",
-            "choix": [
-              {"texte": "a) Two on three", "est_correct": false},
-              {"texte": "b) two on third", "est_correct": false},
-              {"texte": "c) two thirds", "est_correct": true},
-              {"texte": "d) two threeth", "est_correct": false}
-            ]
-          },
-          {
-            "ordre": 29,
-            "texte": " The lady ………… daughter passed the Baccalaureate is my neighbor ",
-            "choix": [
-              {"texte": "a) Who", "est_correct": false},
-              {"texte": "b) which", "est_correct": false},
-              {"texte": "c) whom", "est_correct": false},
-              {"texte": "d) whose", "est_correct": true}
-            ]
-          },
-          {
-            "ordre": 30,
-            "texte": " She ……… yesterday at noon. ",
-            "choix": [
-              {"texte": "a) Has died", "est_correct": false},
-              {"texte": "b) dead", "est_correct": false},
-              {"texte": "c) is dying", "est_correct": false},
-              {"texte": "d) died", "est_correct": true}
-            ]
-          }
-        ]
-      }
-    ]
-  }
+{
+"ecole": "INSG",
+"filiere": "Gestion",
+"epreuves": [
+{
+"titre": "Anglais",
+"annee": 2017,
+"mini_cours": "--- GRAMMAR & VOCABULARY CRITICAL RULES (INSG 2017) ---\n\n1. GERUNDS (-ING) AFTER KEY PHRASES :\n- 'With a view to' is always followed by V-ing ('with a view to decreasing' = dans le but de diminuer).\n- 'Be worth' is followed by V-ing ('Is it worth trying?' = Cela vaut-il le coup d'essayer ?).\n- 'Be used to' (être habitué à) is followed by V-ing ('Bob is not used to being left alone'), whereas 'used to + verb' expresses a past habit.\n- Possessive adjectives can precede a gerund to show the subject of the action ('There is no reason for his working so much').\n\n2. MODALS & CAUSATIVES :\n- Obligation: 'Must' never takes 'to' ('you must do it'). 'Have to' is used when 'to' is required ('objectives have to be modified').\n- Causative Have (faire faire quelque chose): Subject + HAVE + Object + Past Participle ('The boss had the workshop enlarged' = Le patron a fait agrandir l'atelier).\n- Perception: Verbs of perception can be followed by a bare infinitive to describe a completed action ('I saw her put her bag...').\n\n3. CONCORDANCE & TIME CLAUSES :\n- Present Perfect with 'Since': Used for actions starting in the past and continuing in the present ('I have played since the age of five').\n- Future Time Clauses: Do NOT use the future tense (will) after time linkers like 'when', 'till', 'until', 'as soon as' when referring to the future; use the Present Simple instead ('We'll shoot till they answer').\n- Wishes: 'I wish' followed by the Past Simple expresses a regret or desire about the present ('I wish we saw her more often' = J'aimerais que nous la voyions plus souvent).\n\n4. DETERMINERS, RELATIVE PRONOUNS & COMPARATIVES :\n- Pronunciation of 'U': Use the article 'a' (not 'an') before words starting with a consonant sound like /ju:/ ('a university teacher').\n- Relative possessive: 'Whose' replaces the possessive ('whose products' = dont les produits ; 'whose daughter' = dont la fille).\n- Comparatives & Superlatives: Short adjectives take '-er than' ('cheaper than') or 'the -est' ('the longest').\n- Fractions: Numerator is a cardinal number, denominator is an ordinal number. Pluralize the denominator if numerator > 1 ('two thirds' = 2/3).\n\n5. CONNECTORS & PREPOSITIONS :\n- 'Unless' means 'if not' (à moins que) and is followed by an affirmative verb ('unless you wear a suit...').\n- 'Beyond' means further than or past a certain limit ('beyond this point').\n- 'Because' is followed by a subject + verb clause, while 'Due to' is followed by a noun phrase.",
+"questions": [
+{
+"ordre": 1,
+"texte": "He wants to get a better ......... and earn more money.",
+"choix": [
+{"texte": "a) employ", "est_correct": false},
+{"texte": "b) job", "est_correct": true},
+{"texte": "c) work", "est_correct": false},
+{"texte": "d) employment", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Managers set objectives, and decide .......... their organization can achieve them.",
+"choix": [
+{"texte": "a) what", "est_correct": false},
+{"texte": "b) how", "est_correct": true},
+{"texte": "c) which", "est_correct": false},
+{"texte": "d) because", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Obviously, objectives occasionally ........... be modified or changed.",
+"choix": [
+{"texte": "a) have to", "est_correct": true},
+{"texte": "b) must to", "est_correct": false},
+{"texte": "c) from", "est_correct": false},
+{"texte": "d) during", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "A defect can be caused .......... negligence by one of the members of the team.",
+"choix": [
+{"texte": "a) by", "est_correct": true},
+{"texte": "b) to", "est_correct": false},
+{"texte": "c) at", "est_correct": false},
+{"texte": "d) in", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "I .......... the piano since the age of five.",
+"choix": [
+{"texte": "a) played", "est_correct": false},
+{"texte": "b) am playing", "est_correct": false},
+{"texte": "c) play", "est_correct": false},
+{"texte": "d) have played", "est_correct": true}
+]
+},
+{
+"ordre": 6,
+"texte": "The unions now represent less .......... 10% of the French work force.",
+"choix": [
+{"texte": "a) of", "est_correct": false},
+{"texte": "b) in", "est_correct": false},
+{"texte": "c) than", "est_correct": true},
+{"texte": "d) then", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": ".......... some employers oppose the very existence of unions, many theorists stress the necessity of unions.",
+"choix": [
+{"texte": "a) Because", "est_correct": true},
+{"texte": "b) Due to", "est_correct": false},
+{"texte": "c) than", "est_correct": false},
+{"texte": "d) then", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Managers who are ambitious are .......... oriented managers.",
+"choix": [
+{"texte": "a) socially", "est_correct": false},
+{"texte": "b) success", "est_correct": true},
+{"texte": "c) wel", "est_correct": false},
+{"texte": "d) non", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Warning! No unauthorized personnel .......... this point.",
+"choix": [
+{"texte": "a) about", "est_correct": false},
+{"texte": "b) from", "est_correct": false},
+{"texte": "c) beyond", "est_correct": true},
+{"texte": "d) on", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "You won't be allowed into the club .......... you wear a suit a tie.",
+"choix": [
+{"texte": "a) if", "est_correct": false},
+{"texte": "b) unless", "est_correct": true},
+{"texte": "c) whether", "est_correct": false},
+{"texte": "d) apart", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "I watched her. I .......... her bag into her car.",
+"choix": [
+{"texte": "a) saw her put", "est_correct": true},
+{"texte": "b) her saw put", "est_correct": false},
+{"texte": "c) saw she put", "est_correct": false},
+{"texte": "d) see her put", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "A friend of mine phoned .......... me fora party",
+"choix": [
+{"texte": "a) for invite", "est_correct": false},
+{"texte": "b) to invite", "est_correct": true},
+{"texte": "c) for inviting", "est_correct": false},
+{"texte": "d) for to invite", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "This should be done with a view to .......... the inflation rate.",
+"choix": [
+{"texte": "a) have decreased", "est_correct": false},
+{"texte": "b) decreased", "est_correct": false},
+{"texte": "c) decrease", "est_correct": false},
+{"texte": "d) decreasing", "est_correct": true}
+]
+},
+{
+"ordre": 14,
+"texte": "Is it really worth ........ ?",
+"choix": [
+{"texte": "a) to try", "est_correct": false},
+{"texte": "b) of trying", "est_correct": false},
+{"texte": "c) try", "est_correct": false},
+{"texte": "d) trying", "est_correct": true}
+]
+},
+{
+"ordre": 15,
+"texte": ".......... of them had any luck.",
+"choix": [
+{"texte": "a) none", "est_correct": true},
+{"texte": "b) some", "est_correct": false},
+{"texte": "c) any", "est_correct": false},
+{"texte": "d) all", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "The boss .......... the workshop enlarged.",
+"choix": [
+{"texte": "a) had", "est_correct": true},
+{"texte": "b) made", "est_correct": false},
+{"texte": "c) is made", "est_correct": false},
+{"texte": "d) caused", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "We'll shoot till they .......... .",
+"choix": [
+{"texte": "a) will answer", "est_correct": false},
+{"texte": "b) should answer", "est_correct": false},
+{"texte": "c) answered", "est_correct": false},
+{"texte": "d) answer", "est_correct": true}
+]
+},
+{
+"ordre": 18,
+"texte": "Bob is not used to .......... left alone.",
+"choix": [
+{"texte": "a) be", "est_correct": false},
+{"texte": "b) being", "est_correct": true},
+{"texte": "c) have been", "est_correct": false},
+{"texte": "d) been", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "I wish .......... her more often.",
+"choix": [
+{"texte": "a) we see", "est_correct": false},
+{"texte": "b) we saw", "est_correct": true},
+{"texte": "c) we are seeing", "est_correct": false},
+{"texte": "d) us seeing", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "This is a large firm .......... products are exported all over the world.",
+"choix": [
+{"texte": "a) which", "est_correct": false},
+{"texte": "b) whose", "est_correct": true},
+{"texte": "c) where", "est_correct": false},
+{"texte": "d) what", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "There is no reason for ......... .",
+"choix": [
+{"texte": "a) he working so much", "est_correct": false},
+{"texte": "b) his so much working", "est_correct": false},
+{"texte": "c) his working so much", "est_correct": true},
+{"texte": "d) him to so much work", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "My father is .......... univesity teacher.",
+"choix": [
+{"texte": "a) An", "est_correct": false},
+{"texte": "b) a", "est_correct": true},
+{"texte": "c) the", "est_correct": false},
+{"texte": "d) Ø (nothing)", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": " Ethiopian Airways is ......... than Air France.",
+"choix": [
+{"texte": "a) Cheapest", "est_correct": false},
+{"texte": "b) the cheapest", "est_correct": false},
+{"texte": "c) the cheaper", "est_correct": false},
+{"texte": "d) cheaper", "est_correct": true}
+]
+},
+{
+"ordre": 24,
+"texte": "The Ogooué is …………… river of Gabon.",
+"choix": [
+{"texte": "a) Longer", "est_correct": false},
+{"texte": "b) the longest", "est_correct": true},
+{"texte": "c) the most long", "est_correct": false},
+{"texte": "d) longest", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": " MOUSSAVOU is a young Gabonese student. He ………. born in Oyem. ",
+"choix": [
+{"texte": "a) is", "est_correct": false},
+{"texte": "b) was", "est_correct": true},
+{"texte": "c) has been", "est_correct": false},
+{"texte": "d) had been", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": " She took …………… bag and went away. ",
+"choix": [
+{"texte": "a) His", "est_correct": false},
+{"texte": "b) her", "est_correct": true},
+{"texte": "c) hers", "est_correct": false},
+{"texte": "d) our", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": " Nowadays Aids is ………… dangerous disease. ",
+"choix": [
+{"texte": "a) Most", "est_correct": false},
+{"texte": "b) a more", "est_correct": false},
+{"texte": "c) the most", "est_correct": false},
+{"texte": "d)  the more", "est_correct": false},
+{"texte": "a very", "est_correct": true}
+]
+},
+{
+"ordre": 28,
+"texte": " 2/3 of the …………… population are Chinese. ",
+"choix": [
+{"texte": "a) Two on three", "est_correct": false},
+{"texte": "b) two on third", "est_correct": false},
+{"texte": "c) two thirds", "est_correct": true},
+{"texte": "d) two threeth", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": " The lady ………… daughter passed the Baccalaureate is my neighbor ",
+"choix": [
+{"texte": "a) Who", "est_correct": false},
+{"texte": "b) which", "est_correct": false},
+{"texte": "c) whom", "est_correct": false},
+{"texte": "d) whose", "est_correct": true}
+]
+},
+{
+"ordre": 30,
+"texte": " She ……… yesterday at noon. ",
+"choix": [
+{"texte": "a) Has died", "est_correct": false},
+{"texte": "b) dead", "est_correct": false},
+{"texte": "c) is dying", "est_correct": false},
+{"texte": "d) died", "est_correct": true}
+]
+}
+]
+}
+]
+}
 ]

@@ -1,0 +1,315 @@
+[
+{
+"ecole": "INSG",
+"filiere": "Gestion",
+"epreuves": [
+{
+"titre": "Français",
+"annee": 2021,
+"mini_cours": "--- RÈGLES ET ASTUCES STRATÉGIQUES POUR L'ÉPREUVE DE 2021 ---\n\n1. PARTICIPE PASSÉ SUIVI D'UN PRONOM NEUTRE OU D'UN INFINITIF :\n- COD 'en' : Si le pronom 'en' est COD d'un verbe conjugué avec avoir, le participe passé reste TOUJOURS invariable au concours ('Des fraises, j'en ai mangé beaucoup' -> invariable).\n- Suivi d'un infinitif : Si le COD placé devant fait l'action de l'infinitif -> accord. S'il subit l'action de l'infinitif -> invariable ('la lettre que j'ai vu écrire' -> la lettre subit l'écriture -> invariable).\n\n2. EXCEPTIONS DES ADJECTIFS DE COULEUR ET ACCORDS SINGULIERS :\n- Les adjectifs d'origine nominale s'accordant par exception ('rose', 'mauve', 'violet', 'écarlate', 'pourpre') sont indispensables au concours.\n- Les noms employés comme adjectifs de couleur (comme 'citron' ou 'café') restent totalement invariables ('des nappes citron').\n\n3. ADVERBES EN -ÉMENT (DÉFENSE SPÉCIALE) :\n- Certains adjectifs féminins subissent une modification avec accent aigu pour la prononciation : 'énorme' -> 'énormément' ; 'aveugle' -> 'aveuglément'.\n- Attention à 'incessamment' (dérivé de incessant -> -amment).\n\n4. PLURIEL DES NOMS COMPOSÉS ET DES TITRES :\n- Règle moderne : Verbe + Nom s'accorde au second terme ('des après-midis').\n- Nom + Nom (ou Adjectif + Nom) : Les deux s'accordent ('des coffres-forts', 'des chefs-lieux').\n- Verbe + Verbe : Reste invariable ('des laissez-passer').\n- Nom 'garde' : S'il désigne une personne, il s'accorde ('des gardes-malades' -> des personnes qui gardent les malades).\n\n5. LES PIÈGES CONJONCTIONNELS ET DE VOCABULAIRE :\n- Différence entre 'Quoique' (bien que) et 'Quoi que' (quelle que soit la chose que).\n- Vocabulaire administratif et soutenu : 'obséquieux' (platement flatteur), 'procrastiner' (remettre au lendemain), 'synecdoque' (figure consistant à prendre le tout pour la partie ou inversement).",
+"questions": [
+{
+"ordre": 1,
+"texte": "Choisissez l'accord de couleur correct : « Elle a acheté des nappes d'un ton magnifique avec des reflets ... »",
+"choix": [
+{"texte": "a- mauves", "est_correct": true},
+{"texte": "b- mauve", "est_correct": false},
+{"texte": "c- mauvées", "est_correct": false},
+{"texte": "d- mauvrent", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Choisissez la forme correcte : « Des fraises bien mûres, j'en ai ... beaucoup ce matin. »",
+"choix": [
+{"texte": "a- mangées", "est_correct": false},
+{"texte": "b- mangé", "est_correct": true},
+{"texte": "c- mangés", "est_correct": false},
+{"texte": "d- manger", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Comment s'écrit l'adverbe dérivé de l'adjectif « énorme » ?",
+"choix": [
+{"texte": "a- énormément", "est_correct": true},
+{"texte": "b- énormement", "est_correct": false},
+{"texte": "c- énormament", "est_correct": false},
+{"texte": "d- énormémant", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Quelle est l'orthographe correcte de ce mot géométrique ?",
+"choix": [
+{"texte": "a- paralléle", "est_correct": false},
+{"texte": "b- parallèle", "est_correct": true},
+{"texte": "c- paralelle", "est_correct": false},
+{"texte": "d- parralelle", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Quelle figure de style est employée dans : « Une flotte de cent voiles » (où voile désigne un bateau) ?",
+"choix": [
+{"texte": "a- Une synecdoque", "est_correct": true},
+{"texte": "b- Une métaphore", "est_correct": false},
+{"texte": "c- Une litote", "est_correct": false},
+{"texte": "d- Un euphémisme", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Complétez : « Bien qu'il ... la vérité, il refuse de s'exprimer devant le jury. »",
+"choix": [
+{"texte": "a- sait", "est_correct": false},
+{"texte": "b- sache", "est_correct": true},
+{"texte": "c- saura", "est_correct": false},
+{"texte": "d- sachent", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Quel est le synonyme le plus proche de « obséquieux » ?",
+"choix": [
+{"texte": "a- Rebelle et fier", "est_correct": false},
+{"texte": "b- Platement flatteur et servile", "est_correct": true},
+{"texte": "c- Honnête et intègre", "est_correct": false},
+{"texte": "d- Très agressif", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Quel est le pluriel traditionnel de « un porte-parole » ?",
+"choix": [
+{"texte": "a- des portes-parole", "est_correct": false},
+{"texte": "b- des porte-parole", "est_correct": true},
+{"texte": "c- des portes-paroles", "est_correct": false},
+{"texte": "d- des porte-paroles", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Choisissez l'accord correct : « Pour cette occasion, elle s'est ... de beaux vêtements. »",
+"choix": [
+{"texte": "a- achetée", "est_correct": false},
+{"texte": "b- acheté", "est_correct": true},
+{"texte": "c- achetées", "est_correct": false},
+{"texte": "d- achetés", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Quel est le genre correct du mot « ébène » ?",
+"choix": [
+{"texte": "a- Il est toujours masculin", "est_correct": false},
+{"texte": "b- Il est toujours féminin", "est_correct": true},
+{"texte": "c- Il peut être masculin ou féminin", "est_correct": false},
+{"texte": "d- Il n'a aucun genre", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Choisissez la proposition correctement orthographiée au présent de l'indicatif :",
+"choix": [
+{"texte": "a- Il nourrit son chien et il meurt de faim", "est_correct": true},
+{"texte": "b- Il nourit son chien et il mourit de faim", "est_correct": false},
+{"texte": "c- Il nourrit son chien et il mourre de faim", "est_correct": false},
+{"texte": "d- Il nourie son chien et il meure de faim", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Choisissez le mot correct : « Il a ... soixante ans et possède une grande expérience. »",
+"choix": [
+{"texte": "a- quelque", "est_correct": true},
+{"texte": "b- quels que", "est_correct": false},
+{"texte": "c- quel que", "est_correct": false},
+{"texte": "d- quelques", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Complétez pour respecter la concordance au passé : « Je souhaitais ardemment qu'il ... me voir. »",
+"choix": [
+{"texte": "a- vienne", "est_correct": false},
+{"texte": "b- vînt", "est_correct": true},
+{"texte": "c- viendra", "est_correct": false},
+{"texte": "d- viendrait", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Quelle figure de style est employée dans : « Un silence assourdissant » ?",
+"choix": [
+{"texte": "a- Un oxymore", "est_correct": true},
+{"texte": "b- Un pléonasme", "est_correct": false},
+{"texte": "c- Une litote", "est_correct": false},
+{"texte": "d- Une comparaison", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Quel est le pluriel correct de « un garde-malade » (personne veillant sur un malade) ?",
+"choix": [
+{"texte": "a- des gardes-malades", "est_correct": true},
+{"texte": "b- des garde-malades", "est_correct": false},
+{"texte": "c- des garde-malade", "est_correct": false},
+{"texte": "d- des gardes-malade", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Quel est l'antonyme ou contraire de « altruiste » ?",
+"choix": [
+{"texte": "a- Généreux", "est_correct": false},
+{"texte": "b- Égoïste", "est_correct": true},
+{"texte": "c- Philanthrope", "est_correct": false},
+{"texte": "d- Indifférent", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Choisissez l'accord correct : « La lettre officielle que j'ai ... écrire par mon secrétaire était parfaite. »",
+"choix": [
+{"texte": "a- vue", "est_correct": false},
+{"texte": "b- vu", "est_correct": true},
+{"texte": "c- vues", "est_correct": false},
+{"texte": "d- vut", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Conjuguez le verbe « résoudre » au passé simple de l'indicatif, à la troisième personne du singulier :",
+"choix": [
+{"texte": "a- il résout", "est_correct": false},
+{"texte": "b- il résolut", "est_correct": true},
+{"texte": "c- il résouda", "est_correct": false},
+{"texte": "d- il résolva", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Quelle est l'orthographe correcte de cet adverbe de temps ?",
+"choix": [
+{"texte": "a- incessament", "est_correct": false},
+{"texte": "b- incessamment", "est_correct": true},
+{"texte": "c- incésamment", "est_correct": false},
+{"texte": "d- incessement", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Choisissez l'expression correcte : « Que vont-ils penser de cela, et que sera le ... »",
+"choix": [
+{"texte": "a- qu'en-dira-t-on", "est_correct": false},
+{"texte": "b- qu'en-dira-t-on ?", "est_correct": false},
+{"texte": "c- qu'en-dira-t-on", "est_correct": true},
+{"texte": "d- quand-dira-t-on", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Quel est le genre correct du mot « astérisque » ?",
+"choix": [
+{"texte": "a- Il est toujours masculin", "est_correct": true},
+{"texte": "b- Il est toujours féminin", "est_correct": false},
+{"texte": "c- Il peut être masculin ou féminin", "est_correct": false},
+{"texte": "d- Il n'a aucun genre", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Que signifie le verbe « procrastiner » ?",
+"choix": [
+{"texte": "a- Se presser de finir une tâche", "est_correct": false},
+{"texte": "b- Remettre systématiquement au lendemain", "est_correct": true},
+{"texte": "c- Prendre une décision brutale", "est_correct": false},
+{"texte": "d- Parler pour ne rien dire", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Choisissez la bonne forme grammaticale : « Il s'est ... de l'occasion dès qu'elle s'est présentée. »",
+"choix": [
+{"texte": "a- saisi", "est_correct": true},
+{"texte": "b- saisie", "est_correct": false},
+{"texte": "c- saisie", "est_correct": false},
+{"texte": "d- saisit", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Choisissez l'accord de couleur correct : « Elles ont acheté des jupes de couleur ... »",
+"choix": [
+{"texte": "a- citron", "est_correct": true},
+{"texte": "b- citrons", "est_correct": false},
+{"texte": "c- citronnes", "est_correct": false},
+{"texte": "d- citronnée", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Quel est le participe passé du verbe « acquérir » ?",
+"choix": [
+{"texte": "a- acquiert", "est_correct": false},
+{"texte": "b- acquis", "est_correct": true},
+{"texte": "c- acquérit", "est_correct": false},
+{"texte": "d- acqui", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Quelle est l'orthographe correcte de ce mot ?",
+"choix": [
+{"texte": "a- acroche", "est_correct": false},
+{"texte": "b- accroche", "est_correct": true},
+{"texte": "c- acroche", "est_correct": false},
+{"texte": "d- accroche", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Quel est le pluriel moderne recommandé pour « un après-midi » ?",
+"choix": [
+{"texte": "a- des après-midis", "est_correct": true},
+{"texte": "b- des après-midi", "est_correct": false},
+{"texte": "c- des aprés-midis", "est_correct": false},
+{"texte": "d- des aprè-midis", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Quelle figure de style est employée dans : « L'or noir » pour désigner le pétrole ?",
+"choix": [
+{"texte": "a- Une périphrase", "est_correct": true},
+{"texte": "b- Une litote", "est_correct": false},
+{"texte": "c- Un oxymore", "est_correct": false},
+{"texte": "d- Une métaphore", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Conjuguez le verbe « moudre » au présent de l'indicatif, à la première personne du pluriel :",
+"choix": [
+{"texte": "a- nous moulons", "est_correct": true},
+{"texte": "b- nous moudons", "est_correct": false},
+{"texte": "c- nous moudrons", "est_correct": false},
+{"texte": "d- nous moulions", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Choisissez l'homophone correct : « ... fatigué qu'il soit, il mènera cette négociation jusqu'au bout. »",
+"choix": [
+{"texte": "a- Quoique", "est_correct": true},
+{"texte": "b- Quoi que", "est_correct": false},
+{"texte": "c- Quoi-que", "est_correct": false},
+{"texte": "d- Quelque", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

@@ -1,0 +1,406 @@
+[
+{
+"ecole": "IST",
+"filiere": "GEA et TC",
+"epreuves": [
+{
+"titre": "Concours d'entrée Institut Supérieur de Technologie - Épreuve de Mathématiques",
+"annee": 2013,
+"latex": true,
+"mini_cours": "--- STRATÉGIES ET FORMULES CLÉS (IST MATHS 2013) ---\n\n1. CALCULS SUR LES FRACTIONS ET COMPARAISONS :\n- Pour comparer des fractions, calculez leur valeur décimale approchée ou réduisez-les au même dénominateur : $\\dfrac{3}{8} = 0{,}375$, $\\dfrac{5}{16} = 0{,}3125$, $\\dfrac{13}{85} \\approx 0{,}153$, et $\\dfrac{10}{72} \\approx 0{,}139$. Ainsi, $\\dfrac{3}{8}$ est la plus grande.\n- Division de fractions : Pour diviser deux fractions, on multiplie la première par l'inverse de la seconde : $\\dfrac{\frac{a}{b}}{\frac{c}{d}} = \\dfrac{a}{b} \times \\dfrac{d}{c}$.\n\n2. GÉOMÉTRIE, CONVERSIONS ET DÉBITS :\n- Aire d'un demi-cercle (ou demi-disque) : $S = \\dfrac{\\pi R^2}{2} = \\dfrac{\\pi D^2}{8}$. Pour une scène de diamètre $D = 16\text{ m}$ (soit $R = 8\text{ m}$), l'aire est $S = \\dfrac{\\pi \times 8^2}{2} = 32\\pi \\approx 100{,}48\text{ m}^2$.\n- Conversion de débits : Pour convertir un débit journalier de $\text{m}^3$ en litres par heure ($\text{L/h}$), on utilise le fait que $1\text{ m}^3 = 1000\text{ L}$ et $1\text{ jour} = 24\text{ h}$. Formule : $D_{\text{horaire}} = \\dfrac{D_{\text{journalier}} \times 1000}{24}$.\n- Aire d'un rectangle : $S = L \times l$. Attention à l'homogénéité des unités ($2\text{ cm} = 20\text{ mm}$, ou $2\text{ mm} = 0{,}2\text{ cm}$).\n\n3. MATHÉMATIQUES COMMERCIALES ET CONCOURS :\n- Variations successives : Une hausse de $t_1$ suivie d'une baisse de $t_2$ donne un coefficient multiplicateur global $K = (1 + t_1)(1 - t_2)$.\n- Calcul de commission : Si un commercial touche un taux de commission $r$ sur ses ventes globales $V$, la commission $C$ vaut $C = V \times r$. On retrouve le montant des ventes via $V = \\dfrac{C}{r}$.\n\n4. PROPRIÉTÉS DES PUISSANCES, LOGARITHMES ET IDENTITÉS :\n- Exposants fractionnaires (racine énième) : $\\sqrt[n]{x^m} = x^{\frac{m}{n}}$. Exemple : $\\sqrt[3]{5^2} = 5^{\frac{2}{3}}$.\n- Propriétés de $\\ln$ : $\\ln(a^b) = b\\ln(a)$.\n- Signe négatif devant parenthèse carrée : $-(A+B)^2 = -(A^2 + 2AB + B^2) = -A^2 - 2AB - B^2$.\n\n5. ENSEMBLES DE DÉFINITION ET ANALYSE :\n- Le domaine de définition $D_f$ est l'ensemble des réels pour lesquels la fonction est calculable :\n  * Fonction polynôme $x^2 + 2$ : définie sur $\\mathbb{R} = ]-\\infty\\;; +\\infty[$.\n  * Fonction logarithme $\\ln(x)$ : définie uniquement pour $x > 0$, soit $D_f = ]0\\;; +\\infty[$.\n  * Fonction racine carrée $\\sqrt{x}$ : requiert $x \\geq 0$. Pour $e^{\\sqrt{x}}$, $D_f = [0\\;; +\\infty[ = \\mathbb{R}^+$.\n  * Fonction inverse $\\dfrac{1}{\\sqrt{x}}$ : requiert que le dénominateur soit non nul et le radicande positif, d'où $x > 0$, soit $D_f = \\mathbb{R}^{*+}$.\n- Dérivée de base : $(x^n)' = n x^{n-1}$, donc $(x^2)' = 2x$.\n\n6. LOGIQUE ET DÉNOMBREMENT :\n- Arrangements avec répétition (p-listes) : Le nombre de façons d'attribuer une note parmi $n$ valeurs distinctes à $p$ candidats différents est donné par $n^p$. Pour $3$ candidats et $5$ notes possibles (de $0$ à $4$), on obtient $5^3 = 125$ configurations.\n- Séries logiques : Analysez la progression des lettres par leur rang dans l'alphabet ($A=1, B=2, \\dots$) et celle des nombres par des opérations récurrentes.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Laquelle de ces fractions est la plus grande : $13/85$ ; $10/72$ ; $5/16$ ; $3/8$ ?",
+"choix": [
+{"texte": "a) $10/72$", "est_correct": false},
+{"texte": "b) $13/85$", "est_correct": false},
+{"texte": "c) $3/8$", "est_correct": true},
+{"texte": "d) $5/16$", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Trouvez la valeur de l'expression suivante : $1 + \\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{4}$",
+"choix": [
+{"texte": "a) $\\dfrac{12}{25}$", "est_correct": false},
+{"texte": "b) $\\dfrac{25}{12}$", "est_correct": true},
+{"texte": "c) $\\dfrac{3}{4}$", "est_correct": false},
+{"texte": "d) $\\dfrac{4}{3}$", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Trouvez la valeur de l'expression suivante : $-1 - (-2 - 7) - 4 + 1$",
+"choix": [
+{"texte": "a) 5", "est_correct": true},
+{"texte": "b) -5", "est_correct": false},
+{"texte": "c) 10", "est_correct": false},
+{"texte": "d) 15", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Calculez $\\dfrac{(\tfrac{1}{3}+\tfrac{2}{3})}{(\tfrac{1}{8}+\tfrac{1}{8})}$ ?",
+"choix": [
+{"texte": "a) $-\\dfrac{1}{4}$", "est_correct": false},
+{"texte": "b) $\\dfrac{1}{4}$", "est_correct": false},
+{"texte": "c) 4", "est_correct": true},
+{"texte": "d) -4", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Combien de mois se sont-ils écoulés entre le 01/04/1976 et le 31/08/2010 ?",
+"choix": [
+{"texte": "a) 400", "est_correct": false},
+{"texte": "b) 413", "est_correct": false},
+{"texte": "c) 412", "est_correct": true},
+{"texte": "d) 401", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Trouvez la valeur de l'expression suivante : $\\dfrac{1}{4} - (2 - 4) + \\dfrac{1}{4}(-6 + 8)$",
+"choix": [
+{"texte": "a) $-\\dfrac{4}{11}$", "est_correct": false},
+{"texte": "b) $\\dfrac{4}{11}$", "est_correct": false},
+{"texte": "c) $\\dfrac{11}{4}$", "est_correct": true},
+{"texte": "d) $-\\dfrac{11}{4}$", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Quel est le plus grand entier relatif entre $-12$ ; $-22$ ; $-32$ ; $-42$ ?",
+"choix": [
+{"texte": "a) -12", "est_correct": true},
+{"texte": "b) -22", "est_correct": false},
+{"texte": "c) -32", "est_correct": false},
+{"texte": "d) -42", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Trouvez la valeur de l'expression suivante : $1 - [(7 - 15) + 3(-3 + 1)]$",
+"choix": [
+{"texte": "a) 14", "est_correct": false},
+{"texte": "b) -15", "est_correct": false},
+{"texte": "c) 15", "est_correct": true},
+{"texte": "d) 13", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Calculer $95/0{,}001 + 56*[28 - (96 - 68)] = ?$",
+"choix": [
+{"texte": "a) 96 450", "est_correct": false},
+{"texte": "b) 87 384", "est_correct": false},
+{"texte": "c) 96 404", "est_correct": false},
+{"texte": "d) 95 000", "est_correct": true}
+]
+},
+{
+"ordre": 10,
+"texte": "La scène d'une salle de concert a la forme d'un demi-cercle. Sa longueur est de 16m. Quelle est la surface, en $m^2$ ?",
+"choix": [
+{"texte": "a) 100,48", "est_correct": true},
+{"texte": "b) 200,96", "est_correct": false},
+{"texte": "c) 50,24", "est_correct": false},
+{"texte": "d) 256", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Quelle est la surface d'un rectangle de longueur 2 cm et de largeur 2mm ?",
+"choix": [
+{"texte": "a) $4\text{cm}^2$", "est_correct": false},
+{"texte": "b) $4\text{mm}^2$", "est_correct": false},
+{"texte": "c) $4\\cdot 10^{-1}\text{ mm}^2$", "est_correct": false},
+{"texte": "d) $4\\cdot 10^{-1}\text{ cm}^2$", "est_correct": true}
+]
+},
+{
+"ordre": 12,
+"texte": "Le débit dans un tuyau d'alimentation en eau potable est de $10\text{ m}^3$ par jour. Quel volume d'eau passe par le tuyau en une heure ?",
+"choix": [
+{"texte": "a) 416,67 litres", "est_correct": true},
+{"texte": "b) 240 litres", "est_correct": false},
+{"texte": "c) 41,67 litres", "est_correct": false},
+{"texte": "d) 2400 litres", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Une augmentation de $5\\%$ suivie d'une diminution de $8\\%$ d'un phénomène donné correspond à un coefficient multiplicateur global K égal à :",
+"choix": [
+{"texte": "a) K=1,051,08", "est_correct": false},
+{"texte": "b) k=1,050,92", "est_correct": true},
+{"texte": "c) k=0,951,08", "est_correct": false},
+{"texte": "d) 1,51,8", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Quel est l'équivalent du nombre suivant $\\sqrt[3]{5^2}$ ?",
+"choix": [
+{"texte": "a) $5^{\frac{3}{2}}$", "est_correct": false},
+{"texte": "b) $5^{\frac{2}{3}}$", "est_correct": true},
+{"texte": "c) \\sqrt[2]{5^3}", "est_correct": false},
+{"texte": "d) 523", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Donnez l'expression simplifiée de $\\ln 4$ :",
+"choix": [
+{"texte": "a) 2", "est_correct": false},
+{"texte": "b) $\\ln 2$", "est_correct": false},
+{"texte": "c) $2\\ln 2$", "est_correct": true},
+{"texte": "d) $4\\ln 1$", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "L'IST est aux galeries de la gare routière ou $900\\,000 + 0 = 900\\,000$ :",
+"choix": [
+{"texte": "a) Vrai", "est_correct": true},
+{"texte": "b) Faux", "est_correct": false},
+{"texte": "c) Ni vrai ni Faux", "est_correct": false},
+{"texte": "d) Faux et vrai", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Dans un avion, il y a 120 sièges, dont un quart est affecté à la première classe et le reste à la classe économique. Pour un certain vol, le prix d'un billet de la classe économique est 350€. Si uniquement la moitié de la première classe est occupée, tandis que la classe économique est complète, et la recette totale de la compagnie aérienne pour ce vol est de 41 850€, quel est le prix d'un billet de la première classe ?",
+"choix": [
+{"texte": "a) 1 380", "est_correct": false},
+{"texte": "b) 348,33", "est_correct": false},
+{"texte": "c) 345", "est_correct": false},
+{"texte": "d) 690", "est_correct": true}
+]
+},
+{
+"ordre": 18,
+"texte": "Chez un boucher, un acheteur prend un kilo et demi de bœuf à 24€ le kilo, quatre côtes de porc, chacune pesant 100 g, à 11€ le kilo, et deux cailles à 3,50€ la pièce. Quel est le montant total des achats ?",
+"choix": [
+{"texte": "a) 47,40 €", "est_correct": true},
+{"texte": "b) 77 €", "est_correct": false},
+{"texte": "c) 34,40 €", "est_correct": false},
+{"texte": "d) 42 €", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Une moitié de 70 personnes élit son président. Deux candidats se sont présentés. Si le premier a obtenu $60\\%$ de votes et le deuxième deux fois moins, combien d'électeurs se sont abstenus ?",
+"choix": [
+{"texte": "a) 10", "est_correct": false},
+{"texte": "b) 21", "est_correct": false},
+{"texte": "c) 3", "est_correct": false},
+{"texte": "d) 7", "est_correct": true}
+]
+},
+{
+"ordre": 20,
+"texte": "Un commercial touche une commission de $15\\%$ sur les ventes qu'il réalise au cours d'un mois. Si pour le mois d'avril le commercial a touché 1 400€ de commission, quel est le montant des ventes qu'il a réalisé en avril ?",
+"choix": [
+{"texte": "a) 21000 €", "est_correct": false},
+{"texte": "b) 210000 €", "est_correct": false},
+{"texte": "c) 9333,33 €", "est_correct": true},
+{"texte": "d) 29000 €", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "La distance entre Libreville and Paris est de 6400 km environ. Quelle sera cette distance sur une carte au $1/10\\,000\\,000$ ?",
+"choix": [
+{"texte": "a) 0,64 cm", "est_correct": false},
+{"texte": "b) 64 cm", "est_correct": true},
+{"texte": "c) 6,4 cm", "est_correct": false},
+{"texte": "d) 640 cm", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Si l'on multiplie un certain nombre par 3, ensuite on ajoute 5 et on multiplie le tout par 4, on obtient 260. Quel est ce nombre ?",
+"choix": [
+{"texte": "a) 40", "est_correct": false},
+{"texte": "b) 85", "est_correct": false},
+{"texte": "c) 20", "est_correct": true},
+{"texte": "d) 80", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Quelle est la solution de l'équation $33x + 5 = 33x$ ?",
+"choix": [
+{"texte": "a) $S = \\emptyset$", "est_correct": true},
+{"texte": "b) $S = \\mathbb{R}$", "est_correct": false},
+{"texte": "c) $S = \\{0\\}$", "est_correct": false},
+{"texte": "d) $S = \\{-5\\}$", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Quelles sont les solutions de l'équation de second ordre suivante : $x^2 - x = 0$ ?",
+"choix": [
+{"texte": "a) $X_1=0$ ou $X_2=0$", "est_correct": false},
+{"texte": "b) $x_1=0$ et $x_2=0$", "est_correct": false},
+{"texte": "c) $x_1=1$ ou $x_2=0$", "est_correct": true},
+{"texte": "d) $x_1=0$ et $x_2=1$", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "L'expression $-(A + B)^2$ est égale à :",
+"choix": [
+{"texte": "a) $-A^2 - 2AB + B^2$", "est_correct": false},
+{"texte": "b) $A^2 + 2AB + B^2$", "est_correct": false},
+{"texte": "c) $-A^2 + 2AB + B$", "est_correct": false},
+{"texte": "d) $-A^2 - 2AB - B^2$", "est_correct": true}
+]
+},
+{
+"ordre": 26,
+"texte": "Quelle est la solution du système d'équation : $y = 100x$ et $x = 0$ ?",
+"choix": [
+{"texte": "a) $X = 100$ ; $y = 0$", "est_correct": false},
+{"texte": "b) $x = 0$ ; $y = 0$", "est_correct": true},
+{"texte": "c) $x = 100$ ; $y = 1$", "est_correct": false},
+{"texte": "d) $x = 0$ ; $y = 99$", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Laquelle des expressions suivantes, présentées en format $(x\\;; y)$, est la solution de l'équation $5y - (125 + x) = 64x$ ?",
+"choix": [
+{"texte": "a) $(8,125)$", "est_correct": false},
+{"texte": "b) $(2,51)$", "est_correct": true},
+{"texte": "c) $(10,130)$", "est_correct": false},
+{"texte": "d) $(6,100)$", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Donnez le domaine de définition de la fonction suivante : $f(x) = x^2 + 2$",
+"choix": [
+{"texte": "a) $]1\\;; +\\infty[$", "est_correct": false},
+{"texte": "b) $]0\\;; +\\infty[$", "est_correct": false},
+{"texte": "c) $]0\\;; +\\infty[$", "est_correct": false},
+{"texte": "d) $]-\\infty\\;; +\\infty[$", "est_correct": true}
+]
+},
+{
+"ordre": 29,
+"texte": "Donnez le domaine de définition de la fonction suivante : $f(x) = e^{\\sqrt{x}}$",
+"choix": [
+{"texte": "a) $\\mathbb{R}^+$", "est_correct": true},
+{"texte": "b) $\\mathbb{R}$", "est_correct": false},
+{"texte": "c) $\\mathbb{R}^{*+}$", "est_correct": false},
+{"texte": "d) $\\mathbb{R}^*$", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "$x$ est la solution de l'équation $3x < 1$ si et seulement si son domaine est :",
+"choix": [
+{"texte": "a) $]-\\infty\\;; \\dfrac{1}{3}]$", "est_correct": false},
+{"texte": "b) $]\\dfrac{1}{3}\\;; +\\infty[$", "est_correct": false},
+{"texte": "c) $[0\\;; \\dfrac{1}{3}]$", "est_correct": false},
+{"texte": "d) $]-\\infty\\;; \\dfrac{1}{3}[$", "est_correct": true}
+]
+},
+{
+"ordre": 31,
+"texte": "Donnez les domaines de définition de la fonction suivante : $f(x) = \\ln x$",
+"choix": [
+{"texte": "a) $]1\\;; +\\infty[$", "est_correct": false},
+{"texte": "b) $[0\\;; +\\infty[$", "est_correct": false},
+{"texte": "c) $]0\\;; +\\infty[$", "est_correct": true},
+{"texte": "d) $]-\\infty\\;; +\\infty[$", "est_correct": false}
+]
+},
+{
+"ordre": 32,
+"texte": "Donnez les domaines de définition de la fonction suivante : $f(x) = \\dfrac{1}{\\sqrt{x}} + 2x$",
+"choix": [
+{"texte": "a) $\\mathbb{R}^{*+}$", "est_correct": true},
+{"texte": "b) $\\mathbb{R}^-$", "est_correct": false},
+{"texte": "c) $\\mathbb{R}^*$", "est_correct": false},
+{"texte": "d) $\\mathbb{R}$", "est_correct": false}
+]
+},
+{
+"ordre": 33,
+"texte": "Dans la série de nombres suivante quel est l'intrus ? 11-7-13-9-15-16-21-17-5-1-33-3...",
+"choix": [
+{"texte": "a) 9", "est_correct": false},
+{"texte": "b) 16", "est_correct": true},
+{"texte": "c) 33", "est_correct": false},
+{"texte": "d) 15", "est_correct": false}
+]
+},
+{
+"ordre": 34,
+"texte": "Compléter la série suivante par des caractères (chiffres ou lettres) qui conviennent logiquement en remplaçant les points d'interrogation (?) : ...D8E10- G14H16- ??????- M26N28-P32Q34-S38T40....",
+"choix": [
+{"texte": "a) J20K22", "est_correct": true},
+{"texte": "b) J21K23", "est_correct": false},
+{"texte": "c) 120J22", "est_correct": false},
+{"texte": "d) J19K21", "est_correct": false}
+]
+},
+{
+"ordre": 35,
+"texte": "Compléter la série suivante par le caractère qui convient logiquement en remplaçant les points d'interrogation (?) : AGF UYD QXG I?N",
+"choix": [
+{"texte": "a) J", "est_correct": false},
+{"texte": "b) K", "est_correct": false},
+{"texte": "c) Z", "est_correct": false},
+{"texte": "d) W", "est_correct": true}
+]
+},
+{
+"ordre": 36,
+"texte": "Compléter la série suivante par des caractères qui conviennent logiquement en remplaçant les points d'interrogation (?) : BDF PRT T ??",
+"choix": [
+{"texte": "a) UX", "est_correct": false},
+{"texte": "b) VZ", "est_correct": false},
+{"texte": "c) VX", "est_correct": true},
+{"texte": "d) WX", "est_correct": false}
+]
+},
+{
+"ordre": 37,
+"texte": "Quel terme termine la série suivante : 2ABC 5DEF 8GHI ?",
+"choix": [
+{"texte": "a) 12NOP", "est_correct": false},
+{"texte": "b) 11MN2O", "est_correct": false},
+{"texte": "c) 13KLM", "est_correct": false},
+{"texte": "d) 11JKL", "est_correct": true}
+]
+},
+{
+"ordre": 38,
+"texte": "Quelle est la dérivée de la fonction suivante : $f(x) = x^2$ ?",
+"choix": [
+{"texte": "a) $2x$", "est_correct": true},
+{"texte": "b) $x$", "est_correct": false},
+{"texte": "c) $\\dfrac{1}{x^2}$", "est_correct": false},
+{"texte": "d) $\\dfrac{1}{x}$", "est_correct": false}
+]
+},
+{
+"ordre": 39,
+"texte": "Dans un jeu télévisé, trois candidats répondent l'un après l'autre à des questions. Ils ont chacun la possibilité d'engranger 0, 1, 2, 3 ou 4 points. Combien de nombres de trois (3) chiffres peut-on former avec les différentes possibilités de points obtenus par les candidats ?",
+"choix": [
+{"texte": "a) 64", "est_correct": false},
+{"texte": "b) 15", "est_correct": false},
+{"texte": "c) 125", "est_correct": true},
+{"texte": "d) $\\dfrac{1}{x}$", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

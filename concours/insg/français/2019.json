@@ -1,0 +1,315 @@
+[
+{
+"ecole": "INSG",
+"filiere": "Gestion",
+"epreuves": [
+{
+"titre": "Français",
+"annee": 2019,
+"mini_cours": "--- RÈGLES D'OR ET ASTUCES POUR MAÎTRISER LES 30 PIÈGES DU CONCOURS ---\n\n1. ACCORD DU PARTICIPE PASSÉ ET PRONOMINAUX :\n- Verbes pronominaux sans C.O.D. direct (se téléphoner, se succéder, se parler, se plaire) -> Le participe reste TOUJOURS invariable au singulier ('ils se sont téléphoné', 'elles se sont succédé').\n- Présence d'un C.O.D. : Si le C.O.D. est placé devant, on accorde ('Les lettres qu'ils se sont écrites'). S'il est placé après, pas d'accord ('Ils se sont dit la vérité' -> ils ont dit quoi ? la vérité, placé après).\n- Suivi d'un infinitif : Si le sujet fait l'action de l'infinitif, on accorde ('Les musiciens que j'ai entendus jouer'). Si le sujet subit l'action, invariable ('Les arbres que j'ai vu abattre').\n\n2. ADJECTIFS DE COULEUR :\n- Couleur simple issue d'un nom de fruit/fleur/pierre (marron, orange, cerise) -> INVARIABLE ('des chaussures marron').\n- Couleur composée (bleu ciel, bleu-vert, vert clair) -> TOUJOURS INVARIABLE ('des jupes bleu ciel').\n\n3. HOMOPHONES ET ÉCRITURES DISJOINTES :\n- 'Leur' (devant un verbe = invariable) vs 'Leurs' (devant un nom pluriel = prend un 's').\n- 'Quoi que' (en deux mots = quelle que soit la chose que) vs 'Quoique' (en un mot = bien que).\n- 'Quels que' (en deux mots devant le verbe être, s'accorde avec le sujet : 'quels que soient vos doutes').\n- 'Quant à' (toujours avec un 't', signifie 'en ce qui concerne') vs 'Quand' (temporel).\n- 'Nu-' devant un nom avec un trait d'union -> INVARIABLE ('nu-pieds'). Après le nom -> s'accorde ('pieds nus').\n\n4. CONJONCTIONS ET CONCORDANCE DES TEMPS :\n- Interdit au concours : 'Malgré que + subjonctif' (sauf très rares exceptions littéraires). Utilisez toujours 'Bien que + subjonctif'.\n- 'Après que' exige l'indicatif ('Après qu'il est parti').\n- Concordance au passé : Si la principale est au passé ('J'avais craint'), la subordonnée requiert le subjonctif imparfait ('qu'il ne vînt').\n\n5. PLURIEL DES NOMS COMPOSÉS ET IRRÉGULIERS :\n- Orthographe moderne : Verbe + Nom s'accorde au second terme ('des après-midis').\n- Nom + Adjectif : Les deux s'accordent ('des coffres-forts').\n- Mots en -ail : 'bail' fait 'baux' au pluriel.\n\n6. FIGURES DE STYLE ET VOCABULAIRE :\n- Gradation : Succession de termes d'intensité croissante ou décroissante.\n- Oxymore : Alliance de deux mots de sens contradictoires ('une obscure clarté').\n- Pléonasme : Répétition superflue de termes de même sens ('monter en haut').\n- Genre : 'Échappatoire' est un nom TOUJOURS FÉMININ ('une échappatoire').\n- 'Amours' : Masculin au singulier, mais FÉMININ au pluriel ('nos amours lointaines').",
+"questions": [
+{
+"ordre": 1,
+"texte": "Choisissez la forme correcte : « Les lettres qu'ils se sont ... ne sont jamais arrivées. »",
+"choix": [
+{"texte": "a- écrit", "est_correct": false},
+{"texte": "b- écrites", "est_correct": true},
+{"texte": "c- écrite", "est_correct": false},
+{"texte": "d- écriraient", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Quelle est la figure de style utilisée dans : « C’est un roc ! c’est un pic ! c’est un cap ! Que dis-je, c’est un cap ? … C’est une péninsule ! » ?",
+"choix": [
+{"texte": "a- L'hyperbole", "est_correct": false},
+{"texte": "b- La métaphore", "est_correct": false},
+{"texte": "c- La gradation", "est_correct": true},
+{"texte": "d- L'anaphore", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Complétez la phrase : « Ils ont dû refaire ... exercices car ils n'avaient pas compris la consigne. »",
+"choix": [
+{"texte": "a- leur", "est_correct": false},
+{"texte": "b- leurs", "est_correct": true},
+{"texte": "c- leures", "est_correct": false},
+{"texte": "d- leurres", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Quel est le synonyme du mot « versatilité » ?",
+"choix": [
+{"texte": "a- La fidélité", "est_correct": false},
+{"texte": "b- L'inconstance", "est_correct": true},
+{"texte": "c- L'obstination", "est_correct": false},
+{"texte": "d- L'habileté", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Choisissez la conjugaison correcte : « Il faut que nous ... plus attentifs à l'avenir. »",
+"choix": [
+{"texte": "a- soyons", "est_correct": true},
+{"texte": "b- sommes", "est_correct": false},
+{"texte": "c- soyions", "est_correct": false},
+{"texte": "d- serons", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Quel est le pluriel correct de « un après-midi » (selon l'orthographe moderne recommandée) ?",
+"choix": [
+{"texte": "a- des après-midi", "est_correct": false},
+{"texte": "b- des après-midis", "est_correct": true},
+{"texte": "c- des aprè-midis", "est_correct": false},
+{"texte": "d- des aprés-midis", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Trouvez l'antonyme de « éphémère » :",
+"choix": [
+{"texte": "a- Fugace", "est_correct": false},
+{"texte": "b- Bref", "est_correct": false},
+{"texte": "c- Durable", "est_correct": true},
+{"texte": "d- Passager", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Identifiez l'incorrection de syntaxe dans ces propositions :",
+"choix": [
+{"texte": "a- Malgré sa maladie, il est venu", "est_correct": false},
+{"texte": "b- Bien qu'il soit malade, il travaille", "est_correct": false},
+{"texte": "c- Malgré qu'il soit malade, il travaille", "est_correct": true},
+{"texte": "d- Quoiqu'il soit malade, il est venu", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Comment s'écrit l'adverbe dérivé de l'adjectif « constant » ?",
+"choix": [
+{"texte": "a- Constament", "est_correct": false},
+{"texte": "b- Constamment", "est_correct": true},
+{"texte": "c- Constemment", "est_correct": false},
+{"texte": "d- Constement", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "À quel temps appartient la forme « Nous aurions aimé » ?",
+"choix": [
+{"texte": "a- Conditionnel présent", "est_correct": false},
+{"texte": "b- Conditionnel passé", "est_correct": true},
+{"texte": "c- Subjonctif plus-que-parfait", "est_correct": false},
+{"texte": "d- Plus-que-parfait de l'indicatif", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Choisissez l'accord correct : « Pour cette cérémonie, elle s'est acheté des chaussures ... »",
+"choix": [
+{"texte": "a- marrons", "est_correct": false},
+{"texte": "b- marron", "est_correct": true},
+{"texte": "c- marronne", "est_correct": false},
+{"texte": "d- marronnes", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Que signifie le mot « sibyllin » ?",
+"choix": [
+{"texte": "a- Clair et transparent", "est_correct": false},
+{"texte": "b- Mystérieux et difficile à comprendre", "est_correct": true},
+{"texte": "c- Relatif à l'amitié sincère", "est_correct": false},
+{"texte": "d- Très bruyant", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Complétez : « Si vous étiez venus plus tôt, vous ... le directeur général. »",
+"choix": [
+{"texte": "a- auriez rencontré", "est_correct": true},
+{"texte": "b- rencontreriez", "est_correct": false},
+{"texte": "c- aviez rencontré", "est_correct": false},
+{"texte": "d- eussiez rencontrer", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Choisissez la bonne forme grammaticale : « ... vous fassiez, prévenez-nous avant de lancer le projet. »",
+"choix": [
+{"texte": "a- Quoique", "est_correct": false},
+{"texte": "b- Quoi que", "est_correct": true},
+{"texte": "c- Quoi-que", "est_correct": false},
+{"texte": "d- Quelque", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Quel est le genre correct du nom commun « échappatoire » ?",
+"choix": [
+{"texte": "a- Il est toujours masculin", "est_correct": false},
+{"texte": "b- Il est toujours féminin", "est_correct": true},
+{"texte": "c- Il peut être masculin ou féminin", "est_correct": false},
+{"texte": "d- Il n'a aucun genre défini", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Choisissez l'accord correct : « Elles marchaient ...-pieds dans le sable. »",
+"choix": [
+{"texte": "a- nues-pieds", "est_correct": false},
+{"texte": "b- nu-pieds", "est_correct": true},
+{"texte": "c- nue-pieds", "est_correct": false},
+{"texte": "d- nus-pieds", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Complétez correctement la phrase suivante : « Après qu'il ... parti, tout le monde a applaudi. »",
+"choix": [
+{"texte": "a- soit", "est_correct": false},
+{"texte": "b- est", "est_correct": true},
+{"texte": "c- fût", "est_correct": false},
+{"texte": "d- soit été", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Quel est le pluriel correct du mot « bail » ?",
+"choix": [
+{"texte": "a- bails", "est_correct": false},
+{"texte": "b- baux", "est_correct": true},
+{"texte": "c- bauces", "est_correct": false},
+{"texte": "d- bailes", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Que signifie l'adjectif « pusillanime » ?",
+"choix": [
+{"texte": "a- Qui manque d'audace et de courage", "est_correct": true},
+{"texte": "b- Qui est extrêmement méticuleux", "est_correct": false},
+{"texte": "c- Qui fait preuve d'une grande générosité", "est_correct": false},
+{"texte": "d- Qui est hautain et méprisant", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Choisissez la bonne forme : « Les musiciens que j'ai ... jouer étaient formidables. »",
+"choix": [
+{"texte": "a- entendu", "est_correct": false},
+{"texte": "b- entendus", "est_correct": true},
+{"texte": "c- entendues", "est_correct": false},
+{"texte": "d- entendurent", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Complétez la phrase : « Si vous m'aviez prévenu, je ... volontiers avec vous. »",
+"choix": [
+{"texte": "a- serais venu", "est_correct": true},
+{"texte": "b- serais viendrai", "est_correct": false},
+{"texte": "c- avais venu", "est_correct": false},
+{"texte": "d- fusse venu", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Choisissez la bonne forme : « ... soient vos doutes, persévérez. »",
+"choix": [
+{"texte": "a- Quelque", "est_correct": false},
+{"texte": "b- Quels que", "est_correct": true},
+{"texte": "c- Quelles que", "est_correct": false},
+{"texte": "d- Quelque soit", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Quelle figure de style est employée dans : « Cette obscure clarté qui tombe des étoiles » ?",
+"choix": [
+{"texte": "a- Un oxymore", "est_correct": true},
+{"texte": "b- Une litote", "est_correct": false},
+{"texte": "c- Une comparaison", "est_correct": false},
+{"texte": "d- Un pléonasme", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Quelle est l'orthographe correcte dans cette phrase : « Elle portait des jupes ... » ?",
+"choix": [
+{"texte": "a- bleues ciel", "est_correct": false},
+{"texte": "b- bleu ciel", "est_correct": true},
+{"texte": "c- bleues ciels", "est_correct": false},
+{"texte": "d- bleu ciels", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Quelle est l'orthographe correcte de ce mot ?",
+"choix": [
+{"texte": "a- dévelopement", "est_correct": false},
+{"texte": "b- developpement", "est_correct": false},
+{"texte": "c- développement", "est_correct": true},
+{"texte": "d- développemment", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Quel est le pluriel correct de « un coffre-fort » ?",
+"choix": [
+{"texte": "a- des coffres-forts", "est_correct": true},
+{"texte": "b- des coffres-fort", "est_correct": false},
+{"texte": "c- des coffre-forts", "est_correct": false},
+{"texte": "d- des coffre-fort", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Comment s'écrit l'adverbe de manière dérivé de l'adjectif « gentil » ?",
+"choix": [
+{"texte": "a- gentiment", "est_correct": true},
+{"texte": "b- gentillement", "est_correct": false},
+{"texte": "c- gentillment", "est_correct": false},
+{"texte": "d- gentiement", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Complétez la phrase suivante : « Il convient que vous ... résoudre ce problème vous-même. »",
+"choix": [
+{"texte": "a- pouvez", "est_correct": false},
+{"texte": "b- puissiez", "est_correct": true},
+{"texte": "c- pouriez", "est_correct": false},
+{"texte": "d- puissier", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Comment appelle-t-on la répétition superflue de termes de même sens (ex: « monter en haut ») ?",
+"choix": [
+{"texte": "a- Un pléonasme", "est_correct": true},
+{"texte": "b- Un solécisme", "est_correct": false},
+{"texte": "c- Une antiphrase", "est_correct": false},
+{"texte": "d- Un euphémisme", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Choisissez la phrase correcte :",
+"choix": [
+{"texte": "a- Ils se sont dits la vérité.", "est_correct": false},
+{"texte": "b- Ils se sont dit la vérité.", "est_correct": true},
+{"texte": "c- Ils se sont dite la vérité.", "est_correct": false},
+{"texte": "d- Ils se sont dites la vérité.", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

@@ -7,11 +7,22 @@
 {% block extra_css %}
 <script>
   window.MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
-    svg: { fontCache: 'global' }
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      packages: {'[+]': ['ams']},
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    },
+    startup: {
+      ready() {
+        MathJax.startup.defaultReady();
+      }
+    }
   };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <style>
   :root {
     --forest-dark   : #1b4332;
@@ -240,7 +251,7 @@
       {% for q in questions %}
       <div class="question-card {% if forloop.first %}active{% endif %}" id="question-{{ forloop.counter0 }}">
         <div class="question-numero">Question {{ q.ordre }} / {{ total }}</div>
-        <div class="question-texte">{{ q.texte }}</div>
+        <div class="question-texte">{{ q.texte|safe }}</div>
 
         {% for choix in q.choix.all %}
         <label class="choix-item" id="label-{{ q.id }}-{{ choix.id }}">
@@ -248,7 +259,7 @@
                  class="choix-radio" id="choix-{{ choix.id }}"
                  onchange="marquerRepondue({{ forloop.parentloop.counter0 }}, '{{ q.id }}')">
           <div class="choix-lettre">{% if forloop.counter == 1 %}A{% elif forloop.counter == 2 %}B{% elif forloop.counter == 3 %}C{% elif forloop.counter == 4 %}D{% elif forloop.counter == 5 %}E{% else %}{{ forloop.counter }}{% endif %}</div>
-          <span>{{ choix.texte }}</span>
+          <span class="choix-texte">{{ choix.texte|safe }}</span>
         </label>
         {% endfor %}
       </div>
@@ -311,6 +322,12 @@
     document.getElementById(`qbtn-${QUESTIONS[questionActuelle].id}`).classList.add('active');
 
     mettreAJourNavigation();
+
+    // Re-render MathJax sur la nouvelle question visible
+    if (typeof MathJax !== 'undefined') {
+        MathJax.typesetPromise([document.getElementById(`question-${questionActuelle}`)]);
+    }
+
     document.getElementById(`question-${questionActuelle}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 

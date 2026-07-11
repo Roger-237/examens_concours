@@ -1,0 +1,318 @@
+[
+{
+"ecole": "INSG",
+"filiere": "Gestion",
+"epreuves": [
+{
+"titre": "Mathématiques",
+"annee": 2017,
+"latex": true,
+"mini_cours": "--- SQUELETTE DE RÉSOLUTION ET ASTUCES DE CALCUL (MATHS 2017) ---\n\n1. ARITHMÉTIQUE COMMERCIALE & VARIATIONS :\n- Augmentation / Diminution : Appliquer un taux $t$ revient à multiplier par le coefficient $CM = 1 + t$ (ou $1 - t$ pour une baisse). Nouveau prix : $V_f = V_i \times (1 + t)$.\n- Taux de variation global : Pour deux variations successives $t_1$ et $t_2$, le coefficient multiplicateur global est $CM_g = (1 + t_1)(1 + t_2)$. Le taux global est $T_g = CM_g - 1$.\n- Pourcentage de variation : $T = \frac{V_f - V_i}{V_i} \times 100$. Si le résultat est $> 100\\%$, la valeur a plus que doublé.\n\n2. SUITES NUMÉRIQUES :\n- Suite Arithmétique : $U_n = U_p + (n-p)r$. Somme de termes consécutifs : $S = N \times \frac{\text{Premier terme} + \text{Dernier terme}}{2}$ où $N = n-p+1$ est le nombre de termes.\n- Suite Géométrique : $U_n = U_p \times q^{n-p}$. Somme de termes consécutifs : $S = \text{Premier terme} \times \frac{q^{N} - 1}{q - 1}$ (avec $N$ le nombre de termes).\n\n3. STATISTIQUES :\n- Mode : Valeur(s) ayant le plus grand effectif. Une série peut avoir plusieurs modes (série bimodale).\n- Médiane ($Me$) : Partage la série ordonnée en deux parties d'effectifs égaux. Si l'effectif total $N$ est pair, $Me$ est la moyenne des valeurs de rang $\frac{N}{2}$ et $\frac{N}{2} + 1$.\n- Moyenne pondérée : $\bar{x} = \\sum (f_i \times x_i)$.\n- Écart-type : $\\sigma = \\sqrt{V}$ avec la Variance $V = \frac{\\sum x_i^2}{N} - \bar{x}^2$.\n\n4. FONCTIONS, LIMITES & CALCULUS :\n- Équation du second degré ($ax^2 + bx + c = 0$) : Calculer \\Delta = b^2 - 4ac. Si \\Delta > 0, deux solutions $x = \frac{-b \\pm \\sqrt{\\Delta}}{2a}$.\n- Asymptote verticale : La droite $x = x_0$ est asymptote verticale si $\\lim_{x \to x_0} f(x) = \\pm\\infty$ (généralement aux valeurs interdites du dénominateur).\n- Indétermination : $\\infty - \\infty$ est une Forme Indéterminée (F.I.).\n- Dérivées : $(e^u)' = u' e^u$.\n- Primitives clés : Primitive de $\frac{a}{x}$ est $a \\ln|x| + C$ ; primitive de $e^{ax}$ est $\frac{1}{a} e^{ax} + C$.\n\n5. PROBABILITÉS & LOGARITHMES :\n- Événements indépendants $A$ et $B$ : $p(A \\cap B) = p(A) \times p(B)$ et $p(A \\cup B) = p(A) + p(B) - p(A \\cap B)$.\n- Logarithmes : $\\ln(\frac{a}{b}) = \\ln a - \\ln b$ et $\\ln(a^n) = n \\ln a$. Équation $\\ln x = y \\iff x = e^y$.\n- Équation de droite $ax + by + c = 0$ : L'ordonnée à l'origine ($x=0$) est $y = -\frac{c}{b}$. Un point appartient à une droite si ses coordonnées satisfont l'équation.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Un article de 78720 a subi une augmentation de $2.5\\%$. Son nouveau prix est :",
+"choix": [
+{"texte": "a- 80032", "est_correct": false},
+{"texte": "b- 80688", "est_correct": true},
+{"texte": "c- 90500", "est_correct": false},
+{"texte": "d- 92800", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "L'épargne de Mackaya est passée de 157440 FCFA à 446080 FCFA. Le pourcentage d'augmentation est d'environ :",
+"choix": [
+{"texte": "a- $440\\%$", "est_correct": false},
+{"texte": "b- $83.33\\%$", "est_correct": false},
+{"texte": "c- $183.33\\%$", "est_correct": true},
+{"texte": "d- $2.83\\%$", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Lorsqu'on applique à un article une TVA de $5.5\\%$, le coefficient multiplicateur est :",
+"choix": [
+{"texte": "a- $0.055$", "est_correct": false},
+{"texte": "b- $1.055$", "est_correct": true},
+{"texte": "c- $0.55$", "est_correct": false},
+{"texte": "d- $1.55$", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Le prix d'un terrain a subi deux augmentations successives de $30\\%$ puis $5\\%$. Le taux global est :",
+"choix": [
+{"texte": "a- $35\\%$", "est_correct": false},
+{"texte": "b- $19.7\\%$", "est_correct": false},
+{"texte": "c- $36.5\\%$", "est_correct": true},
+{"texte": "d- $6\\%$", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "On considère une suite arithmétique $(U_n)$ telle que $U_4 = 7$ et $U_6 = 28$. Sa raison est :",
+"choix": [
+{"texte": "a- $10.5$", "est_correct": true},
+{"texte": "b- $2$", "est_correct": false},
+{"texte": "c- $21$", "est_correct": false},
+{"texte": "d- $4$", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "On considère une suite géométrique $(U_n)$ telle que $U_4 = 7$ et $U_6 = 28$. Sa raison est :",
+"choix": [
+{"texte": "a- $10.5$", "est_correct": false},
+{"texte": "b- $2$", "est_correct": true},
+{"texte": "c- $21$", "est_correct": false},
+{"texte": "d- $4$", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "On considère une suite arithmétique $(U_n)$ telle que $U_1 = 2.1$ et $U_{13} = 18.9$. La somme $U_1 + U_2 + \\cdots + U_{13}$ vaut :",
+"choix": [
+{"texte": "a- $\\dfrac{2.1+18.9}{2} \times 13$", "est_correct": true},
+{"texte": "b- $\\dfrac{2.1+18.9}{2} \times 12$", "est_correct": false},
+{"texte": "c- $\\dfrac{2.1+18.9}{2} \times 14$", "est_correct": false},
+{"texte": "d- $4135$", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "On considère une suite géométrique $(U_n)$ telle que $U_0 = 4$ et de raison $q = 1.5$. La somme $U_0 + U_1 + \\cdots + U_{13}$ vaut :",
+"choix": [
+{"texte": "a- $4 \times \\dfrac{1.5^{13}-1}{0.5}$", "est_correct": false},
+{"texte": "b- $4 \times \\dfrac{1.5^{14}-1}{0.5}$", "est_correct": true},
+{"texte": "c- $4 \times \\dfrac{1.5^{15}-1}{0.5}$", "est_correct": false},
+{"texte": "d- $4 \times \\dfrac{1.5^{14}}{0.5}$", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Pour la série de notes : $16, 17, 18, 20, 18, 20, 18, 21, 21, 21, 24, 25$. Le mode est :",
+"choix": [
+{"texte": "a- $20$", "est_correct": false},
+{"texte": "b- $16$", "est_correct": false},
+{"texte": "c- $25$", "est_correct": false},
+{"texte": "d- $18$ et $21$", "est_correct": true}
+]
+},
+{
+"ordre": 10,
+"texte": "Pour la série de notes : $16, 17, 18, 20, 18, 20, 18, 21, 21, 21, 24, 25$. La médiane est :",
+"choix": [
+{"texte": "a- $19.9$", "est_correct": false},
+{"texte": "b- $19$", "est_correct": false},
+{"texte": "c- $20$", "est_correct": true},
+{"texte": "d- $21$", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Pour la série de notes : $16, 17, 18, 20, 18, 20, 18, 21, 21, 21, 24, 25$. La moyenne est :",
+"choix": [
+{"texte": "a- égale à la médiane", "est_correct": false},
+{"texte": "b- supérieure à la médiane", "est_correct": false},
+{"texte": "c- inférieure à la médiane", "est_correct": true},
+{"texte": "d- on ne peut rien affirmer", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Soit $f$ la fonction définie par $f(x) = \\sqrt{2x^2 - 4}$. Le nombre réel $2$ :",
+"choix": [
+{"texte": "a- N'a pas d'image par $f$", "est_correct": false},
+{"texte": "b- a pour image $0$ par $f$", "est_correct": false},
+{"texte": "c- a pour image $2\\sqrt{3}$ par $f$", "est_correct": false},
+{"texte": "d- a pour image $2$ par $f$", "est_correct": true}
+]
+},
+{
+"ordre": 13,
+"texte": "Soit $P(x) = -x^3 + 5x^2 - 11x + 10$. Déterminer $a$, $b$, $c$ tels que $P(x) = (x-2)(ax^2 + bx + c)$ :",
+"choix": [
+{"texte": "a- $a = -1\\;; b = 3\\;; c = -5$", "est_correct": true},
+{"texte": "b- $a = 0\\;; b = -3\\;; c = 5$", "est_correct": false},
+{"texte": "c- $a = -1\\;; b = 2\\;; c = -4$", "est_correct": false},
+{"texte": "d- $a = 1\\;; b = 0\\;; c = -3$", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "L'équation $2x^2 - 7x + 3 = 0$ a pour solution :",
+"choix": [
+{"texte": "a- $+3$", "est_correct": true},
+{"texte": "b- $\\dfrac{1}{2}$", "est_correct": true},
+{"texte": "c- $-2$", "est_correct": false},
+{"texte": "d- $-\\dfrac{1}{2}$", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Soit $f : ]1\\;;+\\infty[ \to \\mathbb{R}$ définie par $f(x) = \\dfrac{3x+1}{x-1}$. La courbe de $f$ admet pour asymptote verticale :",
+"choix": [
+{"texte": "a- $y = 3$", "est_correct": false},
+{"texte": "b- $y = 1$", "est_correct": false},
+{"texte": "c- $x = -1$", "est_correct": false},
+{"texte": "d- $x = 1$", "est_correct": true}
+]
+},
+{
+"ordre": 16,
+"texte": "Soit $f$ définie sur $]-1\\;;+\\infty[$ par $f(x) = \\dfrac{2x+5}{x+1}$. On a :",
+"choix": [
+{"texte": "a- $\\displaystyle\\lim_{x \to -1^+} f(x) = -\\infty$", "est_correct": false},
+{"texte": "b- $\\displaystyle\\lim_{x \to +\\infty} f(x) = 0$", "est_correct": false},
+{"texte": "c- $\\displaystyle\\lim_{x \to -1^+} f(x) = +\\infty$", "est_correct": true},
+{"texte": "d- $\\displaystyle\\lim_{x \to +\\infty} f(x) = -\\infty$", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Deux événements $A$ et $B$ indépendants avec $p(A) = 0.2$ et $p(B) = 0.3$. On a $p(A \\cap B) =$",
+"note": "La réponse mathématique correcte est 0.06 (= 0.2 × 0.3). Vérifier les options dans le corrigé officiel.",
+"choix": [
+{"texte": "a- $0.5$", "est_correct": false},
+{"texte": "b- $0.12$", "est_correct": false},
+{"texte": "c- $0.15$", "est_correct": false},
+{"texte": "d- $0.06$", "est_correct": true}
+]
+},
+{
+"ordre": 18,
+"texte": "Deux événements $A$ et $B$ indépendants avec $p(A) = 0.2$ et $p(B) = 0.3$. On a $p(A \\cup B) =$",
+"choix": [
+{"texte": "a- $0.5$", "est_correct": false},
+{"texte": "b- $0.12$", "est_correct": false},
+{"texte": "c- $0.44$", "est_correct": true},
+{"texte": "d- $0.67$", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "On tire une carte au hasard dans un jeu de 32 cartes. La probabilité de tirer un nombre inférieur à 10 est :",
+"choix": [
+{"texte": "a- $\\dfrac{1}{8}$", "est_correct": false},
+{"texte": "b- $\\dfrac{1}{2}$", "est_correct": false},
+{"texte": "c- $\\dfrac{3}{8}$", "est_correct": true},
+{"texte": "d- $\\dfrac{1}{12}$", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Série statistique : $x_i \\in \\{-12, -4, -1, 2, 10, 20\\}$ avec $f_i \\in \\{0.3, 0.1, 0.2, 0.1, 0.2, 0.1\\}$. Sa moyenne est :",
+"choix": [
+{"texte": "a- $0$", "est_correct": true},
+{"texte": "b- $-1$", "est_correct": false},
+{"texte": "c- $1$", "est_correct": false},
+{"texte": "d- $2$", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Pour une série de 100 valeurs, on a $\\sum x_i = 120$ et $\\sum x_i^2 = 145$. L'écart type est :",
+"choix": [
+{"texte": "a- $1.2$", "est_correct": false},
+{"texte": "b- $1.45$", "est_correct": false},
+{"texte": "c- $0.01$", "est_correct": false},
+{"texte": "d- $0.1$", "est_correct": true}
+]
+},
+{
+"ordre": 22,
+"texte": "La dérivée de $f(x) = e^{3x^2+4x}$ est :",
+"choix": [
+{"texte": "a- $e^{3x^2+4x}$", "est_correct": false},
+{"texte": "b- $e^{6x+4}$", "est_correct": false},
+{"texte": "c- $(6x+4)e^{3x^2+4x}$", "est_correct": true},
+{"texte": "d- $6xe^{3x^2+4x}$", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "L'inéquation $\\dfrac{-5x+3}{2x+1} \\geq -1$ a pour ensemble de solutions :",
+"choix": [
+{"texte": "a- $[-\\dfrac{1}{2}\\;;+\\infty[$", "est_correct": false},
+{"texte": "b- $[\\dfrac{4}{3}\\;;+\\infty[$", "est_correct": false},
+{"texte": "c- $]-\\dfrac{1}{2}\\;;\\dfrac{4}{3}]$", "est_correct": true},
+{"texte": "d- $]-\\dfrac{1}{2}\\;;\\dfrac{4}{3}[$", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "La droite d'équation $3x - 5y + 7 = 0$ a pour ordonnée à l'origine :",
+"choix": [
+{"texte": "a- $7$", "est_correct": false},
+{"texte": "b- $-7$", "est_correct": false},
+{"texte": "c- $\\dfrac{7}{5}$", "est_correct": true},
+{"texte": "d- $-\\dfrac{7}{5}$", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "La droite d'équation $y = \\dfrac{5}{2}x + \\dfrac{3}{2}$ passe par le point de coordonnées :",
+"note": "Vérifier l'équation exacte dans l'original — aucun des points listés ne satisfait cette équation telle que lue.",
+"choix": [
+{"texte": "a- $(-1\\;;1)$", "est_correct": false},
+{"texte": "b- $(1\\;;1)$", "est_correct": true},
+{"texte": "c- $(-3\\;;6)$", "est_correct": false},
+{"texte": "d- $(1\\;;-4)$", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Si $\\displaystyle\\lim_{x \to +\\infty} f(x) = -\\infty$ et $\\displaystyle\\lim_{x \to +\\infty} g(x) = +\\infty$, alors $\\displaystyle\\lim_{x \to +\\infty} [f(x) + g(x)] =$",
+"choix": [
+{"texte": "a- $+\\infty$", "est_correct": false},
+{"texte": "b- $-\\infty$", "est_correct": false},
+{"texte": "c- $0$", "est_correct": false},
+{"texte": "d- on ne peut pas conclure", "est_correct": true}
+]
+},
+{
+"ordre": 27,
+"texte": "$\\ln 0.008$ est égal à :",
+"choix": [
+{"texte": "a- $\\dfrac{\\ln 8}{\\ln 1000}$", "est_correct": false},
+{"texte": "b- $3\\ln 2 + 3\\ln 10$", "est_correct": false},
+{"texte": "c- $3\\ln 2 - 3\\ln 10$", "est_correct": true},
+{"texte": "d- $3 - \\ln 2$", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "L'équation $\\ln x = -2$ a pour solution :",
+"choix": [
+{"texte": "a- aucune", "est_correct": false},
+{"texte": "b- $-e^2$", "est_correct": false},
+{"texte": "c- $\\dfrac{1}{e^2}$", "est_correct": true},
+{"texte": "d- $-\\ln 2$", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "La fonction $f(x) = \\dfrac{2}{x}$ a pour primitive sur $]0\\;;+\\infty[$ :",
+"choix": [
+{"texte": "a- $2\\ln x$", "est_correct": true},
+{"texte": "b- $\\dfrac{(\\ln x)^2}{2}$", "est_correct": false},
+{"texte": "c- $\\ln x + 2$", "est_correct": false},
+{"texte": "d- $\\ln x + 5$", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "La fonction $g(x) = e^{2x}$ a pour primitive sur $\\mathbb{R}$ :",
+"choix": [
+{"texte": "a- $G(x) = 2e^{2x}$", "est_correct": false},
+{"texte": "b- $G(x) = \\dfrac{1}{2}e^{x}$", "est_correct": false},
+{"texte": "c- $G(x) = e^{2x} + 5$", "est_correct": false},
+{"texte": "d- $G(x) = \\dfrac{1}{2}e^{2x}$", "est_correct": true}
+]
+}
+]
+}
+]
+}
+]

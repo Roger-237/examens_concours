@@ -1,0 +1,317 @@
+[
+{
+"ecole": "INPTIC",
+"filiere": "GENIE INFORMATIQUE",
+"epreuves": [
+{
+"titre": "Mathématiques",
+"annee": 2018,
+"latex": true,
+"mini_cours": "--- STRATÉGIES ET FORMULES CLÉS (INPTIC MATHS 2018) ---\n\n1. ALGÈBRE COMPLEXE ET GÉOMÉTRIE DU PLAN :\n- Forme trigonométrique et exponentielle : Tout nombre complexe non nul $z = x + iy$ s'écrit $z = r(\\cos(\theta) + i\\sin(\theta)) = r e^{i\theta}$ où $r = |z| = \\sqrt{x^2+y^2}$ et $\\cos(\theta) = \frac{x}{r}$, $\\sin(\theta) = \frac{y}{r}$. Par exemple, pour $z = \\sqrt{3} + i$, on a $r = 2$ et $\theta = \frac{\\pi}{6} \\ [2\\pi]$, d'où $z = 2e^{i\frac{\\pi}{6}}$.\n- Équations du second degré dans $\\mathbb{C}$ : Pour $az^2 + bz + c = 0$ à coefficients réels, si $\\Delta = b^2 - 4ac < 0$, l'équation admet deux solutions complexes conjuguées : $z_1 = \frac{-b - i\\sqrt{-\\Delta}}{2a}$ et $z_2 = \bar{z_1} = \frac{-b + i\\sqrt{-\\Delta}}{2a}$.\n\n2. ANOMALIES DES LIMITES ET ANALYSE DE FONCTIONS :\n- Croissances comparées à l'infini : Pour tout $k > 0$, $\\lim_{x \to +\\infty} \frac{\\ln(x)}{x^k} = 0$ et $\\lim_{x \to +\\infty} \frac{e^x}{x^k} = +\\infty$.\n- Limite remarquable en 0 : $\\lim_{x \to 0} \frac{e^x - 1}{x} = 1$ et $\\lim_{x \to 0} \frac{\\ln(1+x)}{x} = 1$.\n- Tangente à une courbe : L'équation de la tangente à la courbe de $f$ en $a$ est $y = f'(a)(x-a) + f(a)$.\n- Convexité et point d'inflexion : Une fonction $f$ change de sens de convexité en un point d'abscisse $x_0$ si et seulement si sa dérivée seconde $f''$ s'annule en changeant de signe en $x_0$. Ce point est appelé point d'inflexion.\n\n3. INTÉGRATION ET CALCULS DE PRIMITIVES :\n- Intégration par parties (IPP) : Pour deux fonctions $u$ et $v$ dérivables sur $[a, b]$ à dérivées continues, on a : $\\int_a^b u'(x)v(x) dx = [u(x)v(x)]_a^b - \\int_a^b u(x)v'(x) dx$.\n- Primitives usuelles composées : Une primitive de $u'e^u$ est $e^u + C$. Une primitive de $\frac{u'}{u}$ sur un intervalle où $u > 0$ est $\\ln(u) + C$.\n\n4. PROBABILITÉS ET LOIS DE PROBABILITÉ :\n- Probabilités conditionnelles : Pour deux événements $A$ et $B$ avec $P(B) \neq 0$, la probabilité de $A$ sachant $B$ est $P_B(A) = P(A|B) = \frac{P(A \\cap B)}{P(B)}$. Deux événements sont indépendants si et seulement si $P(A \\cap B) = P(A) \times P(B)$.\n- Loi binomiale : Si $X$ suit la loi binomiale $\\mathcal{B}(n, p)$, alors pour tout $k \\in \\{0, 1, \\dots, n\\}$, $P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$.\n- Fluctuation et échantillonnage : Pour un échantillon de taille $n$, un intervalle de fluctuation asymptotique au seuil de $95\\%$ est donné par $I = \[ p - 1{,}96 \\sqrt{\frac{p(1-p)}{n}} \\;; p + 1{,}96 \\sqrt{\frac{p(1-p)}{n}} ]$.",
+"questions": [
+{
+"ordre": 1,
+"texte": "La forme exponentielle du nombre complexe $z = \\sqrt{3} + i$ est :",
+"choix": [
+{"texte": "a- $2e^{i\frac{\\pi}{3}}$", "est_correct": false},
+{"texte": "b- $2e^{i\frac{\\pi}{6}}$", "est_correct": true},
+{"texte": "c- $\\sqrt{2}e^{i\frac{\\pi}{6}}$", "est_correct": false},
+{"texte": "d- $2e^{-i\frac{\\pi}{6}}$", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Soit $z = \\dfrac{1+i\\sqrt{3}}{1-i}$. Le module de $z$ est égal à :",
+"choix": [
+{"texte": "a- $1$", "est_correct": false},
+{"texte": "b- $\\sqrt{2}$", "est_correct": true},
+{"texte": "c- $2$", "est_correct": false},
+{"texte": "d- $\\dfrac{2}{\\sqrt{3}}$", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Dans le plan complexe, la distance entre les points $A$ d'affixe $2+i$ et $B$ d'affixe $5-3i$ vaut :",
+"choix": [
+{"texte": "a- $5$", "est_correct": true},
+{"texte": "b- $\\sqrt{7}$", "est_correct": false},
+{"texte": "c- $25$", "est_correct": false},
+{"texte": "d- $\\sqrt{13}$", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Dans $\\mathbb{C}$, l'équation $z^2 - 2z + 4 = 0$ a pour ensemble de solutions :",
+"choix": [
+{"texte": "a- $\\{1 - i\\sqrt{3} \\;; 1 + i\\sqrt{3}\\}$", "est_correct": true},
+{"texte": "b- $\\{-1 - i\\sqrt{3} \\;; -1 + i\\sqrt{3}\\}$", "est_correct": false},
+{"texte": "c- $\\{2 - 2i\\sqrt{3} \\;; 2 + 2i\\sqrt{3}\\}$", "est_correct": false},
+{"texte": "d- $\\{1 - i \\;; 1 + i\\}$", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "La limite de la suite $u_n = \\dfrac{3n^2 - 1}{2n^2 + 5}$ quand $n \to +\\infty$ est :",
+"choix": [
+{"texte": "a- $0$", "est_correct": false},
+{"texte": "b- $\\dfrac{3}{2}$", "est_correct": true},
+{"texte": "c- $-\\dfrac{1}{5}$", "est_correct": false},
+{"texte": "d- $+\\infty$", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "La somme géométrique $S = 1 + 2 + 4 + 8 + \\cdots + 512$ est égale à :",
+"choix": [
+{"texte": "a- $1023$", "est_correct": true},
+{"texte": "b- $511$", "est_correct": false},
+{"texte": "c- $1024$", "est_correct": false},
+{"texte": "d- $2047$", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Soit la suite $(u_n)$ définie par $u_{n+1} = 2u_n + 3$ avec $u_0 = 1$. L'expression de $u_n$ en fonction de $n$ est :",
+"choix": [
+{"texte": "a- $u_n = 4 \times 2^n - 3$", "est_correct": true},
+{"texte": "b- $u_n = 2^n + 3$", "est_correct": false},
+{"texte": "c- $u_n = 4 \times 2^n + 3$", "est_correct": false},
+{"texte": "d- $u_n = 2^n - 3$", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "La valeur de l'intégrale $I = \\displaystyle\\int_0^1 e^{2x} dx$ est :",
+"choix": [
+{"texte": "a- $e^2 - 1$", "est_correct": false},
+{"texte": "b- $\\dfrac{e^2 - 1}{2}$", "est_correct": true},
+{"texte": "c- $\\dfrac{e^2}{2}$", "est_correct": false},
+{"texte": "d- $2e^2 - 2$", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "En utilisant une intégration par parties, l'intégrale $J = \\displaystyle\\int_1^e x \\ln(x) dx$ vaut :",
+"choix": [
+{"texte": "a- $\\dfrac{e^2+1}{4}$", "est_correct": true},
+{"texte": "b- $\\dfrac{e^2-1}{4}$", "est_correct": false},
+{"texte": "c- $\\dfrac{e^2+1}{2}$", "est_correct": false},
+{"texte": "d- $e^2$", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "La dérivée de la fonction $f(x) = \\ln(x^2+1)$ sur $\\mathbb{R}$ est :",
+"choix": [
+{"texte": "a- $f'(x) = \\dfrac{1}{x^2+1}$", "est_correct": false},
+{"texte": "b- $f'(x) = \\dfrac{2x}{x^2+1}$", "est_correct": true},
+{"texte": "c- $f'(x) = \\dfrac{x}{x^2+1}$", "est_correct": false},
+{"texte": "d- $f'(x) = 2x\\ln(x^2+1)$", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "La dérivée de la fonction $f(x) = \\dfrac{e^x}{x}$ sur $]0\\;; +\\infty[$ est :",
+"choix": [
+{"texte": "a- $f'(x) = \\dfrac{e^x(x-1)}{x^2}$", "est_correct": true},
+{"texte": "b- $f'(x) = \\dfrac{e^x(x+1)}{x^2}$", "est_correct": false},
+{"texte": "c- $f'(x) = \\dfrac{e^x}{1}$", "est_correct": false},
+{"texte": "d- $f'(x) = e^x \\ln(x)$", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "La limite de $\\dfrac{\\ln(x)}{x^2}$ quand $x \to +\\infty$ est :",
+"choix": [
+{"texte": "a- $+\\infty$", "est_correct": false},
+{"texte": "b- $1$", "est_correct": false},
+{"texte": "c- $0$", "est_correct": true},
+{"texte": "d- $-\\infty$", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "La limite de $\\dfrac{e^x - 1}{x}$ quand $x \to 0$ est :",
+"choix": [
+{"texte": "a- $0$", "est_correct": false},
+{"texte": "b- $1$", "est_correct": true},
+{"texte": "c- $+\\infty$", "est_correct": false},
+{"texte": "d- $e$", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "La courbe représentative de $f(x) = x^3 - 3x^2$ admet un point d'inflexion au point d'abscisse :",
+"choix": [
+{"texte": "a- $x = 0$", "est_correct": false},
+{"texte": "b- $x = 1$", "est_correct": true},
+{"texte": "c- $x = 2$", "est_correct": false},
+{"texte": "d- $x = 3$", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "L'équation réduite de la tangente à la courbe de $f(x) = \\ln(x)$ au point d'abscisse $1$ est :",
+"choix": [
+{"texte": "a- $y = x - 1$", "est_correct": true},
+{"texte": "b- $y = x$", "est_correct": false},
+{"texte": "c- $y = x + 1$", "est_correct": false},
+{"texte": "d- $y = 2x - 2$", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Soient $A$ et $B$ deux événements tels que $P(A) = 0{,}4$, $P(B) = 0{,}5$ et $P(A \\cap B) = 0{,}2$. La probabilité conditionnelle $P(A|B)$ vaut :",
+"choix": [
+{"texte": "a- $0{,}2$", "est_correct": false},
+{"texte": "b- $0{,}4$", "est_correct": true},
+{"texte": "c- $0{,}5$", "est_correct": false},
+{"texte": "d- $0{,}8$", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Soit $X$ une variable aléatoire suivant la loi binomiale $\\mathcal{B}(4 \\;; 0{,}5)$. La probabilité $P(X=2)$ est :",
+"choix": [
+{"texte": "a- $0{,}375$", "est_correct": true},
+{"texte": "b- $0{,}25$", "est_correct": false},
+{"texte": "c- $0{,}5$", "est_correct": false},
+{"texte": "d- $0{,}125$", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "On prélève un échantillon de taille $n = 400$ dans une population où la proportion théorique d'un caractère est $p = 0{,}4$. L'intervalle de fluctuation asymptotique au seuil de $95\\%$ est :",
+"choix": [
+{"texte": "a- $[0{,}352\\;; 0{,}448]$", "est_correct": true},
+{"texte": "b- $[0{,}300\\;; 0{,}500]$", "est_correct": false},
+{"texte": "c- $[0{,}380\\;; 0{,}420]$", "est_correct": false},
+{"texte": "d- $[0{,}310\\;; 0{,}490]$", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Pour estimer une proportion avec un intervalle de confiance à $95\\%$ de largeur (amplitude) inférieure ou égale à $0{,}04$, la taille minimale $n$ de l'échantillon à choisir doit être de :",
+"choix": [
+{"texte": "a- $2500$", "est_correct": true},
+{"texte": "b- $1000$", "est_correct": false},
+{"texte": "c- $625$", "est_correct": false},
+{"texte": "d- $1600$", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Le nombre de sous-ensembles (parties) d'un ensemble à 5 éléments est égal à :",
+"choix": [
+{"texte": "a- $5$", "est_correct": false},
+{"texte": "b- $10$", "est_correct": false},
+{"texte": "c- $25$", "est_correct": false},
+{"texte": "d- $32$", "est_correct": true}
+]
+},
+{
+"ordre": 21,
+"texte": "Dans l'espace muni d'un repère orthonormé, le plan $P$ d'équation $2x - y + 3z - 5 = 0$ admet pour vecteur normal :",
+"choix": [
+{"texte": "a- $\\vec{n}(2\\;; -1\\;; 3)$", "est_correct": true},
+{"texte": "b- $\\vec{n}(2\\;; 1\\;; 3)$", "est_correct": false},
+{"texte": "c- $\\vec{n}(-2\\;; 1\\;; 3)$", "est_correct": false},
+{"texte": "d- $\\vec{n}(2\\;; -1\\;; -5)$", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "La distance du point $P(1\\;; 1\\;; 1)$ au plan d'équation $x + y + z - 1 = 0$ est :",
+"choix": [
+{"texte": "a- $\\dfrac{2}{\\sqrt{3}}$", "est_correct": true},
+{"texte": "b- $\\sqrt{3}$", "est_correct": false},
+{"texte": "c- $\\dfrac{1}{\\sqrt{3}}$", "est_correct": false},
+{"texte": "d- $2$", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Dans le plan complexe, la rotation de centre $O$ et d'angle $\\dfrac{\\pi}{2}$ associe à tout point d'affixe $z$ le point d'affixe $z'$ tel que :",
+"choix": [
+{"texte": "a- $z' = iz$", "est_correct": true},
+{"texte": "b- $z' = -iz$", "est_correct": false},
+{"texte": "c- $z' = z + i$", "est_correct": false},
+{"texte": "d- $z' = e^{i\\pi}z$", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Pour tout réel $x$, la formule trigonométrique de duplication de $\\cos(2x)$ est :",
+"choix": [
+{"texte": "a- $\\cos^2(x) - \\sin^2(x)$", "est_correct": true},
+{"texte": "b- $2\\cos(x)\\sin(x)$", "est_correct": false},
+{"texte": "c- $\\cos^2(x) + \\sin^2(x)$", "est_correct": false},
+{"texte": "d- $2\\cos^2(x) + 1$", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Le domaine de définition de la fonction réelle $f(x) = \\sqrt{4-x^2}$ est :",
+"choix": [
+{"texte": "a- $[-2\\;; 2]$", "est_correct": true},
+{"texte": "b- $]-\\infty\\;; -2] \\cup [2\\;; +\\infty[$", "est_correct": false},
+{"texte": "c- $[0\\;; 4]$", "est_correct": false},
+{"texte": "d- $\\mathbb{R}$", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Soit la fonction définie sur $\\mathbb{R}$ par $f(x) = x \\cos(x)$. Cette fonction est :",
+"choix": [
+{"texte": "a- Paire", "est_correct": false},
+{"texte": "b- Impaire", "est_correct": true},
+{"texte": "c- Ni paire ni impaire", "est_correct": false},
+{"texte": "d- Périodique de période $\\pi$", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Une primitive sur $\\mathbb{R}$ de la fonction $f(x) = x e^{-x^2}$ est :",
+"choix": [
+{"texte": "a- $F(x) = -\\dfrac{1}{2} e^{-x^2}$", "est_correct": true},
+{"texte": "b- $F(x) = e^{-x^2}$", "est_correct": false},
+{"texte": "c- $F(x) = -2e^{-x^2}$", "est_correct": false},
+{"texte": "d- $F(x) = \\dfrac{1}{2} e^{-x^2}$", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "D'après les lois de De Morgan, pour deux événements quelconques $A$ et $B$, l'événement contraire de $A \\cap B$, noté $\\overline{A \\cap B}$, est égal à :",
+"choix": [
+{"texte": "a- $\bar{A} \\cup \bar{B}$", "est_correct": true},
+{"texte": "b- $\bar{A} \\cap \bar{B}$", "est_correct": false},
+{"texte": "c- $\bar{A} \\setminus \bar{B}$", "est_correct": false},
+{"texte": "d- $\\overline{A \\cup B}$", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "La moyenne arithmétique de la série statistique $\\{10, 12, 15, 18, 25\\}$ est égale à :",
+"choix": [
+{"texte": "a- $15$", "est_correct": false},
+{"texte": "b- $16$", "est_correct": true},
+{"texte": "c- $17$", "est_correct": false},
+{"texte": "d- $18$", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "La limite de la suite $u_n = \(1 + \\dfrac{1}{n})^n$ quand $n \to +\\infty$ vaut :",
+"choix": [
+{"texte": "a- $1$", "est_correct": false},
+{"texte": "b- $e$", "est_correct": true},
+{"texte": "c- $+\\infty$", "est_correct": false},
+{"texte": "d- $0$", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]
+

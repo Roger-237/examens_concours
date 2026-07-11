@@ -1,0 +1,315 @@
+[
+{
+"ecole": "INSG",
+"filiere": "Gestion",
+"epreuves": [
+{
+"titre": "Français",
+"annee": 2020,
+"mini_cours": "--- RÈGLES ET ASTUCES STRATÉGIQUES POUR L'ÉPREUVE DE 2020 ---\n\n1. ACCORD DU PARTICIPE PASSÉ ET COMPORTEMENTS COMPLEXES :\n- Verbe 's'en vouloir' : Le participe 'voulu' reste toujours INVARIABLE car 'en' fait obstacle à l'accord, et le pronom réfléchi n'est pas COD ('elles se sont en voulu').\n- Verbes de mesure (courir, peser, coûter, valoir) : Le participe reste INVARIABLE si le verbe est employé au sens propre de mesure (ex: 'les dix kilomètres qu'il a couru' -> couru combien ? 10 km, mesure). Il s'accorde s'il est au sens figuré ('les dangers qu'il a courus').\n- Verbes pronominaux réciproques sans COD : 'se parler', 'se plaire', 'se succéder', 'se téléphoner' restent invariables au participe passé.\n\n2. ADJECTIFS DE COULEUR : EXCEPTIONS CRUCIALES :\n- Les adjectifs de couleur simples dérivés de noms de fruits, fleurs ou éléments naturels sont invariables (marron, orange, citron, émeraude).\n- TOUTEFOIS, il existe 6 exceptions célèbres qui s'accordent comme des adjectifs ordinaires : 'rose', 'mauve', 'violet', 'écarlate', 'pourpre', 'fauve' (ex: 'des rideaux roses').\n- Les couleurs composées restent toujours invariables ('des jupes bleu clair').\n\n3. ADVERBES EN -MENT (FORMATION PHYSIQUE) :\n- Si l'adjectif se termine par '-ant' -> l'adverbe s'écrit '-amment' (ex: méchant -> méchamment).\n- Si l'adjectif se termine par '-ent' -> l'adverbe s'écrit '-emment' (ex: intelligent -> intelligemment).\n- Attention aux cas irréguliers : 'gentil' -> 'gentiment' ; 'bref' -> 'brièvement'.\n\n4. CONCORDANCE DES TEMPS & STRUCTURES IMPÉRATIVES :\n- Après la locution 'après que', la règle académique impose l'indicatif (ex: 'après qu'il a fini' ou 'après qu'il eut fini'), tandis que 'bien que' ou 'quoique' imposent le subjonctif.\n- Concordance au passé : Si la principale exprime la crainte ou le regret au passé ('J'avais craint'), la subordonnée utilise le subjonctif imparfait ('qu'il ne vînt').\n\n5. LES PIÈGES DU VOCABULAIRE ET DE L'ORTHOGRAPHE :\n- 'Prémices' (commencement d'une chose) vs 'Prémisses' (hypothèses logiques d'un raisonnement).\n- Genre des mots piégeux : 'oasis' est FÉMININ ('une oasis'), 'apothéose' est FÉMININ ('une apothéose'), 'cauchemar' s'écrit sans 'd' à la fin.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Choisissez la forme correcte : « Elles se sont ... d'avoir oublié ce rendez-vous important. »",
+"choix": [
+{"texte": "a- se sont en voulues", "est_correct": false},
+{"texte": "b- se sont en voulu", "est_correct": true},
+{"texte": "c- se sont en voulus", "est_correct": false},
+{"texte": "d- s'en sont voulu", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Quelle est l'orthographe correcte pour qualifier des rideaux de couleur rose ?",
+"choix": [
+{"texte": "a- des rideaux rose", "est_correct": false},
+{"texte": "b- des rideaux roses", "est_correct": true},
+{"texte": "c- des rideaux rose-pâle", "est_correct": false},
+{"texte": "d- des rideaux rosés", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Comment s'écrit l'adverbe dérivé de l'adjectif « méchant » ?",
+"choix": [
+{"texte": "a- méchantment", "est_correct": false},
+{"texte": "b- méchament", "est_correct": false},
+{"texte": "c- méchamment", "est_correct": true},
+{"texte": "d- méchemment", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Complétez la phrase : « Il fallait absolument qu'ils ... leur travail avant midi. »",
+"choix": [
+{"texte": "a- finissent", "est_correct": true},
+{"texte": "b- finiront", "est_correct": false},
+{"texte": "c- finiraient", "est_correct": false},
+{"texte": "d- finissent-ils", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Quelle figure de style est employée dans l'expression : « Boire un verre » ?",
+"choix": [
+{"texte": "a- Une métaphore", "est_correct": false},
+{"texte": "b- Une métonymie", "est_correct": true},
+{"texte": "c- Une hyperbole", "est_correct": false},
+{"texte": "d- Un oxymore", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Quel est le synonyme du mot « fallacieux » ?",
+"choix": [
+{"texte": "a- Rigoureux", "est_correct": false},
+{"texte": "b- Trompeur", "est_correct": true},
+{"texte": "c- Inévitable", "est_correct": false},
+{"texte": "d- Transparent", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Choisissez l'accord correct : « Elle s'est ... la cheville en descendant l'escalier. »",
+"choix": [
+{"texte": "a- tordue", "est_correct": false},
+{"texte": "b- tordu", "est_correct": true},
+{"texte": "c- tordues", "est_correct": false},
+{"texte": "d- tordre", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Trouvez la conjugaison correcte de « acquérir » à la première personne du singulier de l'indicatif présent :",
+"choix": [
+{"texte": "a- j'acquiert", "est_correct": false},
+{"texte": "b- j'acquiers", "est_correct": true},
+{"texte": "c- j'acquie", "est_correct": false},
+{"texte": "d- j'acquis", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Complétez : « ... soit sa motivation réelle, elle parviendra à ses fins. »",
+"choix": [
+{"texte": "a- Quelque", "est_correct": false},
+{"texte": "b- Quelles que", "est_correct": false},
+{"texte": "c- Quelle que", "est_correct": true},
+{"texte": "d- Quel que", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Quel est le genre correct du mot « apothéose » ?",
+"choix": [
+{"texte": "a- Il est toujours masculin", "est_correct": false},
+{"texte": "b- Il est toujours féminin", "est_correct": true},
+{"texte": "c- Il peut changer selon le sens", "est_correct": false},
+{"texte": "d- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Quel est le pluriel traditionnel du mot « un gratte-ciel » ?",
+"choix": [
+{"texte": "a- des grattes-ciel", "est_correct": false},
+{"texte": "b- des gratte-ciel", "est_correct": true},
+{"texte": "c- des grattes-ciels", "est_correct": false},
+{"texte": "d- des gratte-ciels", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Choisissez l'homophone correct : « ... vous fassiez, prévenez-nous à l'avance. »",
+"choix": [
+{"texte": "a- Quoique", "est_correct": false},
+{"texte": "b- Quoi que", "est_correct": true},
+{"texte": "c- Quoi-que", "est_correct": false},
+{"texte": "d- Quelque", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Quel est le synonyme exact de « délétère » ?",
+"choix": [
+{"texte": "a- Stimulant", "est_correct": false},
+{"texte": "b- Nocif", "est_correct": true},
+{"texte": "c- Transparent", "est_correct": false},
+{"texte": "d- Éphémère", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "À quel temps appartient la forme verbale « nous eûmes fini » ?",
+"choix": [
+{"texte": "a- Passé antérieur", "est_correct": true},
+{"texte": "b- Plus-que-parfait", "est_correct": false},
+{"texte": "c- Passé simple", "est_correct": false},
+{"texte": "d- Subjonctif imparfait", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Choisissez l'accord de couleur correct : « Elle portait des chemises ... »",
+"choix": [
+{"texte": "a- bleu clairs", "est_correct": false},
+{"texte": "b- bleu-clair", "est_correct": false},
+{"texte": "c- bleues claires", "est_correct": false},
+{"texte": "d- bleu clair", "est_correct": true}
+]
+},
+{
+"ordre": 16,
+"texte": "Quelle est l'orthographe correcte de ce mot ?",
+"choix": [
+{"texte": "a- ambiguité", "est_correct": false},
+{"texte": "b- ambiguïté", "est_correct": true},
+{"texte": "c- ambiguitee", "est_correct": false},
+{"texte": "d- ambiguitée", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Choisissez la bonne forme grammaticale : « Elles se sont ... au téléphone hier soir. »",
+"choix": [
+{"texte": "a- parlées", "est_correct": false},
+{"texte": "b- parlé", "est_correct": true},
+{"texte": "c- parler", "est_correct": false},
+{"texte": "d- parlés", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Complétez la phrase selon les règles académiques : « Après qu'il ... parti, tout le monde a applaudi. »",
+"choix": [
+{"texte": "a- soit", "est_correct": false},
+{"texte": "b- est", "est_correct": true},
+{"texte": "c- fût", "est_correct": false},
+{"texte": "d- ait été", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Quelle est l'orthographe correcte de ce verbe de la famille de « susciter » ?",
+"choix": [
+{"texte": "a- ressuciter", "est_correct": false},
+{"texte": "b- ressusciter", "est_correct": true},
+{"texte": "c- ressusiter", "est_correct": false},
+{"texte": "d- recusciter", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Quel est le pluriel correct de « un chef-lieu » ?",
+"choix": [
+{"texte": "a- des chefs-lieux", "est_correct": true},
+{"texte": "b- des chef-lieux", "est_correct": false},
+{"texte": "c- des chefs-lieu", "est_correct": false},
+{"texte": "d- des chef-lieu", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Quel est l'antonyme ou le contraire du mot « indigent » ?",
+"choix": [
+{"texte": "a- Pauvre", "est_correct": false},
+{"texte": "b- Opulent", "est_correct": true},
+{"texte": "c- Discret", "est_correct": false},
+{"texte": "d- Avare", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Quelle figure de style est employée dans : « Il nous a quittés pour un monde meilleur » ?",
+"choix": [
+{"texte": "a- Une litote", "est_correct": false},
+{"texte": "b- Un euphémisme", "est_correct": true},
+{"texte": "c- Une métaphore", "est_correct": false},
+{"texte": "d- Un oxymore", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Choisissez la bonne forme : « Les dix kilomètres qu'il a ... l'ont épuisé. »",
+"choix": [
+{"texte": "a- courus", "est_correct": false},
+{"texte": "b- couru", "est_correct": true},
+{"texte": "c- courue", "est_correct": false},
+{"texte": "d- courues", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Comment s'écrit l'adverbe dérivé de l'adjectif « intelligent » ?",
+"choix": [
+{"texte": "a- intelligentment", "est_correct": false},
+{"texte": "b- intelligamment", "est_correct": false},
+{"texte": "c- intelligemment", "est_correct": true},
+{"texte": "d- intelligement", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Conjuguez le verbe vouloir au conditionnel présent, à la première personne du pluriel :",
+"choix": [
+{"texte": "a- nous voulons", "est_correct": false},
+{"texte": "b- nous voudrons", "est_correct": false},
+{"texte": "c- nous voudrions", "est_correct": true},
+{"texte": "d- nous voulions", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Quel est le genre correct du mot « oasis » ?",
+"choix": [
+{"texte": "a- Il est toujours masculin", "est_correct": false},
+{"texte": "b- Il est toujours féminin", "est_correct": true},
+{"texte": "c- Il peut être masculin ou féminin", "est_correct": false},
+{"texte": "d- Il n'a aucun genre", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Quelle est l'orthographe correcte de ce mot ?",
+"choix": [
+{"texte": "a- cauchemar", "est_correct": true},
+{"texte": "b- cauchemard", "est_correct": false},
+{"texte": "c- cauchemare", "est_correct": false},
+{"texte": "d- cauchemarre", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Choisissez l'accord correct : « Ces actrices étaient ... »",
+"choix": [
+{"texte": "a- court-vêtues", "est_correct": true},
+{"texte": "b- courts-vêtues", "est_correct": false},
+{"texte": "c- court-vêtus", "est_correct": false},
+{"texte": "d- courts-vêtus", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Complétez la phrase suivante : « Nous célébrons les ... d'un grand changement historique. »",
+"choix": [
+{"texte": "a- prémisses", "est_correct": false},
+{"texte": "b- prémices", "est_correct": true},
+{"texte": "c- prémhisses", "est_correct": false},
+{"texte": "d- prémhices", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Choisissez l'accord correct : « Ces magnifiques tableaux se sont très bien ... lors de la vente. »",
+"choix": [
+{"texte": "a- vendu", "est_correct": false},
+{"texte": "b- vendus", "est_correct": true},
+{"texte": "c- vendues", "est_correct": false},
+{"texte": "d- vendrent", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

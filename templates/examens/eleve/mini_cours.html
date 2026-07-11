@@ -42,7 +42,7 @@
     <div class="card-body">
         <h5 class="card-title">Mini cours</h5>
         {% if epreuve.mini_cours %}
-            <div class="mb-3" style="white-space: pre-line;">{{ epreuve.mini_cours }}</div>
+            <div class="mb-3" style="line-height: 1.8;" id="mini-cours-content">{{ epreuve.mini_cours }}</div>
         {% else %}
             <div class="mb-3 text-muted">Aucun cours préparatoire pour cette épreuve.</div>
         {% endif %}
@@ -59,5 +59,19 @@
 {% endblock %}
 
 {% block extra_js %}
+<script>
+// Remplace les \n par des sauts de ligne
+document.addEventListener('DOMContentLoaded', function() {
+    const content = document.getElementById('mini-cours-content');
+    if (content) {
+        content.innerHTML = content.textContent
+            .replace(/\n/g, '<br>')
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    }
+    if (typeof MathJax !== 'undefined') {
+        MathJax.typesetPromise();
+    }
     if (typeof feather !== 'undefined') feather.replace();
+});
+</script>
 {% endblock %}

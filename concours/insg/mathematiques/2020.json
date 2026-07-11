@@ -1,0 +1,146 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Général",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée en première année - Épreuves de Mathématiques",
+        "annee": 2020,
+        "latex": true,
+        "mini_cours": "Identités remarquables, vitesse moyenne, calcul d'aire, équations, statistiques (moyennes), probabilités, dérivation, pourcentages et évolutions, asymptotes.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "L'expression $(2x - 7)(2x + 7)$ a pour forme développée :",
+            "choix": [
+              {"texte": "a) $4x^2 - 28x - 49$", "est_correct": false},
+              {"texte": "b) $2x^2 - 49$", "est_correct": false},
+              {"texte": "c) $4x^2 - 49$", "est_correct": true},
+              {"texte": "d) $4x^2 + 49$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "L'expression $64x^2 - 16x + 1$ a pour forme factorisée :",
+            "choix": [
+              {"texte": "a) $(8x + 1)^2$", "est_correct": false},
+              {"texte": "b) $(8x - 1)^2$", "est_correct": true},
+              {"texte": "c) $(8x - 1)(8x + 1)$", "est_correct": false},
+              {"texte": "d) $8(x - 1)^2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "L'expression $(a + b)^2$ est égale à :",
+            "choix": [
+              {"texte": "a) $a^2 + b^2$", "est_correct": false},
+              {"texte": "b) cela dépend de $a$ et $b$", "est_correct": false},
+              {"texte": "c) $a^2 + 2ab + b^2$", "est_correct": true},
+              {"texte": "d) $a^2 - 2ab + b^2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Claire part en week-end à Oyem. Elle doit parcourir 500km. Partie à 14h, elle arrive à 18h. Quelle est sa vitesse moyenne ?",
+            "choix": [
+              {"texte": "a) 100km/h", "est_correct": false},
+              {"texte": "b) 50km/h", "est_correct": false},
+              {"texte": "c) 125km/h", "est_correct": true},
+              {"texte": "d) 75km/h", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Un rectangle a une longueur de 6 cm et une largeur de 3 cm. Son aire est égale à :",
+            "choix": [
+              {"texte": "a) $9\\text{ cm}^2$", "est_correct": false},
+              {"texte": "b) $18\\text{ cm}^2$", "est_correct": true},
+              {"texte": "c) $12\\text{ cm}^2$", "est_correct": false},
+              {"texte": "d) $2\\text{ cm}^2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "L'équation $x - 1 = 2x$ est équivalente à :",
+            "choix": [
+              {"texte": "a) $x = 1$", "est_correct": false},
+              {"texte": "b) $x = -1$", "est_correct": true},
+              {"texte": "c) $x = 2x + 1$", "est_correct": false},
+              {"texte": "d) $x = 2x - 1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Quatre candidats au baccalauréat ont obtenu les moyennes suivantes : candidat n°1 : 12, candidat n°2 : 13, candidat n°4 : X, candidat n°4 : 8. La moyenne des moyennes obtenue est 11. Quelle est la note du candidat n°3 ?",
+            "choix": [
+              {"texte": "a) 11", "est_correct": false},
+              {"texte": "b) 12", "est_correct": false},
+              {"texte": "c) 10", "est_correct": true},
+              {"texte": "d) impossible de la calculer", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Soient $A$ et $B$ deux évènements tels que leurs probabilités vérifient : $P(A) = P(B) = 0{,}2$ et $P(A \\cap B) = 0{,}1$. Alors $P(A \\cup B)$ est égal à :",
+            "choix": [
+              {"texte": "a) 0,2", "est_correct": false},
+              {"texte": "b) 0,3", "est_correct": true},
+              {"texte": "c) 0,4", "est_correct": false},
+              {"texte": "d) 0,5", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "La fonction $f$ définie sur $]1\\;; 12[$ par $f(x) = \\dfrac{-x^2 + 3x - 4}{x}$ a pour dérivée la fonction $f'$ telle que $f'(x) =$",
+            "choix": [
+              {"texte": "a) $-1 + \\dfrac{4}{x^2}$", "est_correct": true},
+              {"texte": "b) \\dfrac{1-x^2}{x^2}", "est_correct": false},
+              {"texte": "c) \\dfrac{x^2-4}{x^2}", "est_correct": false},
+              {"texte": "d) \\dfrac{-2x+3}{1}", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Le prix d'un produit dérivé du pétrole a augmenté de 60% durant l'année 2005. Pour revenir à sa valeur initiale, ce prix doit baisser de :",
+            "choix": [
+              {"texte": "a) 70%", "est_correct": false},
+              {"texte": "b) 60%", "est_correct": false},
+              {"texte": "c) 40%", "est_correct": false},
+              {"texte": "d) 37,5%", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "$f$ est la fonction définie sur l'intervalle $]0\\;; +\\infty[$ par $f(x) = 2x - 1 + \\dfrac{1}{x}$. La courbe représentative de la fonction $f$ dans un repère orthonormal du plan admet pour asymptote de droite d'équation :",
+            "choix": [
+              {"texte": "a) $y = 0$", "est_correct": false},
+              {"texte": "b) $y = 2x - 1$", "est_correct": true},
+              {"texte": "c) $x = 1$", "est_correct": false},
+              {"texte": "d) $y = -x + 1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "On considère la fonction $f$ définie sur $]0{,}5\\;; 12[$ par $f(x) = 2\\ln x$ et $C$ sa courbe représentative dans un repère orthogonal. Le coefficient directeur de la tangente à $C$ au point d'abscisse 4 est :",
+            "choix": [
+              {"texte": "a) $2\\ln 4$", "est_correct": false},
+              {"texte": "b) 0", "est_correct": false},
+              {"texte": "c) 0,25", "est_correct": false},
+              {"texte": "d) 0,5", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Dans une ville de plein expansion la population augmente de 15% par an. Cette population était de 7000 habitants en l'an 2000. On note $P_n$ la population de l'an $2000 + n$. Par exemple $P_0$ est la population de l'an 2000. $P_1$ est la population en 2001. A) Le taux d'évolution est de :",
+            "choix": [
+              {"texte": "a) 15%", "est_correct": true},
+              {"texte": "b) 1,15$", "est_correct": false},
+              {"texte": "c) 7000", "est_correct": false},
+              {"texte": "d) 10500", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

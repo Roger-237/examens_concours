@@ -1,0 +1,316 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Concours d'entrée en première année",
+    "epreuves": [
+      {
+        "titre": "Mathématiques",
+        "annee": 2019,
+        "latex": true,
+        "mini_cours": "Algèbre, calcul numérique, suites numériques, fonctions numériques, dérivées, limites, intégration, logarithmes.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "$3^{-2} \\times 3^{-3} =$",
+            "choix": [
+              {"texte": "a- $3^{-6}$", "est_correct": false},
+              {"texte": "b- $3^{-5}$", "est_correct": true},
+              {"texte": "c- $3^{6}$", "est_correct": false},
+              {"texte": "d- $9^{-6}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "$\\dfrac{1}{3} + \\dfrac{5}{6} + \\dfrac{3}{4} =$",
+            "choix": [
+              {"texte": "a- $\\dfrac{23}{18}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{23}{24}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{23}{6}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{23}{12}$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "$\\dfrac{\\dfrac{42}{2}}{\\dfrac{1}{3}}$",
+            "choix": [
+              {"texte": "a- $-63$", "est_correct": false},
+              {"texte": "b- $84$", "est_correct": false},
+              {"texte": "c- $-75$", "est_correct": false},
+              {"texte": "d- $-30$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "$\\sqrt{(-2)^2} =$",
+            "choix": [
+              {"texte": "a- $-2$", "est_correct": false},
+              {"texte": "b- $2$", "est_correct": true},
+              {"texte": "c- $-4$", "est_correct": false},
+              {"texte": "d- $4$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "$\\dfrac{3x+1}{x-2} = 4$ admet pour solution",
+            "choix": [
+              {"texte": "a- $9$", "est_correct": true},
+              {"texte": "b- $8$", "est_correct": false},
+              {"texte": "c- $2$", "est_correct": false},
+              {"texte": "d- $7$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "$|x+2| = \\dfrac{21}{5}$ admet pour solution",
+            "choix": [
+              {"texte": "a- $\\dfrac{1}{5}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{2}{5}$", "est_correct": false},
+              {"texte": "c- $-\\dfrac{1}{5}$", "est_correct": false},
+              {"texte": "d- $-\\dfrac{2}{5}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "$|x+2| < 3$ admet pour solution",
+            "choix": [
+              {"texte": "a- $[-5\\;; -1]$", "est_correct": false},
+              {"texte": "b- $[-5\\;; 1[$", "est_correct": false},
+              {"texte": "c- $]-5\\;; 1[$", "est_correct": true},
+              {"texte": "d- $]-5\\;; 1]$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Le système $\\begin{cases} x - 2y = 5 \\\\ -2x + 4y = -10 \\end{cases}$ admet pour solution",
+            "choix": [
+              {"texte": "a- $(-1\\;; 3)$", "est_correct": false},
+              {"texte": "b- $(-3\\;; 1)$", "est_correct": false},
+              {"texte": "c- $(3\\;; 1)$", "est_correct": false},
+              {"texte": "d- $(3\\;; -1)$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "$-2x - 11 \\ge 0$ admet pour solution",
+            "choix": [
+              {"texte": "a- $\\dfrac{11}{2}$", "est_correct": false},
+              {"texte": "b- $]-\\infty\\;; -\\dfrac{11}{2}]$", "est_correct": true},
+              {"texte": "c- $-\\dfrac{11}{2}$", "est_correct": false},
+              {"texte": "d- $[-11\\;; +\\infty[$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "$(U_n)$ est une suite arithmétique telle que $U_8 = 6{,}9$ et $U_{11} = 8{,}7$. La raison est égale à",
+            "choix": [
+              {"texte": "a- $1{,}8$", "est_correct": false},
+              {"texte": "b- $0{,}9$", "est_correct": false},
+              {"texte": "c- $0{,}6$", "est_correct": true},
+              {"texte": "d- $-1{,}2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "$(U_n)$ est une suite géométrique de raison $q > 0$ telle que $U_1 = 50$ et $U_3 = 1250$. La raison est égale à",
+            "choix": [
+              {"texte": "a- $2{,}5$", "est_correct": false},
+              {"texte": "b- $5$", "est_correct": true},
+              {"texte": "c- $25$", "est_correct": false},
+              {"texte": "d- $50$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "$\\lim_{x \\to +\\infty} \\ln\\!\(2+\\dfrac{3}{x}\) =$",
+            "choix": [
+              {"texte": "a- $0$", "est_correct": false},
+              {"texte": "b- $\\ln 2$", "est_correct": true},
+              {"texte": "c- $\\ln 5$", "est_correct": false},
+              {"texte": "d- $0{,}7$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "$\\lim_{x \\to -\\infty} (e^{2x} - 3e^x + 2) =$",
+            "choix": [
+              {"texte": "a- $0$", "est_correct": false},
+              {"texte": "b- $1$", "est_correct": false},
+              {"texte": "c- $-\\infty$", "est_correct": false},
+              {"texte": "d- $2$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Soit $I = ]4\\;; +\\infty[$. Pour $f(x) = -2x + 1 - \\dfrac{8}{x-4}$, la courbe représentative admet pour asymptote la droite d'équation :",
+            "choix": [
+              {"texte": "a- $y = 4$", "est_correct": false},
+              {"texte": "b- $x = 4$", "est_correct": false},
+              {"texte": "c- $y = 4x$", "est_correct": false},
+              {"texte": "d- $y = -2x + 1$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Soit $I = ]0\\;; +\\infty[$. Pour $f(x) = \\ln(3x) + \\ln 3$, l'expression de la dérivée $f'(x)$ est :",
+            "choix": [
+              {"texte": "a- $\\dfrac{1}{3x} + \\dfrac{1}{3}$", "est_correct": false},
+              {"texte": "b- $\\dfrac{1}{3}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{1}{3x}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{1}{x}$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Le prix d'un article a baissé de $12{,}3\\%$ entre 2015 et 2017. Par quel nombre doit-on multiplier son prix de 2015 pour obtenir son prix en 2017 ?",
+            "choix": [
+              {"texte": "a- $1{,}023$", "est_correct": false},
+              {"texte": "b- $0{,}977$", "est_correct": false},
+              {"texte": "c- $0{,}877$", "est_correct": true},
+              {"texte": "d- $1{,}123$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "$(U_n)$ est une suite géométrique de raison $2$ telle que $U_0 = 2$. Alors $U_{100}$ est égale à :",
+            "choix": [
+              {"texte": "a- $2^{100}$", "est_correct": false},
+              {"texte": "b- $2^{101}$", "est_correct": true},
+              {"texte": "c- $2^{102}$", "est_correct": false},
+              {"texte": "d- $2^{103}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Soit $S$ la somme de dix termes consécutifs d'une suite arithmétique de premier terme $2$ et de dernier terme $3$. Alors $S$ est égale à :",
+            "choix": [
+              {"texte": "a- $15$", "est_correct": false},
+              {"texte": "b- $20$", "est_correct": false},
+              {"texte": "c- $25$", "est_correct": true},
+              {"texte": "d- $30$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Le $50^{\\text{ème}}$ nombre impair est :",
+            "choix": [
+              {"texte": "a- $51$", "est_correct": false},
+              {"texte": "b- $101$", "est_correct": false},
+              {"texte": "c- $99$", "est_correct": true},
+              {"texte": "d- $97$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "L'équation $3x^2 - 5x = -2$ a pour solution :",
+            "choix": [
+              {"texte": "a- $0$", "est_correct": false},
+              {"texte": "b- $2$ et $3$", "est_correct": false},
+              {"texte": "c- $-1$ et $\\dfrac{2}{3}$", "est_correct": false},
+              {"texte": "d- $1$ et $\\dfrac{2}{3}$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "L'intervalle $[-2\\;; 2]$ est l'ensemble des solutions de l'inéquation :",
+            "choix": [
+              {"texte": "a- $3x^2 + 12 \\le 0$", "est_correct": false},
+              {"texte": "b- $x^2 - 4 \\le 0$", "est_correct": true},
+              {"texte": "c- $x^2 \\ge 4$", "est_correct": false},
+              {"texte": "d- $x + 2 \\le x - 2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Les nombres $3\\;; 5\\;; 6\\;; 6\\;; 7\\;; 10\\;; 12$ forment la distribution des notes de mathématiques d'un étudiant. Sa moyenne arithmétique est :",
+            "choix": [
+              {"texte": "a- $5$", "est_correct": false},
+              {"texte": "b- $7$", "est_correct": true},
+              {"texte": "c- $8$", "est_correct": false},
+              {"texte": "d- $9$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "La fonction dérivée de la fonction $f(x) = x^2 + \\sqrt{x} + x$ ; $f'(x)$ est égale à :",
+            "choix": [
+              {"texte": "a- $2x + \\dfrac{1}{\\sqrt{x}} + 1$", "est_correct": false},
+              {"texte": "b- $2x + \\dfrac{1}{2\\sqrt{x}} + 1$", "est_correct": true},
+              {"texte": "c- $2x + \\dfrac{1}{x} + 1$", "est_correct": false},
+              {"texte": "d- $2x + 2\\sqrt{x} + 1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "La courbe représentative de la fonction $f$ définie par $f(x) = x^2 - 2x + 3$ admet un extrémum au point de coordonnées :",
+            "choix": [
+              {"texte": "a- $(1\\;; -2)$", "est_correct": false},
+              {"texte": "b- $(-1\\;; 2)$", "est_correct": false},
+              {"texte": "c- $(1\\;; 2)$", "est_correct": true},
+              {"texte": "d- $(-1\\;; -2)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "La courbe représentative de la fonction $f(x) = \\dfrac{x^2+3x-5}{x}$ admet une asymptote oblique d'équation :",
+            "choix": [
+              {"texte": "a- $y = x$", "est_correct": false},
+              {"texte": "b- $y = x - 5$", "est_correct": false},
+              {"texte": "c- $y = x + 3$", "est_correct": true},
+              {"texte": "d- $y = 3x$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "La suite définie par $U_n = (-1)^n$ est :",
+            "choix": [
+              {"texte": "a- constante", "est_correct": false},
+              {"texte": "b- croissante", "est_correct": false},
+              {"texte": "c- décroissante", "est_correct": false},
+              {"texte": "d- alternée", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "$f(x) = \\dfrac{x-2}{x^2+x}$, alors $\\lim_{x \\to -\\infty} f(x) =$",
+            "choix": [
+              {"texte": "a- $0$", "est_correct": true},
+              {"texte": "b- $-1$", "est_correct": false},
+              {"texte": "c- $1$", "est_correct": false},
+              {"texte": "d- $-2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Une primitive sur $\\mathbb{R}$ de la fonction $f$ définie par $f(x) = (1-5x)^4$ est donnée par $F(x) =$",
+            "choix": [
+              {"texte": "a- $\\dfrac{1}{25}(1-5x)^5$", "est_correct": false},
+              {"texte": "b- $-\\dfrac{1}{25}(1-5x)^5$", "est_correct": true},
+              {"texte": "c- $\\dfrac{1}{25}(1-5x)^{-5}$", "est_correct": false},
+              {"texte": "d- $-\\dfrac{1}{25}(1-5x)^{-5}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "L'ensemble des solutions de l'inéquation $\\log x < 2$ est",
+            "choix": [
+              {"texte": "a- $]0\\;; e^2[$", "est_correct": false},
+              {"texte": "b- $]e^2\\;; +\\infty[$", "est_correct": false},
+              {"texte": "c- $]-\\infty\\;; e^2[$", "est_correct": false},
+              {"texte": "d- $]0\\;; 100[$", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "La fonction $e^{\\dfrac{1}{x}}$ est définie sur :",
+            "choix": [
+              {"texte": "a- $\\mathbb{R}$", "est_correct": false},
+              {"texte": "b- $\\mathbb{R}^*$", "est_correct": true},
+              {"texte": "c- $]0\\;; +\\infty[$", "est_correct": false},
+              {"texte": "d- $[0\\;; +\\infty[$", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
