@@ -1,0 +1,316 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "GENIE INFORMATIQUE",
+    "epreuves": [
+      {
+        "titre": "Mathématiques",
+        "annee": 2020,
+        "latex": true,
+        "mini_cours": "--- STRATÉGIES ET FORMULES CLÉS (INPTIC MATHS 2020) ---\n\n1. NOMBRES COMPLEXES ET GÉOMÉTRIE :\n- Module et argument : Pour $z = a + ib$, le module est $|z| = \\sqrt{a^2 + b^2}$ et l'argument vérifie $\\cos(\\theta) = \\dfrac{a}{|z|}$ et $\\sin(\\theta) = \\dfrac{b}{|z|}$.\n- Forme exponentielle : $z = |z|e^{i\\theta} = |z|(\\cos(\\theta) + i\\sin(\\theta))$.\n- Produit de complexes en forme exponentielle : $z_1 \\times z_2 = |z_1||z_2|e^{i(\\theta_1 + \\theta_2)}$.\n\n2. SUITES NUMÉRIQUES :\n- Suite arithmétique : $u_n = u_0 + nr$. Somme : $S_n = \\dfrac{(n+1)(u_0 + u_n)}{2}$.\n- Suite géométrique : $u_n = u_0 \\times q^n$. Somme : $S_n = u_0 \\times \\dfrac{1 - q^{n+1}}{1 - q}$ si $q \\neq 1$.\n- Limite d'une suite géométrique : Si $|q| < 1$, alors $\\lim_{n \\to +\\infty} q^n = 0$.\n\n3. ANALYSE ET ÉTUDE DE FONCTIONS :\n- Dérivée de $\\ln(u)$ : $(\\ln(u))' = \\dfrac{u'}{u}$.\n- Dérivée de $e^u$ : $(e^u)' = u'e^u$.\n- Dérivée de $u^n$ : $(u^n)' = nu'u^{n-1}$.\n- Règle du quotient : $\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - uv'}{v^2}$.\n- Asymptote oblique : Si $\\lim_{x \\to \\pm\\infty} \\dfrac{f(x)}{x} = a$ et $\\lim_{x \\to \\pm\\infty} (f(x) - ax) = b$, alors $y = ax + b$ est asymptote oblique.\n\n4. INTÉGRATION :\n- Intégrale par parties : $\\int_a^b u'v\\, dx = [uv]_a^b - \\int_a^b uv'\\, dx$.\n- Primitive de $\\sin(ax+b)$ : $F(x) = -\\dfrac{1}{a}\\cos(ax+b) + C$.\n- Primitive de $\\cos(ax+b)$ : $F(x) = \\dfrac{1}{a}\\sin(ax+b) + C$.\n\n5. PROBABILITÉS ET STATISTIQUES :\n- Loi binomiale $\\mathcal{B}(n,p)$ : $P(X = k) = \\binom{n}{k}p^k(1-p)^{n-k}$, $E(X) = np$, $V(X) = np(1-p)$.\n- Intervalle de fluctuation à $95\\%$ : $\\left[p - 1{,}96\\dfrac{\\sqrt{p(1-p)}}{\\sqrt{n}}\\;; p + 1{,}96\\dfrac{\\sqrt{p(1-p)}}{\\sqrt{n}}\\right]$.\n- Écart-type : $\\sigma = \\sqrt{V(X)}$.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "La forme trigonométrique du nombre complexe $z = 1 - i$ est :",
+            "choix": [
+              {"texte": "a- $\\sqrt{2}\\left(\\cos\\left(-\\dfrac{\\pi}{4}\\right) + i\\sin\\left(-\\dfrac{\\pi}{4}\\right)\\right)$", "est_correct": true},
+              {"texte": "b- $\\sqrt{2}\\left(\\cos\\left(\\dfrac{\\pi}{4}\\right) + i\\sin\\left(\\dfrac{\\pi}{4}\\right)\\right)$", "est_correct": false},
+              {"texte": "c- $2\\left(\\cos\\left(-\\dfrac{\\pi}{4}\\right) + i\\sin\\left(-\\dfrac{\\pi}{4}\\right)\\right)$", "est_correct": false},
+              {"texte": "d- $\\sqrt{2}\\left(\\cos\\left(\\dfrac{3\\pi}{4}\\right) + i\\sin\\left(\\dfrac{3\\pi}{4}\\right)\\right)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Le module du nombre complexe $z = 3 - 4i$ est :",
+            "choix": [
+              {"texte": "a- $5$", "est_correct": true},
+              {"texte": "b- $7$", "est_correct": false},
+              {"texte": "c- $\\sqrt{7}$", "est_correct": false},
+              {"texte": "d- $25$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Dans $\\mathbb{C}$, l'équation $z^2 + z + 1 = 0$ a pour discriminant :",
+            "choix": [
+              {"texte": "a- $-3$", "est_correct": true},
+              {"texte": "b- $3$", "est_correct": false},
+              {"texte": "c- $0$", "est_correct": false},
+              {"texte": "d- $5$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Soit $z_1 = 1 + i$ et $z_2 = 1 - i$. Le produit $z_1 \\times z_2$ est égal à :",
+            "choix": [
+              {"texte": "a- $2$", "est_correct": true},
+              {"texte": "b- $2i$", "est_correct": false},
+              {"texte": "c- $0$", "est_correct": false},
+              {"texte": "d- $1 + i^2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "La suite $(u_n)$ définie par $u_0 = 2$ et $u_{n+1} = 3u_n - 4$ est :",
+            "choix": [
+              {"texte": "a- Ni arithmétique ni géométrique", "est_correct": true},
+              {"texte": "b- Arithmétique de raison $-4$", "est_correct": false},
+              {"texte": "c- Géométrique de raison $3$", "est_correct": false},
+              {"texte": "d- Arithmétique de raison $3$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Soit $(u_n)$ une suite arithmétique de raison $r = 4$ et de premier terme $u_1 = 3$. Alors $u_{10}$ vaut :",
+            "choix": [
+              {"texte": "a- $39$", "est_correct": true},
+              {"texte": "b- $43$", "est_correct": false},
+              {"texte": "c- $35$", "est_correct": false},
+              {"texte": "d- $40$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "La somme $S = 1 + 2 + 4 + 8 + \\cdots + 2^{10}$ est égale à :",
+            "choix": [
+              {"texte": "a- $2^{11} - 1$", "est_correct": true},
+              {"texte": "b- $2^{10}$", "est_correct": false},
+              {"texte": "c- $2^{11}$", "est_correct": false},
+              {"texte": "d- $2^{10} - 1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "La limite de la suite $(u_n)$ définie par $u_n = \\dfrac{3n^2 + 1}{n^2 - 2}$ quand $n \\to +\\infty$ est :",
+            "choix": [
+              {"texte": "a- $3$", "est_correct": true},
+              {"texte": "b- $0$", "est_correct": false},
+              {"texte": "c- $+\\infty$", "est_correct": false},
+              {"texte": "d- $-\\dfrac{1}{2}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "La dérivée de la fonction $f(x) = x^2 e^x$ sur $\\mathbb{R}$ est :",
+            "choix": [
+              {"texte": "a- $f'(x) = (x^2 + 2x)e^x$", "est_correct": true},
+              {"texte": "b- $f'(x) = 2xe^x$", "est_correct": false},
+              {"texte": "c- $f'(x) = x^2 e^x$", "est_correct": false},
+              {"texte": "d- $f'(x) = (2x + 1)e^x$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "La dérivée de $f(x) = \\ln(x^2 + 1)$ sur $\\mathbb{R}$ est :",
+            "choix": [
+              {"texte": "a- $f'(x) = \\dfrac{2x}{x^2+1}$", "est_correct": true},
+              {"texte": "b- $f'(x) = \\dfrac{1}{x^2+1}$", "est_correct": false},
+              {"texte": "c- $f'(x) = \\dfrac{2x}{\\ln(x^2+1)}$", "est_correct": false},
+              {"texte": "d- $f'(x) = \\dfrac{x}{x^2+1}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "La dérivée de $f(x) = \\dfrac{x+1}{x-1}$ sur $\\mathbb{R} \\setminus \\{1\\}$ est :",
+            "choix": [
+              {"texte": "a- $f'(x) = \\dfrac{-2}{(x-1)^2}$", "est_correct": true},
+              {"texte": "b- $f'(x) = \\dfrac{2}{(x-1)^2}$", "est_correct": false},
+              {"texte": "c- $f'(x) = \\dfrac{1}{(x-1)^2}$", "est_correct": false},
+              {"texte": "d- $f'(x) = \\dfrac{-1}{(x-1)^2}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "La fonction $f(x) = e^x - x$ est décroissante sur :",
+            "choix": [
+              {"texte": "a- $]-\\infty\\;; 0[$", "est_correct": true},
+              {"texte": "b- $]0\\;; +\\infty[$", "est_correct": false},
+              {"texte": "c- $\\mathbb{R}$", "est_correct": false},
+              {"texte": "d- $]-\\infty\\;; 1[$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "L'asymptote horizontale de $f(x) = \\dfrac{3x^2 - 1}{x^2 + 2}$ en $+\\infty$ est :",
+            "choix": [
+              {"texte": "a- $y = 3$", "est_correct": true},
+              {"texte": "b- $y = -1$", "est_correct": false},
+              {"texte": "c- $y = 0$", "est_correct": false},
+              {"texte": "d- $y = 2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "La primitive de $f(x) = \\cos(2x)$ sur $\\mathbb{R}$ est :",
+            "choix": [
+              {"texte": "a- $F(x) = \\dfrac{1}{2}\\sin(2x) + C$", "est_correct": true},
+              {"texte": "b- $F(x) = -\\dfrac{1}{2}\\sin(2x) + C$", "est_correct": false},
+              {"texte": "c- $F(x) = 2\\sin(2x) + C$", "est_correct": false},
+              {"texte": "d- $F(x) = \\sin(2x) + C$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "La valeur de $\\displaystyle\\int_0^1 xe^{x^2}\\, dx$ est :",
+            "choix": [
+              {"texte": "a- $\\dfrac{e-1}{2}$", "est_correct": true},
+              {"texte": "b- $e - 1$", "est_correct": false},
+              {"texte": "c- $\\dfrac{e}{2}$", "est_correct": false},
+              {"texte": "d- $1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "La valeur de $\\displaystyle\\int_1^e \\ln(x)\\, dx$ est :",
+            "choix": [
+              {"texte": "a- $1$", "est_correct": true},
+              {"texte": "b- $e$", "est_correct": false},
+              {"texte": "c- $e - 1$", "est_correct": false},
+              {"texte": "d- $0$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Soit $X \\sim \\mathcal{B}(20\\;; 0{,}3)$. La variance $V(X)$ est :",
+            "choix": [
+              {"texte": "a- $4{,}2$", "est_correct": true},
+              {"texte": "b- $6$", "est_correct": false},
+              {"texte": "c- $14$", "est_correct": false},
+              {"texte": "d- $0{,}3$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Un dé est lancé $60$ fois. Soit $X$ le nombre d'apparitions du $6$. L'espérance de $X$ est :",
+            "choix": [
+              {"texte": "a- $10$", "est_correct": true},
+              {"texte": "b- $6$", "est_correct": false},
+              {"texte": "c- $60$", "est_correct": false},
+              {"texte": "d- $\\dfrac{1}{6}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Deux événements $A$ et $B$ vérifient $P(A) = 0{,}4$, $P(B) = 0{,}5$ et $P(A \\cap B) = 0{,}2$. Alors $P(A \\cup B)$ vaut :",
+            "choix": [
+              {"texte": "a- $0{,}7$", "est_correct": true},
+              {"texte": "b- $0{,}9$", "est_correct": false},
+              {"texte": "c- $0{,}2$", "est_correct": false},
+              {"texte": "d- $0{,}45$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "On sait que $P(A) = 0{,}6$ et $P(B|A) = 0{,}5$. Alors $P(A \\cap B)$ vaut :",
+            "choix": [
+              {"texte": "a- $0{,}3$", "est_correct": true},
+              {"texte": "b- $0{,}5$", "est_correct": false},
+              {"texte": "c- $0{,}6$", "est_correct": false},
+              {"texte": "d- $1{,}1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Dans un repère orthonormé de l'espace, la distance entre les points $A(1\\;; 2\\;; 3)$ et $B(4\\;; 6\\;; 3)$ est :",
+            "choix": [
+              {"texte": "a- $5$", "est_correct": true},
+              {"texte": "b- $\\sqrt{50}$", "est_correct": false},
+              {"texte": "c- $3$", "est_correct": false},
+              {"texte": "d- $\\sqrt{30}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Le vecteur $\\vec{AB}$ avec $A(2\\;; -1\\;; 3)$ et $B(5\\;; 2\\;; 1)$ a pour coordonnées :",
+            "choix": [
+              {"texte": "a- $(3\\;; 3\\;; -2)$", "est_correct": true},
+              {"texte": "b- $(-3\\;; -3\\;; 2)$", "est_correct": false},
+              {"texte": "c- $(7\\;; 1\\;; 4)$", "est_correct": false},
+              {"texte": "d- $(3\\;; -3\\;; 2)$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Le domaine de définition de $f(x) = \\sqrt{4 - x^2}$ est :",
+            "choix": [
+              {"texte": "a- $[-2\\;; 2]$", "est_correct": true},
+              {"texte": "b- $]-\\infty\\;; -2] \\cup [2\\;; +\\infty[$", "est_correct": false},
+              {"texte": "c- $\\mathbb{R}$", "est_correct": false},
+              {"texte": "d- $[0\\;; 2]$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "La limite de $f(x) = \\dfrac{x^2 - 1}{x - 1}$ quand $x \\to 1$ est :",
+            "choix": [
+              {"texte": "a- $2$", "est_correct": true},
+              {"texte": "b- $0$", "est_correct": false},
+              {"texte": "c- $1$", "est_correct": false},
+              {"texte": "d- $+\\infty$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "L'équation réduite de la tangente à la courbe de $f(x) = x^2$ au point d'abscisse $2$ est :",
+            "choix": [
+              {"texte": "a- $y = 4x - 4$", "est_correct": true},
+              {"texte": "b- $y = 2x - 4$", "est_correct": false},
+              {"texte": "c- $y = 4x + 4$", "est_correct": false},
+              {"texte": "d- $y = 4x$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "La solution de l'équation $\\ln(x+1) = 2$ est :",
+            "choix": [
+              {"texte": "a- $x = e^2 - 1$", "est_correct": true},
+              {"texte": "b- $x = e^2 + 1$", "est_correct": false},
+              {"texte": "c- $x = 2e - 1$", "est_correct": false},
+              {"texte": "d- $x = e - 1$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Soit $f(x) = x^3 - 3x + 2$. La fonction $f$ admet un maximum local en :",
+            "choix": [
+              {"texte": "a- $x = -1$", "est_correct": true},
+              {"texte": "b- $x = 1$", "est_correct": false},
+              {"texte": "c- $x = 0$", "est_correct": false},
+              {"texte": "d- $x = 2$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Sur $[0\\;; \\pi]$, la solution de $\\cos(x) = -\\dfrac{\\sqrt{2}}{2}$ est :",
+            "choix": [
+              {"texte": "a- $x = \\dfrac{3\\pi}{4}$", "est_correct": true},
+              {"texte": "b- $x = \\dfrac{\\pi}{4}$", "est_correct": false},
+              {"texte": "c- $x = \\dfrac{2\\pi}{3}$", "est_correct": false},
+              {"texte": "d- $x = \\dfrac{5\\pi}{4}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Une urne contient $3$ boules rouges et $5$ boules bleues. On tire $2$ boules successivement sans remise. La probabilité que les $2$ boules soient rouges est :",
+            "choix": [
+              {"texte": "a- $\\dfrac{3}{28}$", "est_correct": true},
+              {"texte": "b- $\\dfrac{9}{64}$", "est_correct": false},
+              {"texte": "c- $\\dfrac{3}{8}$", "est_correct": false},
+              {"texte": "d- $\\dfrac{6}{56}$", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "La valeur de $\\displaystyle\\int_0^{\\pi} \\sin(x)\\, dx$ est :",
+            "choix": [
+              {"texte": "a- $2$", "est_correct": true},
+              {"texte": "b- $0$", "est_correct": false},
+              {"texte": "c- $1$", "est_correct": false},
+              {"texte": "d- $-2$", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
