@@ -3,6 +3,8 @@ import sys
 import django
 import json
 import re
+import shutil
+from django.conf import settings
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
@@ -64,6 +66,13 @@ def nettoyer_latex_brut(texte_brut):
 
     return texte_brut
 
+
+def nettoyer_latex(texte):
+    """
+    Nettoie le texte LaTeX d'une question/choix après chargement du JSON.
+    """
+    return texte
+
 def importer_fichier(fichier_json):
     with open(fichier_json, 'r', encoding='utf-8') as f:
         contenu = f.read()
@@ -103,9 +112,43 @@ def importer_fichier(fichier_json):
             if not creee:
                 # Met à jour le mini_cours si déjà existant
                 if item_epreuve.get('mini_cours'):
-                    epreuve.mini_cours = item_epreuve.get('mini_cours', '')
+                    epreuve.mini_cours = nettoyer_latex(item_epreuve.get('mini_cours', ''))
                     epreuve.save()
-                print(f"    ⚠ Déjà existante : {epreuve.titre} {epreuve.annee} — mise à jour mini cours")
+                
+                # Met à jour les images des questions existantes
+                for q_data in item_epreuve['questions']:
+                    if q_data.get('image'):
+                        try:
+                            question = Question.objects.get(epreuve=epreuve, ordre=q_data['ordre'])
+                            source = q_data['image']
+                            
+                            # Cherche d'abord relatif au dossier du fichier JSON
+                            dossier_json = os.path.dirname(fichier_json)
+                            chemin_relatif = os.path.join(dossier_json, source)
+                            
+                            # Sinon cherche relatif à la racine du projet
+                            chemin_absolu = os.path.abspath(source)
+                            
+                            chemin_final = None
+                            if os.path.exists(chemin_relatif):
+                                chemin_final = chemin_relatif
+                            elif os.path.exists(chemin_absolu):
+                                chemin_final = chemin_absolu
+                            
+                            if chemin_final:
+                                nom_fichier = os.path.basename(chemin_final)
+                                dest = os.path.join(settings.MEDIA_ROOT, 'questions', nom_fichier)
+                                os.makedirs(os.path.dirname(dest), exist_ok=True)
+                                shutil.copy2(chemin_final, dest)
+                                question.image = f'questions/{nom_fichier}'
+                                question.save()
+                                print(f"      📷 Image mise à jour : {nom_fichier}")
+                            else:
+                                print(f"      ⚠ Image introuvable : {source}")
+                        except Question.DoesNotExist:
+                            pass
+                
+                print(f"    ⚠ Déjà existante : {epreuve.titre} {epreuve.annee} — mise à jour")
                 continue
 
             print(f"    ✓ Épreuve créée : {epreuve.titre} {epreuve.annee}")
@@ -113,9 +156,38 @@ def importer_fichier(fichier_json):
             for q_data in item_epreuve['questions']:
                 question = Question.objects.create(
                     epreuve=epreuve,
-                    texte=q_data['texte'],
+                    texte=nettoyer_latex(q_data['texte']),
                     ordre=q_data['ordre'],
                 )
+
+                # ── Gestion image ──
+                if q_data.get('image'):
+                    source = q_data['image']
+                    
+                    # Cherche d'abord relatif au dossier du fichier JSON
+                    dossier_json = os.path.dirname(fichier_json)
+                    chemin_relatif = os.path.join(dossier_json, source)
+                    
+                    # Sinon cherche relatif à la racine du projet
+                    chemin_absolu = os.path.abspath(source)
+                    
+                    chemin_final = None
+                    if os.path.exists(chemin_relatif):
+                        chemin_final = chemin_relatif
+                    elif os.path.exists(chemin_absolu):
+                        chemin_final = chemin_absolu
+                    
+                    if chemin_final:
+                        nom_fichier = os.path.basename(chemin_final)
+                        dest = os.path.join(settings.MEDIA_ROOT, 'questions', nom_fichier)
+                        os.makedirs(os.path.dirname(dest), exist_ok=True)
+                        shutil.copy2(chemin_final, dest)
+                        question.image = f'questions/{nom_fichier}'
+                        question.save()
+                        print(f"      📷 Image copiée : {nom_fichier}")
+                    else:
+                        print(f"      ⚠ Image introuvable : {source}")
+
                 for c_data in q_data['choix']:
                     Choix.objects.create(
                         question=question,

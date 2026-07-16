@@ -1,0 +1,456 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "GENIE INFORMATIQUE",
+    "epreuves": [
+      {
+        "titre": "Tests de logique - Raisonnement numérique et verbal",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Suites numériques complexes, raisonnement verbal, logique déductive, problèmes de proportionnalité, séries mixtes.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Complétez la série : 3 6 12 24 ?",
+            "choix": [
+              {"texte": "A. 36", "est_correct": false},
+              {"texte": "B. 42", "est_correct": false},
+              {"texte": "C. 48", "est_correct": true},
+              {"texte": "D. 54", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Quel est le nombre manquant : 15 12 9 6 ?",
+            "choix": [
+              {"texte": "A. 2", "est_correct": false},
+              {"texte": "B. 3", "est_correct": true},
+              {"texte": "C. 4", "est_correct": false},
+              {"texte": "D. 5", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Complétez : F J N R ?",
+            "choix": [
+              {"texte": "A. T", "est_correct": false},
+              {"texte": "B. U", "est_correct": false},
+              {"texte": "C. V", "est_correct": true},
+              {"texte": "D. W", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Série numérique : 2 5 10 17 26 ?",
+            "choix": [
+              {"texte": "A. 35", "est_correct": false},
+              {"texte": "B. 37", "est_correct": true},
+              {"texte": "C. 39", "est_correct": false},
+              {"texte": "D. 41", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Analogie : Couteau est à Couper comme Stylo est à ?",
+            "choix": [
+              {"texte": "A. Dessiner", "est_correct": true},
+              {"texte": "B. Écrire", "est_correct": false},
+              {"texte": "C. Colorier", "est_correct": false},
+              {"texte": "D. Peindre", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Complétez la série : 1 4 9 16 25 ?",
+            "choix": [
+              {"texte": "A. 30", "est_correct": false},
+              {"texte": "B. 32", "est_correct": false},
+              {"texte": "C. 36", "est_correct": true},
+              {"texte": "D. 49", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Quel est le terme suivant : 64 32 16 8 ?",
+            "choix": [
+              {"texte": "A. 2", "est_correct": false},
+              {"texte": "B. 4", "est_correct": true},
+              {"texte": "C. 6", "est_correct": false},
+              {"texte": "D. 1", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Série alphabétique : A C F J ?",
+            "choix": [
+              {"texte": "A. M", "est_correct": false},
+              {"texte": "B. N", "est_correct": false},
+              {"texte": "C. O", "est_correct": true},
+              {"texte": "D. P", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Complétez : 2 3 5 8 13 ?",
+            "choix": [
+              {"texte": "A. 18", "est_correct": false},
+              {"texte": "B. 19", "est_correct": false},
+              {"texte": "C. 20", "est_correct": false},
+              {"texte": "D. 21", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Analogie : Père est à Fils comme Mère est à ?",
+            "choix": [
+              {"texte": "A. Fille", "est_correct": true},
+              {"texte": "B. Sœur", "est_correct": false},
+              {"texte": "C. Tante", "est_correct": false},
+              {"texte": "D. Cousine", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Série numérique : 10 20 30 40 50 ?",
+            "choix": [
+              {"texte": "A. 55", "est_correct": false},
+              {"texte": "B. 60", "est_correct": true},
+              {"texte": "C. 65", "est_correct": false},
+              {"texte": "D. 70", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Complétez : K M O Q ?",
+            "choix": [
+              {"texte": "A. R", "est_correct": false},
+              {"texte": "B. S", "est_correct": true},
+              {"texte": "C. T", "est_correct": false},
+              {"texte": "D. U", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Quel nombre complète : 7 14 21 28 ?",
+            "choix": [
+              {"texte": "A. 32", "est_correct": false},
+              {"texte": "B. 33", "est_correct": false},
+              {"texte": "C. 35", "est_correct": true},
+              {"texte": "D. 42", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Série : 1000 500 250 125 ?",
+            "choix": [
+              {"texte": "A. 50", "est_correct": false},
+              {"texte": "B. 62.5", "est_correct": true},
+              {"texte": "C. 75", "est_correct": false},
+              {"texte": "D. 100", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Analogie : Voiture est à Route comme Bateau est à ?",
+            "choix": [
+              {"texte": "A. Eau", "est_correct": false},
+              {"texte": "B. Mer", "est_correct": false},
+              {"texte": "C. Fleuve", "est_correct": true},
+              {"texte": "D. Port", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Complétez la série : 1 2 4 8 16 ?",
+            "choix": [
+              {"texte": "A. 24", "est_correct": false},
+              {"texte": "B. 30", "est_correct": false},
+              {"texte": "C. 32", "est_correct": true},
+              {"texte": "D. 64", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Série alphabétique : Z X V T ?",
+            "choix": [
+              {"texte": "A. Q", "est_correct": false},
+              {"texte": "B. R", "est_correct": true},
+              {"texte": "C. S", "est_correct": false},
+              {"texte": "D. P", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Quel est le nombre suivant : 6 9 12 15 ?",
+            "choix": [
+              {"texte": "A. 16", "est_correct": false},
+              {"texte": "B. 17", "est_correct": false},
+              {"texte": "C. 18", "est_correct": true},
+              {"texte": "D. 21", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Complétez : B D F H ?",
+            "choix": [
+              {"texte": "A. I", "est_correct": false},
+              {"texte": "B. J", "est_correct": true},
+              {"texte": "C. K", "est_correct": false},
+              {"texte": "D. L", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Série numérique : 11 22 33 44 ?",
+            "choix": [
+              {"texte": "A. 50", "est_correct": false},
+              {"texte": "B. 55", "est_correct": true},
+              {"texte": "C. 60", "est_correct": false},
+              {"texte": "D. 66", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "Analogie : Auteur est à Livre comme Compositeur est à ?",
+            "choix": [
+              {"texte": "A. Chanson", "est_correct": true},
+              {"texte": "B. Musique", "est_correct": false},
+              {"texte": "C. Concert", "est_correct": false},
+              {"texte": "D. Instrument", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Complétez la série : 5 10 20 40 ?",
+            "choix": [
+              {"texte": "A. 60", "est_correct": false},
+              {"texte": "B. 70", "est_correct": false},
+              {"texte": "C. 80", "est_correct": true},
+              {"texte": "D. 100", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Série alphabétique : G K O S ?",
+            "choix": [
+              {"texte": "A. V", "est_correct": false},
+              {"texte": "B. W", "est_correct": true},
+              {"texte": "C. X", "est_correct": false},
+              {"texte": "D. Y", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Quel nombre suit : 81 27 9 3 ?",
+            "choix": [
+              {"texte": "A. 0", "est_correct": false},
+              {"texte": "B. 1", "est_correct": true},
+              {"texte": "C. 2", "est_correct": false},
+              {"texte": "D. 3", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Complétez : 4 7 10 13 ?",
+            "choix": [
+              {"texte": "A. 14", "est_correct": false},
+              {"texte": "B. 15", "est_correct": false},
+              {"texte": "C. 16", "est_correct": true},
+              {"texte": "D. 17", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Analogie : Médecin est à Santé comme Avocat est à ?",
+            "choix": [
+              {"texte": "A. Justice", "est_correct": true},
+              {"texte": "B. Loi", "est_correct": false},
+              {"texte": "C. Tribunal", "est_correct": false},
+              {"texte": "D. Procès", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Série numérique : 3 6 12 24 48 ?",
+            "choix": [
+              {"texte": "A. 64", "est_correct": false},
+              {"texte": "B. 72", "est_correct": false},
+              {"texte": "C. 96", "est_correct": true},
+              {"texte": "D. 100", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Complétez : L P T X ?",
+            "choix": [
+              {"texte": "A. A", "est_correct": false},
+              {"texte": "B. B", "est_correct": true},
+              {"texte": "C. C", "est_correct": false},
+              {"texte": "D. D", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Quel est le terme suivant : 2 4 8 16 32 ?",
+            "choix": [
+              {"texte": "A. 48", "est_correct": false},
+              {"texte": "B. 56", "est_correct": false},
+              {"texte": "C. 64", "est_correct": true},
+              {"texte": "D. 128", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Série alphabétique : C E G I ?",
+            "choix": [
+              {"texte": "A. J", "est_correct": false},
+              {"texte": "B. K", "est_correct": true},
+              {"texte": "C. L", "est_correct": false},
+              {"texte": "D. M", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 31,
+            "texte": "Complétez : 9 18 27 36 45 ?",
+            "choix": [
+              {"texte": "A. 50", "est_correct": false},
+              {"texte": "B. 52", "est_correct": false},
+              {"texte": "C. 54", "est_correct": true},
+              {"texte": "D. 60", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 32,
+            "texte": "Analogie : Œil est à Voir comme Oreille est à ?",
+            "choix": [
+              {"texte": "A. Écouter", "est_correct": true},
+              {"texte": "B. Entendre", "est_correct": false},
+              {"texte": "C. Son", "est_correct": false},
+              {"texte": "D. Bruit", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 33,
+            "texte": "Série numérique : 1 3 6 10 15 ?",
+            "choix": [
+              {"texte": "A. 18", "est_correct": false},
+              {"texte": "B. 20", "est_correct": false},
+              {"texte": "C. 21", "est_correct": true},
+              {"texte": "D. 25", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 34,
+            "texte": "Complétez : H L P T ?",
+            "choix": [
+              {"texte": "A. U", "est_correct": false},
+              {"texte": "B. V", "est_correct": false},
+              {"texte": "C. W", "est_correct": false},
+              {"texte": "D. X", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 35,
+            "texte": "Quel nombre suit : 144 121 100 81 ?",
+            "choix": [
+              {"texte": "A. 60", "est_correct": false},
+              {"texte": "B. 64", "est_correct": true},
+              {"texte": "C. 49", "est_correct": false},
+              {"texte": "D. 36", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 36,
+            "texte": "Série alphabétique : A E I M ?",
+            "choix": [
+              {"texte": "A. N", "est_correct": false},
+              {"texte": "B. O", "est_correct": false},
+              {"texte": "C. P", "est_correct": false},
+              {"texte": "D. Q", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 37,
+            "texte": "Complétez : 8 16 24 32 40 ?",
+            "choix": [
+              {"texte": "A. 44", "est_correct": false},
+              {"texte": "B. 46", "est_correct": false},
+              {"texte": "C. 48", "est_correct": true},
+              {"texte": "D. 50", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 38,
+            "texte": "Analogie : Pluie est à Parapluie comme Soleil est à ?",
+            "choix": [
+              {"texte": "A. Lunettes", "est_correct": true},
+              {"texte": "B. Chapeau", "est_correct": false},
+              {"texte": "C. Crème", "est_correct": false},
+              {"texte": "D. Ombrelle", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 39,
+            "texte": "Série numérique : 5 8 11 14 17 ?",
+            "choix": [
+              {"texte": "A. 18", "est_correct": false},
+              {"texte": "B. 19", "est_correct": false},
+              {"texte": "C. 20", "est_correct": true},
+              {"texte": "D. 21", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 40,
+            "texte": "Complétez : D G J M ?",
+            "choix": [
+              {"texte": "A. N", "est_correct": false},
+              {"texte": "B. O", "est_correct": false},
+              {"texte": "C. P", "est_correct": true},
+              {"texte": "D. Q", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

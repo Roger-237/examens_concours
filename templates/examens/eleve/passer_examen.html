@@ -253,6 +253,14 @@
         <div class="question-numero">Question {{ q.ordre }} / {{ total }}</div>
         <div class="question-texte">{{ q.texte|safe }}</div>
 
+        {% if q.image %}
+        <div class="text-center my-3">
+            <img src="{{ q.image.url }}" alt="Question {{ q.ordre }}"
+                 class="img-fluid rounded shadow-sm"
+                 style="max-height:300px; max-width:100%;">
+        </div>
+        {% endif %}
+
         {% for choix in q.choix.all %}
         <label class="choix-item" id="label-{{ q.id }}-{{ choix.id }}">
           <input type="radio" name="question_{{ q.id }}" value="{{ choix.id }}"

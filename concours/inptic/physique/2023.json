@@ -1,0 +1,216 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "RT",
+    "epreuves": [
+      {
+        "titre": "Physique",
+        "annee": 2023,
+        "latex": true,
+        "mini_cours": "--- STRATÉGIES, FORMULES ET NOTIONS CLÉS (INPTIC PHYSIQUE 2023) ---\\n\\n1. ÉLECTRICITÉ ET CIRCUITS :\\n- Loi d'Ohm : U = R I\\n- Puissance : P = U I = R I² = U²/R\\n- Énergie : E = P t\\n- Condensateur : Q = C U, Énergie = 1/2 C U²\\n- Bobine : E = 1/2 L I²\\n\\n2. OPTIQUE :\\n- Réfraction : n1 sin(i1) = n2 sin(i2)\\n- Réflexion totale : sin(i_lim) = n2/n1\\n- Lentille convergente : 1/f = 1/ OA - 1/OB\\n\\n3. ONDES :\\n- Vitesse : v = lambda f\\n- Fréquence : f = 1/T\\n- Longueur d'onde : lambda = v/f\\n\\n4. THERMODYNAMIQUE :\\n- Q = m c delta T\\n- Premier principe : delta U = Q + W",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Un résistor de 100 ohms est traversé par un courant de 0,5 A. Quelle est la tension à ses bornes ?",
+            "choix": [
+              {"texte": "a- 25 V", "est_correct": false},
+              {"texte": "b- 50 V", "est_correct": true},
+              {"texte": "c- 100 V", "est_correct": false},
+              {"texte": "d- 200 V", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Quelle est la puissance dissipée par un résistor de 220 ohms soumis à une tension de 12 V ?",
+            "choix": [
+              {"texte": "a- 0,33 W", "est_correct": false},
+              {"texte": "b- 0,65 W", "est_correct": true},
+              {"texte": "c- 1,44 W", "est_correct": false},
+              {"texte": "d- 2,64 W", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Un condensateur de 470 microfarads est chargé sous 10 V. Quelle est l'énergie stockée ?",
+            "choix": [
+              {"texte": "a- 2,35 mJ", "est_correct": false},
+              {"texte": "b- 23,5 mJ", "est_correct": true},
+              {"texte": "c- 235 mJ", "est_correct": false},
+              {"texte": "d- 2,35 J", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Une onde électromagnétique a une fréquence de 100 MHz. Quelle est sa longueur d'onde dans le vide ?",
+            "choix": [
+              {"texte": "a- 0,3 m", "est_correct": false},
+              {"texte": "b- 3 m", "est_correct": true},
+              {"texte": "c- 30 m", "est_correct": false},
+              {"texte": "d- 300 m", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Un rayon lumineux passe de l'air (n=1) à l'eau (n=1,33) avec un angle d'incidence de 30°. Quel est l'angle de réfraction ?",
+            "choix": [
+              {"texte": "a- 18,5°", "est_correct": false},
+              {"texte": "b- 22,1°", "est_correct": true},
+              {"texte": "c- 30°", "est_correct": false},
+              {"texte": "d- 40°", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Quelle est la capacité équivalente de deux condensateurs de 10 microfarads branchés en série ?",
+            "choix": [
+              {"texte": "a- 5 microfarads", "est_correct": true},
+              {"texte": "b- 10 microfarads", "est_correct": false},
+              {"texte": "c- 20 microfarads", "est_correct": false},
+              {"texte": "d- 100 microfarads", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Une bobine de 50 mH est traversée par un courant de 2 A. Quelle est l'énergie stockée ?",
+            "choix": [
+              {"texte": "a- 0,05 J", "est_correct": false},
+              {"texte": "b- 0,1 J", "est_correct": true},
+              {"texte": "c- 0,2 J", "est_correct": false},
+              {"texte": "d- 1 J", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Quelle est la résistance équivalente de deux résistors de 100 ohms branchés en parallèle ?",
+            "choix": [
+              {"texte": "a- 50 ohms", "est_correct": true},
+              {"texte": "b- 100 ohms", "est_correct": false},
+              {"texte": "c- 150 ohms", "est_correct": false},
+              {"texte": "d- 200 ohms", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Un signal a une période de 2 ms. Quelle est sa fréquence ?",
+            "choix": [
+              {"texte": "a- 50 Hz", "est_correct": false},
+              {"texte": "b- 200 Hz", "est_correct": false},
+              {"texte": "c- 500 Hz", "est_correct": true},
+              {"texte": "d- 1000 Hz", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Quelle est la vitesse de la lumière dans un milieu d'indice n = 1,5 ?",
+            "choix": [
+              {"texte": "a- 1,5 x 10^8 m/s", "est_correct": false},
+              {"texte": "b- 2,0 x 10^8 m/s", "est_correct": true},
+              {"texte": "c- 3,0 x 10^8 m/s", "est_correct": false},
+              {"texte": "d- 4,5 x 10^8 m/s", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Un circuit RC a une constante de temps de 1 ms. Si R = 1 kOhm, quelle est la valeur de C ?",
+            "choix": [
+              {"texte": "a- 0,1 microfarad", "est_correct": false},
+              {"texte": "b- 1 microfarad", "est_correct": true},
+              {"texte": "c- 10 microfarads", "est_correct": false},
+              {"texte": "d- 100 microfarads", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Quelle est la longueur d'onde d'une onde sonore de fréquence 1 kHz dans l'air (v = 340 m/s) ?",
+            "choix": [
+              {"texte": "a- 0,17 m", "est_correct": false},
+              {"texte": "b- 0,34 m", "est_correct": true},
+              {"texte": "c- 0,68 m", "est_correct": false},
+              {"texte": "d- 3,4 m", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Un résistor dissipe 5 W sous 10 V. Quelle est sa résistance ?",
+            "choix": [
+              {"texte": "a- 10 ohms", "est_correct": false},
+              {"texte": "b- 20 ohms", "est_correct": true},
+              {"texte": "c- 50 ohms", "est_correct": false},
+              {"texte": "d- 100 ohms", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Quelle est la fréquence de coupure d'un filtre RC avec R = 10 kOhm et C = 100 nF ?",
+            "choix": [
+              {"texte": "a- 16 Hz", "est_correct": false},
+              {"texte": "b- 160 Hz", "est_correct": true},
+              {"texte": "c- 1,6 kHz", "est_correct": false},
+              {"texte": "d- 16 kHz", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Une lentille convergente a une distance focale de 10 cm. Un objet est placé à 15 cm. Où se forme l'image ?",
+            "choix": [
+              {"texte": "a- 6 cm après la lentille", "est_correct": false},
+              {"texte": "b- 15 cm après la lentille", "est_correct": false},
+              {"texte": "c- 30 cm après la lentille", "est_correct": true},
+              {"texte": "d- 45 cm après la lentille", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Quelle est l'inductance équivalente de deux bobines de 100 mH en série ?",
+            "choix": [
+              {"texte": "a- 50 mH", "est_correct": false},
+              {"texte": "b- 100 mH", "est_correct": false},
+              {"texte": "c- 200 mH", "est_correct": true},
+              {"texte": "d- 400 mH", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Un signal sinusoïdal a une amplitude de 5 V. Quelle est sa valeur efficace ?",
+            "choix": [
+              {"texte": "a- 2,5 V", "est_correct": false},
+              {"texte": "b- 3,54 V", "est_correct": true},
+              {"texte": "c- 5 V", "est_correct": false},
+              {"texte": "d- 7,07 V", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Quelle est la capacité équivalente de deux condensateurs de 22 microfarads en parallèle ?",
+            "choix": [
+              {"texte": "a- 11 microfarads", "est_correct": false},
+              {"texte": "b- 22 microfarads", "est_correct": false},
+              {"texte": "c- 44 microfarads", "est_correct": true},
+              {"texte": "d- 484 microfarads", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Un rayon lumineux passe du verre (n=1,5) à l'air (n=1). Quel est l'angle limite de réflexion totale ?",
+            "choix": [
+              {"texte": "a- 30°", "est_correct": false},
+              {"texte": "b- 41,8°", "est_correct": true},
+              {"texte": "c- 45°", "est_correct": false},
+              {"texte": "d- 60°", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Quelle est la puissance d'un circuit alimenté en 12 V avec un courant de 2 A ?",
+            "choix": [
+              {"texte": "a- 6 W", "est_correct": false},
+              {"texte": "b- 12 W", "est_correct": false},
+              {"texte": "c- 24 W", "est_correct": true},
+              {"texte": "d- 48 W", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

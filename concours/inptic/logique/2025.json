@@ -1,0 +1,462 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "GENIE INFORMATIQUE",
+    "epreuves": [
+      {
+        "titre": "Tests de logique - Un premier parcours d'obstacles",
+        "annee": 2023,
+        "latex": true,
+        "mini_cours": "Séries de lettres, suites numériques, tableaux logiques, dominos, cartes à jouer, résolutions de problèmes mathématiques, géométrie et logique spatiale.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Déterminez la lettre manquante : 9 (N) 26 (V) 13 (T) 5 (?)",
+            "choix": [
+              {"texte": "A. C", "est_correct": true},
+              {"texte": "B. P", "est_correct": false},
+              {"texte": "C. D", "est_correct": false},
+              {"texte": "D. Q", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Complétez la série : 1 4 16 ? 256",
+            "choix": [
+              {"texte": "A. 32", "est_correct": false},
+              {"texte": "B. 64", "est_correct": true},
+              {"texte": "C. 128", "est_correct": false},
+              {"texte": "D. 48", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Complétez ce tableau numérique :\n5 2 10\n6 4 7\n3 9 ?",
+            "choix": [
+              {"texte": "A. 4", "est_correct": false},
+              {"texte": "B. 5", "est_correct": true},
+              {"texte": "C. 6", "est_correct": false},
+              {"texte": "D. 7", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Complétez la série : B F J ?",
+            "choix": [
+              {"texte": "A. L", "est_correct": false},
+              {"texte": "B. M", "est_correct": false},
+              {"texte": "C. N", "est_correct": true},
+              {"texte": "D. O", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Complétez la série : 2 3 5 8 ? 21",
+            "choix": [
+              {"texte": "A. 12", "est_correct": false},
+              {"texte": "B. 13", "est_correct": true},
+              {"texte": "C. 14", "est_correct": false},
+              {"texte": "D. 15", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Complétez la série : Pau Nice Paris ?",
+            "choix": [
+              {"texte": "A. Bordeaux", "est_correct": false},
+              {"texte": "B. Lille", "est_correct": false},
+              {"texte": "C. Marseille", "est_correct": false},
+              {"texte": "D. Rennes", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Quel nombre manque ? 3 7 11 ? 19",
+            "choix": [
+              {"texte": "A. 13", "est_correct": false},
+              {"texte": "B. 14", "est_correct": false},
+              {"texte": "C. 15", "est_correct": true},
+              {"texte": "D. 16", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Trouvez le chiffre manquant : chat (4) singe (5) cheval (6) éléphant (?)",
+            "choix": [
+              {"texte": "A. 7", "est_correct": false},
+              {"texte": "B. 8", "est_correct": true},
+              {"texte": "C. 9", "est_correct": false},
+              {"texte": "D. 10", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Complétez la série : D 1 F 3 J 0 K 5 ?",
+            "choix": [
+              {"texte": "A. P", "est_correct": false},
+              {"texte": "B. Q", "est_correct": true},
+              {"texte": "C. R", "est_correct": false},
+              {"texte": "D. S", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Déterminez les deux nombres manquants : 2 19 4 16 6 13 ? ? 10 7",
+            "choix": [
+              {"texte": "A. 8 et 11", "est_correct": false},
+              {"texte": "B. 8 et 10", "est_correct": true},
+              {"texte": "C. 7 et 10", "est_correct": false},
+              {"texte": "D. 8 et 9", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Complétez la série de dominos.",
+            "choix": [
+              {"texte": "A- 1", "est_correct": true},
+              {"texte": "B- 6", "est_correct": false},
+              {"texte": "C- 3", "est_correct": false},
+              {"texte": "D- 2", "est_correct": false}            ],
+            "image": "images/2025_q11.png"
+          },
+          {
+            "ordre": 12,
+            "texte": "Trouvez le domino manquant.",
+            "choix": [
+              {"texte": "A- 1/3", "est_correct": false},
+              {"texte": "B- 3/2", "est_correct": false},
+              {"texte": "C- 2/3", "est_correct": true},
+              {"texte": "D- 2/2", "est_correct": false}
+            ],
+            "image": "images/2025_q12.png"
+          },
+          {
+            "ordre": 13,
+            "texte": "Complétez la série.",
+            "choix": [
+              {"texte": "A- 5/3", "est_correct": false},
+              {"texte": "B- 1/2", "est_correct": false},
+              {"texte": "C- 3/2", "est_correct": false},
+              {"texte": "D- 2/5", "est_correct": true}
+            ],
+            "image": "images/2025_q13.png"
+          },
+          {
+            "ordre": 14,
+            "texte": "Quel est le domino qui manque ?",
+            "choix": [
+              {"texte": "A- 1/5", "est_correct": false},
+              {"texte": "B- 0/6", "est_correct": true},
+              {"texte": "C- 2/4", "est_correct": false},
+              {"texte": "D- 0/3", "est_correct": false}
+            ],
+            "image": "images/2025_q14.png"
+          },
+          {
+            "ordre": 15,
+            "texte": "Déterminez le domino manquant.",
+            "choix": [
+              {"texte": "A- 5/5", "est_correct": true},
+              {"texte": "B- 4/1", "est_correct": false},
+              {"texte": "C- 1/3", "est_correct": false},
+              {"texte": "D- 5/2", "est_correct": false}
+            ],
+            "image": "images/2025_q15.png"
+          },
+          {
+            "ordre": 16,
+            "texte": "Déterminez la carte de la dernière colonne (identité puis addition par colonne).",
+            "choix": [
+              {"texte": "A- Joker", "est_correct": false},
+              {"texte": "B- 10 de Carreau", "est_correct": false},
+              {"texte": "C- 2 de Cœur", "est_correct": false},
+              {"texte": "D- 7 de Pique", "est_correct": true}
+            ],
+            "image": "images/2025_q16.png"
+          },
+          {
+            "ordre": 17,
+            "texte": "Déterminez la carte manquante (identité puis opération).",
+            "choix": [
+              {"texte": "A- 10 de Coeur", "est_correct": true},
+              {"texte": "B- 9 de Carreau", "est_correct": false},
+              {"texte": "C- 8 de Trèfle", "est_correct": false},
+              {"texte": "D- 7 de Pique", "est_correct": false}
+            ],
+            "image": "images/2025_q17.png"
+          },
+          {
+            "ordre": 18,
+            "texte": "Complétez la série.",
+            "choix": [
+                {"texte": "A- 10 de Pique", "est_correct": false},
+                {"texte": "B- As de Pique", "est_correct": true},
+                {"texte": "C- 9 de Pique", "est_correct": false},
+                {"texte": "D- 8 de Pique", "est_correct": false}
+            ],
+            "image": "images/2025_q18.png"
+          },
+          {
+            "ordre": 19,
+            "texte": "Trouvez la carte manquante.",
+            "choix": [
+                {"texte": "A- 2 de Carreau", "est_correct": false},
+                {"texte": "B- 4 de Pique", "est_correct": false},
+                {"texte": "C- 3 de Trèfle", "est_correct": true},
+                {"texte": "D- 5 de Coeur", "est_correct": false}
+            ],
+            "image": "images/2025_q19.png"
+          },
+          {
+            "ordre": 20,
+            "texte": "Quelle carte manque ?",
+            "choix": [
+                {"texte": "A- 1 de Pique", "est_correct": false},
+                {"texte": "B- 5 de Trèfle", "est_correct": false},
+                {"texte": "C- 6 de Pique", "est_correct": true},
+                {"texte": "D- 7 de Carreau", "est_correct": false}
+            ],
+            "image": "images/2025_q20.png"
+          },
+          {
+            "ordre": 21,
+            "texte": "S'ils partent tous les deux à la même heure, lequel des deux arrive le premier à Tours et combien de temps doit-il attendre son ami ?",
+            "choix": [
+              {"texte": "A. Antoine et 18 min", "est_correct": false},
+              {"texte": "B. Thomas et 24 min", "est_correct": true},
+              {"texte": "C. Antoine et 36 minutes", "est_correct": false},
+              {"texte": "D. Thomas et 12 minutes", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Trouvez les chiffres manquants pour l'opération : 4?6 + ?34 - 16? = 527",
+            "choix": [
+              {"texte": "A. 456, 324 et 169", "est_correct": false},
+              {"texte": "B. 466, 234 et 167", "est_correct": false},
+              {"texte": "C. 456, 234 et 163", "est_correct": true},
+              {"texte": "D. 486, 134 et 163", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Selon vous, quelle surface de murs devront-elles peindre pour une chambre de 3 m de large, 5 m de long et 2,50 m de hauteur sous plafond ?",
+            "choix": [
+              {"texte": "A. 35 m²", "est_correct": false},
+              {"texte": "B. 40 m²", "est_correct": true},
+              {"texte": "C. 37,5 m²", "est_correct": false},
+              {"texte": "D. 42,5 m²", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Quel est le résultat de l'opération suivante : $2 + 10 \\times 5 - 14 : 2 + 5 - 6 \\times 2$ ?",
+            "choix": [
+              {"texte": "A. 38", "est_correct": true},
+              {"texte": "B. 40", "est_correct": false},
+              {"texte": "C. 42", "est_correct": false},
+              {"texte": "D. 36", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Une citerne de 10 m de long et 2 m de haut (diamètre) s'est renversée. Sachant qu'une bouteille contient 1 litre, quelle estimation du nombre de bouteilles est la plus proche de la vérité ?",
+            "choix": [
+              {"texte": "A. Henri (10 000)", "est_correct": false},
+              {"texte": "B. Pierre (5 000)", "est_correct": false},
+              {"texte": "C. Paul (20 000)", "est_correct": false},
+              {"texte": "D. Michel (30 000)", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Quel est le résultat de l'opération suivante : $\\frac{30}{165} - \\frac{70}{66}$ ?",
+            "choix": [
+              {"texte": "A. 29/33", "est_correct": false},
+              {"texte": "B. -33/29", "est_correct": false},
+              {"texte": "C. 33/29", "est_correct": false},
+              {"texte": "D. -29/33", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Un chef d'entreprise emploie 100 cadres et 900 ouvriers. Le personnel passe de 39 à 35 heures hebdomadaires. Combien faut-il embaucher de nouveaux cadres et ouvriers pour compenser intégralement les heures non faites ?",
+            "choix": [
+              {"texte": "A. 11 cadres et 103 ouvriers", "est_correct": true},
+              {"texte": "B. 18 cadres et 124 ouvriers", "est_correct": false},
+              {"texte": "C. 10 cadres et 134 ouvriers", "est_correct": false},
+              {"texte": "D. 22 cadres et 120 ouvriers", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Vous achetez une paire de chaussures. Vous donnez 400 F et le commerçant vous rend 6 euros. Combien vaut à peu près votre paire de chaussures en francs et en euros ?",
+            "choix": [
+              {"texte": "A. 54 € et 380 F", "est_correct": false},
+              {"texte": "B. 54 € et 360 F", "est_correct": true},
+              {"texte": "C. 56 € et 368 F", "est_correct": false},
+              {"texte": "D. 56 € et 362 F", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Grâce à une nouvelle loi, des travaux de réfection ne sont plus soumis à une TVA de 19,6% mais à une TVA de 5,5%. Quel est votre gain pour des travaux d'un coût hors taxes de 5 000 F ?",
+            "choix": [
+              {"texte": "A. 605 F", "est_correct": false},
+              {"texte": "B. 655 F", "est_correct": false},
+              {"texte": "C. 705 F", "est_correct": true},
+              {"texte": "D. 755 F", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Une recette pour 6 personnes requiert : 250g de beurre, 200g de sucre, 300g de chocolat, 6 œufs et 3 cuillerées de farine. Quelles sont les doses requises pour 4 personnes ?",
+            "choix": [
+              {"texte": "A. 170g de beurre, 130g de sucre, 200g de chocolat, 4 œufs, 2 cuillerées de farine", "est_correct": true},
+              {"texte": "B. 200g de beurre, 150g de sucre, 240g de chocolat, 4 œufs, 1 cuillerée de farine", "est_correct": false},
+              {"texte": "C. 230g de beurre, 100g de sucre, 180g de chocolat, 5 œufs, 2 cuillerées de farine", "est_correct": false},
+              {"texte": "D. 190g de beurre, 110g de sucre, 250g de chocolat, 3 œufs, 1 cuillerée de farine", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 31,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": true}
+            ],
+            "image": "images/2025_q31.png"
+          },
+          {
+            "ordre": 32,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": true},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": false}
+            ],
+            "image": "images/2025_q32.png"
+          },
+          {
+            "ordre": 33,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": true},
+              {"texte": "D", "est_correct": false}
+            ],
+            "image": "images/2025_q33.png"
+          },
+          {
+            "ordre": 34,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": true}
+            ],
+            "image": "images/2025_q34.png"
+          },
+          {
+            "ordre": 35,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": true},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": false}
+            ],
+            "image": "images/2025_q35.png"
+          },
+          {
+            "ordre": 36,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": true},
+              {"texte": "E", "est_correct": false},
+              {"texte": "F", "est_correct": false}
+            ],
+            "image": "images/2025_q36.png"
+          },
+          {
+            "ordre": 37,
+            "texte": "Trouvez l'intrus.",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": false},
+              {"texte": "E", "est_correct": false},
+              {"texte": "F", "est_correct": false},
+              {"texte": "G", "est_correct": true},
+              {"texte": "H", "est_correct": false}
+            ],
+            "image": "images/2025_q37.png   "
+          },
+          {
+            "ordre": 38,
+            "texte": "Complétez la série géométrique .",
+            "choix": [
+              {"texte": "A", "est_correct": true},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": false}
+            ],
+            "image": "images/2025_q38.png"
+          },
+          {
+            "ordre": 39,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": false},
+              {"texte": "E", "est_correct": true},
+              {"texte": "F", "est_correct": false}
+            ],
+            "image": "images/2025_q39.png"
+          },
+          {
+            "ordre": 40,
+            "texte": "Complétez la série géométrique (choix A, B, C, D).",
+            "choix": [
+              {"texte": "A", "est_correct": false},
+              {"texte": "B", "est_correct": false},
+              {"texte": "C", "est_correct": false},
+              {"texte": "D", "est_correct": true}
+            ],
+            "image": "images/2025_q40.png"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,315 @@
+[
+{
+"ecole": "ITO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale et Français",
+"annee": 2023,
+"mini_cours": "--- STRATÉGIES ET RÈGLES CLÉS (ITO FRANÇAIS & CULTURE GÉNÉRALE 2023) ---\n\n1. ACCORD DU PARTICIPE PASSÉ ET VERBES PRONOMINAUX CRITIQUES :\n- Verbes pronominaux sans COD direct : Pour les verbes comme 'se téléphoner', 'se succéder', 'se plaire', 'se parler', le participe passé reste TOUJOURS invariable car le pronom réfléchi a la fonction de COI (on téléphone À quelqu'un). Exemple : « Elles se sont téléphoné ».\n- Présence d'un COD : Si le COD est placé après le verbe, il n'y a pas d'accord. Exemple : « Elle s'est lavé les mains » (elle a lavé quoi ? les mains, COD placé après).\n\n2. ADJECTIFS DE COULEUR ET EXCEPTIONS NOMINALES :\n- Adjectifs de couleur simples issus de noms : Les noms employés comme adjectifs de couleur (marron, orange, turquoise, citron) sont invariables. Exemple : « des chaussures marron ».\n- Les exceptions qui s'accordent : Six adjectifs de couleur d'origine nominale s'accordent par exception : rose, mauve, violet, écarlate, pourpre, fauve. Exemple : « des chemises roses ».\n\n3. ADJECTIF COMPOSÉ ET PARTICULARITÉS DU MOT 'TOUT' :\n- L'adverbe 'tout' : Il est invariable devant un adjectif qualificatif masculin ou devant un adjectif féminin commençant par une voyelle ou un 'h' muet. Exemple : « Elles étaient tout émues ».\n- Les adjectifs de relation composés : Dans les adjectifs formés de deux nationalités (franco-gabonais), seul le second terme prend la marque du genre et du nombre s'ils qualifient un nom. Exemple : « des accords franco-gabonais ».\n\n4. CONCORDANCE ET EMPLOI DU SUBJONCTIF :\n- Conjonctions temporelles : La locution 'après que' est historiquement et académiquement suivie de l'indicatif (action réalisée), tandis que 'bien que' ou 'quoique' exigent le subjonctif. Exemple : « Après qu'il est parti », « Bien qu'il soit fatigué ».\n\n5. GÉOGRAPHIE ET SYSTÈMES INSTITUTIONNELS GABONAIS :\n- Souveraineté et géographie physique : Le mont Iboundji (972 m) ou le mont Milondo (1020 m) sont les reliefs majeurs du Gabon. Connaître le tracé du fleuve Ogooué, les parcs nationaux (comme la Lopé) et les dates clés de l'histoire du pays (17 août 1960 pour l'indépendance) est capital pour l'ITO.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Lequel de ces mots est un synonyme exact de l'adjectif « pusillanime » ?",
+"choix": [
+{"texte": "A- Qui fait preuve d'une grande générosité", "est_correct": false},
+{"texte": "B- Qui manque cruellement d'audace et de courage", "est_correct": true},
+{"texte": "C- Qui change constamment d'avis", "est_correct": false},
+{"texte": "D- Qui se montre d'un calme imperturbable", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Qui est l'auteur du célèbre roman réaliste « Le Rouge et le Noir » ?",
+"choix": [
+{"texte": "A- Gustave Flaubert", "est_correct": false},
+{"texte": "B- Émile Zola", "est_correct": false},
+{"texte": "C- Stendhal", "est_correct": true},
+{"texte": "D- Honoré de Balzac", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Quel est le pluriel correct du nom composé « un garde-barrière » ?",
+"choix": [
+{"texte": "A- des garde-barrières", "est_correct": false},
+{"texte": "B- des gardes-barrière", "est_correct": false},
+{"texte": "C- des garde-barrière", "est_correct": false},
+{"texte": "D- des gardes-barrières", "est_correct": true}
+]
+},
+{
+"ordre": 4,
+"texte": "Choisissez la bonne orthographe pour compléter la phrase : « Les filles étaient ... émues par cette nouvelle. »",
+"choix": [
+{"texte": "A- tout", "est_correct": true},
+{"texte": "B- toute", "est_correct": false},
+{"texte": "C- toutes", "est_correct": false},
+{"texte": "D- touts", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Quelle province gabonaise abrite la ville de Mayumba, réputée pour son projet de port en eau profonde ?",
+"choix": [
+{"texte": "A- L'Estuaire", "est_correct": false},
+{"texte": "B- La Nyanga", "est_correct": true},
+{"texte": "C- L'Ogooué-Maritime", "est_correct": false},
+{"texte": "D- Le Woleu-Ntem", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Le fleuve Ogooué se jette dans l'océan Atlantique en formant un vaste delta situé près de :",
+"choix": [
+{"texte": "A- Libreville", "est_correct": false},
+{"texte": "B- Port-Gentil", "est_correct": true},
+{"texte": "C- Mayumba", "est_correct": false},
+{"texte": "D- Cocobeach", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Quelle figure de style est employée dans le vers de Corneille : « Cette obscure clarté qui tombe des étoiles » ?",
+"choix": [
+{"texte": "A- Une litote", "est_correct": false},
+{"texte": "B- Un pléonasme", "est_correct": false},
+{"texte": "C- Un oxymore", "est_correct": true},
+{"texte": "D- Une métonymie", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Quel est le genre grammatical correct du nom commun « échappatoire » ?",
+"choix": [
+{"texte": "A- Il est toujours féminin", "est_correct": true},
+{"texte": "B- Il est toujours masculin", "est_correct": false},
+{"texte": "C- Il est masculin au singulier et féminin au pluriel", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Quelle est l'orthographe correcte du participe passé : « Les efforts qu'il nous a ... de faire étaient colossaux. » ?",
+"choix": [
+{"texte": "A- demandés", "est_correct": false},
+{"texte": "B- demandée", "est_correct": false},
+{"texte": "C- demandé", "est_correct": true},
+{"texte": "D- demandées", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Que signifie le fait de se montrer « obséquieux » ?",
+"choix": [
+{"texte": "A- Se montrer d'une politesse excessive et servile", "est_correct": true},
+{"texte": "B- Être grossier et méprisant envers son entourage", "est_correct": false},
+{"texte": "C- Faire preuve d'un courage hors du commun", "est_correct": false},
+{"texte": "D- Être indifférent aux malheurs des autres", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Choisissez l'accord de couleur correct : « Elle portait d'élégantes chaussures ... »",
+"choix": [
+{"texte": "A- marrons", "est_correct": false},
+{"texte": "B- marronne", "est_correct": false},
+{"texte": "C- marron", "est_correct": true},
+{"texte": "D- marronnes", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Au Gabon, que signifie le sigle CTRI ?",
+"choix": [
+{"texte": "A- Comité de Transition pour la Restructuration Industrielle", "est_correct": false},
+{"texte": "B- Comité pour la Transition et la Restauration des Institutions", "est_correct": true},
+{"texte": "C- Conseil Territorial de Régulation des Investissements", "est_correct": false},
+{"texte": "D- Centre de Traitement des Réformes Institutionnelles", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Complétez : « Bien qu'il ... d'importants efforts académiques, il n'a pas réussi le concours. »",
+"choix": [
+{"texte": "A- fait", "est_correct": false},
+{"texte": "B- fasse", "est_correct": true},
+{"texte": "C- faisait", "est_correct": false},
+{"texte": "D- fera", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Choisissez la formulation grammaticalement correcte d'après la règle de la locution temporelle :",
+"choix": [
+{"texte": "A- Après qu'il soit parti, la salle s'est vidée", "est_correct": false},
+{"texte": "B- Après qu'il est parti, la salle s'est vidée", "est_correct": true},
+{"texte": "C- Après qu'il fût parti, la salle s'est vidée", "est_correct": false},
+{"texte": "D- Après qu'il ait parti, la salle s'est vidée", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Quelle est la signification exacte du verbe « procrastiner » ?",
+"choix": [
+{"texte": "A- Travailler de manière acharnée et sans interruption", "est_correct": false},
+{"texte": "B- Remettre systématiquement au lendemain des actions", "est_correct": true},
+{"texte": "C- Prendre des décisions irréfléchies", "est_correct": false},
+{"texte": "D- Se plaindre continuellement de son sort", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Quelle phrase respecte la concordance après l'hypothèse de l'irréel du passé ?",
+"choix": [
+{"texte": "A- Si j'aurais su, je serais venu", "est_correct": false},
+{"texte": "B- Si j'avais su, je serais venu", "est_correct": true},
+{"texte": "C- Si j'eusse su, je viendrais", "est_correct": false},
+{"texte": "D- Si j'aurai su, je serais venu", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Quel est le pluriel recommandé du nom composé « un coffre-fort » ?",
+"choix": [
+{"texte": "A- des coffre-forts", "est_correct": false},
+{"texte": "B- des coffres-fort", "est_correct": false},
+{"texte": "C- des coffres-forts", "est_correct": true},
+{"texte": "D- des coffre-fort", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Comment s'écrit en lettres le nombre 83 ?",
+"choix": [
+{"texte": "A- quatre-vingt-trois", "est_correct": true},
+{"texte": "B- quatre-vingts-trois", "est_correct": false},
+{"texte": "C- quatre-vingt-trois-cents", "est_correct": false},
+{"texte": "D- quatre-vingts-trois-s", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Quel est le genre grammatical du mot « oasis » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": false},
+{"texte": "B- Il est toujours féminin", "est_correct": true},
+{"texte": "C- Il s'emploie indifféremment dans les deux genres", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Que signifie au sens figuré l'expression « se laisser griser par le succès » ?",
+"choix": [
+{"texte": "A- Devenir triste et maussade", "est_correct": false},
+{"texte": "B- Se laisser enivrer ou étourdir par la réussite", "est_correct": true},
+{"texte": "C- Perdre toute sa fortune", "est_correct": false},
+{"texte": "D- Devenir extrêmement méfiant", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Quel massif montagneux abrite le mont Iboundji, l'un des sommets remarquables du Gabon ?",
+"choix": [
+{"texte": "A- Les monts de Cristal", "est_correct": false},
+{"texte": "B- Le massif du Chaillu", "est_correct": true},
+{"texte": "C- Les monts Birougou", "est_correct": false},
+{"texte": "D- Les monts Belinga", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Quel pronom relatif complète la phrase : « Le projet ___ je m'occupe demande du temps. » ?",
+"choix": [
+{"texte": "A- que", "est_correct": false},
+{"texte": "B- dont", "est_correct": true},
+{"texte": "C- lequel", "est_correct": false},
+{"texte": "D- auquel", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Quelle figure de style utilise l'expression « l'or noir » pour désigner le pétrole ?",
+"choix": [
+{"texte": "A- Une litote", "est_correct": false},
+{"texte": "B- Un oxymore", "est_correct": false},
+{"texte": "C- Une périphrase", "est_correct": true},
+{"texte": "D- Un pléonasme", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Quel est le synonyme le plus proche du mot « versatile » ?",
+"choix": [
+{"texte": "A- Obstiné", "est_correct": false},
+{"texte": "B- Inconstant", "est_correct": true},
+{"texte": "C- Habile", "est_correct": false},
+{"texte": "D- Généreux", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Qui a écrit la pièce de théâtre classique « Le Malade imaginaire » ?",
+"choix": [
+{"texte": "A- Jean Racine", "est_correct": false},
+{"texte": "B- Pierre Corneille", "est_correct": false},
+{"texte": "C- Molière", "est_correct": true},
+{"texte": "D- Beaumarchais", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Choisissez l'accord de couleur correct : « Elle a acheté de jolies jupes ... »",
+"choix": [
+{"texte": "A- roses", "est_correct": true},
+{"texte": "B- rose", "est_correct": false},
+{"texte": "C- rosées", "est_correct": false},
+{"texte": "D- rose-pâle", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Quel accord du participe passé convient pour la phrase : « Elles se sont ... des messages. » ?",
+"choix": [
+{"texte": "A- écrites", "est_correct": false},
+{"texte": "B- écrit", "est_correct": true},
+{"texte": "C- écrite", "est_correct": false},
+{"texte": "D- écrits", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Que signifie la locution imagée « jeter de la poudre aux yeux » ?",
+"choix": [
+{"texte": "A- Provoquer une violente dispute", "est_correct": false},
+{"texte": "B- Éblouir ou illusionner par de fausses apparences", "est_correct": true},
+{"texte": "C- Faire preuve d'une franchise absolue", "est_correct": false},
+{"texte": "D- Nettoyer minutieusement un espace", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Quelle est la date précise de la proclamation de l'indépendance de la République Gabonaise ?",
+"choix": [
+{"texte": "A- 17 août 1960", "est_correct": true},
+{"texte": "B- 12 mars 1968", "est_correct": false},
+{"texte": "C- 24 mai 1990", "est_correct": false},
+{"texte": "D- 30 août 2023", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Quel est le contraire ou antonyme du mot « altruiste » ?",
+"choix": [
+{"texte": "A- Généreux", "est_correct": false},
+{"texte": "B- Philanthrope", "est_correct": false},
+{"texte": "C- Égoïste", "est_correct": true},
+{"texte": "D- Désintéressé", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

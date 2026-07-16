@@ -1,0 +1,315 @@
+[
+{
+"ecole": "ITO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale et Français",
+"annee": 2024,
+"mini_cours": "--- STRATÉGIES ET RÈGLES CLÉS (ITO FRANÇAIS & CULTURE GÉNÉRALE 2024) ---\n\n1. ACCORDS ET COMPORTEMENTS DU PARTICIPE PASSÉ AVEC LE PRONOM 'EN' :\n- Le pronom neutre 'en' comme COD : Lorsque le pronom 'en' est employé comme COD d'un verbe conjugué avec l'auxiliaire avoir, le participe passé reste TOUJOURS invariable. Exemple : « Des lettres, j'en ai écrit beaucoup ce matin ».\n\n2. LE PLURIEL DES NOMS COMPOSÉS ET DE L'ADJECTIF 'DEMI' :\n- L'adjectif 'demi' : Placé devant un nom et relié par un trait d'union, il reste invariable. Placé après le nom, il s'accorde uniquement en genre (féminin ou masculin). Exemple : « une demi-heure », « deux heures et demie ».\n- Noms composés Verbe + Nom : D'après les rectifications orthographiques modernes de l'Académie française, l'accord se fait au pluriel sur le second terme (un gratte-ciel -> des gratte-ciels).\n\n3. ANALYSE ET FIGURES DE STYLE SOUVENT PROPOSÉES :\n- La métonymie : Figure consistant à désigner un objet ou une idée par un autre terme qui lui est lié par un rapport de contiguïté logique (le contenant pour le contenu). Exemple : « Boire un verre ».\n- La personnification : Attribuer des traits humains à des entités inanimées ou animales.\n\n4. ACTUALITÉS POLITIQUES, ÉCONOMIQUES ET PARCS NATIONAUX GABONAIS :\n- Repères hydrographiques et parcs : Le Gabon compte 13 parcs nationaux créés en 2002. Le parc de la Lopé est inscrit au patrimoine mondial de l'UNESCO pour sa biodiversité et ses vestiges archéologiques.\n- Géographie économique : Connaître le rôle de Port-Gentil (capitale économique, pétrole) par rapport à Libreville (capitale politique et administrative). Le premier président de la République gabonaise est Léon Mba.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Quel est le genre grammatical correct du mot « apothéose » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": false},
+{"texte": "B- Il est toujours féminin", "est_correct": true},
+{"texte": "C- Il peut changer de genre selon son sens", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Choisissez l'accord de couleur correct pour cette phrase : « Ils ont installé des rideaux ... dans le salon. »",
+"choix": [
+{"texte": "A- bleu clair", "est_correct": true},
+{"texte": "B- bleus clairs", "est_correct": false},
+{"texte": "C- bleues claires", "est_correct": false},
+{"texte": "D- bleu-clairs", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Quel est le pluriel moderne recommandé pour le nom « un après-midi » ?",
+"choix": [
+{"texte": "A- des après-midi", "est_correct": false},
+{"texte": "B- des après-midis", "est_correct": true},
+{"texte": "C- des aprés-midis", "est_correct": false},
+{"texte": "D- des aprè-midis", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Quel poète français est l'auteur du recueil censuré « Les Fleurs du mal » ?",
+"choix": [
+{"texte": "A- Arthur Rimbaud", "est_correct": false},
+{"texte": "B- Charles Baudelaire", "est_correct": true},
+{"texte": "C- Paul Verlaine", "est_correct": false},
+{"texte": "D- Victor Hugo", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Quelle figure de style est employée dans l'expression courante : « Boire un verre » ?",
+"choix": [
+{"texte": "A- Une métaphore", "est_correct": false},
+{"texte": "B- Une métonymie", "est_correct": true},
+{"texte": "C- Une hyperbole", "est_correct": false},
+{"texte": "D- Un oxymore", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Dans quelle forme conjuguée identifie-t-on le subjonctif passé ?",
+"choix": [
+{"texte": "A- Vous ayez prévu", "est_correct": true},
+{"texte": "B- Vous eussiez prévu", "est_correct": false},
+{"texte": "C- Vous auriez prévu", "est_correct": false},
+{"texte": "D- Vous aviez prévu", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Choisissez l'accord correct : « Les pièces de théâtre que j'ai ... jouer étaient magnifiques. »",
+"choix": [
+{"texte": "A- vu", "est_correct": true},
+{"texte": "B- vue", "est_correct": false},
+{"texte": "C- vues", "est_correct": false},
+{"texte": "D- vus", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Que signifie la maxime « mettre la charrue avant les bœufs » ?",
+"choix": [
+{"texte": "A- Réaliser un travail de manière très rapide", "est_correct": false},
+{"texte": "B- Faire les choses dans le désordre ou à l'envers", "est_correct": true},
+{"texte": "C- S'engager dans une voie sans aucune issue", "est_correct": false},
+{"texte": "D- Être à l'avant-garde d'un projet", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Complétez la phrase suivante : « Le candidat ___ vous parlez a de grandes chances d'intégrer l'ITO. »",
+"choix": [
+{"texte": "A- que", "est_correct": false},
+{"texte": "B- dont", "est_correct": true},
+{"texte": "C- auquel", "est_correct": false},
+{"texte": "D- duquel", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Quelle est la signification de l'expression « c'est une menteuse invétérée » ?",
+"choix": [
+{"texte": "A- Elle ment uniquement par nécessité", "est_correct": false},
+{"texte": "B- C'est une menteuse occasionnelle", "est_correct": false},
+{"texte": "C- C'est une menteuse incorrigible qui a cette habitude ancrée en elle", "est_correct": true},
+{"texte": "D- Elle refuse catégoriquement de mentir", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Quel est le synonyme le plus précis de l'adjectif « fallacieux » ?",
+"choix": [
+{"texte": "A- Trompeur", "est_correct": true},
+{"texte": "B- Rigoureux", "est_correct": false},
+{"texte": "C- Indispensable", "est_correct": false},
+{"texte": "D- Limpide", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Quelle ville est officiellement reconnue comme la capitale économique du Gabon ?",
+"choix": [
+{"texte": "A- Franceville", "est_correct": false},
+{"texte": "B- Port-Gentil", "est_correct": true},
+{"texte": "C- Oyem", "est_correct": false},
+{"texte": "D- Mouila", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Qui fut le tout premier président de la République Gabonaise lors de l'accession à l'indépendance ?",
+"choix": [
+{"texte": "A- Omar Bongo Ondimba", "est_correct": false},
+{"texte": "B- Léon Mba", "est_correct": true},
+{"texte": "C- Jean ping", "est_correct": false},
+{"texte": "D- Rose Christiane Ossouka Raponda", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Quel est le pluriel moderne recommandé pour le nom « un gratte-ciel » ?",
+"choix": [
+{"texte": "A- des grattes-ciel", "est_correct": false},
+{"texte": "B- des gratte-ciels", "est_correct": true},
+{"texte": "C- des grattes-ciels", "est_correct": false},
+{"texte": "D- des gratte-ciel", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Quelle figure de style est employée dans l'expression : « Un silence assourdissant » ?",
+"choix": [
+{"texte": "A- Une comparaison", "est_correct": false},
+{"texte": "B- Un oxymore", "est_correct": true},
+{"texte": "C- Un pléonasme", "est_correct": false},
+{"texte": "D- Une métonymie", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Quel fleuve africain possède le deuxième débit le plus puissant au monde après l'Amazone ?",
+"choix": [
+{"texte": "A- Le Nil", "est_correct": false},
+{"texte": "B- Le fleuve Congo", "est_correct": true},
+{"texte": "C- Le Niger", "est_correct": false},
+{"texte": "D- Le Zambèze", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Choisissez la bonne orthographe : « ... lointaines qu'elles paraissent, ces îles sont habitées. »",
+"choix": [
+{"texte": "A- Quelque", "est_correct": true},
+{"texte": "B- Quelques", "est_correct": false},
+{"texte": "C- Quelque soit", "est_correct": false},
+{"texte": "D- Quelles que", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Choisissez l'accord correct : « Des fraises bien mûres, j'en ai ... beaucoup ce matin. »",
+"choix": [
+{"texte": "A- mangé", "est_correct": true},
+{"texte": "B- mangées", "est_correct": false},
+{"texte": "C- mangés", "est_correct": false},
+{"texte": "D- manger", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Quelle est l'orthographe correcte de l'accord dans cette phrase : « Elles ont accueilli trois ... personnes. » ?",
+"choix": [
+{"texte": "A- cents", "est_correct": true},
+{"texte": "B- cent", "est_correct": false},
+{"texte": "C- centes", "est_correct": false},
+{"texte": "D- cents-s", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Que signifie le verbe « collationner » dans le milieu administratif ou d'édition ?",
+"choix": [
+{"texte": "A- Prendre un repas léger entre deux réunions", "est_correct": false},
+{"texte": "B- Comparer des textes ou vérifier si un écrit est complet", "est_correct": true},
+{"texte": "C- Rédiger un texte officiel en urgence", "est_correct": false},
+{"texte": "D- Archiver des dossiers inutiles", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Quel est le genre grammatical correct du mot « astérisque » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": true},
+{"texte": "B- Il est toujours féminin", "est_correct": false},
+{"texte": "C- Il s'emploie indifféremment dans les deux genres", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Trouvez l'antonyme ou contraire de l'adjectif « éphémère » :",
+"choix": [
+{"texte": "A- Fugace", "est_correct": false},
+{"texte": "B- Bref", "est_correct": false},
+{"texte": "C- Durable", "est_correct": true},
+{"texte": "D- Passager", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Quelle est l'orthographe correcte : « Elles se sont ... au téléphone hier soir. » ?",
+"choix": [
+{"texte": "A- téléphoné", "est_correct": true},
+{"texte": "B- téléphonées", "est_correct": false},
+{"texte": "C- téléphoner", "est_correct": false},
+{"texte": "D- téléphonés", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Complétez avec le subjonctif adéquat : « Il convient que vous ... résoudre ce problème vous-même. »",
+"choix": [
+{"texte": "A- puissiez", "est_correct": true},
+{"texte": "B- pouvez", "est_correct": false},
+{"texte": "C- pouriez", "est_correct": false},
+{"texte": "D- puissier", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Quelle figure de style est employée dans la phrase : « Le vent hurlait dans la plaine » ?",
+"choix": [
+{"texte": "A- Une hyperbole", "est_correct": false},
+{"texte": "B- Une métonymie", "est_correct": false},
+{"texte": "C- Une personnification", "est_correct": true},
+{"texte": "D- Un oxymore", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Lequel de ces parcs nationaux gabonais est classé au patrimoine mondial de l'UNESCO ?",
+"choix": [
+{"texte": "A- Le parc national de Loango", "est_correct": false},
+{"texte": "B- Le parc national de la Lopé", "est_correct": true},
+{"texte": "C- Le parc national de Mayumba", "est_correct": false},
+{"texte": "D- Le parc national d'Akanda", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Quel est le genre grammatical correct du mot « haltère » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": true},
+{"texte": "B- Il est toujours féminin", "est_correct": false},
+{"texte": "C- Il peut changer selon l'utilisation", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Quel terme fait exception ou est un « faux ami » du sens de la racine grecque « chrono » ?",
+"choix": [
+{"texte": "A- chronologie", "est_correct": false},
+{"texte": "B- nécrologie", "est_correct": true},
+{"texte": "C- chronomètre", "est_correct": false},
+{"texte": "D- anachronisme", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Quel fleuve gabonais est célèbre pour ses chutes d'eau impressionnantes appelées « chutes de Kongou » ?",
+"choix": [
+{"texte": "A- L'Ogooué", "est_correct": false},
+{"texte": "B- L'Ivindo", "est_correct": true},
+{"texte": "C- La Ngounié", "est_correct": false},
+{"texte": "D- Le Ntem", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Quelle formulation respecte les règles d'accord au féminin pluriel d'après l'usage moderne ?",
+"choix": [
+{"texte": "A- Des femmes soldats", "est_correct": true},
+{"texte": "B- Des femmes soldates", "est_correct": false},
+{"texte": "C- Des femmes-soldat", "est_correct": false},
+{"texte": "D- Des soldates", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

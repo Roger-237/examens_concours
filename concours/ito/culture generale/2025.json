@@ -1,0 +1,618 @@
+[
+  {
+    "ecole": "ITO",
+    "filiere": "Toutes filières",
+    "epreuves": [
+      {
+        "titre": "Culture Générale et Français",
+        "annee": 2025,
+        "mini_cours": "Culture générale, littérature française, actualité gabonaise 2025, orthographe, accord des adjectifs, santé publique et grammaire française.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Lequel de ces mots est un synonyme du mot perspicace ?",
+            "choix": [
+              {"texte": "A- Discret", "est_correct": false},
+              {"texte": "B- Perplexe", "est_correct": false},
+              {"texte": "C- Clairvoyant", "est_correct": true},
+              {"texte": "D- Incrédule", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 2,
+            "texte": "Quel est l'auteur de la célèbre maxime : « Je pense donc je suis » ?",
+            "choix": [
+              {"texte": "A- Blaise Pascal", "est_correct": false},
+              {"texte": "B- René Descartes", "est_correct": true},
+              {"texte": "C- Jean Paul Sartre", "est_correct": false},
+              {"texte": "D- Voltaire", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 3,
+            "texte": "Dans quelle œuvre trouve-t-on le personnage de Meursault ?",
+            "choix": [
+              {"texte": "A- Le Père Goriot", "est_correct": false},
+              {"texte": "B- L'Étranger", "est_correct": true},
+              {"texte": "C- Germinal", "est_correct": false},
+              {"texte": "D- Les Misérables", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 4,
+            "texte": "Quelle phrase est correctement orthographiée ?",
+            "choix": [
+              {"texte": "A- Ils ce sont levés tard", "est_correct": false},
+              {"texte": "B- Il s'est apperçu de son erreur", "est_correct": false},
+              {"texte": "C- Elie s'est rendue au rendez-vous", "est_correct": false},
+              {"texte": "D- Nous nous sommes trompés", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 5,
+            "texte": "Que signifie l'expression « mettre la charrue avant les bœufs » ?",
+            "choix": [
+              {"texte": "A- Travailler trop dur", "est_correct": false},
+              {"texte": "B- Agir de manière logique", "est_correct": false},
+              {"texte": "C- Inverser l'ordre naturel des choses", "est_correct": true},
+              {"texte": "D- Être en avance sur son temps", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 6,
+            "texte": "Quel écrivain a obtenu le Prix Nobel de littérature en 1957 ?",
+            "choix": [
+              {"texte": "A- Jean Paul Sartre", "est_correct": false},
+              {"texte": "B- Albert Camus", "est_correct": true},
+              {"texte": "C- André Gide", "est_correct": false},
+              {"texte": "D- Samuel Beckett", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 7,
+            "texte": "Quelle est la figure de style dans l'expression : « le vent hurlait dans la nuit » ?",
+            "choix": [
+              {"texte": "A- Hyperbole", "est_correct": false},
+              {"texte": "B- Allitération", "est_correct": false},
+              {"texte": "C- Métaphore", "est_correct": false},
+              {"texte": "D- Personnification", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 8,
+            "texte": "Quel siècle est appelé « le grand siècle » ?",
+            "choix": [
+              {"texte": "A- XVIe", "est_correct": false},
+              {"texte": "B- XVIIe", "est_correct": true},
+              {"texte": "C- XVIIIe", "est_correct": false},
+              {"texte": "D- XIXe", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 9,
+            "texte": "Quel pronom relatif complète correctement la phrase : « L'enfant ___ tu parles est mon cousin » ?",
+            "note": "L'expression 'parler de quelqu'un' exige 'dont'. La réponse C (Qui) visible dans le document est une erreur de corrigé.",
+            "choix": [
+              {"texte": "A- Que", "est_correct": false},
+              {"texte": "B- Dont", "est_correct": true},
+              {"texte": "C- Qui", "est_correct": false},
+              {"texte": "D- Lequel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 10,
+            "texte": "Quelle est la capitale de la Suisse ?",
+            "choix": [
+              {"texte": "A- Zurich", "est_correct": false},
+              {"texte": "B- Genève", "est_correct": false},
+              {"texte": "C- Berne", "est_correct": true},
+              {"texte": "D- Lausanne", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 11,
+            "texte": "Quel immense projet portuaire est mentionné pour dynamiser le commerce gabonais en 2025 ?",
+            "choix": [
+              {"texte": "A- Port de Libreville", "est_correct": false},
+              {"texte": "B- Port d'Owendo", "est_correct": false},
+              {"texte": "C- Port en eau profonde de Mayumba", "est_correct": true},
+              {"texte": "D- Port de Port-Gentil", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 12,
+            "texte": "Quel a été l'objet de la conférence tenue à Libreville du 10 au 11 juillet 2025 ?",
+            "choix": [
+              {"texte": "A- Tourisme durable", "est_correct": false},
+              {"texte": "B- Élection présidentielle", "est_correct": false},
+              {"texte": "C- Crime environnemental et conflit homme-faune", "est_correct": true},
+              {"texte": "D- Fiscalité nationale", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 13,
+            "texte": "Quand commence le dépôt des candidatures pour les élections locales et législatives 2025 ?",
+            "choix": [
+              {"texte": "A- 17 - 23 juillet", "est_correct": false},
+              {"texte": "B- 1 - 10 août", "est_correct": false},
+              {"texte": "C- 27 juillet - 7 août", "est_correct": true},
+              {"texte": "D- 14 - 21 août", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 14,
+            "texte": "Quel est le principal bénéfice attendu du projet de transformation du manganèse d'ici 2029 ?",
+            "choix": [
+              {"texte": "A- Augmenter les exportations de matières premières", "est_correct": false},
+              {"texte": "B- Valoriser localement la ressource pour créer des emplois", "est_correct": true},
+              {"texte": "C- Réduire l'exploitation minière", "est_correct": false},
+              {"texte": "D- Exporter du concentré à l'étranger", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 15,
+            "texte": "Les principaux secteurs mis en avant :",
+            "choix": [
+              {"texte": "A- Banque et assurance", "est_correct": false},
+              {"texte": "B- Transport d'énergie", "est_correct": false},
+              {"texte": "C- Numérique, industrie, tourisme", "est_correct": true},
+              {"texte": "D- Pétrole uniquement", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 16,
+            "texte": "Le fonds de capital-risque national mentionné est :",
+            "choix": [
+              {"texte": "A- ANPI-Gabon", "est_correct": false},
+              {"texte": "B- Okoume capital", "est_correct": true},
+              {"texte": "C- Prometal", "est_correct": false},
+              {"texte": "D- Karpowership", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 17,
+            "texte": "Quel acteur facilite l'investissement étranger au Gabon ?",
+            "choix": [
+              {"texte": "A- Banque mondiale", "est_correct": false},
+              {"texte": "B- ANPI-Gabon", "est_correct": true},
+              {"texte": "C- Promet-Eco", "est_correct": false},
+              {"texte": "D- CTRI", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 18,
+            "texte": "Le Gabon a participé au Africa CEO Forum 2024 à :",
+            "choix": [
+              {"texte": "A- Libreville", "est_correct": false},
+              {"texte": "B- Abidjan", "est_correct": true},
+              {"texte": "C- Lagos", "est_correct": false},
+              {"texte": "D- Dakar", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 19,
+            "texte": "Le contraire d'un raisonnement valide est :",
+            "choix": [
+              {"texte": "A- Vrai", "est_correct": false},
+              {"texte": "B- Invalide", "est_correct": true},
+              {"texte": "C- Inutile", "est_correct": false},
+              {"texte": "D- Véridique", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 20,
+            "texte": "Le participe passé de « revalider » est :",
+            "choix": [
+              {"texte": "A- Revalidé", "est_correct": false},
+              {"texte": "B- Revalidé (e)(s)", "est_correct": false},
+              {"texte": "C- Validé à nouveau", "est_correct": true},
+              {"texte": "D- Les deux A et B", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 21,
+            "texte": "Quel féminin est correct ?",
+            "choix": [
+              {"texte": "A- Une garde-malade", "est_correct": true},
+              {"texte": "B- Une garde-maladesse", "est_correct": false},
+              {"texte": "C- Une garde-maladeuse", "est_correct": false},
+              {"texte": "D- Une garde-maladée", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 22,
+            "texte": "Lequel est le bon accord au féminin ?",
+            "choix": [
+              {"texte": "A- Une femme-chef", "est_correct": false},
+              {"texte": "B- Une femme-cheffe", "est_correct": true},
+              {"texte": "C- Une chef", "est_correct": false},
+              {"texte": "D- Toutes les réponses sont acceptables", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 23,
+            "texte": "Quelle écriture est correcte au féminin pluriel ?",
+            "choix": [
+              {"texte": "A- Des femmes soldats", "est_correct": true},
+              {"texte": "B- Des femmes soldates", "est_correct": false},
+              {"texte": "C- Des femmes-soldat", "est_correct": false},
+              {"texte": "D- Des soldates", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 24,
+            "texte": "Le pluriel de « un après-midi » est :",
+            "choix": [
+              {"texte": "A- Des après-midis", "est_correct": true},
+              {"texte": "B- Des après-midis", "est_correct": false},
+              {"texte": "C- Des après-midi", "est_correct": false},
+              {"texte": "D- Des après-midi", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 25,
+            "texte": "Le pluriel de « un pare-brise » est :",
+            "choix": [
+              {"texte": "A- Des pare-brises", "est_correct": true},
+              {"texte": "B- Des pares-brise", "est_correct": false},
+              {"texte": "C- Des pares-brises", "est_correct": false},
+              {"texte": "D- Des pare-brise", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 26,
+            "texte": "Lequel est bien accordé ?",
+            "choix": [
+              {"texte": "A- Des compte-rendus", "est_correct": false},
+              {"texte": "B- Des comptes-rendus", "est_correct": true},
+              {"texte": "C- Des comptes-rendu", "est_correct": false},
+              {"texte": "D- Des compte-rendu", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 27,
+            "texte": "Lequel est correct ?",
+            "choix": [
+              {"texte": "A- Des arcs-en-ciels", "est_correct": false},
+              {"texte": "B- Des arcs-en-ciel", "est_correct": true},
+              {"texte": "C- Des arc-en-ciels", "est_correct": false},
+              {"texte": "D- Des arc-en-ciel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 28,
+            "texte": "Choisissez la bonne écriture :",
+            "choix": [
+              {"texte": "A- Trois cent cinquante élèves", "est_correct": true},
+              {"texte": "B- Trois cent cinquante élèves", "est_correct": false},
+              {"texte": "C- Trois cent cinquantes élèves", "est_correct": false},
+              {"texte": "D- Trois cents cinquantes élèves", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 29,
+            "texte": "Quelle est la bonne formulation ?",
+            "choix": [
+              {"texte": "A- Mille euros", "est_correct": true},
+              {"texte": "B- Milles euros", "est_correct": false},
+              {"texte": "C- Mille euro", "est_correct": false},
+              {"texte": "D- Un mille euros", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 30,
+            "texte": "Lequel contient une erreur ?",
+            "choix": [
+              {"texte": "A- Quatre-vingts-euros", "est_correct": true},
+              {"texte": "B- Quatre-vingt-trois euros", "est_correct": false},
+              {"texte": "C- Deux cent trente euros", "est_correct": false},
+              {"texte": "D- Trois cents trente trois euros", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 31,
+            "texte": "La réponse correcte :",
+            "choix": [
+              {"texte": "A- Quatre-vingts jours", "est_correct": true},
+              {"texte": "B- Quatre-vingt jours", "est_correct": false},
+              {"texte": "C- Quatre-vings jours", "est_correct": false},
+              {"texte": "D- Quatre-vingts-jours", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 32,
+            "texte": "Quel adjectif est correctement accordé ?",
+            "choix": [
+              {"texte": "A- Des robes violets", "est_correct": false},
+              {"texte": "B- Des chemises blanche", "est_correct": false},
+              {"texte": "C- Des vestes rouges", "est_correct": true},
+              {"texte": "D- Des pantalons grises", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 33,
+            "texte": "Lequel est incorrect ?",
+            "choix": [
+              {"texte": "A- Des jupes vert pomme", "est_correct": false},
+              {"texte": "B- Des rideaux bleu marine", "est_correct": false},
+              {"texte": "C- Des nappes rouges foncés", "est_correct": true},
+              {"texte": "D- Des vestes gris perle", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 34,
+            "texte": "Choisissez la bonne formulation",
+            "choix": [
+              {"texte": "A- Des chemises turquoise", "est_correct": false},
+              {"texte": "B- Des chemises turquoises", "est_correct": false},
+              {"texte": "C- Des chemises turquoise(s)", "est_correct": false},
+              {"texte": "D- Turquoise est invariable", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 35,
+            "texte": "Lequel est correct ?",
+            "choix": [
+              {"texte": "A- Des femmes franco-allemands", "est_correct": false},
+              {"texte": "B- Des accords franco-allemands", "est_correct": true},
+              {"texte": "C- Des traités franco-allemandes", "est_correct": false},
+              {"texte": "D- Des réunions franco-allemande", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 36,
+            "texte": "Le vaccin contre le Covid-19...",
+            "choix": [
+              {"texte": "A- Est efficace surtout contre les formes sévères", "est_correct": true},
+              {"texte": "B- Est inefficace", "est_correct": false},
+              {"texte": "C- Provoque exclusivement la maladie", "est_correct": false},
+              {"texte": "D- Est réservé aux moins de 18 ans", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 37,
+            "texte": "Quel est le test de référence pour diagnostiquer la Covid-19 ?",
+            "choix": [
+              {"texte": "A- ECG", "est_correct": false},
+              {"texte": "B- PCR nasopharyngée", "est_correct": true},
+              {"texte": "C- Radiographie pulmonaire", "est_correct": false},
+              {"texte": "D- IRM cérébrale", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 38,
+            "texte": "La tuberculose multirésistante signifie :",
+            "choix": [
+              {"texte": "A- Résistance à la pénicilline seulement", "est_correct": false},
+              {"texte": "B- Résistance à la chloroquine", "est_correct": false},
+              {"texte": "C- Résistance à l'isoniazide et à la rifampicine", "est_correct": true},
+              {"texte": "D- Sensibilité à tous les traitements", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 39,
+            "texte": "Quel est l'agent responsable de la grippe saisonnière ?",
+            "choix": [
+              {"texte": "A- Bactérie Streptococcus", "est_correct": false},
+              {"texte": "B- Virus Influenzae", "est_correct": true},
+              {"texte": "C- Mycobacterium tuberculosis", "est_correct": false},
+              {"texte": "D- Plasmodium vivax", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 40,
+            "texte": "Quel test permet le diagnostic rapide du paludisme ?",
+            "choix": [
+              {"texte": "A- Frottis sanguin", "est_correct": true},
+              {"texte": "B- Radiographie pulmonaire", "est_correct": false},
+              {"texte": "C- Test urinaire", "est_correct": false},
+              {"texte": "D- ECG", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 41,
+            "texte": "Parmi les maladies suivantes, laquelle est due à une bactérie ?",
+            "choix": [
+              {"texte": "A- Grippe", "est_correct": false},
+              {"texte": "B- Covid-19", "est_correct": false},
+              {"texte": "C- Tuberculose", "est_correct": true},
+              {"texte": "D- Paludisme", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 42,
+            "texte": "Laquelle de ces phrases est correcte ?",
+            "choix": [
+              {"texte": "A- Elles se sont permis quelques remarques.", "est_correct": true},
+              {"texte": "B- Elles se sont permises quelques remarques.", "est_correct": false},
+              {"texte": "C- Elles se sont permises de partir.", "est_correct": false},
+              {"texte": "D- Elles se sont permis de partir.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 43,
+            "texte": "Quel pronom relatif convient ? « L'auteur ___ j'ai lu tous les romans est suisse. »",
+            "note": "Grammaticalement 'dont' est correct ('lire les romans DE l'auteur'). La marque B visible sur le document semble être une erreur de corrigé.",
+            "choix": [
+              {"texte": "A- dont", "est_correct": true},
+              {"texte": "B- que", "est_correct": false},
+              {"texte": "C- à qui", "est_correct": false},
+              {"texte": "D- lequel", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 44,
+            "texte": "Complétez correctement la phrase : « Il s'agit de décisions ___ les conséquences seront lourdes. »",
+            "choix": [
+              {"texte": "A- que", "est_correct": false},
+              {"texte": "B- dont", "est_correct": false},
+              {"texte": "C- lesquelles", "est_correct": false},
+              {"texte": "D- dont les", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 45,
+            "texte": "Choisissez la phrase correctement construite.",
+            "choix": [
+              {"texte": "A- Il faudrait qu'elle puisses comprendre.", "est_correct": false},
+              {"texte": "B- Il faudrait qu'elle puisse comprendre.", "est_correct": true},
+              {"texte": "C- Il faudrait qu'elle peut comprendre.", "est_correct": false},
+              {"texte": "D- Il faudrait qu'elle peut comprenne.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 46,
+            "texte": "Quel est le bon emploi du subjonctif ?",
+            "choix": [
+              {"texte": "A- Bien qu'il est intelligent, il échoue souvent.", "est_correct": false},
+              {"texte": "B- Bien qu'il soit intelligent, il échoue souvent.", "est_correct": true},
+              {"texte": "C- Bien qu'il serait intelligent, il échoue souvent.", "est_correct": false},
+              {"texte": "D- Bien qu'il était intelligent, il échoue souvent.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 47,
+            "texte": "Phrase correctement ponctuée et orthographiée ?",
+            "choix": [
+              {"texte": "A- Si j'aurais su, je ne serais pas venu.", "est_correct": false},
+              {"texte": "B- Si j'eusse su, je ne serais pas venu.", "est_correct": false},
+              {"texte": "C- Si j'avais su, je ne serais pas venu.", "est_correct": true},
+              {"texte": "D- Si j'aurai su, je ne serais pas venu.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 48,
+            "texte": "Quel accord est correct ? « Elle s'est ___ les cheveux avant de sortir. »",
+            "note": "Le COD 'les cheveux' est placé après le verbe → pas d'accord → 'lavé' (invariable) est correct.",
+            "choix": [
+              {"texte": "A- lavée", "est_correct": false},
+              {"texte": "B- lavé", "est_correct": true},
+              {"texte": "C- lavés", "est_correct": false},
+              {"texte": "D- lavées", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 49,
+            "texte": "Trouvez l'erreur grammaticale : « Ces résultats, bien qu'encourageants, nécessitent encore d'importants efforts. »",
+            "choix": [
+              {"texte": "A- ces résultats", "est_correct": false},
+              {"texte": "B- bien qu'encourageants", "est_correct": false},
+              {"texte": "C- nécessitent", "est_correct": false},
+              {"texte": "D- aucun", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 50,
+            "texte": "Dans quelle phrase le mode est mal employé ?",
+            "choix": [
+              {"texte": "A- Il souhaite que tout soit prêt.", "est_correct": false},
+              {"texte": "B- Elle espère qu'il viendra.", "est_correct": false},
+              {"texte": "C- Je doute qu'il dit la vérité.", "est_correct": true},
+              {"texte": "D- Il faudrait que vous veniez.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 51,
+            "texte": "Choisissez la bonne formulation soutenue :",
+            "choix": [
+              {"texte": "A- L'homme dont on a parlé s'avéra compétent.", "est_correct": false},
+              {"texte": "B- L'homme que l'on a parlé s'avéra compétent.", "est_correct": false},
+              {"texte": "C- L'homme qu'on a parlé de s'avéra compétent.", "est_correct": false},
+              {"texte": "D- L'homme duquel on a parlé s'avéra compétent.", "est_correct": true}
+            ]
+          },
+          {
+            "ordre": 52,
+            "texte": "Trouvez la faute : « Elle s'est rendue compte de son erreur. »",
+            "note": "Dans 'se rendre compte', le participe passé 'rendu' est invariable. L'erreur est dans 's'est rendue' (devrait être 's'est rendu').",
+            "choix": [
+              {"texte": "A- s'est rendue", "est_correct": true},
+              {"texte": "B- rendue compte", "est_correct": false},
+              {"texte": "C- de son erreur", "est_correct": false},
+              {"texte": "D- aucun", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 53,
+            "texte": "Quelle est la bonne orthographe ?",
+            "choix": [
+              {"texte": "A- intéréssant", "est_correct": false},
+              {"texte": "B- intéressant", "est_correct": true},
+              {"texte": "C- intéresant", "est_correct": false},
+              {"texte": "D- intérésant", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 54,
+            "texte": "Identifiez la phrase correctement orthographiée :",
+            "choix": [
+              {"texte": "A- Il faut que tu viennes à l'heure.", "est_correct": true},
+              {"texte": "B- Il faut que tu viennes à l'heurez.", "est_correct": false},
+              {"texte": "C- Il faut que tu vienes à l'heure.", "est_correct": false},
+              {"texte": "D- Il faut que tu viennes à leurre.", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 55,
+            "texte": "Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "A- Ils sont partis hier", "est_correct": true},
+              {"texte": "B- Ils sont partir hier", "est_correct": false},
+              {"texte": "C- Ils ont partis hier", "est_correct": false},
+              {"texte": "D- Ils ont partir hier", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 56,
+            "texte": "Complétez avec le bon pronom relatif : « La femme ___ parle est mon amie. »",
+            "choix": [
+              {"texte": "A- que", "est_correct": false},
+              {"texte": "B- qui", "est_correct": true},
+              {"texte": "C- dont", "est_correct": false},
+              {"texte": "D- où", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 57,
+            "texte": "Quelle est la bonne conjugaison du verbe « finir » au présent pour « je » ?",
+            "choix": [
+              {"texte": "A- finis", "est_correct": true},
+              {"texte": "B- finit", "est_correct": false},
+              {"texte": "C- finissent", "est_correct": false},
+              {"texte": "D- finie", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 58,
+            "texte": "Complétez avec l'adverbe correct : « Il court ___ vite que toi. »",
+            "note": "'Aussi vite que' est la construction comparative correcte. 'Autant' ne s'emploie pas avec un adverbe de manière.",
+            "choix": [
+              {"texte": "A- aussi", "est_correct": true},
+              {"texte": "B- autant", "est_correct": false},
+              {"texte": "C- plus", "est_correct": false},
+              {"texte": "D- beaucoup", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 59,
+            "texte": "Le participe passé s'accorde-t-il avec le sujet dans la phrase : « Elles se sont levées tôt » ?",
+            "choix": [
+              {"texte": "A- Oui", "est_correct": true},
+              {"texte": "B- Non", "est_correct": false}
+            ]
+          },
+          {
+            "ordre": 60,
+            "texte": "À quel mode et temps correspond « j'aurais terminé » ?",
+            "choix": [
+              {"texte": "A- Indicatif, futur antérieur", "est_correct": false},
+              {"texte": "B- Conditionnel passé", "est_correct": true},
+              {"texte": "C- Subjonctif passé", "est_correct": false},
+              {"texte": "D- Passé composé", "est_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

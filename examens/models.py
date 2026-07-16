@@ -63,6 +63,7 @@ class Question(models.Model):
 
     epreuve = models.ForeignKey(Epreuve, on_delete=models.CASCADE, related_name='questions')
     texte   = models.TextField(verbose_name='Texte de la question')
+    image   = models.ImageField(upload_to='questions/', null=True, blank=True, verbose_name='Image')
     ordre   = models.PositiveIntegerField(verbose_name='Ordre', default=1)
 
     class Meta:
