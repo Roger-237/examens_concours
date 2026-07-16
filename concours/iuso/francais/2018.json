@@ -1,0 +1,315 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Tronc Commun (Toutes filières)",
+"epreuves": [
+{
+"titre": "Français et Culture Générale",
+"annee": 2018,
+"mini_cours": "--- STRATÉGIES ET RÈGLES CLÉS (IUSO FRANÇAIS & CULTURE GENERALE 2025) ---\n\n1. ACCORD DU PARTICIPE PASSÉ AVEC LE PRONOM 'EN' ET LES PRONOMINAUX :\n- Le pronom 'en' COD : Le participe passé conjugué avec l'auxiliaire avoir reste invariable lorsque le COD est le pronom neutre 'en'. Exemple : « Des rapports de stage, j'en ai rédigé plusieurs. »\n- Verbes pronominaux réciproques sans COD direct : Les participes de verbes comme 'se téléphoner', 'se succéder', 'se plaire', 'se parler' restent invariables car le pronom réfléchi est COI (téléphoner à, succéder à). Exemple : « Ils se sont succédé à la tribune. »\n- S'en vouloir et se rendre compte : invariables au participe passé. Exemple : « Elle s'est rendu compte de son retard. »\n\n2. EXCEPTIONS DE COULEURS ET PLURIEL DES NOMS COMPOSÉS :\n- Adjectifs de couleur simples d'origine nominale : Ils restent invariables (marron, orange, citron, ébène, turquoise) SAUF six exceptions célèbres qui s'accordent en genre et en nombre : rose, mauve, violet, écarlate, pourpre, fauve. Les couleurs composées (bleu marine, vert pomme) restent invariables.\n- Noms composés (Règle moderne) : Pour les structures Verbe + Nom, l'accord se fait sur le second terme au pluriel (un après-midi -> des après-midis ; un gratte-ciel -> des gratte-ciels).\n- L'adjectif 'demi' : Invariable devant un nom (une demi-heure), s'accorde en genre s'il est après le nom (deux heures et demie).\n- L'adjectif 'nu' : Invariable devant le nom avec trait d'union (nu-pieds), s'accorde après le nom (pieds nus).\n\n3. ORTHOGRAPHE DES NOMBRES ET ADVERBES :\n- Cent et Vingt : Prennent un 's' s'ils sont multipliés et qu'ils terminent le nombre (quatre-vingts, trois cents). Ils restent invariables s'ils sont suivis d'un autre nombre (quatre-vingt-trois, trois cent cinquante).\n- Adverbes en -ment : Issus d'adjectifs en '-ant' -> '-amment' (constant -> constamment). Issus d'adjectifs en '-ent' -> '-emment' (intelligent -> intelligemment). \n\n4. GÉOGRAPHIE, INSTITUTIONS ET ACTUALITÉS DU GABON :\n- Division administrative : Le Gabon est divisé en 9 provinces. La province de la Nyanga a pour chef-lieu Tchibanga, le Woleu-Ntem Oyem, la Ngounié Mouila, et l'Ogooué-Maritime Port-Gentil.\n- Relief et hydrographie : L'Ogooué est le fleuve le plus long du Gabon (environ 1200 km). Le point culminant du pays est traditionnellement associé au mont Milondo (1020 m) ou au mont Iboundji.\n- Projets d'infrastructure 2025 : Projet de port en eau profonde à Mayumba (Nyanga) pour le désenclavement et l'exportation.\n- Institutions de la Transition : Depuis le 30 août 2023, le Gabon est sous la direction du Comité pour la Transition et la Restauration des Institutions (CTRI).",
+"questions": [
+{
+"ordre": 1,
+"texte": "Choisissez la forme correcte : « Les rapports administratifs qu'ils se sont ... hier ont été approuvés par le chef de département. »",
+"choix": [
+{"texte": "A- partagés", "est_correct": true},
+{"texte": "B- partagé", "est_correct": false},
+{"texte": "C- partagée", "est_correct": false},
+{"texte": "D- partager", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Choisissez l'accord correct : « Des notes de service urgentes, la secrétaire en a ... plus de dix ce matin. »",
+"choix": [
+{"texte": "A- rédigées", "est_correct": false},
+{"texte": "B- rédigé", "est_correct": true},
+{"texte": "C- rédigés", "est_correct": false},
+{"texte": "D- rédiger", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Quel est le pluriel recommandé du nom composé « un après-midi » selon les rectifications orthographiques modernes de l'Académie française ?",
+"choix": [
+{"texte": "A- des après-midi", "est_correct": false},
+{"texte": "B- des après-midis", "est_correct": true},
+{"texte": "C- des aprés-midis", "est_correct": false},
+{"texte": "D- des après-midie", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Quelle est l'orthographe correcte de l'adverbe dérivé de l'adjectif « constant » ?",
+"choix": [
+{"texte": "A- constament", "est_correct": false},
+{"texte": "B- constamment", "est_correct": true},
+{"texte": "C- constemment", "est_correct": false},
+{"texte": "D- constammant", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Quel est le genre grammatical correct du mot « échappatoire » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": false},
+{"texte": "B- Il est toujours féminin", "est_correct": true},
+{"texte": "C- Il peut être masculin ou féminin selon le sens", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Conjuguez le verbe « résoudre » au passé simple de l'indicatif, à la troisième personne du singulier :",
+"choix": [
+{"texte": "A- il résout", "est_correct": false},
+{"texte": "B- il résolut", "est_correct": true},
+{"texte": "C- il résolva", "est_correct": false},
+{"texte": "D- il résouda", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Quelle figure de style est employée dans l'expression suivante pour désigner le pétrole au Gabon : « l'or noir » ?",
+"choix": [
+{"texte": "A- Un oxymore", "est_correct": false},
+{"texte": "B- Une périphrase", "est_correct": true},
+{"texte": "C- Une synecdoque", "est_correct": false},
+{"texte": "D- Une litote", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Que signifie le fait de se montrer « obséquieux » dans ses relations professionnelles ?",
+"choix": [
+{"texte": "A- Être d'une politesse exagérée, servile et hypocrite", "est_correct": true},
+{"texte": "B- Faire preuve d'une rigueur administrative exceptionnelle", "est_correct": false},
+{"texte": "C- Être désorganisé dans la gestion de ses dossiers", "est_correct": false},
+{"texte": "D- Se montrer agressif envers sa hiérarchie", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Choisissez l'accord de couleur correct pour cette phrase : « Pour l'inauguration, l'IUSO a commandé des rideaux ... pour la grande salle. »",
+"choix": [
+{"texte": "A- bleu clair", "est_correct": true},
+{"texte": "B- bleus clairs", "est_correct": false},
+{"texte": "C- bleues claires", "est_correct": false},
+{"texte": "D- bleu-clairs", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Quelle ville est le chef-lieu de la province de la Nyanga au Gabon ?",
+"choix": [
+{"texte": "A- Tchibanga", "est_correct": true},
+{"texte": "B- Mouila", "est_correct": false},
+{"texte": "C- Lambaréné", "est_correct": false},
+{"texte": "D- Makokou", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Quelle est la date officielle de la proclamation de l'indépendance de la République Gabonaise ?",
+"choix": [
+{"texte": "A- 17 août 1960", "est_correct": true},
+{"texte": "B- 12 mars 1968", "est_correct": false},
+{"texte": "C- 24 mai 1990", "est_correct": false},
+{"texte": "D- 30 août 2023", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Au Gabon, sous quel acronyme est désigné le comité militaire de transition au pouvoir depuis août 2023 ?",
+"choix": [
+{"texte": "A- CTRI", "est_correct": true},
+{"texte": "B- CNRI", "est_correct": false},
+{"texte": "C- CSTR", "est_correct": false},
+{"texte": "D- CODESA", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Quel fleuve gabonais est le plus long et traverse la quasi-totalité des provinces du pays ?",
+"choix": [
+{"texte": "A- L'Ogooué", "est_correct": true},
+{"texte": "B- L'Ivindo", "est_correct": false},
+{"texte": "C- La Ngounié", "est_correct": false},
+{"texte": "D- La Nyanga", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "Lequel des parcs nationaux du Gabon est inscrit au patrimoine mondial de l'UNESCO pour sa biodiversité et ses vestiges archéologiques ?",
+"choix": [
+{"texte": "A- Le parc national de la Lopé", "est_correct": true},
+{"texte": "B- Le parc national de Loango", "est_correct": false},
+{"texte": "C- Le parc national d'Akanda", "est_correct": false},
+{"texte": "D- Le parc national des Plateaux Batéké", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Qui fut le premier président de la République Gabonaise lors de l'accession à l'indépendance ?",
+"choix": [
+{"texte": "A- Léon Mba", "est_correct": true},
+{"texte": "B- Omar Bongo Ondimba", "est_correct": false},
+{"texte": "C- Rose Christiane Ossouka Raponda", "est_correct": false},
+{"texte": "D- Jean Ping", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Choisissez la bonne écriture : « Elles se sont ... compte de la complexité de l'examen d'entrée. »",
+"choix": [
+{"texte": "A- rendu", "est_correct": true},
+{"texte": "B- rendues", "est_correct": false},
+{"texte": "C- rendus", "est_correct": false},
+{"texte": "D- rendre", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Choisissez l'accord correct : « Elles marchaient ...-pieds le long de la plage de Port-Gentil. »",
+"choix": [
+{"texte": "A- nu", "est_correct": true},
+{"texte": "B- nues", "est_correct": false},
+{"texte": "C- nue", "est_correct": false},
+{"texte": "D- nus", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Quelle figure de style est employée dans la phrase suivante : « Je meurs de faim en attendant les résultats du concours. » ?",
+"choix": [
+{"texte": "A- Une hyperbole", "est_correct": true},
+{"texte": "B- Une litote", "est_correct": false},
+{"texte": "C- Un oxymore", "est_correct": false},
+{"texte": "D- Une métaphore", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Quelle est l'orthographe correcte de l'adverbe dérivé de l'adjectif « intelligent » ?",
+"choix": [
+{"texte": "A- intelligemment", "est_correct": true},
+{"texte": "B- intelligamment", "est_correct": false},
+{"texte": "C- intelligentment", "est_correct": false},
+{"texte": "D- intelligement", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Choisissez la forme correcte : « Pour se rendre au campus, il leur faut marcher deux kilomètres et ... »",
+"choix": [
+{"texte": "A- demi", "est_correct": false},
+{"texte": "B- demie", "est_correct": true},
+{"texte": "C- demis", "est_correct": false},
+{"texte": "D- demies", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Quelle province du Gabon a pour chef-lieu la ville d'Oyem ?",
+"choix": [
+{"texte": "A- Le Woleu-Ntem", "est_correct": true},
+{"texte": "B- L'Ogooué-Ivindo", "est_correct": false},
+{"texte": "C- Le Haut-Ogooué", "est_correct": false},
+{"texte": "D- L'Ogooué-Lolo", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Quel projet d'infrastructure maritime majeur est localisé dans la Nyanga pour dynamiser le commerce du Gabon ?",
+"choix": [
+{"texte": "A- Le port en eau profonde de Mayumba", "est_correct": true},
+{"texte": "B- Le port minéralier d'Owendo", "est_correct": false},
+{"texte": "C- Le port à bois de Port-Gentil", "est_correct": false},
+{"texte": "D- Le port sec de Franceville", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Quel massif montagneux abrite le mont Iboundji, l'un des plus hauts reliefs du Gabon ?",
+"choix": [
+{"texte": "A- Le massif du Chaillu", "est_correct": true},
+{"texte": "B- Les monts de Cristal", "est_correct": false},
+{"texte": "C- Les monts Birougou", "est_correct": false},
+{"texte": "D- Le plateau Batéké", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Quel est le pluriel régulier et recommandé du mot « un coffre-fort » ?",
+"choix": [
+{"texte": "A- des coffres-forts", "est_correct": true},
+{"texte": "B- des coffre-forts", "est_correct": false},
+{"texte": "C- des coffres-fort", "est_correct": false},
+{"texte": "D- des coffre-fort", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Quelle est l'orthographe correcte de ce mot lié au sommeil ou à la peur ?",
+"choix": [
+{"texte": "A- cauchemar", "est_correct": true},
+{"texte": "B- cauchemard", "est_correct": false},
+{"texte": "C- cauchemare", "est_correct": false},
+{"texte": "D- cauchemarre", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Choisissez l'accord de couleur correct pour cette phrase : « Elle portait d'élégantes chaussures ... pour l'entretien d'admission. »",
+"choix": [
+{"texte": "A- marron", "est_correct": true},
+{"texte": "B- marrons", "est_correct": false},
+{"texte": "C- marronnes", "est_correct": false},
+{"texte": "D- marronne", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Quel est le synonyme exact du mot « indigent » ?",
+"choix": [
+{"texte": "A- Extrêmement pauvre et nécessiteux", "est_correct": true},
+{"texte": "B- Indépendant dans son travail", "est_correct": false},
+{"texte": "C- Paresseux et procrastinateur", "est_correct": false},
+{"texte": "D- D'une grande influence politique", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Quelle est la bonne orthographe du nombre 80 écrit en toutes lettres ?",
+"choix": [
+{"texte": "A- quatre-vingts", "est_correct": true},
+{"texte": "B- quatre-vingt", "est_correct": false},
+{"texte": "C- quatre-vingt-s", "est_correct": false},
+{"texte": "D- quatrentes-vingts", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Choisissez la formulation grammaticalement correcte d'après l'emploi de la locution temporelle :",
+"choix": [
+{"texte": "A- Après qu'il a fini de rédiger le rapport, il a quitté le bureau.", "est_correct": true},
+{"texte": "B- Après qu'il ait fini de rédiger le rapport, il a quitté le bureau.", "est_correct": false},
+{"texte": "C- Après qu'il eût fini de rédiger le rapport, il ait quitté le bureau.", "est_correct": false},
+{"texte": "D- Après qu'il soye parti, la réunion s'est arrêtée.", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Quel est le genre correct du nom commun « astérisque » ?",
+"choix": [
+{"texte": "A- Il est toujours masculin", "est_correct": true},
+{"texte": "B- Il est toujours féminin", "est_correct": false},
+{"texte": "C- Il dépend du mot qui le précède", "est_correct": false},
+{"texte": "D- Il est neutre", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]

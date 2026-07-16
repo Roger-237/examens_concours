@@ -1,0 +1,316 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Tronc Commun (Toutes filières)",
+"epreuves": [
+{
+"titre": "Mathématiques et Logique",
+"annee": 2018,
+"latex": true,
+"mini_cours": "--- STRATÉGIES ET FORMULES CLÉS (IUSO MATHS & LOGIQUE 2018) ---\n\n1. FRACTIONS ET CALCULS NUMÉRIQUES DE BASE :\n- Simplification de fractions composées : Pour soustraire ou additionner, on réduit au même dénominateur : $\\dfrac{a}{b} - \\dfrac{c}{d} = \\dfrac{ad - bc}{bd}$.\n- La priorité des opérations s'applique : toujours effectuer les multiplications et divisions avant les additions et soustractions.\n\n2. MATHÉMATIQUES COMMERCIALES ET INTÉRÊTS :\n- Calcul de taxe (TVA) : Prix TTC = Prix HT $\\times (1 + t)$ où $t$ est le taux décimal. Pour un taux de $18\\%$, on multiplie par $1{,}18$.\n- Intérêts simples : Calcul de l'intérêt annuel $I = C \\times r$ où $C$ est le capital et $r$ le taux d'intérêt annuel.\n- Partage proportionnel : Si un montant $M$ doit être partagé proportionnellement à des parts $a$, $b$ et $c$, le coefficient de proportionnalité $k$ vaut $M / (a + b + c)$, et la plus grande part est $c \\times k$ (si $c$ est le plus grand).\n\n3. ALGÈBRE ET RÉSOLUTION :\n- Résolution d'équations du second degré : $ax^2 + bx + c = 0$. On calcule le discriminant $\\Delta = b^2 - 4ac$. Si $\\Delta > 0$, les deux solutions sont $x_1 = \\dfrac{-b - \\sqrt{\\Delta}}{2a}$ et $x_2 = \\dfrac{-b + \\sqrt{\\Delta}}{2a}$.\n- Équation linéaire simple : Rassembler les inconnues d'un côté et les constantes de l'autre ($ax + b = cx + d \\iff (a - c)x = d - b$).\n\n4. LOGIQUE, DÉNOMBREMENT ET SÉRIES :\n- Suites logiques de nombres : Cherchez la différence entre les termes consécutifs ($+d$) ou un facteur multiplicateur ($\\times q$).\n- Combinatoire (Combinaisons) : Le nombre de façons de choisir $p$ éléments parmi $n$ est donné par $\\binom{n}{p} = \\dfrac{n!}{p!(n-p)!}$.",
+"questions": [
+{
+"ordre": 1,
+"texte": "Calculez la valeur numérique de l'expression suivante : $A = \\dfrac{3}{5} - \\dfrac{2}{3} \\times \\dfrac{1}{4}$",
+"choix": [
+{"texte": "a- $\\dfrac{13}{30}$", "est_correct": true},
+{"texte": "b- $\\dfrac{1}{60}$", "est_correct": false},
+{"texte": "c- $\\dfrac{-1}{15}$", "est_correct": false},
+{"texte": "d- $\\dfrac{7}{15}$", "est_correct": false}
+]
+},
+{
+"ordre": 2,
+"texte": "Un ordinateur portable est vendu à un prix hors taxes de $120\\,000$ FCFA. Avec un taux de TVA de $18\\%$, quel est son prix toutes taxes comprises (TTC) ?",
+"choix": [
+{"texte": "a- $141\\,600\\text{ FCFA}$", "est_correct": true},
+{"texte": "b- $120\\,018\\text{ FCFA}$", "est_correct": false},
+{"texte": "c- $138\\,000\\text{ FCFA}$", "est_correct": false},
+{"texte": "d- $150\\,000\\text{ FCFA}$", "est_correct": false}
+]
+},
+{
+"ordre": 3,
+"texte": "Résolvez dans $\\mathbb{R}$ l'équation linéaire suivante : $4x - 9 = 7x + 3$",
+"choix": [
+{"texte": "a- $x = -4$", "est_correct": true},
+{"texte": "b- $x = 4$", "est_correct": false},
+{"texte": "c- $x = -2$", "est_correct": false},
+{"texte": "d- $x = 2$", "est_correct": false}
+]
+},
+{
+"ordre": 4,
+"texte": "Trouvez les solutions réelles de l'équation du second degré suivante : $x^2 - 7x + 12 = 0$",
+"choix": [
+{"texte": "a- $S = \\{3\\;; 4\\}$", "est_correct": true},
+{"texte": "b- $S = \\{-3\\;; -4\\}$", "est_correct": false},
+{"texte": "c- $S = \\{1\\;; 12\\}$", "est_correct": false},
+{"texte": "d- $S = \\emptyset$", "est_correct": false}
+]
+},
+{
+"ordre": 5,
+"texte": "Complétez logiquement la suite géométrique suivante : $3 \\;; 6 \\;; 12 \\;; 24 \\;; \\boldsymbol{?}$",
+"choix": [
+{"texte": "a- $48$", "est_correct": true},
+{"texte": "b- $36$", "est_correct": false},
+{"texte": "c- $30$", "est_correct": false},
+{"texte": "d- $54$", "est_correct": false}
+]
+},
+{
+"ordre": 6,
+"texte": "Un capital de $500\\,000$ FCFA est placé à un taux d'intérêt simple de $4\\%$ par an. Quel est le montant des intérêts accumulés au bout de 3 ans ?",
+"choix": [
+{"texte": "a- $60\\,000\\text{ FCFA}$", "est_correct": true},
+{"texte": "b- $20\\,000\\text{ FCFA}$", "est_correct": false},
+{"texte": "c- $560\\,000\\text{ FCFA}$", "est_correct": false},
+{"texte": "d- $15\\,000\\text{ FCFA}$", "est_correct": false}
+]
+},
+{
+"ordre": 7,
+"texte": "Une urne contient 5 boules bleues, 3 boules rouges et 2 boules vertes. On tire une boule au hasard. Quelle est la probabilité d'obtenir une boule bleue ?",
+"choix": [
+{"texte": "a- $0{,}5$", "est_correct": true},
+{"texte": "b- $0{,}3$", "est_correct": false},
+{"texte": "c- $0{,}2$", "est_correct": false},
+{"texte": "d- $0{,}8$", "est_correct": false}
+]
+},
+{
+"ordre": 8,
+"texte": "Complétez la suite de lettres suivante : $B \\;; D \\;; F \\;; H \\;; \\boldsymbol{?}$",
+"choix": [
+{"texte": "a- $J$", "est_correct": true},
+{"texte": "b- $I$", "est_correct": false},
+{"texte": "c- $K$", "est_correct": false},
+{"texte": "d- $L$", "est_correct": false}
+]
+},
+{
+"ordre": 9,
+"texte": "Le prix d'un produit passe de $15\\,000$ FCFA à $12\\,000$ FCFA. Quel est le taux de diminution appliqué ?",
+"choix": [
+{"texte": "a- $20\\%$", "est_correct": true},
+{"texte": "b- $25\\%$", "est_correct": false},
+{"texte": "c- $15\\%$", "est_correct": false},
+{"texte": "d- $30\\%$", "est_correct": false}
+]
+},
+{
+"ordre": 10,
+"texte": "Calculez la moyenne arithmétique simple de cette série statistique de notes : $\\{12, 14, 15, 17, 22\\}$",
+"choix": [
+{"texte": "a- $16$", "est_correct": true},
+{"texte": "b- $15$", "est_correct": false},
+{"texte": "c- $17$", "est_correct": false},
+{"texte": "d- $14$", "est_correct": false}
+]
+},
+{
+"ordre": 11,
+"texte": "Trouvez le couple de solutions $(x, y)$ pour le système d'équations linéaires suivant : $\\begin{cases} x + y = 35 \\\\ 2x + 4y = 110 \\end{cases}$",
+"choix": [
+{"texte": "a- $(15, 20)$", "est_correct": true},
+{"texte": "b- $(20, 15)$", "est_correct": false},
+{"texte": "c- $(10, 25)$", "est_correct": false},
+{"texte": "d- $(30, 5)$", "est_correct": false}
+]
+},
+{
+"ordre": 12,
+"texte": "Simplifiez l'expression numérique suivante : $C = \\dfrac{3^5 \\times 3^{-2}}{3^2}$",
+"choix": [
+{"texte": "a- $3$", "est_correct": true},
+{"texte": "b- $9$", "est_correct": false},
+{"texte": "c- $1$", "est_correct": false},
+{"texte": "d- $27$", "est_correct": false}
+]
+},
+{
+"ordre": 13,
+"texte": "Sur une carte de géographie à l'échelle $\\dfrac{1}{200\\,000}$, la distance entre deux quartiers de Libreville est de $5\\text{ cm}$. Quelle est la distance réelle sur le terrain ?",
+"choix": [
+{"texte": "a- $10\\text{ km}$", "est_correct": true},
+{"texte": "b- $1\\text{ km}$", "est_correct": false},
+{"texte": "c- $100\\text{ km}$", "est_correct": false},
+{"texte": "d- $50\\text{ km}$", "est_correct": false}
+]
+},
+{
+"ordre": 14,
+"texte": "On souhaite partager une gratification de $120\\,000$ FCFA entre trois agents de l'IUSO proportionnellement aux parts $2$, $3$ et $5$. Quelle est la part de l'agent qui reçoit le montant le plus élevé ?",
+"choix": [
+{"texte": "a- $60\\,000\\text{ FCFA}$", "est_correct": true},
+{"texte": "b- $40\\,000\\text{ FCFA}$", "est_correct": false},
+{"texte": "c- $50\\,000\\text{ FCFA}$", "est_correct": false},
+{"texte": "d- $72\\,000\\text{ FCFA}$", "est_correct": false}
+]
+},
+{
+"ordre": 15,
+"texte": "Calculez l'aire d'un disque de rayon $R = 7\\text{ cm}$ (Prendre $\\pi \\approx \\dfrac{22}{7}$) :",
+"choix": [
+{"texte": "a- $154\\text{ cm}^2$", "est_correct": true},
+{"texte": "b- $44\\text{ cm}^2$", "est_correct": false},
+{"texte": "c- $308\\text{ cm}^2$", "est_correct": false},
+{"texte": "d- $77\\text{ cm}^2$", "est_correct": false}
+]
+},
+{
+"ordre": 16,
+"texte": "Quelle est l'équation de la droite passant par le point $A(0\\;; 3)$ et de coefficient directeur $a = -2$ ?",
+"choix": [
+{"texte": "a- $y = -2x + 3$", "est_correct": true},
+{"texte": "b- $y = 2x + 3$", "est_correct": false},
+{"texte": "c- $y = -2x - 3$", "est_correct": false},
+{"texte": "d- $y = 3x - 2$", "est_correct": false}
+]
+},
+{
+"ordre": 17,
+"texte": "Découvrez la logique de la série suivante et trouvez le nombre manquant : $10 \\;; 15 \\;; 12 \\;; 17 \\;; 14 \\;; 19 \\;; \\boldsymbol{?}$",
+"choix": [
+{"texte": "a- $16$", "est_correct": true},
+{"texte": "b- $21$", "est_correct": false},
+{"texte": "c- $15$", "est_correct": false},
+{"texte": "d- $22$", "est_correct": false}
+]
+},
+{
+"ordre": 18,
+"texte": "Combien de jurys de $2$ membres peut-on former à partir d'un groupe de $6$ candidats admissibles à l'IUSO ?",
+"choix": [
+{"texte": "a- $15$", "est_correct": true},
+{"texte": "b- $30$", "est_correct": false},
+{"texte": "c- $12$", "est_correct": false},
+{"texte": "d- $20$", "est_correct": false}
+]
+},
+{
+"ordre": 19,
+"texte": "Simplifiez au maximum l'expression numérique suivante : $E = \\sqrt{45} - \\sqrt{20}$",
+"choix": [
+{"texte": "a- $\\sqrt{5}$", "est_correct": true},
+{"texte": "b- $5$", "est_correct": false},
+{"texte": "c- $5\\sqrt{5}$", "est_correct": false},
+{"texte": "d- $\\sqrt{25}$", "est_correct": false}
+]
+},
+{
+"ordre": 20,
+"texte": "Quel est l'élément intrus (qui ne respecte pas la même règle mathématique) dans cette liste : $\\{4\\;; 9\\;; 16\\;; 25\\;; 30\\;; 36\\}$ ?",
+"choix": [
+{"texte": "a- $30$", "est_correct": true},
+{"texte": "b- $25$", "est_correct": false},
+{"texte": "c- $16$", "est_correct": false},
+{"texte": "d- $36$", "est_correct": false}
+]
+},
+{
+"ordre": 21,
+"texte": "Une navette routière parcourt la distance Libreville-Kango (soit $120\\text{ km}$) en exactement $1\\text{ h } 30\\text{ min}$. Quelle est sa vitesse moyenne ?",
+"choix": [
+{"texte": "a- $80\\text{ km/h}$", "est_correct": true},
+{"texte": "b- $90\\text{ km/h}$", "est_correct": false},
+{"texte": "c- $100\\text{ km/h}$", "est_correct": false},
+{"texte": "d- $75\\text{ km/h}$", "est_correct": false}
+]
+},
+{
+"ordre": 22,
+"texte": "Déterminez l'ensemble de définition de la fonction numérique suivante : $f(x) = \\dfrac{1}{2x - 6}$",
+"choix": [
+{"texte": "a- $\\mathbb{R} \\setminus \\{3\\}$", "est_correct": true},
+{"texte": "b- $\\mathbb{R} \\setminus \\{-3\\}$", "est_correct": false},
+{"texte": "c- $]3\\;; +\\infty[$", "est_correct": false},
+{"texte": "d- $\\mathbb{R}$", "est_correct": false}
+]
+},
+{
+"ordre": 23,
+"texte": "Le cours d'une action commerciale subit une hausse de $10\\%$, suivie immédiatement d'une baisse de $10\\%$. Quelle est la variation globale ?",
+"choix": [
+{"texte": "a- Une baisse de $1\\%$", "est_correct": true},
+{"texte": "b- Une hausse de $1\\%$", "est_correct": false},
+{"texte": "c- Une stagnation ($0\\%$ de variation)", "est_correct": false},
+{"texte": "d- Une baisse de $2\\%$", "est_correct": false}
+]
+},
+{
+"ordre": 24,
+"texte": "Trouvez l'ensemble des solutions réelles pour l'inéquation du premier degré suivante : $-2x + 10 > 0$",
+"choix": [
+{"texte": "a- $x < 5$", "est_correct": true},
+{"texte": "b- $x > 5$", "est_correct": false},
+{"texte": "c- $x < -5$", "est_correct": false},
+{"texte": "d- $x > -5$", "est_correct": false}
+]
+},
+{
+"ordre": 25,
+"texte": "Un père est trois fois plus âgé que son fils. Sachant que la somme de leurs âges est de $48$ ans, quel est l'âge du fils ?",
+"choix": [
+{"texte": "a- $12\\text{ ans}$", "est_correct": true},
+{"texte": "b- $16\\text{ ans}$", "est_correct": false},
+{"texte": "c- $10\\text{ ans}$", "est_correct": false},
+{"texte": "d- $14\\text{ ans}$", "est_correct": false}
+]
+},
+{
+"ordre": 26,
+"texte": "Calculez la valeur finale de l'opération de pourcentage suivante : $25\\%$ de $60\\%$ de $1\\,000$.",
+"choix": [
+{"texte": "a- $150$", "est_correct": true},
+{"texte": "b- $250$", "est_correct": false},
+{"texte": "c- $120$", "est_correct": false},
+{"texte": "d- $300$", "est_correct": false}
+]
+},
+{
+"ordre": 27,
+"texte": "Dans un triangle rectangle, l'hypoténuse mesure $10\\text{ cm}$ et le côté adjacent à l'angle $\\alpha$ mesure $8\\text{ cm}$. Quelle est la valeur de $\\cos(\\alpha)$ ?",
+"choix": [
+{"texte": "a- $0{,}8$", "est_correct": true},
+{"texte": "b- $0{,}6$", "est_correct": false},
+{"texte": "c- $1{,}25$", "est_correct": false},
+{"texte": "d- $0{,}5$", "est_correct": false}
+]
+},
+{
+"ordre": 28,
+"texte": "Complétez logiquement la suite de groupes de lettres suivante : $ABC \\;; EFG \\;; IJK \\;; \\boldsymbol{?}$",
+"choix": [
+{"texte": "a- $MNO$", "est_correct": true},
+{"texte": "b- $LMN$", "est_correct": false},
+{"texte": "c- $NOP$", "est_correct": false},
+{"texte": "d- $KLM$", "est_correct": false}
+]
+},
+{
+"ordre": 29,
+"texte": "Simplifiez l'expression mathématique suivante avec les propriétés du logarithme népérien : $F = \\ln(8) - \\ln(2)$",
+"choix": [
+{"texte": "a- $2\\ln(2)$", "est_correct": true},
+{"texte": "b- $\\ln(6)$", "est_correct": false},
+{"texte": "c- $4\\ln(2)$", "est_correct": false},
+{"texte": "d- $\\ln(10)$", "est_correct": false}
+]
+},
+{
+"ordre": 30,
+"texte": "Calculez le volume d'un conteneur rectangulaire de $5\\text{ m}$ de longueur, $3\\text{ m}$ de largeur et $2\\text{ m}$ de hauteur :",
+"choix": [
+{"texte": "a- $30\\text{ m}^3$", "est_correct": true},
+{"texte": "b- $15\\text{ m}^3$", "est_correct": false},
+{"texte": "c- $10\\text{ m}^3$", "est_correct": false},
+{"texte": "d- $20\\text{ m}^3$", "est_correct": false}
+]
+}
+]
+}
+]
+}
+]
