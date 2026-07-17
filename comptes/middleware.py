@@ -1,7 +1,5 @@
 from django.shortcuts import redirect
 from django.core.exceptions import PermissionDenied
-from django.conf import settings
-from urllib.parse import urlparse
 
 
 # ─────────────────────────────────────────
@@ -13,23 +11,6 @@ URLS_PUBLIQUES = [
     '/auth/deconnexion/',
     '/privacy-policy/',
 ]
-
-
-def verifier_referer(request):
-    """Vérifie que le referer provient du même domaine"""
-    referer = request.META.get('HTTP_REFERER', '')
-    if not referer:
-        # Pas de referer - peut être légitime pour certaines requêtes
-        return True
-
-    referer_domain = urlparse(referer).netloc
-    host = request.get_host()
-
-    # Vérifier que le referer correspond au host actuel
-    if referer_domain != host:
-        return False
-
-    return True
 
 
 class IntermediaireRole:
@@ -47,12 +28,6 @@ class IntermediaireRole:
         # ── URLs publiques ──
         if any(chemin.startswith(url) for url in URLS_PUBLIQUES):
             return self.get_response(request)
-
-        # ── Vérification du Referer pour les requêtes POST ──
-        if request.method == 'POST' and not verifier_referer(request):
-            from django.contrib import messages
-            messages.error(request, 'Requête non autorisée. Referer invalide.')
-            return redirect('/')
 
         # ── Non connecté → page connexion ──
         # IMPORTANT : on appelle get_response d'abord pour que SessionMiddleware
