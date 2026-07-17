@@ -1,13 +1,25 @@
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-changez-moi-en-production'
 
-DEBUG = True
+# ── Lire .env ─────────────────────────────────────────────────
+def lire_env():
+    env_path = BASE_DIR / '.env'
+    if env_path.exists():
+        with open(env_path) as f:
+            for ligne in f:
+                ligne = ligne.strip()
+                if ligne and not ligne.startswith('#') and '=' in ligne:
+                    cle, valeur = ligne.split('=', 1)
+                    os.environ.setdefault(cle.strip(), valeur.strip())
 
-ALLOWED_HOSTS = ['*']
+lire_env()
 
+SECRET_KEY    = os.environ.get('SECRET_KEY', 'django-insecure-changez-moi')
+DEBUG         = os.environ.get('DEBUG', 'False') == 'True'
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
 # ── Applications ───────────────────────────────────────────────
 INSTALLED_APPS = [
@@ -61,15 +73,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # ── Base de données ────────────────────────────────────────────
 DATABASES = {
     'default': {
-        'ENGINE'  : 'django.db.backends.mysql',
-        'NAME'    : 'examens_concours',
-        'USER'    : 'root',
-        'PASSWORD': '',
-        'HOST'    : 'localhost',
-        'PORT'    : '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME'  : BASE_DIR / 'db.sqlite3',
     }
 }
-
 # ── Modèle utilisateur custom ──────────────────────────────────
 AUTH_USER_MODEL = 'comptes.Utilisateur'
 
