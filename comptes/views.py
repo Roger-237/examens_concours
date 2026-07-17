@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from django.contrib import messages
 from django.views import View
+from django.core.cache import cache
 
 from .models import Utilisateur, Eleve, Role, CodeParrainage, Parrainage, Notification
 from .formulaires import FormulaireConnexion
@@ -18,6 +19,43 @@ def generer_empreinte(request):
         request.META.get('HTTP_ACCEPT_ENCODING', '')
     )
     return hashlib.sha256(donnees.encode()).hexdigest()
+
+
+# ─────────────────────────────────────────
+#  UTILITAIRE — Rate limiting
+# ─────────────────────────────────────────
+def get_client_ip(request):
+    """Récupère l'adresse IP du client"""
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
+
+
+def verifier_rate_limit(ip_address, max_attempts=5, window_minutes=15):
+    """Vérifie si l'IP a dépassé la limite de tentatives"""
+    cache_key = f'login_attempts_{ip_address}'
+    attempts = cache.get(cache_key, 0)
+
+    if attempts >= max_attempts:
+        return False, f"Trop de tentatives. Réessayez dans {window_minutes} minutes."
+
+    return True, None
+
+
+def incrementer_rate_limit(ip_address, window_minutes=15):
+    """Incrémente le compteur de tentatives"""
+    cache_key = f'login_attempts_{ip_address}'
+    attempts = cache.get(cache_key, 0) + 1
+    cache.set(cache_key, attempts, window_minutes * 60)
+
+
+def reinitialiser_rate_limit(ip_address):
+    """Réinitialise le compteur après connexion réussie"""
+    cache_key = f'login_attempts_{ip_address}'
+    cache.delete(cache_key)
 
 
 # ─────────────────────────────────────────
@@ -92,6 +130,13 @@ class VueConnexion(View):
             code_acces    = formulaire.cleaned_data['code_acces'].strip()
             code_parrain  = formulaire.cleaned_data.get('code_parrainage', '').strip()
 
+            # ── Protection contre force brute ──
+            ip_address = get_client_ip(request)
+            peut_se_connecter, message_erreur = verifier_rate_limit(ip_address)
+            if not peut_se_connecter:
+                messages.error(request, message_erreur)
+                return render(request, 'comptes/connexion.html', {'form': formulaire})
+
             # ── Tentative connexion Admin ──
             try:
                 utilisateur_admin = Utilisateur.objects.get(
@@ -101,9 +146,14 @@ class VueConnexion(View):
                 if utilisateur_admin.check_password(code_acces):
                     utilisateur_admin.backend = 'django.contrib.auth.backends.ModelBackend'
                     login(request, utilisateur_admin)
+                    # Régénérer la session pour éviter session fixation
+                    request.session.cycle_key()
+                    reinitialiser_rate_limit(ip_address)
                     return self._rediriger_selon_role(utilisateur_admin)
+                else:
+                    incrementer_rate_limit(ip_address)
             except Utilisateur.DoesNotExist:
-                pass
+                incrementer_rate_limit(ip_address)
 
             # ── Tentative connexion Élève ──
             try:
@@ -135,10 +185,13 @@ class VueConnexion(View):
 
                 eleve.utilisateur.backend = 'django.contrib.auth.backends.ModelBackend'
                 login(request, eleve.utilisateur)
+                # Régénérer la session pour éviter session fixation
+                request.session.cycle_key()
+                reinitialiser_rate_limit(ip_address)
                 return self._rediriger_selon_role(eleve.utilisateur)
 
             except Eleve.DoesNotExist:
-                pass
+                incrementer_rate_limit(ip_address)
 
             messages.error(request, 'Identifiant ou code d\'accès incorrect.')
 
