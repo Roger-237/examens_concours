@@ -37,6 +37,38 @@
     </p>
 </div>
 
+{% if nouveau_code_temporaire %}
+<div class="alert alert-warning border-0 shadow-sm mb-4" style="border-left: 5px solid #e67e00 !important; background: #fff8e1;">
+    <div class="d-flex align-items-start gap-3">
+        <span style="font-size:1.8rem;">🔐</span>
+        <div>
+            <h5 class="alert-heading fw-bold mb-1">Votre code d'accès a été renforcé</h5>
+            <p class="mb-2" style="font-size:0.95rem;">
+                Pour votre sécurité, votre code d'accès a été mis à jour. Voici votre <strong>nouveau code</strong> — notez-le immédiatement, il remplace l'ancien définitivement.
+            </p>
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <code id="nouveau-code" class="px-3 py-2 rounded fw-bold"
+                      style="font-size:1.2rem; background:#1b4332; color:#d8f3dc; letter-spacing:0.1em;">
+                    {{ nouveau_code_temporaire }}
+                </code>
+                <button class="btn btn-sm btn-outline-secondary" onclick="copierCode()" title="Copier le code">
+                    <i data-feather="copy" style="width:14px;height:14px;"></i> Copier
+                </button>
+            </div>
+            <small class="text-muted mt-2 d-block">⚠️ Ce message ne s'affichera qu'une seule fois. L'ancien code ne fonctionnera plus.</small>
+        </div>
+    </div>
+</div>
+<script>
+function copierCode() {
+    const code = document.getElementById('nouveau-code').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+        alert('Code copié dans le presse-papier : ' + code);
+    });
+}
+</script>
+{% endif %}
+
 <!-- ── Notifications ── -->
 {% if notifications %}
 <div class="card mb-4" style="border-left:4px solid var(--forest-accent);">

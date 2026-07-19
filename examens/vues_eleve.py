@@ -20,11 +20,15 @@ class VueTableauDeBord(EleveRequis, View):
             lue=False
         ).order_by('-date')[:5]
 
+        # Récupérer et supprimer le nouveau code temporaire (s'affiche une seule fois)
+        nouveau_code_temporaire = request.session.pop('nouveau_code_temporaire', None)
+
         contexte = {
-            'eleve'            : eleve,
-            'total_tentatives' : Tentative.objects.filter(eleve=eleve, terminee=True).count(),
-            'notifications'    : notifications,
-            'total_parrainages': Parrainage.objects.filter(parrain=eleve).count(),
+            'eleve'                 : eleve,
+            'total_tentatives'      : Tentative.objects.filter(eleve=eleve, terminee=True).count(),
+            'notifications'         : notifications,
+            'total_parrainages'     : Parrainage.objects.filter(parrain=eleve).count(),
+            'nouveau_code_temporaire': nouveau_code_temporaire,
         }
         return render(request, 'examens/eleve/tableau_de_bord.html', contexte)
 

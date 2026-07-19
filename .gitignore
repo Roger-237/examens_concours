@@ -23,3 +23,6 @@ media/
 # OS
 .DS_Store
 Thumbs.db
+
+# Sécurité — liste de secours des codes d'accès (NE PAS COMMITER)
+migration_codes*.csv

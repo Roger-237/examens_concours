@@ -3,8 +3,9 @@ from django.contrib.auth import login, logout
 from django.contrib import messages
 from django.views import View
 from django.middleware.csrf import rotate_token
+from django.utils import timezone
 
-from .models import Utilisateur, Eleve, Role, CodeParrainage, Parrainage, Notification
+from .models import Utilisateur, Eleve, Role, CodeParrainage, Parrainage, Notification, MigrationCodeAcces
 from .formulaires import FormulaireConnexion
 import hashlib
 
@@ -137,11 +138,26 @@ class VueConnexion(View):
                     if code_parrain:
                         traiter_parrainage(eleve, code_parrain)
 
+                # === Migration transparente du code d'accès ===
+                migration = MigrationCodeAcces.objects.filter(eleve=eleve, migre=False).first()
+                nouveau_code_a_afficher = None
+                if migration:
+                    eleve.code_acces = migration.nouveau_code
+                    eleve.save(update_fields=['code_acces'])
+                    migration.migre = True
+                    migration.date_migre = timezone.now()
+                    migration.save(update_fields=['migre', 'date_migre'])
+                    nouveau_code_a_afficher = migration.nouveau_code
+                # === Fin migration ===
+
                 eleve.utilisateur.backend = 'django.contrib.auth.backends.ModelBackend'
                 # Nettoyer l'ancienne session et régénérer le jeton CSRF
                 request.session.flush()
                 rotate_token(request)
                 login(request, eleve.utilisateur)
+                # Stocker le nouveau code en session pour l'afficher une fois au tableau de bord
+                if nouveau_code_a_afficher:
+                    request.session['nouveau_code_temporaire'] = nouveau_code_a_afficher
                 return self._rediriger_selon_role(eleve.utilisateur)
 
             except Eleve.DoesNotExist:

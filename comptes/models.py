@@ -75,34 +75,34 @@ class Utilisateur(AbstractBaseUser, PermissionsMixin):
 # ─────────────────────────────────────────
 #  ÉLÈVE
 # ─────────────────────────────────────────
-def generer_code_acces(nom=None):
-    """Génère un code d'accès complexe de 10 caractères (combinaison de lettres majuscules, minuscules, chiffres et caractères spéciaux)
-       Exemple : aB7#kL9@pQ
+def generer_code_acces(nom_complet):
     """
-    lower = string.ascii_lowercase
-    upper = string.ascii_uppercase
-    digits = string.digits
-    special = "#@$*!?"
+    Génère un code lisible et mémorable :
+    ex: NZANGessone2026#47
+    (Nom de famille en majuscules + prénom en minuscules + année + caractère spécial + 2 chiffres aléatoires)
+    """
+    parties = nom_complet.strip().split()
+    if len(parties) >= 2:
+        famille = ''.join(ch for ch in parties[0] if ch.isalpha()).upper()
+        prenom  = ''.join(ch for ch in parties[1] if ch.isalpha()).lower()
+    else:
+        mot = ''.join(ch for ch in parties[0] if ch.isalpha())
+        milieu = max(1, len(mot) // 2)
+        famille = mot[:milieu].upper()
+        prenom  = mot[milieu:].lower()
 
-    # Assurer au moins deux caractères de chaque groupe pour garantir la complexité (8 caractères au total)
-    code = [
-        random.choice(lower),
-        random.choice(lower),
-        random.choice(upper),
-        random.choice(upper),
-        random.choice(digits),
-        random.choice(digits),
-        random.choice(special),
-        random.choice(special),
-    ]
-    # Remplir les 2 derniers caractères pour atteindre 10
-    all_chars = lower + upper + digits + special
-    code.append(random.choice(all_chars))
-    code.append(random.choice(all_chars))
+    annee    = timezone.now().year
+    special  = random.choice('#@$*!?')
+    suffixe  = ''.join(random.choices(string.digits, k=2))
 
-    # Mélanger l'ordre des caractères
-    random.shuffle(code)
-    return "".join(code)
+    # Limiter la longueur totale à 20 caractères (famille + prenom <= 13)
+    max_name_length = 13
+    if len(famille) + len(prenom) > max_name_length:
+        # Tronquer le nom de famille en priorité
+        available_for_famille = max(1, max_name_length - len(prenom))
+        famille = famille[:available_for_famille]
+
+    return f"{famille}{prenom}{annee}{special}{suffixe}"
 
 
 class Eleve(models.Model):
@@ -201,3 +201,24 @@ class Notification(models.Model):
 
     def __str__(self):
         return f"{self.destinataire.username} — {self.message[:50]}"
+
+
+# ─────────────────────────────────────────
+#  MIGRATION TRANSPARENTE DES CODES D'ACCÈS
+# ─────────────────────────────────────────
+class MigrationCodeAcces(models.Model):
+    """Table temporaire : nouveau code déjà préparé, en attente d'activation
+       à la prochaine connexion réussie de l'élève."""
+    eleve         = models.OneToOneField(Eleve, on_delete=models.CASCADE, related_name='migration_code')
+    ancien_code   = models.CharField(max_length=20)
+    nouveau_code  = models.CharField(max_length=20)
+    migre         = models.BooleanField(default=False)
+    date_creation = models.DateTimeField(auto_now_add=True)
+    date_migre    = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        verbose_name        = 'Migration code d\'accès'
+        verbose_name_plural = 'Migrations codes d\'accès'
+
+    def __str__(self):
+        return f"{self.eleve.nom_complet}: {self.ancien_code} -> {self.nouveau_code} (migré={self.migre})"
