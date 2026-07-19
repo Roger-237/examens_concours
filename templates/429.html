@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trop de requêtes | ExamensPro</title>
+
+    <link href="{% static 'css/app.css' %}" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --forest-dark: #1b4332;
+            --forest-medium: #2d6a4f;
+            --forest-light: #40916c;
+            --forest-accent: #52b788;
+            --forest-pale: #d8f3dc;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--forest-dark) 0%, var(--forest-medium) 100%);
+            min-height: 100vh;
+            font-family: "Inter", sans-serif;
+            color: #333;
+        }
+
+        .error-card {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .error-header {
+            background: linear-gradient(135deg, #d00000, #9b0000);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .error-header h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 1.8rem;
+            margin: 0.5rem 0 0;
+        }
+
+        .btn-retour {
+            background: linear-gradient(135deg, var(--forest-medium), var(--forest-light));
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 600;
+            padding: 0.75rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-retour:hover {
+            background: linear-gradient(135deg, var(--forest-dark), var(--forest-medium));
+            color: #fff;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(27, 67, 50, 0.4);
+        }
+
+        .timer-icon {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="d-flex w-100 min-vh-100 align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 col-lg-5 col-xl-4">
+
+                    <div class="card error-card">
+                        <!-- En-tête -->
+                        <div class="error-header">
+                            <div class="timer-icon">
+                                <i data-feather="clock" style="width: 48px; height: 48px;"></i>
+                            </div>
+                            <h1>Sécurité Activée</h1>
+                        </div>
+
+                        <!-- Corps -->
+                        <div class="card-body p-4 text-center">
+                            <h3 class="h5 fw-semibold mb-3">Trop de tentatives de connexion</h3>
+                            <p class="text-muted mb-4" style="font-size: 0.95rem;">
+                                Pour des raisons de sécurité, l'accès depuis votre appareil ou vers ce compte a été temporairement suspendu en raison d'un trop grand nombre d'échecs.
+                            </p>
+                            
+                            <div class="alert alert-warning py-2 mb-4" style="font-size: 0.9rem;">
+                                <i data-feather="alert-triangle" class="me-1" style="width:16px;height:16px;"></i>
+                                Veuillez patienter <strong>60 secondes</strong> avant de réessayer.
+                            </div>
+
+                            <div class="d-grid">
+                                <a href="{% url 'accueil' %}" class="btn-retour">
+                                    Retour à l'accueil
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Pied de page -->
+                        <div class="card-footer text-center py-3"
+                            style="background: var(--forest-pale); border-radius: 0 0 16px 16px;">
+                            <small style="color: var(--forest-dark); font-weight: 600;">
+                                Protection Anti-Intrusion &copy; {% now "Y" %}
+                            </small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{% static 'js/app.js' %}"></script>
+    <script>
+        if (typeof feather !== 'undefined') feather.replace();
+    </script>
+</body>
+
+</html>

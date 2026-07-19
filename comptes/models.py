@@ -75,13 +75,34 @@ class Utilisateur(AbstractBaseUser, PermissionsMixin):
 # ─────────────────────────────────────────
 #  ÉLÈVE
 # ─────────────────────────────────────────
-def generer_code_acces(nom):
-    """Génère un code d'accès : premières lettres du nom + 4 chiffres aléatoires
-       Exemple : jean → jean4823
+def generer_code_acces(nom=None):
+    """Génère un code d'accès complexe de 10 caractères (combinaison de lettres majuscules, minuscules, chiffres et caractères spéciaux)
+       Exemple : aB7#kL9@pQ
     """
-    base    = nom.lower().replace(' ', '')[:6]
-    chiffres = ''.join(random.choices(string.digits, k=4))
-    return f"{base}{chiffres}"
+    lower = string.ascii_lowercase
+    upper = string.ascii_uppercase
+    digits = string.digits
+    special = "#@$*!?"
+
+    # Assurer au moins deux caractères de chaque groupe pour garantir la complexité (8 caractères au total)
+    code = [
+        random.choice(lower),
+        random.choice(lower),
+        random.choice(upper),
+        random.choice(upper),
+        random.choice(digits),
+        random.choice(digits),
+        random.choice(special),
+        random.choice(special),
+    ]
+    # Remplir les 2 derniers caractères pour atteindre 10
+    all_chars = lower + upper + digits + special
+    code.append(random.choice(all_chars))
+    code.append(random.choice(all_chars))
+
+    # Mélanger l'ordre des caractères
+    random.shuffle(code)
+    return "".join(code)
 
 
 class Eleve(models.Model):

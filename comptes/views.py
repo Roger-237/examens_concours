@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from django.contrib import messages
 from django.views import View
+from django.middleware.csrf import rotate_token
 
 from .models import Utilisateur, Eleve, Role, CodeParrainage, Parrainage, Notification
 from .formulaires import FormulaireConnexion
@@ -100,6 +101,9 @@ class VueConnexion(View):
                 )
                 if utilisateur_admin.check_password(code_acces):
                     utilisateur_admin.backend = 'django.contrib.auth.backends.ModelBackend'
+                    # Nettoyer l'ancienne session et régénérer le jeton CSRF
+                    request.session.flush()
+                    rotate_token(request)
                     login(request, utilisateur_admin)
                     return self._rediriger_selon_role(utilisateur_admin)
             except Utilisateur.DoesNotExist:
@@ -134,6 +138,9 @@ class VueConnexion(View):
                         traiter_parrainage(eleve, code_parrain)
 
                 eleve.utilisateur.backend = 'django.contrib.auth.backends.ModelBackend'
+                # Nettoyer l'ancienne session et régénérer le jeton CSRF
+                request.session.flush()
+                rotate_token(request)
                 login(request, eleve.utilisateur)
                 return self._rediriger_selon_role(eleve.utilisateur)
 
