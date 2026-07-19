@@ -1,24 +1,10 @@
 import csv
-import random
 from django.core.management.base import BaseCommand
-from django.utils.crypto import get_random_string
-from comptes.models import Eleve, MigrationCodeAcces
-
-
-def generer_code_complexe():
-    """Génère un code complexe de 10 caractères (2 maj + 2 min + 2 chiffres + 2 spéciaux + 2 mixtes)."""
-    majuscules = get_random_string(2, allowed_chars='ABCDEFGHJKLMNPQRSTUVWXYZ')
-    minuscules = get_random_string(2, allowed_chars='abcdefghjkmnpqrstuvwxyz')
-    chiffres   = get_random_string(2, allowed_chars='23456789')
-    speciaux   = get_random_string(2, allowed_chars='#@$*!?')
-    reste      = get_random_string(2, allowed_chars='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789')
-    code = list(majuscules + minuscules + chiffres + speciaux + reste)
-    random.shuffle(code)
-    return ''.join(code)
+from comptes.models import Eleve, MigrationCodeAcces, generer_code_acces
 
 
 class Command(BaseCommand):
-    help = "Prépare les nouveaux codes d'accès complexes (sans les activer) et exporte une liste de secours CSV"
+    help = "Prépare les nouveaux codes d'accès lisibles (sans les activer) et exporte une liste de secours CSV"
 
     def add_arguments(self, parser):
         parser.add_argument(
@@ -42,10 +28,10 @@ class Command(BaseCommand):
 
         for eleve in eleves:
             # Générer un code unique non utilisé en base
-            nouveau_code = generer_code_complexe()
+            nouveau_code = generer_code_acces(eleve.nom_complet)
             tentatives = 0
             while Eleve.objects.filter(code_acces=nouveau_code).exists():
-                nouveau_code = generer_code_complexe()
+                nouveau_code = generer_code_acces(eleve.nom_complet)
                 tentatives += 1
                 if tentatives > 100:
                     self.stderr.write(f"Impossible de générer un code unique pour {eleve.nom_complet}")
