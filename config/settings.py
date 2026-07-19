@@ -8,6 +8,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+CSRF_TRUSTED_ORIGINS = ['https://examen.pythonanywhere.com']
+
 
 # ── Applications ───────────────────────────────────────────────
 INSTALLED_APPS = [
@@ -34,6 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     # Middleware custom
+    'comptes.middleware.RateLimitMiddleware',
     'comptes.middleware.IntermediaireRole',
 ]
 
@@ -101,6 +105,10 @@ LOGIN_URL = '/auth/connexion/'
 
 # ── Sessions ───────────────────────────────────────────────────
 SESSION_ENGINE      = 'django.contrib.sessions.backends.db'
-SESSION_COOKIE_AGE  = 86400          # 24h
+SESSION_COOKIE_AGE  = 7200           # 2h (durée raisonnable pour un examen)
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_SAVE_EVERY_REQUEST = True    # force la sauvegarde à chaque requête
 SESSION_COOKIE_HTTPONLY    = True
+SESSION_COOKIE_SECURE      = not DEBUG
+CSRF_COOKIE_HTTPONLY      = True
+CSRF_COOKIE_SECURE        = not DEBUG
