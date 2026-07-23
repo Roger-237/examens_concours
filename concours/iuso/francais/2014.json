@@ -1,0 +1,195 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale (simulation)",
+"annee": 2019,
+"mini_cours": "--- POINTS AVANCÉS À MAÎTRISER (IUSO CULTURE GÉNÉRALE - NIVEAU DIFFICILE) ---\n\n1. LE GABON À L'ONU :\n- Le Gabon a siégé quatre fois comme membre non permanent du Conseil de sécurité de l'ONU : 1978-1979, 1998-1999, 2010-2011, et 2022-2023.\n- Élu le 11 juin 2021 pour le mandat 2022-2023, le Gabon a assuré la présidence tournante du Conseil de sécurité en octobre 2022.\n- Le Gabon est également membre de l'ECOSOC depuis 2020 et du Conseil des droits de l'Homme depuis 2021.\n\n2. CHRONOLOGIE PRÉSIDENTIELLE PRÉCISE :\n- Léon Mba : 1er président (1961-1967), décédé le 28 novembre 1967 à Paris.\n- Omar Bongo Ondimba : lui succède le 2 décembre 1967, décédé le 8 juin 2009 à Barcelone.\n- Ali Bongo Ondimba : président de 2009 à son renversement le 30 août 2023.\n- Brice Oligui Nguema : chef de la Transition dès août 2023, élu Président en avril 2025, investi en mai 2025.\n\n3. GÉOGRAPHIE ET PATRIMOINE NATUREL AVANCÉS :\n- Les 13 parcs nationaux, créés le 4 septembre 2002, couvrent environ 3 millions d'hectares (environ 11 % du territoire).\n- Le parc de la Lopé est classé au patrimoine mondial de l'UNESCO pour sa biodiversité et ses vestiges archéologiques (art rupestre).\n- Le point culminant du Gabon se situe dans le massif du Chaillu (mont Iboundji, environ 1 575 m selon certaines sources, ou mont Milondo).\n\n4. ÉCONOMIE ET COOPÉRATION RÉGIONALE :\n- Le Gabon est membre de la CEMAC, de la CEEAC, de l'Union Africaine, de l'OPEP et de l'OIF.\n- La monnaie commune de la zone CEMAC, le Franc CFA (XAF), est arrimée à l'Euro via une parité fixe garantie par le Trésor français.",
+"questions": [
+{"ordre": 1, "texte": "Combien de fois le Gabon a-t-il siégé comme membre non permanent du Conseil de sécurité de l'ONU (jusqu'en 2023) ?", "choix": [
+{"texte": "A- Deux fois", "est_correct": false},
+{"texte": "B- Trois fois", "est_correct": false},
+{"texte": "C- Quatre fois", "est_correct": true},
+{"texte": "D- Une seule fois", "est_correct": false}
+]},
+{"ordre": 2, "texte": "Pour quelle période le Gabon a-t-il été élu membre non permanent du Conseil de sécurité en juin 2021 ?", "choix": [
+{"texte": "A- 2020-2021", "est_correct": false},
+{"texte": "B- 2022-2023", "est_correct": true},
+{"texte": "C- 2024-2025", "est_correct": false},
+{"texte": "D- 2021-2022", "est_correct": false}
+]},
+{"ordre": 3, "texte": "En quel mois le Gabon a-t-il assuré la présidence tournante du Conseil de sécurité de l'ONU en 2022 ?", "choix": [
+{"texte": "A- Janvier", "est_correct": false},
+{"texte": "B- Octobre", "est_correct": true},
+{"texte": "C- Juin", "est_correct": false},
+{"texte": "D- Décembre", "est_correct": false}
+]},
+{"ordre": 4, "texte": "Depuis quelle année le Gabon est-il membre de l'ECOSOC (Conseil économique et social de l'ONU) ?", "choix": [
+{"texte": "A- 2018", "est_correct": false},
+{"texte": "B- 2020", "est_correct": true},
+{"texte": "C- 2022", "est_correct": false},
+{"texte": "D- 2015", "est_correct": false}
+]},
+{"ordre": 5, "texte": "À quelle date précise Omar Bongo Ondimba a-t-il succédé à Léon Mba à la présidence ?", "choix": [
+{"texte": "A- 2 décembre 1967", "est_correct": true},
+{"texte": "B- 17 août 1967", "est_correct": false},
+{"texte": "C- 28 novembre 1967", "est_correct": false},
+{"texte": "D- 12 février 1968", "est_correct": false}
+]},
+{"ordre": 6, "texte": "Dans quelle ville Omar Bongo Ondimba est-il décédé en 2009 ?", "choix": [
+{"texte": "A- Paris", "est_correct": false},
+{"texte": "B- Barcelone", "est_correct": true},
+{"texte": "C- Libreville", "est_correct": false},
+{"texte": "D- Genève", "est_correct": false}
+]},
+{"ordre": 7, "texte": "À quelle date précise le régime d'Ali Bongo Ondimba a-t-il été renversé ?", "choix": [
+{"texte": "A- 30 août 2023", "est_correct": true},
+{"texte": "B- 3 mars 2023", "est_correct": false},
+{"texte": "C- 17 août 2023", "est_correct": false},
+{"texte": "D- 27 novembre 2023", "est_correct": false}
+]},
+{"ordre": 8, "texte": "En quel mois de 2025 Brice Oligui Nguema a-t-il été investi Président après son élection ?", "choix": [
+{"texte": "A- Avril", "est_correct": false},
+{"texte": "B- Mai", "est_correct": true},
+{"texte": "C- Août", "est_correct": false},
+{"texte": "D- Janvier", "est_correct": false}
+]},
+{"ordre": 9, "texte": "Quel parc national gabonais est classé au patrimoine mondial de l'UNESCO pour son art rupestre et sa biodiversité ?", "choix": [
+{"texte": "A- Le parc national de la Lopé", "est_correct": true},
+{"texte": "B- Le parc national de Loango", "est_correct": false},
+{"texte": "C- Le parc national d'Akanda", "est_correct": false},
+{"texte": "D- Le parc national de Minkébé", "est_correct": false}
+]},
+{"ordre": 10, "texte": "Dans quel massif se situe le point culminant du Gabon ?", "choix": [
+{"texte": "A- Le massif du Chaillu", "est_correct": true},
+{"texte": "B- Les monts de Cristal", "est_correct": false},
+{"texte": "C- Le plateau Batéké", "est_correct": false},
+{"texte": "D- Les monts Birougou", "est_correct": false}
+]},
+{"ordre": 11, "texte": "À quelle monnaie le Franc CFA de la zone CEMAC est-il arrimé par une parité fixe ?", "choix": [
+{"texte": "A- Le Dollar américain", "est_correct": false},
+{"texte": "B- L'Euro", "est_correct": true},
+{"texte": "C- La Livre Sterling", "est_correct": false},
+{"texte": "D- Le Yuan", "est_correct": false}
+]},
+{"ordre": 12, "texte": "Quelle institution garantit la parité fixe du Franc CFA avec l'Euro ?", "choix": [
+{"texte": "A- Le Trésor français", "est_correct": true},
+{"texte": "B- La Banque Centrale Européenne", "est_correct": false},
+{"texte": "C- Le FMI", "est_correct": false},
+{"texte": "D- La Banque Mondiale", "est_correct": false}
+]},
+{"ordre": 13, "texte": "Combien de parcs nationaux le Gabon compte-t-il, créés en 2002 ?", "choix": [
+{"texte": "A- 11", "est_correct": false},
+{"texte": "B- 13", "est_correct": true},
+{"texte": "C- 15", "est_correct": false},
+{"texte": "D- 9", "est_correct": false}
+]},
+{"ordre": 14, "texte": "Quel pourcentage du territoire gabonais est couvert par les 13 parcs nationaux ?", "choix": [
+{"texte": "A- Environ 11 %", "est_correct": true},
+{"texte": "B- Environ 25 %", "est_correct": false},
+{"texte": "C- Environ 5 %", "est_correct": false},
+{"texte": "D- Environ 40 %", "est_correct": false}
+]},
+{"ordre": 15, "texte": "Quel événement a précédé de peu la mort officiellement annoncée de Léon Mba en novembre 1967 ?", "choix": [
+{"texte": "A- Sa nomination d'Albert Bernard Bongo comme Vice-Président (14 novembre 1966)", "est_correct": true},
+{"texte": "B- La signature des accords de coopération avec la France", "est_correct": false},
+{"texte": "C- Le référendum constitutionnel de 1961", "est_correct": false},
+{"texte": "D- Le coup d'État de février 1964", "est_correct": false}
+]},
+{"ordre": 16, "texte": "En quelle année a eu lieu le coup d'État manqué contre Léon Mba, réprimé par l'intervention militaire française ?", "choix": [
+{"texte": "A- 1964", "est_correct": true},
+{"texte": "B- 1960", "est_correct": false},
+{"texte": "C- 1967", "est_correct": false},
+{"texte": "D- 1958", "est_correct": false}
+]},
+{"ordre": 17, "texte": "À quelles organisations internationales le Gabon N'appartient-il PAS ?", "choix": [
+{"texte": "A- L'Union Africaine", "est_correct": false},
+{"texte": "B- La CEMAC", "est_correct": false},
+{"texte": "C- L'OTAN", "est_correct": true},
+{"texte": "D- L'OPEP", "est_correct": false}
+]},
+{"ordre": 18, "texte": "Que signifie l'acronyme OPEP, organisation dont le Gabon est membre ?", "choix": [
+{"texte": "A- Organisation des Pays Exportateurs de Pétrole", "est_correct": true},
+{"texte": "B- Organisation pour la Protection de l'Environnement en Afrique", "est_correct": false},
+{"texte": "C- Organisation Panafricaine des Échanges Pétroliers", "est_correct": false},
+{"texte": "D- Organisation Pour l'Économie et la Production", "est_correct": false}
+]},
+{"ordre": 19, "texte": "Quel événement footballistique le Gabon a-t-il organisé à deux reprises en cinq ans (2012 et 2017) ?", "choix": [
+{"texte": "A- La Coupe d'Afrique des Nations (CAN)", "est_correct": true},
+{"texte": "B- La Coupe du Monde", "est_correct": false},
+{"texte": "C- Les Jeux Africains", "est_correct": false},
+{"texte": "D- La Coupe des Confédérations", "est_correct": false}
+]},
+{"ordre": 20, "texte": "Quel pays initialement désigné pour organiser la CAN 2017 s'est désisté en raison de sa situation politique interne ?", "choix": [
+{"texte": "A- La Libye", "est_correct": true},
+{"texte": "B- Le Nigeria", "est_correct": false},
+{"texte": "C- Le Maroc", "est_correct": false},
+{"texte": "D- L'Égypte", "est_correct": false}
+]},
+{"ordre": 21, "texte": "Quel est l'antonyme précis du terme juridique « dirimant » ?", "choix": [
+{"texte": "A- Accessoire ou secondaire", "est_correct": true},
+{"texte": "B- Rédhibitoire", "est_correct": false},
+{"texte": "C- Décisif", "est_correct": false},
+{"texte": "D- Impératif", "est_correct": false}
+]},
+{"ordre": 22, "texte": "Quel est le sens exact du terme « probité », attendu dans une lettre de motivation administrative ?", "choix": [
+{"texte": "A- Honnêteté rigoureuse et intégrité morale", "est_correct": true},
+{"texte": "B- Rapidité d'exécution", "est_correct": false},
+{"texte": "C- Aptitude au commandement", "est_correct": false},
+{"texte": "D- Créativité dans la résolution de problèmes", "est_correct": false}
+]},
+{"ordre": 23, "texte": "Choisissez la forme correcte : « Les rapports qu'elle a ... rédiger par son adjoint ont été validés. »", "choix": [
+{"texte": "A- fait", "est_correct": true},
+{"texte": "B- faite", "est_correct": false},
+{"texte": "C- faits", "est_correct": false},
+{"texte": "D- faites", "est_correct": false}
+]},
+{"ordre": 24, "texte": "Quelle est l'orthographe correcte de l'adjectif dérivé du mot « exigence » appliqué à un concours ?", "choix": [
+{"texte": "A- exigeant", "est_correct": true},
+{"texte": "B- exigent", "est_correct": false},
+{"texte": "C- exigant", "est_correct": false},
+{"texte": "D- exigeant(e)s invariable", "est_correct": false}
+]},
+{"ordre": 25, "texte": "Quel principe économique désigne la hausse générale et durable des prix, érodant le pouvoir d'achat ?", "choix": [
+{"texte": "A- L'inflation", "est_correct": true},
+{"texte": "B- La déflation", "est_correct": false},
+{"texte": "C- La stagflation exclusivement", "est_correct": false},
+{"texte": "D- La récession", "est_correct": false}
+]},
+{"ordre": 26, "texte": "Quel indicateur économique mesure la richesse totale produite par un pays sur une année ?", "choix": [
+{"texte": "A- Le PIB", "est_correct": true},
+{"texte": "B- Le taux de change", "est_correct": false},
+{"texte": "C- L'IDH exclusivement", "est_correct": false},
+{"texte": "D- La balance commerciale", "est_correct": false}
+]},
+{"ordre": 27, "texte": "Quel principe juridique fondamental protège un accusé tant que sa culpabilité n'a pas été légalement établie ?", "choix": [
+{"texte": "A- La présomption d'innocence", "est_correct": true},
+{"texte": "B- La prescription", "est_correct": false},
+{"texte": "C- La rétroactivité de la loi pénale plus douce", "est_correct": false},
+{"texte": "D- Le contradictoire", "est_correct": false}
+]},
+{"ordre": 28, "texte": "En droit, comment appelle-t-on le principe selon lequel une loi pénale ne peut s'appliquer à des faits commis avant son entrée en vigueur (sauf exception favorable) ?", "choix": [
+{"texte": "A- La non-rétroactivité de la loi", "est_correct": true},
+{"texte": "B- La présomption d'innocence", "est_correct": false},
+{"texte": "C- Le principe de légalité uniquement", "est_correct": false},
+{"texte": "D- La prescription", "est_correct": false}
+]},
+{"ordre": 29, "texte": "Quel organe des Nations Unies a succédé à la Société des Nations (SDN) en 1945 ?", "choix": [
+{"texte": "A- L'ONU", "est_correct": true},
+{"texte": "B- L'Union Africaine", "est_correct": false},
+{"texte": "C- L'OTAN", "est_correct": false},
+{"texte": "D- L'Union Européenne", "est_correct": false}
+]},
+{"ordre": 30, "texte": "Quel document fondamental garantit la séparation des pouvoirs exécutif, législatif et judiciaire au sein d'un État ?", "choix": [
+{"texte": "A- La Constitution", "est_correct": true},
+{"texte": "B- Le Code civil", "est_correct": false},
+{"texte": "C- Le règlement intérieur", "est_correct": false},
+{"texte": "D- Le Code pénal", "est_correct": false}
+]}
+]
+}
+]
+}
+]

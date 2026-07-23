@@ -1,0 +1,195 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale (simulation)",
+"annee": 2022,
+"mini_cours": "--- POINTS CLÉS À MAÎTRISER (IUSO CULTURE GÉNÉRALE) ---\n\n1. DIRIGEANTS ET DATES CLÉS DU GABON :\n- Léon Mba, premier Président de la République gabonaise (1961-1967), est décédé le 28 novembre 1967 à Paris, après une longue maladie.\n- Omar Bongo Ondimba a dirigé le pays de 1967 à 2009 (décédé le 8 juin 2009).\n- Ali Bongo Ondimba, président de 2009 à 2023, a été renversé par le coup d'État du 30 août 2023.\n- Brice Oligui Nguema, né le 3 mars 1975, dirige le pays depuis 2023 (Transition) puis en tant que Président élu depuis mai 2025.\n\n2. LE GABON ET LE FOOTBALL (CAN) :\n- En 2012, le Gabon a co-organisé la Coupe d'Afrique des Nations avec la Guinée Équatoriale.\n- En 2017, le Gabon a organisé seul la CAN, du 14 janvier au 5 février, remportée par le Cameroun.\n- La sélection nationale du Gabon est surnommée « Les Panthères ».\n\n3. ENVIRONNEMENT ET PARCS NATIONAUX :\n- Le Gabon compte 13 parcs nationaux, créés le 4 septembre 2002 sur décision du président Omar Bongo Ondimba, annoncée au Sommet de la Terre de Johannesburg.\n- Ces parcs couvrent environ 3 millions d'hectares, soit environ 11 % du territoire national.\n- Parmi eux : la Lopé, l'Ivindo, Loango, Minkébé, les Monts de Cristal, Moukalaba-Doudou, Pongara, les Plateaux Batéké.\n\n4. INSTITUTIONS ET SYMBOLES :\n- Indépendance du Gabon : 17 août 1960.\n- Devise nationale : Union, Travail, Justice.\n- Hymne national : La Concorde.\n- Capitale : Libreville, province de l'Estuaire.",
+"questions": [
+{"ordre": 1, "texte": "En quelle année le Gabon a-t-il organisé (seul) la Coupe d'Afrique des Nations (CAN) ?", "choix": [
+{"texte": "A- 2015", "est_correct": false},
+{"texte": "B- 2017", "est_correct": true},
+{"texte": "C- 2019", "est_correct": false},
+{"texte": "D- 2021", "est_correct": false}
+]},
+{"ordre": 2, "texte": "En 2012, avec quel pays le Gabon a-t-il co-organisé la CAN ?", "choix": [
+{"texte": "A- Le Cameroun", "est_correct": false},
+{"texte": "B- La Guinée Équatoriale", "est_correct": true},
+{"texte": "C- Le Congo", "est_correct": false},
+{"texte": "D- La Côte d'Ivoire", "est_correct": false}
+]},
+{"ordre": 3, "texte": "Quel pays a remporté la CAN 2017 organisée au Gabon ?", "choix": [
+{"texte": "A- Le Cameroun", "est_correct": true},
+{"texte": "B- L'Égypte", "est_correct": false},
+{"texte": "C- Le Gabon", "est_correct": false},
+{"texte": "D- La Côte d'Ivoire", "est_correct": false}
+]},
+{"ordre": 4, "texte": "Quel est le surnom de l'équipe nationale de football du Gabon ?", "choix": [
+{"texte": "A- Les Lions", "est_correct": false},
+{"texte": "B- Les Panthères", "est_correct": true},
+{"texte": "C- Les Éléphants", "est_correct": false},
+{"texte": "D- Les Aigles", "est_correct": false}
+]},
+{"ordre": 5, "texte": "En quelle année Léon Mba, premier Président du Gabon, est-il décédé ?", "choix": [
+{"texte": "A- 1960", "est_correct": false},
+{"texte": "B- 1967", "est_correct": true},
+{"texte": "C- 1975", "est_correct": false},
+{"texte": "D- 1990", "est_correct": false}
+]},
+{"ordre": 6, "texte": "Dans quelle ville Léon Mba est-il décédé ?", "choix": [
+{"texte": "A- Libreville", "est_correct": false},
+{"texte": "B- Paris", "est_correct": true},
+{"texte": "C- Port-Gentil", "est_correct": false},
+{"texte": "D- Franceville", "est_correct": false}
+]},
+{"ordre": 7, "texte": "De quelle année à quelle année Léon Mba a-t-il été Président de la République gabonaise ?", "choix": [
+{"texte": "A- 1960 à 1965", "est_correct": false},
+{"texte": "B- 1961 à 1967", "est_correct": true},
+{"texte": "C- 1958 à 1967", "est_correct": false},
+{"texte": "D- 1961 à 1970", "est_correct": false}
+]},
+{"ordre": 8, "texte": "Quel est l'âge approximatif de l'actuel Président de la République gabonaise, Brice Oligui Nguema, né en 1975 ?", "choix": [
+{"texte": "A- 41 ans", "est_correct": false},
+{"texte": "B- 51 ans", "est_correct": true},
+{"texte": "C- 60 ans", "est_correct": false},
+{"texte": "D- 45 ans", "est_correct": false}
+]},
+{"ordre": 9, "texte": "En quelle année est né le Président Brice Oligui Nguema ?", "choix": [
+{"texte": "A- 1975", "est_correct": true},
+{"texte": "B- 1980", "est_correct": false},
+{"texte": "C- 1968", "est_correct": false},
+{"texte": "D- 1970", "est_correct": false}
+]},
+{"ordre": 10, "texte": "Depuis quelle année Brice Oligui Nguema dirige-t-il le Gabon (Transition puis présidence élue) ?", "choix": [
+{"texte": "A- 2009", "est_correct": false},
+{"texte": "B- 2023", "est_correct": true},
+{"texte": "C- 2020", "est_correct": false},
+{"texte": "D- 2025 uniquement", "est_correct": false}
+]},
+{"ordre": 11, "texte": "Combien de parcs nationaux compte le Gabon ?", "choix": [
+{"texte": "A- 9", "est_correct": false},
+{"texte": "B- 13", "est_correct": true},
+{"texte": "C- 15", "est_correct": false},
+{"texte": "D- 20", "est_correct": false}
+]},
+{"ordre": 12, "texte": "En quelle année les 13 parcs nationaux du Gabon ont-ils été créés ?", "choix": [
+{"texte": "A- 1995", "est_correct": false},
+{"texte": "B- 2002", "est_correct": true},
+{"texte": "C- 2010", "est_correct": false},
+{"texte": "D- 2017", "est_correct": false}
+]},
+{"ordre": 13, "texte": "Quel président a annoncé la création des 13 parcs nationaux du Gabon ?", "choix": [
+{"texte": "A- Léon Mba", "est_correct": false},
+{"texte": "B- Omar Bongo Ondimba", "est_correct": true},
+{"texte": "C- Ali Bongo Ondimba", "est_correct": false},
+{"texte": "D- Brice Oligui Nguema", "est_correct": false}
+]},
+{"ordre": 14, "texte": "Lors de quel sommet international la création des parcs nationaux du Gabon a-t-elle été annoncée ?", "choix": [
+{"texte": "A- Le Sommet de la Terre de Johannesburg", "est_correct": true},
+{"texte": "B- La COP21 de Paris", "est_correct": false},
+{"texte": "C- Le Sommet de Rio", "est_correct": false},
+{"texte": "D- Le Sommet du G20", "est_correct": false}
+]},
+{"ordre": 15, "texte": "Quel pourcentage approximatif du territoire national les parcs nationaux du Gabon représentent-ils ?", "choix": [
+{"texte": "A- Environ 11 %", "est_correct": true},
+{"texte": "B- Environ 25 %", "est_correct": false},
+{"texte": "C- Environ 5 %", "est_correct": false},
+{"texte": "D- Environ 40 %", "est_correct": false}
+]},
+{"ordre": 16, "texte": "Lequel de ces parcs nationaux gabonais est célèbre pour ses hippopotames observés surfant sur les vagues ?", "choix": [
+{"texte": "A- Loango", "est_correct": true},
+{"texte": "B- La Lopé", "est_correct": false},
+{"texte": "C- Minkébé", "est_correct": false},
+{"texte": "D- Akanda", "est_correct": false}
+]},
+{"ordre": 17, "texte": "Quel président a dirigé le Gabon de 1967 à 2009 ?", "choix": [
+{"texte": "A- Omar Bongo Ondimba", "est_correct": true},
+{"texte": "B- Ali Bongo Ondimba", "est_correct": false},
+{"texte": "C- Léon Mba", "est_correct": false},
+{"texte": "D- Jean Ping", "est_correct": false}
+]},
+{"ordre": 18, "texte": "En quelle année Omar Bongo Ondimba est-il décédé ?", "choix": [
+{"texte": "A- 2005", "est_correct": false},
+{"texte": "B- 2009", "est_correct": true},
+{"texte": "C- 2015", "est_correct": false},
+{"texte": "D- 2023", "est_correct": false}
+]},
+{"ordre": 19, "texte": "Quelle date marque le coup d'État qui a renversé Ali Bongo Ondimba ?", "choix": [
+{"texte": "A- 30 août 2023", "est_correct": true},
+{"texte": "B- 17 août 2023", "est_correct": false},
+{"texte": "C- 3 mars 2023", "est_correct": false},
+{"texte": "D- 27 novembre 2023", "est_correct": false}
+]},
+{"ordre": 20, "texte": "Quelle est la date de l'indépendance du Gabon ?", "choix": [
+{"texte": "A- 17 août 1960", "est_correct": true},
+{"texte": "B- 28 novembre 1960", "est_correct": false},
+{"texte": "C- 30 août 1960", "est_correct": false},
+{"texte": "D- 4 septembre 1960", "est_correct": false}
+]},
+{"ordre": 21, "texte": "Quelle est la devise nationale du Gabon ?", "choix": [
+{"texte": "A- Union, Travail, Justice", "est_correct": true},
+{"texte": "B- Liberté, Égalité, Fraternité", "est_correct": false},
+{"texte": "C- Paix, Travail, Patrie", "est_correct": false},
+{"texte": "D- Unité, Progrès, Justice", "est_correct": false}
+]},
+{"ordre": 22, "texte": "Quel est le nom de l'hymne national du Gabon ?", "choix": [
+{"texte": "A- La Concorde", "est_correct": true},
+{"texte": "B- L'Union Nationale", "est_correct": false},
+{"texte": "C- La Marche du Gabon", "est_correct": false},
+{"texte": "D- Le Chant de l'Ogooué", "est_correct": false}
+]},
+{"ordre": 23, "texte": "Dans quelle province se trouve Libreville, capitale du Gabon ?", "choix": [
+{"texte": "A- L'Estuaire", "est_correct": true},
+{"texte": "B- Le Woleu-Ntem", "est_correct": false},
+{"texte": "C- L'Ogooué-Maritime", "est_correct": false},
+{"texte": "D- Le Moyen-Ogooué", "est_correct": false}
+]},
+{"ordre": 24, "texte": "Combien de provinces compte le Gabon ?", "choix": [
+{"texte": "A- 9", "est_correct": true},
+{"texte": "B- 7", "est_correct": false},
+{"texte": "C- 12", "est_correct": false},
+{"texte": "D- 13", "est_correct": false}
+]},
+{"ordre": 25, "texte": "Quel est le principal fleuve du Gabon ?", "choix": [
+{"texte": "A- L'Ogooué", "est_correct": true},
+{"texte": "B- Le Congo", "est_correct": false},
+{"texte": "C- La Nyanga", "est_correct": false},
+{"texte": "D- L'Ivindo", "est_correct": false}
+]},
+{"ordre": 26, "texte": "Quelle est la première ressource d'exportation du Gabon ?", "choix": [
+{"texte": "A- Le pétrole", "est_correct": true},
+{"texte": "B- Le manganèse", "est_correct": false},
+{"texte": "C- Le bois", "est_correct": false},
+{"texte": "D- Le fer", "est_correct": false}
+]},
+{"ordre": 27, "texte": "Pour quel minerai le Gabon est-il l'un des premiers producteurs mondiaux ?", "choix": [
+{"texte": "A- Le manganèse", "est_correct": true},
+{"texte": "B- Le cuivre", "est_correct": false},
+{"texte": "C- L'or", "est_correct": false},
+{"texte": "D- Le diamant", "est_correct": false}
+]},
+{"ordre": 28, "texte": "Que signifie le sigle CEMAC ?", "choix": [
+{"texte": "A- Communauté Économique et Monétaire de l'Afrique Centrale", "est_correct": true},
+{"texte": "B- Commission Économique du Marché d'Afrique Centrale", "est_correct": false},
+{"texte": "C- Conseil Économique et Militaire de l'Afrique Centrale", "est_correct": false},
+{"texte": "D- Communauté Économique Maritime d'Afrique Centrale", "est_correct": false}
+]},
+{"ordre": 29, "texte": "Quelle monnaie commune circule dans la zone CEMAC ?", "choix": [
+{"texte": "A- Le Franc CFA (XAF)", "est_correct": true},
+{"texte": "B- L'Euro", "est_correct": false},
+{"texte": "C- Le Naira", "est_correct": false},
+{"texte": "D- Le Franc guinéen", "est_correct": false}
+]},
+{"ordre": 30, "texte": "Où se trouve le siège de l'Union Africaine ?", "choix": [
+{"texte": "A- Addis-Abeba (Éthiopie)", "est_correct": true},
+{"texte": "B- Nairobi (Kenya)", "est_correct": false},
+{"texte": "C- Abuja (Nigeria)", "est_correct": false},
+{"texte": "D- Libreville (Gabon)", "est_correct": false}
+]}
+]
+}
+]
+}
+]

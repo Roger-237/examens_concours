@@ -1,0 +1,195 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale (simulation)",
+"annee": 2020,
+"mini_cours": "--- POINTS CLÉS À MAÎTRISER (IUSO CULTURE GÉNÉRALE 2018) ---\n\n1. INSTITUTIONS ET VIE POLITIQUE DU GABON :\n- Ali Bongo Ondimba est Président de la République gabonaise depuis 2009, succédant à son père Omar Bongo Ondimba, qui a dirigé le pays de 1967 à 2009.\n- Le Gabon est une République dotée d'un régime semi-présidentiel, avec un Parlement bicaméral composé de l'Assemblée Nationale et du Sénat.\n- La Constitution gabonaise consacre la séparation des pouvoirs exécutif, législatif et judiciaire.\n\n2. SYMBOLES ET REPÈRES NATIONAUX :\n- Devise du Gabon : « Union, Travail, Justice ».\n- Hymne national : « La Concorde ».\n- Indépendance proclamée le 17 août 1960.\n- Capitale : Libreville, située dans la province de l'Estuaire.\n\n3. GÉOGRAPHIE ET RESSOURCES :\n- Le Gabon compte 9 provinces et est bordé par le Cameroun, la Guinée équatoriale, le Congo et l'océan Atlantique.\n- L'Ogooué, principal fleuve du pays, traverse plusieurs provinces avant de se jeter dans l'Atlantique.\n- Le pétrole demeure le premier poste d'exportation, suivi du manganèse et du bois (notamment l'okoumé).\n\n4. ORGANISATIONS RÉGIONALES ET INTERNATIONALES :\n- CEMAC (Communauté Économique et Monétaire de l'Afrique Centrale) : zone monétaire du Franc CFA regroupant 6 États d'Afrique centrale.\n- CEEAC (Communauté Économique des États de l'Afrique Centrale) : cadre de coopération économique régionale.\n- Union Africaine (UA) : organisation continentale née en 2002, succédant à l'OUA.\n\n5. NOTIONS D'ÉCONOMIE ET DE CITOYENNETÉ :\n- L'inflation correspond à une hausse générale et durable des prix.\n- Le PIB mesure la richesse produite par un pays sur une période donnée.\n- La citoyenneté implique des droits (vote, protection) et des devoirs (respect des lois, civisme) envers l'État.",
+"questions": [
+{"ordre": 1, "texte": "Qui est Président de la République gabonaise depuis 2009 ?", "choix": [
+{"texte": "A- Ali Bongo Ondimba", "est_correct": true},
+{"texte": "B- Omar Bongo Ondimba", "est_correct": false},
+{"texte": "C- Jean Ping", "est_correct": false},
+{"texte": "D- Léon Mba", "est_correct": false}
+]},
+{"ordre": 2, "texte": "De quelle année à quelle année Omar Bongo Ondimba a-t-il dirigé le Gabon ?", "choix": [
+{"texte": "A- 1960 à 1990", "est_correct": false},
+{"texte": "B- 1967 à 2009", "est_correct": true},
+{"texte": "C- 1975 à 2005", "est_correct": false},
+{"texte": "D- 1980 à 2016", "est_correct": false}
+]},
+{"ordre": 3, "texte": "Comment qualifie-t-on le régime politique du Gabon ?", "choix": [
+{"texte": "A- Un régime semi-présidentiel", "est_correct": true},
+{"texte": "B- Une monarchie constitutionnelle", "est_correct": false},
+{"texte": "C- Un régime parlementaire pur", "est_correct": false},
+{"texte": "D- Un régime confédéral", "est_correct": false}
+]},
+{"ordre": 4, "texte": "Quelles sont les deux chambres composant le Parlement gabonais ?", "choix": [
+{"texte": "A- L'Assemblée Nationale et le Sénat", "est_correct": true},
+{"texte": "B- La Chambre des Députés et le Conseil d'État", "est_correct": false},
+{"texte": "C- Le Congrès et la Chambre Haute", "est_correct": false},
+{"texte": "D- L'Assemblée Nationale et la Cour Suprême", "est_correct": false}
+]},
+{"ordre": 5, "texte": "Quelle est la devise nationale du Gabon ?", "choix": [
+{"texte": "A- Union, Travail, Justice", "est_correct": true},
+{"texte": "B- Liberté, Égalité, Fraternité", "est_correct": false},
+{"texte": "C- Paix, Travail, Patrie", "est_correct": false},
+{"texte": "D- Unité, Progrès, Justice", "est_correct": false}
+]},
+{"ordre": 6, "texte": "Quel est le nom de l'hymne national du Gabon ?", "choix": [
+{"texte": "A- La Concorde", "est_correct": true},
+{"texte": "B- L'Union Nationale", "est_correct": false},
+{"texte": "C- La Marche du Gabon", "est_correct": false},
+{"texte": "D- Le Chant de l'Ogooué", "est_correct": false}
+]},
+{"ordre": 7, "texte": "À quelle date le Gabon a-t-il proclamé son indépendance ?", "choix": [
+{"texte": "A- 17 août 1960", "est_correct": true},
+{"texte": "B- 15 août 1958", "est_correct": false},
+{"texte": "C- 30 août 1960", "est_correct": false},
+{"texte": "D- 17 juillet 1960", "est_correct": false}
+]},
+{"ordre": 8, "texte": "Dans quelle province se trouve Libreville, capitale du Gabon ?", "choix": [
+{"texte": "A- L'Estuaire", "est_correct": true},
+{"texte": "B- Le Woleu-Ntem", "est_correct": false},
+{"texte": "C- L'Ogooué-Maritime", "est_correct": false},
+{"texte": "D- Le Moyen-Ogooué", "est_correct": false}
+]},
+{"ordre": 9, "texte": "Combien de provinces compte le Gabon ?", "choix": [
+{"texte": "A- 9", "est_correct": true},
+{"texte": "B- 7", "est_correct": false},
+{"texte": "C- 12", "est_correct": false},
+{"texte": "D- 10", "est_correct": false}
+]},
+{"ordre": 10, "texte": "Quel pays ne fait PAS frontière avec le Gabon ?", "choix": [
+{"texte": "A- Le Cameroun", "est_correct": false},
+{"texte": "B- La Guinée équatoriale", "est_correct": false},
+{"texte": "C- Le Congo", "est_correct": false},
+{"texte": "D- La République Centrafricaine", "est_correct": true}
+]},
+{"ordre": 11, "texte": "Quel est le principal fleuve du Gabon ?", "choix": [
+{"texte": "A- L'Ogooué", "est_correct": true},
+{"texte": "B- Le Congo", "est_correct": false},
+{"texte": "C- La Nyanga", "est_correct": false},
+{"texte": "D- L'Ivindo", "est_correct": false}
+]},
+{"ordre": 12, "texte": "Quelle est la première ressource d'exportation du Gabon ?", "choix": [
+{"texte": "A- Le pétrole", "est_correct": true},
+{"texte": "B- Le manganèse", "est_correct": false},
+{"texte": "C- Le bois", "est_correct": false},
+{"texte": "D- Le fer", "est_correct": false}
+]},
+{"ordre": 13, "texte": "Quel bois précieux est emblématique de l'exportation gabonaise ?", "choix": [
+{"texte": "A- L'okoumé", "est_correct": true},
+{"texte": "B- Le teck", "est_correct": false},
+{"texte": "C- L'ébène", "est_correct": false},
+{"texte": "D- L'acajou", "est_correct": false}
+]},
+{"ordre": 14, "texte": "Que signifie le sigle CEMAC ?", "choix": [
+{"texte": "A- Communauté Économique et Monétaire de l'Afrique Centrale", "est_correct": true},
+{"texte": "B- Commission Économique du Marché d'Afrique Centrale", "est_correct": false},
+{"texte": "C- Conseil Économique et Militaire de l'Afrique Centrale", "est_correct": false},
+{"texte": "D- Communauté Économique Maritime d'Afrique Centrale", "est_correct": false}
+]},
+{"ordre": 15, "texte": "Quelle monnaie commune circule dans la zone CEMAC ?", "choix": [
+{"texte": "A- Le Franc CFA (XAF)", "est_correct": true},
+{"texte": "B- L'Euro", "est_correct": false},
+{"texte": "C- Le Naira", "est_correct": false},
+{"texte": "D- Le Franc guinéen", "est_correct": false}
+]},
+{"ordre": 16, "texte": "Que signifie le sigle CEEAC ?", "choix": [
+{"texte": "A- Communauté Économique des États de l'Afrique Centrale", "est_correct": true},
+{"texte": "B- Conseil Économique des États Africains Centraux", "est_correct": false},
+{"texte": "C- Communauté des États d'Afrique Centrale", "est_correct": false},
+{"texte": "D- Coopération Économique de l'Afrique Centrale", "est_correct": false}
+]},
+{"ordre": 17, "texte": "En quelle année l'Union Africaine a-t-elle été créée, succédant à l'OUA ?", "choix": [
+{"texte": "A- 2002", "est_correct": true},
+{"texte": "B- 1995", "est_correct": false},
+{"texte": "C- 2010", "est_correct": false},
+{"texte": "D- 1990", "est_correct": false}
+]},
+{"ordre": 18, "texte": "Où se trouve le siège de l'Union Africaine ?", "choix": [
+{"texte": "A- Addis-Abeba (Éthiopie)", "est_correct": true},
+{"texte": "B- Nairobi (Kenya)", "est_correct": false},
+{"texte": "C- Abuja (Nigeria)", "est_correct": false},
+{"texte": "D- Libreville (Gabon)", "est_correct": false}
+]},
+{"ordre": 19, "texte": "Quelle est la définition la plus juste de l'inflation ?", "choix": [
+{"texte": "A- Une hausse générale et durable des prix", "est_correct": true},
+{"texte": "B- Une baisse générale des prix", "est_correct": false},
+{"texte": "C- Une stabilité totale des prix", "est_correct": false},
+{"texte": "D- Une augmentation ponctuelle du prix d'un seul produit", "est_correct": false}
+]},
+{"ordre": 20, "texte": "Que mesure le PIB (Produit Intérieur Brut) ?", "choix": [
+{"texte": "A- La richesse produite par un pays sur une période donnée", "est_correct": true},
+{"texte": "B- Le nombre d'habitants d'un pays", "est_correct": false},
+{"texte": "C- Le taux de chômage national", "est_correct": false},
+{"texte": "D- La dette publique d'un pays", "est_correct": false}
+]},
+{"ordre": 21, "texte": "En quelle année a eu lieu la chute du Mur de Berlin ?", "choix": [
+{"texte": "A- 1989", "est_correct": true},
+{"texte": "B- 1991", "est_correct": false},
+{"texte": "C- 1985", "est_correct": false},
+{"texte": "D- 1993", "est_correct": false}
+]},
+{"ordre": 22, "texte": "En quelle année la Seconde Guerre mondiale a-t-elle pris fin ?", "choix": [
+{"texte": "A- 1945", "est_correct": true},
+{"texte": "B- 1939", "est_correct": false},
+{"texte": "C- 1918", "est_correct": false},
+{"texte": "D- 1950", "est_correct": false}
+]},
+{"ordre": 23, "texte": "Quelle organisation internationale a été créée en 1945 pour maintenir la paix mondiale ?", "choix": [
+{"texte": "A- L'Organisation des Nations Unies (ONU)", "est_correct": true},
+{"texte": "B- L'OTAN", "est_correct": false},
+{"texte": "C- La Société des Nations (SDN)", "est_correct": false},
+{"texte": "D- L'Union Européenne", "est_correct": false}
+]},
+{"ordre": 24, "texte": "Quel principe juridique garantit qu'un accusé est considéré innocent tant que sa culpabilité n'est pas prouvée ?", "choix": [
+{"texte": "A- La présomption d'innocence", "est_correct": true},
+{"texte": "B- La prescription pénale", "est_correct": false},
+{"texte": "C- La responsabilité civile", "est_correct": false},
+{"texte": "D- Le principe de non-rétroactivité", "est_correct": false}
+]},
+{"ordre": 25, "texte": "Que désigne le terme « citoyenneté » ?", "choix": [
+{"texte": "A- L'ensemble des droits et devoirs d'un individu envers l'État et la communauté", "est_correct": true},
+{"texte": "B- Le simple fait de posséder un passeport", "est_correct": false},
+{"texte": "C- Le droit exclusif de voter", "est_correct": false},
+{"texte": "D- L'appartenance à une entreprise", "est_correct": false}
+]},
+{"ordre": 26, "texte": "Quel document fondamental définit l'organisation des pouvoirs au sein d'un État ?", "choix": [
+{"texte": "A- La Constitution", "est_correct": true},
+{"texte": "B- Le Code civil", "est_correct": false},
+{"texte": "C- Le Code pénal", "est_correct": false},
+{"texte": "D- Le règlement intérieur", "est_correct": false}
+]},
+{"ordre": 27, "texte": "Quel secteur est particulièrement concerné par les enjeux d'accès à l'éducation en Afrique subsaharienne ?", "choix": [
+{"texte": "A- La scolarisation primaire et l'alphabétisation", "est_correct": true},
+{"texte": "B- L'industrie lourde", "est_correct": false},
+{"texte": "C- Le secteur bancaire uniquement", "est_correct": false},
+{"texte": "D- Le tourisme de luxe", "est_correct": false}
+]},
+{"ordre": 28, "texte": "Quel enjeu de santé publique mondial a marqué les années 2013-2016 en Afrique de l'Ouest ?", "choix": [
+{"texte": "A- L'épidémie d'Ebola", "est_correct": true},
+{"texte": "B- La pandémie de grippe H1N1", "est_correct": false},
+{"texte": "C- L'épidémie de choléra de 2005", "est_correct": false},
+{"texte": "D- La pandémie de COVID-19", "est_correct": false}
+]},
+{"ordre": 29, "texte": "Quel enjeu environnemental est le plus souvent associé au terme « réchauffement climatique » ?", "choix": [
+{"texte": "A- L'augmentation des émissions de gaz à effet de serre", "est_correct": true},
+{"texte": "B- La baisse du niveau des océans", "est_correct": false},
+{"texte": "C- La diminution de la population mondiale", "est_correct": false},
+{"texte": "D- La disparition des zones désertiques", "est_correct": false}
+]},
+{"ordre": 30, "texte": "Quel terme désigne les mesures visant à faciliter l'accès des jeunes à un premier emploi ?", "choix": [
+{"texte": "A- L'employabilité", "est_correct": true},
+{"texte": "B- La précarité", "est_correct": false},
+{"texte": "C- Le chômage structurel", "est_correct": false},
+{"texte": "D- La retraite anticipée", "est_correct": false}
+]}
+]
+}
+]
+}
+]
