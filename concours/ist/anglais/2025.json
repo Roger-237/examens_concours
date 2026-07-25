@@ -1,0 +1,457 @@
+[
+  {
+    "ecole": "IST",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée IST - Épreuve d'Anglais",
+        "annee": 2025,
+        "latex": false,
+        "mini_cours": "Épreuve de langue anglaise sous forme de QCM (40 questions) évaluant la grammaire, la conjugaison, le vocabulaire et les structures idiomatiques usuelles.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Please, ________ you speak slower?",
+            "choix": [
+              {"texte": "a. Could", "est_correct": true},
+              {"texte": "b. will", "est_correct": false},
+              {"texte": "c. do", "est_correct": false},
+              {"texte": "d. are", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "How old are you? I ________",
+            "choix": [
+              {"texte": "a. have 30", "est_correct": false},
+              {"texte": "b. have 30 years", "est_correct": false},
+              {"texte": "c. am 30 years", "est_correct": false},
+              {"texte": "d. am 30", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "London is the capital of the United ________ .",
+            "choix": [
+              {"texte": "a. country", "est_correct": false},
+              {"texte": "b. States", "est_correct": false},
+              {"texte": "c. headquarters", "est_correct": false},
+              {"texte": "d. Kingdom", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "I'll wait for you ________ .",
+            "choix": [
+              {"texte": "a. House", "est_correct": false},
+              {"texte": "b. at home", "est_correct": true},
+              {"texte": "c. home", "est_correct": false},
+              {"texte": "d. to home", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "I love ________ abroad.",
+            "choix": [
+              {"texte": "a. to travelling", "est_correct": false},
+              {"texte": "b. travel", "est_correct": false},
+              {"texte": "c. to travel", "est_correct": true},
+              {"texte": "d. travellings", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "I am so ________ . I need to eat something.",
+            "choix": [
+              {"texte": "a. Thirsty", "est_correct": false},
+              {"texte": "b. sleepy", "est_correct": false},
+              {"texte": "c. hungry", "est_correct": true},
+              {"texte": "d. exhausted", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "I live ________ Los Angeles.",
+            "choix": [
+              {"texte": "a. To", "est_correct": false},
+              {"texte": "b. into", "est_correct": false},
+              {"texte": "c. within", "est_correct": false},
+              {"texte": "d. at", "est_correct": false},
+              {"texte": "in (option usuelle non présente)", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "They ________ go to the cinema.",
+            "choix": [
+              {"texte": "a. ever", "est_correct": false},
+              {"texte": "b. rarely", "est_correct": true},
+              {"texte": "c. much", "est_correct": false},
+              {"texte": "d. rare", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "English is a lot ________ than French.",
+            "choix": [
+              {"texte": "a. easy", "est_correct": false},
+              {"texte": "b. easier", "est_correct": true},
+              {"texte": "c. more easy", "est_correct": false},
+              {"texte": "d. more easiest", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "________ long have you worked here?",
+            "choix": [
+              {"texte": "a. How much", "est_correct": false},
+              {"texte": "b. what", "est_correct": false},
+              {"texte": "c. How", "est_correct": true},
+              {"texte": "d. why", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "It costs $100! It's ________ expensive!",
+            "choix": [
+              {"texte": "a. To", "est_correct": false},
+              {"texte": "b. lot", "est_correct": false},
+              {"texte": "c. much", "est_correct": false},
+              {"texte": "d. too", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "This lesson is too ________ . Could you help me?",
+            "choix": [
+              {"texte": "a. Easy", "est_correct": false},
+              {"texte": "b. tiring", "est_correct": false},
+              {"texte": "c. hard", "est_correct": true},
+              {"texte": "d. boring", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "It's cold outside. You should ________ your coat?",
+            "choix": [
+              {"texte": "a. take in", "est_correct": false},
+              {"texte": "b. put off", "est_correct": false},
+              {"texte": "c. put on", "est_correct": true},
+              {"texte": "d. take off", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "This is the best tea I've ________ tasted.",
+            "choix": [
+              {"texte": "a. Never", "est_correct": false},
+              {"texte": "b. ever", "est_correct": true},
+              {"texte": "c. already", "est_correct": false},
+              {"texte": "d. still", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "He hasn't played since he ________ the accident",
+            "choix": [
+              {"texte": "a. Had", "est_correct": true},
+              {"texte": "b. has had", "est_correct": false},
+              {"texte": "c. has", "est_correct": false},
+              {"texte": "d. had had", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Our manager wants ________ to his office right now.",
+            "choix": [
+              {"texte": "a. that you come", "est_correct": false},
+              {"texte": "b. you come to", "est_correct": false},
+              {"texte": "c. you come", "est_correct": false},
+              {"texte": "d. you to come", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "This table ________ of wood.",
+            "choix": [
+              {"texte": "a. is making", "est_correct": false},
+              {"texte": "b. is maked", "est_correct": false},
+              {"texte": "c. made", "est_correct": false},
+              {"texte": "d. is made", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "It won't work ________ you charge the battery.",
+            "choix": [
+              {"texte": "a. Unless", "est_correct": true},
+              {"texte": "b. whereas", "est_correct": false},
+              {"texte": "c. because", "est_correct": false},
+              {"texte": "d. if", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Yesterday, I was so upset that I ________ sleep...",
+            "choix": [
+              {"texte": "a. Can", "est_correct": false},
+              {"texte": "b. can't", "est_correct": false},
+              {"texte": "c. couldn't", "est_correct": true},
+              {"texte": "d. was", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "If I had known, I ________ you!",
+            "choix": [
+              {"texte": "a. Tell", "est_correct": false},
+              {"texte": "b. would tell", "est_correct": false},
+              {"texte": "c. would have told", "est_correct": true},
+              {"texte": "d. told", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "You ________ eat healthy food if you don't want to put on weight.",
+            "choix": [
+              {"texte": "a. have", "est_correct": false},
+              {"texte": "b. must to", "est_correct": false},
+              {"texte": "c. should", "est_correct": true},
+              {"texte": "d. might", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "I ________ him for ages!",
+            "choix": [
+              {"texte": "a. See", "est_correct": false},
+              {"texte": "b. saw", "est_correct": false},
+              {"texte": "c. didn't see", "est_correct": false},
+              {"texte": "d. haven't seen", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "This man speaks a lot of --------------- languages : Chinese, Spanish, French, etc.",
+            "choix": [
+              {"texte": "a. abroad", "est_correct": false},
+              {"texte": "b. foreigner", "est_correct": false},
+              {"texte": "c. foreign", "est_correct": true},
+              {"texte": "d. stranger", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "How ________ is it from here? – Only 1 mile.",
+            "choix": [
+              {"texte": "a. long", "est_correct": false},
+              {"texte": "b. far", "est_correct": true},
+              {"texte": "c. much", "est_correct": false},
+              {"texte": "d. many", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "I ________ drink beer than wine.",
+            "choix": [
+              {"texte": "a. would like", "est_correct": false},
+              {"texte": "b. prefer", "est_correct": false},
+              {"texte": "c. like", "est_correct": false},
+              {"texte": "d. would rather", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "You can stay ________ you remain quiet.",
+            "choix": [
+              {"texte": "a. as long", "est_correct": false},
+              {"texte": "b. as long as", "est_correct": true},
+              {"texte": "c. as soon as", "est_correct": false},
+              {"texte": "d. as such", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "________ I known this was going to be so boring, I would never have come.",
+            "choix": [
+              {"texte": "a. Should", "est_correct": false},
+              {"texte": "b. Had", "est_correct": true},
+              {"texte": "c. would", "est_correct": false},
+              {"texte": "d. if", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "John : I love swimming. Peter : ________",
+            "choix": [
+              {"texte": "a. neither do I", "est_correct": false},
+              {"texte": "b. me also", "est_correct": false},
+              {"texte": "c. so do I", "est_correct": true},
+              {"texte": "d. same to me", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "I ________ to go skiing with my parents but now I go on my own.",
+            "choix": [
+              {"texte": "a. use", "est_correct": false},
+              {"texte": "b. used", "est_correct": true},
+              {"texte": "c. am used", "est_correct": false},
+              {"texte": "d. am using", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "If I could I ________ more often.",
+            "choix": [
+              {"texte": "a. Train", "est_correct": false},
+              {"texte": "b. am training", "est_correct": false},
+              {"texte": "c. would train", "est_correct": true},
+              {"texte": "d. will have trained", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 31,
+            "texte": "When I ________ rich, I'll buy a new house by the beach.",
+            "choix": [
+              {"texte": "a. Was", "est_correct": false},
+              {"texte": "b. will be", "est_correct": false},
+              {"texte": "c. am going to be", "est_correct": false},
+              {"texte": "d. am", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 32,
+            "texte": "This is my ________",
+            "choix": [
+              {"texte": "a. parent's car", "est_correct": false},
+              {"texte": "b. parents' car", "est_correct": true},
+              {"texte": "c. parents car", "est_correct": false},
+              {"texte": "d. parents's car", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 33,
+            "texte": "The gas station is 10 miles --------------- ________ .",
+            "choix": [
+              {"texte": "a. Far", "est_correct": false},
+              {"texte": "b. distance", "est_correct": false},
+              {"texte": "c. long", "est_correct": false},
+              {"texte": "d. away", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 34,
+            "texte": "I'd like to ________ for the job, do you have a form for me?",
+            "choix": [
+              {"texte": "a. Postulate", "est_correct": false},
+              {"texte": "b. candidate", "est_correct": false},
+              {"texte": "c. apply", "est_correct": true},
+              {"texte": "d. write", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 35,
+            "texte": "When I came home, my husband ________ .",
+            "choix": [
+              {"texte": "a. have already cooked", "est_correct": false},
+              {"texte": "b. had already cooked", "est_correct": true},
+              {"texte": "c. has already cooked", "est_correct": false},
+              {"texte": "d. cooked already", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 36,
+            "texte": "He is ________ travelling throughout Asia.",
+            "choix": [
+              {"texte": "a. actually", "est_correct": false},
+              {"texte": "b. effectively", "est_correct": false},
+              {"texte": "c. promptly", "est_correct": false},
+              {"texte": "d. currently", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 37,
+            "texte": "It's hard to study ________ I want.",
+            "choix": [
+              {"texte": "a. as much", "est_correct": false},
+              {"texte": "b. as much than", "est_correct": false},
+              {"texte": "c. as much as", "est_correct": true},
+              {"texte": "d. as many as", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 38,
+            "texte": "This book ________ by a German writer.",
+            "choix": [
+              {"texte": "a. is write", "est_correct": false},
+              {"texte": "b. writing", "est_correct": false},
+              {"texte": "c. is writing", "est_correct": false},
+              {"texte": "d. was written", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 39,
+            "texte": "I ________ as a teacher since 2015.",
+            "choix": [
+              {"texte": "a. has worked", "est_correct": false},
+              {"texte": "b. have been working", "est_correct": true},
+              {"texte": "c. work", "est_correct": false},
+              {"texte": "d. am working", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 40,
+            "texte": "I was born on ________ 1990.",
+            "choix": [
+              {"texte": "a. the first of December", "est_correct": true},
+              {"texte": "b. the one December", "est_correct": false},
+              {"texte": "c. the first December", "est_correct": false},
+              {"texte": "d. one of December", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

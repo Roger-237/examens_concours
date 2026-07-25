@@ -1,0 +1,318 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve d'Anglais",
+        "annee": 2024,
+        "latex": false,
+        "mini_cours": "Épreuve d'anglais sous forme de QCM évaluant la grammaire, la conjugaison, l'usage des prépositions, des pronoms et le vocabulaire général.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "................................. this week? No, he's on leave.",
+            "choix": [
+              {"texte": "a. Does work Peter", "est_correct": false},
+              {"texte": "b. Does Peter work", "est_correct": false},
+              {"texte": "c. Is Peter working", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Sam has been working here ............................................................................",
+            "choix": [
+              {"texte": "a. for six months", "est_correct": true},
+              {"texte": "b. since six months", "est_correct": false},
+              {"texte": "c. six months ago", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Ann and Christelle phone................every two days.",
+            "choix": [
+              {"texte": "a. for six months", "est_correct": false},
+              {"texte": "b. since six months", "est_correct": false},
+              {"texte": "c. six months ago", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "I .................. she .................. you.",
+            "choix": [
+              {"texte": "a. think, is liking", "est_correct": false},
+              {"texte": "b. am thinking, is liking", "est_correct": false},
+              {"texte": "c. think, likes", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "You .................. worry about it!",
+            "choix": [
+              {"texte": "a. must not", "est_correct": false},
+              {"texte": "b. not must", "est_correct": false},
+              {"texte": "c. don't must", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Elizabeth is ....................................................................................................",
+            "choix": [
+              {"texte": "a. Philip's wife", "est_correct": true},
+              {"texte": "b. Wife's Philip", "est_correct": false},
+              {"texte": "c. Philip's husband", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "I didn't .................................. anything, it was too dark.",
+            "choix": [
+              {"texte": "a. saw", "est_correct": false},
+              {"texte": "b. see", "est_correct": true},
+              {"texte": "c. seen", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "I'm a student. I'm ..................................Cambridge University.",
+            "choix": [
+              {"texte": "a. to", "est_correct": false},
+              {"texte": "b. at", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Look .................................. me when I talk to you.",
+            "choix": [
+              {"texte": "a. to", "est_correct": false},
+              {"texte": "b. at", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Our English lesson is .................................. Thursday morning.",
+            "choix": [
+              {"texte": "a. on", "est_correct": true},
+              {"texte": "b. in", "est_correct": false},
+              {"texte": "c. the", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "how long .................................. she wait for your call?",
+            "choix": [
+              {"texte": "a. shall", "est_correct": false},
+              {"texte": "b. have", "est_correct": false},
+              {"texte": "c. will", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Nobody .................................. up early for fun in this world.",
+            "choix": [
+              {"texte": "a. are getting", "est_correct": false},
+              {"texte": "b. is getting", "est_correct": false},
+              {"texte": "c. gets", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Can you explain why water always .................................. downhill?",
+            "choix": [
+              {"texte": "a. runs", "est_correct": true},
+              {"texte": "b. running", "est_correct": false},
+              {"texte": "c. is running", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "This gift isn't for us. It's ............................................................................",
+            "choix": [
+              {"texte": "a. their", "est_correct": false},
+              {"texte": "b. them", "est_correct": false},
+              {"texte": "c. theirs", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "I can't talk to you now. I haven't got .................................. time. I'm sorry!",
+            "choix": [
+              {"texte": "a. any", "est_correct": true},
+              {"texte": "b. some", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Both John and his twin .................................. planning to attend the reunion.",
+            "choix": [
+              {"texte": "a. is", "est_correct": false},
+              {"texte": "b. are", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Seventy-five dollars .................... too much to spend on that dress.",
+            "choix": [
+              {"texte": "a. Is", "est_correct": true},
+              {"texte": "b. Are", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Jason wanted to do the assignment........................................",
+            "choix": [
+              {"texte": "a. hisself", "est_correct": false},
+              {"texte": "b. himself", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Just between you and ...................., I think most celebrities are unhappy.",
+            "choix": [
+              {"texte": "a. i", "est_correct": false},
+              {"texte": "b. me", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "The mayor asked Alice and .................... to plan the annual craft show.",
+            "choix": [
+              {"texte": "a. she", "est_correct": false},
+              {"texte": "b. her", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "Where .................................... in Libreville?",
+            "choix": [
+              {"texte": "a. are you born", "est_correct": false},
+              {"texte": "b. were you born", "est_correct": true},
+              {"texte": "c. have you been born", "est_correct": false},
+              {"texte": "d. did you born", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "How long .................................... English?",
+            "choix": [
+              {"texte": "a. have you been learning", "est_correct": true},
+              {"texte": "b. are you been learning", "est_correct": false},
+              {"texte": "c. do you learn", "est_correct": false},
+              {"texte": "d. were you learning", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "What .................................... to you last night?",
+            "choix": [
+              {"texte": "a. has happened", "est_correct": false},
+              {"texte": "b. happened", "est_correct": true},
+              {"texte": "c. was happened", "est_correct": false},
+              {"texte": "d. was happening", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "where did you .................................. on holidays last year?",
+            "choix": [
+              {"texte": "a. went", "est_correct": false},
+              {"texte": "b. go", "est_correct": true},
+              {"texte": "c. goes", "est_correct": false},
+              {"texte": "d. gone", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": ".................................. people have never seen a ghost in their life.",
+            "choix": [
+              {"texte": "a. most of", "est_correct": false},
+              {"texte": "b. most", "est_correct": true},
+              {"texte": "c. the most", "est_correct": false},
+              {"texte": "d. the most of", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "did the company test the equipment yesterday? Yet it ..................................",
+            "choix": [
+              {"texte": "a. has tested", "est_correct": false},
+              {"texte": "b. had been testing", "est_correct": false},
+              {"texte": "c. had tested", "est_correct": false},
+              {"texte": "d. was tested", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "I .................................. working all afternoon and have just finished.",
+            "choix": [
+              {"texte": "a. have been", "est_correct": true},
+              {"texte": "b. had been", "est_correct": false},
+              {"texte": "c. shall be", "est_correct": false},
+              {"texte": "d. am", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "neither of the paintings .................................. sold.",
+            "choix": [
+              {"texte": "a. have been sold", "est_correct": false},
+              {"texte": "b. were", "est_correct": false},
+              {"texte": "c. are", "est_correct": false},
+              {"texte": "d. was", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "the capital city of the United States is ..................................",
+            "choix": [
+              {"texte": "a. Washington state", "est_correct": false},
+              {"texte": "b. Los Angeles", "est_correct": false},
+              {"texte": "c. Washington DC", "est_correct": true},
+              {"texte": "d. New York", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Haven't you finished ..................................?",
+            "choix": [
+              {"texte": "a. already", "est_correct": false},
+              {"texte": "b. still", "est_correct": false},
+              {"texte": "c. yet", "est_correct": true},
+              {"texte": "d. ever", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

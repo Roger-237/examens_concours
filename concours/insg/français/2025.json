@@ -1,0 +1,346 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve de Français",
+        "annee": 2025,
+        "latex": false,
+        "mini_cours": "Épreuve de français sous forme de QCM évaluant les connaissances en grammaire, orthographe, conjugaison, vocabulaire, expressions idiomatiques et analyse syntaxique.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Dans la phrase : « Nous parlons de nos projets. », « de nos projets » est :",
+            "choix": [
+              {"texte": "a. COD", "est_correct": false},
+              {"texte": "b. Complément du nom", "est_correct": false},
+              {"texte": "c. COI", "est_correct": true},
+              {"texte": "d. Attribut", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Quel mot contient une faute",
+            "choix": [
+              {"texte": "a. Automobile", "est_correct": false},
+              {"texte": "b. Embouteillage", "est_correct": false},
+              {"texte": "c. Innutile", "est_correct": true},
+              {"texte": "d. Habitation", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Que signifie le suffixe -ard dans le mot « chauffard » :",
+            "choix": [
+              {"texte": "a. Action de...", "est_correct": false},
+              {"texte": "b. Diminutif de...", "est_correct": false},
+              {"texte": "c. Péjoratif.", "est_correct": true},
+              {"texte": "d. Qualité.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Dans la phrase : « ils furent arrêté par la police. », le verbe est à quelle voix?",
+            "choix": [
+              {"texte": "a. Active", "est_correct": false},
+              {"texte": "b. Passive", "est_correct": true},
+              {"texte": "c. Pronominale", "est_correct": false},
+              {"texte": "d. Réfléchie", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Laquelle de ces phrases présente une erreur?",
+            "choix": [
+              {"texte": "a. L'actrice personnifie la douceur et l'intelligence mêmes dans le rôle qu'elle incarne.", "est_correct": false},
+              {"texte": "b. La salle était à demie vide, malgré les nombreuses invitations envoyées", "est_correct": true},
+              {"texte": "c. Les tout récents changements apportés à la salle en ont amélioré l'acoustique", "est_correct": false},
+              {"texte": "d. Quelque chers que soient les billets, la salle de spectacle se remplit chaque soir", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "À quel mode est conjugué le verbe dans : « Que tu réussisses! »?",
+            "choix": [
+              {"texte": "a. Indicatif", "est_correct": false},
+              {"texte": "b. Subjonctif", "est_correct": true},
+              {"texte": "c. Impératif", "est_correct": false},
+              {"texte": "d. Conditionnel", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Dans la phrase : « Pierre et Marie sont partis. », quel est le sujet du verbe?",
+            "choix": [
+              {"texte": "a. Pierre", "est_correct": false},
+              {"texte": "b. Marie", "est_correct": false},
+              {"texte": "c. Pierre et Marie", "est_correct": true},
+              {"texte": "d. partis", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Laquelle de ces phrases présente-elle une faute?",
+            "choix": [
+              {"texte": "a. François et Stéphanie se sont téléphonés pour fixer un lieu de rendez-vous", "est_correct": true},
+              {"texte": "b. L'exposition des artistes régionaux aura été annulée en raison de la pluie", "est_correct": false},
+              {"texte": "c. Les artistes que j'ai vus peindre en direct avaient des styles variés", "est_correct": false},
+              {"texte": "d. Tous les artistes présents, excepté ces deux peintres, étaient des amateurs", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Que signifie l'expression « Pierre d'achoppement » :",
+            "choix": [
+              {"texte": "a. Élément qui favorise la réussite", "est_correct": false},
+              {"texte": "b. Moyen de contourner les difficultés", "est_correct": false},
+              {"texte": "c. Obstacle à la réussite", "est_correct": true},
+              {"texte": "d. Une des étapes de la réussite", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Choisissez parmi les quatre explications proposées, celle qui justifie l'emploi de la ponctuation dans la phrase suivante : « Ce jeune propriétaire de ferme, pour que son entreprise soit écologique, a fait installer un système d'épuration des eaux usées aux limites de sa terre »",
+            "choix": [
+              {"texte": "a. Des virgules sont utilisées pour encadrer la subordonnée circonstancielle pour que son entreprise soit écologique", "est_correct": true},
+              {"texte": "b. Des virgules sont utilisées pour encadrer la subordonnée complétive pour que son entreprise soit écologique", "est_correct": false},
+              {"texte": "c. Des virgules sont utilisées pour encadrer la subordonnée relative déterminative pour que son entreprise soit écologique", "est_correct": false},
+              {"texte": "d. Des virgules sont utilisées pour encadrer la subordonnée relative explicative pour que son entreprise soit écologique", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Quel est le futur du verbe « aller » à la 3ème personne du singulier :",
+            "choix": [
+              {"texte": "a. irait", "est_correct": false},
+              {"texte": "b. allait", "est_correct": false},
+              {"texte": "c. ira", "est_correct": true},
+              {"texte": "d. allera", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Complète : « Tu (venir) me voir hier. »",
+            "choix": [
+              {"texte": "a. viens", "est_correct": false},
+              {"texte": "b. viendras", "est_correct": false},
+              {"texte": "c. es venu", "est_correct": true},
+              {"texte": "d. venais", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Que signifie l'expression « Défrayer la chronique » ?",
+            "choix": [
+              {"texte": "a. Faire parler de soi en bien", "est_correct": false},
+              {"texte": "b. Faire parler de soi en mal", "est_correct": true},
+              {"texte": "c. Payer son abonnement au journal", "est_correct": false},
+              {"texte": "d. Rédiger une chronique dans un journal", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Choisissez parmi les quatre explications proposées, celle qui justifie l'emploi du mot souligné dans la phrase suivante : « Le mets turc dont tu m'avais donné la recette a beaucoup plu à mes convives »",
+            "choix": [
+              {"texte": "a. On utilise le pronom relatif « dont » parce qu'il est complément du nom mets", "est_correct": false},
+              {"texte": "b. On utilise le pronom relatif « dont » parce qu'il est complément du nom recette", "est_correct": true},
+              {"texte": "c. On utilise le pronom relatif « dont » parce qu'il est complément d'objet indirect du verbe avais donné", "est_correct": false},
+              {"texte": "d. On utilise le pronom relatif « dont » parce que son antécédent est complément d'objet indirect du verbe a plu", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Dans quelle phrase le mot ou le groupe de mots présente-t-il une erreur",
+            "choix": [
+              {"texte": "a. Ces détenus vont recouvrir leur liberté dans quelques jours", "est_correct": true},
+              {"texte": "b. L'avocate considère à juste titre que la sentence prononcée n'est pas assez sévère", "est_correct": false},
+              {"texte": "c. Plusieurs témoignages ont disculpé le prétendu complice de l'accusé", "est_correct": false},
+              {"texte": "d. Une nouvelle avocate a dû remplacer l'avocat de la défense au pied levé", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Que signifie le préfixe anté- dans le mot « antécédent » ?",
+            "choix": [
+              {"texte": "a. Ancien", "est_correct": false},
+              {"texte": "b. Autre", "est_correct": false},
+              {"texte": "c. Avant", "est_correct": true},
+              {"texte": "d. Opposé", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Que signifie l'expression « Se faire l'avocat du diable » ?",
+            "choix": [
+              {"texte": "a. Critiquer le point de vue de quelqu'un avec énergie", "est_correct": false},
+              {"texte": "b. Défendre un point de vue complètement opposé à celui de quelqu'un d'autre", "est_correct": true},
+              {"texte": "c. Déranger un auditoire avec des plaisanteries complètement déplacées", "est_correct": false},
+              {"texte": "d. Présenter le point de vue que pourrait avoir un criminel.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Quel est le pluriel de « bal » ?",
+            "choix": [
+              {"texte": "a. baux", "est_correct": false},
+              {"texte": "b. balses", "est_correct": false},
+              {"texte": "c. bals", "est_correct": true},
+              {"texte": "d. balles", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Quel est le temps du verbe dans la phrase : « Nous aurions aimé te voir »",
+            "choix": [
+              {"texte": "a. Imparfait", "est_correct": false},
+              {"texte": "b. Futur antérieur", "est_correct": false},
+              {"texte": "c. Conditionnel passé", "est_correct": true},
+              {"texte": "d. Passé simple", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Choisissez, parmi les quatre explications proposées, celle qui justifie l'emploi ou l'accord du mot souligné, dans la phrase suivante : « Exigeant un travail impeccable, il a félicité son employé pour son dépliant publicitaire sans erreurs ».",
+            "choix": [
+              {"texte": "a. Le mot exigeant est un adjectif verbal et s'accorde en genre et en nombre avec le pronom qu'il qualifie, « il ».", "est_correct": false},
+              {"texte": "b. Le mot exigeant est un adjectif verbal et s'accorde en genre et en nombre avec le nom qu'il qualifie, « employé »", "est_correct": false},
+              {"texte": "c. Le mot exigeant est un participe présent et s'accorde en genre et en nombre avec son sujet, « il »", "est_correct": false},
+              {"texte": "d. Le mot exigeant est un participe présent et reste invariable", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "Des quatre phrases suivantes, laquelle présente-elle une faute ?",
+            "choix": [
+              {"texte": "a. Guillaume éteint toujours soigneusement son feu de camp avant de partir", "est_correct": false},
+              {"texte": "b. Il est possible que tu lui aies donné la mauvaise direction", "est_correct": false},
+              {"texte": "c. Si le centre de loisir n'était pas si loin, nous nous y rendrions à pied", "est_correct": true},
+              {"texte": "d. Les samedis matin, Élise rejoint ses compagnons de marche dans le parc", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Quel est le participe présent du verbe « lire » ?",
+            "choix": [
+              {"texte": "a. lire", "est_correct": false},
+              {"texte": "b. lisant", "est_correct": true},
+              {"texte": "c. lissant", "est_correct": false},
+              {"texte": "d. lu", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Quelle est la bonne orthographe ?",
+            "choix": [
+              {"texte": "a. Inonder", "est_correct": true},
+              {"texte": "b. Innonder", "est_correct": false},
+              {"texte": "c. Inondé", "est_correct": false},
+              {"texte": "d. Innondé", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Quel est le complément d'objet direct dans la phrase : « j'ai acheté un livre » ?",
+            "choix": [
+              {"texte": "a. J'", "est_correct": false},
+              {"texte": "b. acheté", "est_correct": false},
+              {"texte": "c. un livre.", "est_correct": true},
+              {"texte": "d. ai", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Quel est le pluriel de « un cheval »?",
+            "choix": [
+              {"texte": "a. Chevals", "est_correct": false},
+              {"texte": "b. Chevaux", "est_correct": true},
+              {"texte": "c. Chevales", "est_correct": false},
+              {"texte": "d. Chevaus", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Quelle phrase est correctement orthographiée ......",
+            "choix": [
+              {"texte": "a. Ils se sont aperçus de leur erreur", "est_correct": true},
+              {"texte": "b. Ils se sont aperçu de leur erreur", "est_correct": false},
+              {"texte": "c. Ils se sont aperçus de leur erreur", "est_correct": true},
+              {"texte": "d. Ils ce sont aperçus de leur erreur", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Des quatre phrases suivantes, laquelle présente-elle une faute ?",
+            "choix": [
+              {"texte": "a. Les élèves de sa classe, elle les a fait chanter au spectacle de fin d'année", "est_correct": true},
+              {"texte": "b. Les parents ont fourni les cinq dollars qu'a couté la tenue de scène de leur enfant", "est_correct": false},
+              {"texte": "c. Les paroles de la chanson que cet élève aime tant, les lui as-tu enseigné ?", "est_correct": false},
+              {"texte": "d. Nous aurions voulu interpréter plus de chansons au spectacle de fin d'année", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Parmi les quatre explications proposées, choisissez celle qui justifie l'emploi ou l'accord du mot souligné, dans la phrase suivante : « Les chercheurs expérimenteront leur nouveau traitement en laboratoire le mois prochain »",
+            "choix": [
+              {"texte": "a. Le mot « leur » est ici un déterminant possessif et s'accorde en genre et en nombre avec l'adjectif qu'il introduit, nouveau", "est_correct": false},
+              {"texte": "b. Le mot « leur » est ici un déterminant possessif et s'accorde en genre et en nombre avec le nom qu'il introduit, traitement", "est_correct": true},
+              {"texte": "c. Le mot « leur » est ici un pronom personnel complément direct du verbe expérimenteront et est du même genre et du même nombre que le nom qu'il remplace, traitement", "est_correct": false},
+              {"texte": "d. Le mot « leur » est ici un pronom possessif et est du même genre et du même nombre que le nom qu'il remplace, traitement", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Une des quatre phrases comporte une erreur de syntaxe. Laquelle? (Cette erreur peut porter, entre autres, sur l'emploi des pronoms, de la préposition, des modes et des temps ainsi que la négation).",
+            "choix": [
+              {"texte": "a. Ce traiteur fournit les ustensiles que vous aurez besoin pour votre repas de fête", "est_correct": true},
+              {"texte": "b. Leurs anecdotes de voyage, ils vous en font encore le récit quand vous les rencontrez", "est_correct": false},
+              {"texte": "c. Vous espérez que vous n'avez rien oublié, car vous voulez que la fête soit réussie", "est_correct": false},
+              {"texte": "d. Vous vous fiez toujours à ce traiteur pour que vos réceptions soient réussies", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Que signifie l'expression « Être aux abois » ?",
+            "choix": [
+              {"texte": "a. Chercher à se justifier", "est_correct": false},
+              {"texte": "b. Être dans une situation désespérée", "est_correct": true},
+              {"texte": "c. Être plus prudent dorénavant", "est_correct": false},
+              {"texte": "d. S'en prendre verbalement à quelqu'un en haussant le ton", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

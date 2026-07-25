@@ -1,0 +1,346 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée INSG - Épreuve de Mathématiques",
+        "annee": 2025,
+        "latex": true,
+        "mini_cours": "Épreuve de mathématiques sous forme de QCM couvrant les calculs algébriques, les fonctions numériques (dérivées, limites, domaine de définition), le polynôme du second degré, les suites, les logarithmes, les exponentielles, les vecteurs et les probabilités.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "La somme $\\frac{1}{2} + \\frac{1}{5}$ est égale à :",
+            "choix": [
+              {"texte": "a. $\\frac{1}{7}$", "est_correct": false},
+              {"texte": "b. $\\frac{1}{10}$", "est_correct": false},
+              {"texte": "c. $\\frac{7}{10}$", "est_correct": true},
+              {"texte": "d. Aucune de ces réponses", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Soit la fonction $f(x) = 3x^2 - 6x + 1$. La dérivée de $f$ est :",
+            "choix": [
+              {"texte": "a. $f'(x) = 3x^2 - 6$", "est_correct": false},
+              {"texte": "b. $f'(x) = 6x - 6$", "est_correct": true},
+              {"texte": "c. $f'(x) = 3x - 6$", "est_correct": false},
+              {"texte": "d. $f'(x) = 6x + 6$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Le polynôme $(2x + 4)^2 - (3x - 2)^2$ est égal à :",
+            "choix": [
+              {"texte": "a. $-5x^2 + 12$", "est_correct": false},
+              {"texte": "b. $(-x + 6)(5x - 2)$", "est_correct": false},
+              {"texte": "c. $-5x^2 + 20$", "est_correct": false},
+              {"texte": "d. $(-x + 6)(5x + 2)$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Le discriminant de l'équation $2x^2 - 4x + 3 = 0$ est :",
+            "choix": [
+              {"texte": "a. $\\Delta = 4$", "est_correct": false},
+              {"texte": "b. $\\Delta = -8$", "est_correct": true},
+              {"texte": "c. $\\Delta = 16$", "est_correct": false},
+              {"texte": "d. $\\Delta = -4$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Soit $P(x) = (x^2 + x + 1)(x - 1)$ et $x$ réel,",
+            "choix": [
+              {"texte": "a. Le polynôme $P$ n'a pas de racine", "est_correct": false},
+              {"texte": "b. Le polynôme $P$ admet une unique racine", "est_correct": true},
+              {"texte": "c. Le polynôme $P$ a exactement deux racines", "est_correct": false},
+              {"texte": "d. Le polynôme $P$ a exactement trois racines", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "La suite $u_n = 5n + 2$ est :",
+            "choix": [
+              {"texte": "a. Arithmétique de raison $5$", "est_correct": true},
+              {"texte": "b. Géométrique de raison $5$", "est_correct": false},
+              {"texte": "c. Arithmétique de raison $2$", "est_correct": false},
+              {"texte": "d. Constante", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Les solutions de l'équation $2x + 3 = -\\frac{4}{x}$ sont :",
+            "choix": [
+              {"texte": "a. Aucune solution", "est_correct": true},
+              {"texte": "b. $x = -1$ et $x = 3$", "est_correct": false},
+              {"texte": "c. $x = -12$ et $x = 6$", "est_correct": false},
+              {"texte": "d. $x = -24$ et $x = 12$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Soit $f(x) = \\ln(x)$. Le domaine de définition de $f$ est :",
+            "choix": [
+              {"texte": "a. $\\mathbb{R}$", "est_correct": false},
+              {"texte": "b. $\\mathbb{R}^+$", "est_correct": false},
+              {"texte": "c. $\\mathbb{R}^{+*}$", "est_correct": false},
+              {"texte": "d. $]0 ; +\\infty[$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Pour quelle(s) valeur(s) de $m$ l'équation $x^2 + mx + m = 0$ admet-elle une unique solution ?",
+            "choix": [
+              {"texte": "a. Pour $m = 2$", "est_correct": false},
+              {"texte": "b. Pour $m = 0$ et $m = 4$", "est_correct": true},
+              {"texte": "c. Pour $m = 0$ et $m = -4$", "est_correct": false},
+              {"texte": "d. Pour aucune valeur de $m$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Le produit scalaire de deux vecteurs $u$ et $v$ est nul lorsque :",
+            "choix": [
+              {"texte": "a. Ils ont la même direction", "est_correct": false},
+              {"texte": "b. Ils sont parallèles", "est_correct": false},
+              {"texte": "c. Ils sont orthogonaux", "est_correct": true},
+              {"texte": "d. Ils ont le même sens", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Le domaine de définition $D_f$ de la fonction définie par $f(x) = \\ln(1-x)$ est égal à :",
+            "choix": [
+              {"texte": "a. $\\mathbb{R}$", "est_correct": false},
+              {"texte": "b. $]1 ; +\\infty[$", "est_correct": false},
+              {"texte": "c. $]-\\infty ; 1[$", "est_correct": true},
+              {"texte": "d. $[1 ; +\\infty[$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Une équation de la forme $ax + by + c = 0$ représente :",
+            "choix": [
+              {"texte": "a. Un cercle", "est_correct": false},
+              {"texte": "b. Une parabole", "est_correct": false},
+              {"texte": "c. Une droite", "est_correct": true},
+              {"texte": "d. Une hyperbole", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "La $\\lim_{x \\to 1^+} \\left(\\frac{5x-1}{x-1}\\right)$ est égale à :",
+            "choix": [
+              {"texte": "a. $+\\infty$", "est_correct": true},
+              {"texte": "b. $5$", "est_correct": false},
+              {"texte": "c. $0$", "est_correct": false},
+              {"texte": "d. $-\\infty$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Une fonction est strictement croissante sur un intervalle si :",
+            "choix": [
+              {"texte": "a. Sa dérivée est négative", "est_correct": false},
+              {"texte": "b. Sa dérivée est positive", "est_correct": true},
+              {"texte": "c. Sa dérivée est nulle", "est_correct": false},
+              {"texte": "d. Elle est constante", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "$\\exp(0)$ est égale à :",
+            "choix": [
+              {"texte": "a. $0$", "est_correct": false},
+              {"texte": "b. $1$", "est_correct": true},
+              {"texte": "c. $e$", "est_correct": false},
+              {"texte": "d. N'existe pas", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "$\\ln\\left(\\frac{1}{e}\\right)$ est égale à :",
+            "choix": [
+              {"texte": "a. $-1$", "est_correct": true},
+              {"texte": "b. $0$", "est_correct": false},
+              {"texte": "c. $1$", "est_correct": false},
+              {"texte": "d. $-e$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Si deux événements sont indépendants, alors :",
+            "choix": [
+              {"texte": "a. $P(A \\cap B) = P(A) + P(B)$", "est_correct": false},
+              {"texte": "b. $P(A \\cap B) = P(A) \\times P(B)$", "est_correct": true},
+              {"texte": "c. $P(A \\cap B) = 0$", "est_correct": false},
+              {"texte": "d. $P(A \\cup B) = 1$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "La fonction $f(x) = x^3 - 3x + 1$ admet :",
+            "choix": [
+              {"texte": "a. Un seul extremum", "est_correct": false},
+              {"texte": "b. Deux extrema", "est_correct": true},
+              {"texte": "c. Trois extrema", "est_correct": false},
+              {"texte": "d. Aucun extremum", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "$\\ln(x^2)$ est égal à :",
+            "choix": [
+              {"texte": "a. $[\\ln(x)]^2$", "est_correct": false},
+              {"texte": "b. $2\\ln(x)$", "est_correct": false},
+              {"texte": "c. $x\\ln(2)$", "est_correct": false},
+              {"texte": "d. $2\\ln|x|$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Parmi les propositions suivantes, quelles sont celles qui sont correctes ?",
+            "choix": [
+              {"texte": "a. $e^{xy} = e^x + e^y$", "est_correct": false},
+              {"texte": "b. $e^{x+y} = e^x \\cdot e^y$", "est_correct": true},
+              {"texte": "c. $\\ln(ab) = \\ln(a) \\cdot \\ln(b)$", "est_correct": false},
+              {"texte": "d. $\\ln(a/b) = \\ln(a) - \\ln(b)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "La probabilité d'obtenir un $6$ en lançant un dé équilibré est :",
+            "choix": [
+              {"texte": "a. $1/6$", "est_correct": true},
+              {"texte": "b. $1/2$", "est_correct": false},
+              {"texte": "c. $1/3$", "est_correct": false},
+              {"texte": "d. $1/4$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Quelle est la dérivée de la fonction $g(x) = \\ln(x^2 + 1)$ ?",
+            "choix": [
+              {"texte": "a. $2x / (x^2 + 1)$", "est_correct": true},
+              {"texte": "b. $1 / (x^2 + 1)$", "est_correct": false},
+              {"texte": "c. $2 / (x^2 + 1)$", "est_correct": false},
+              {"texte": "d. $2 \\times \\ln(x^2 + 1)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Pour tous réels non nuls $a, b, c, d$, on a :",
+            "choix": [
+              {"texte": "a. Si $a < b$ alors $a^2 < b^2$", "est_correct": false},
+              {"texte": "b. Si $a < b$ et $c < d$ alors $ac < bd$", "est_correct": false},
+              {"texte": "c. Si $a > b$ alors $a^3 > b^3$", "est_correct": true},
+              {"texte": "d. Si $a < b$ et $c < d$ alors $a/c < b/d$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Cet énoncé concerne les questions #24 à #27.\n$\\Omega$ désigne l'univers d'une expérience aléatoire $E$ et $P$ désigne la probabilité sur $\\Omega$.\n$A$ et $B$ sont deux événements de probabilités respectives $0,6$ et $0,4$.\nOn suppose, de plus, que $P(A \\cup B) = 0,8$.\n\nQuestion #24 : la probabilité de $P(A \\cap B)$ est égale à :",
+            "choix": [
+              {"texte": "a. $0,24$", "est_correct": false},
+              {"texte": "b. $0,34$", "est_correct": false},
+              {"texte": "c. $0,2$", "est_correct": true},
+              {"texte": "d. Aucune de ces réponses", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Même énoncé que la question #24 : Si $A$ et $B$ sont des événements :",
+            "choix": [
+              {"texte": "a. Contraintes", "est_correct": false},
+              {"texte": "b. Incompatibles", "est_correct": false},
+              {"texte": "c. Complémentaires", "est_correct": false},
+              {"texte": "d. Aucune des réponses", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Même énoncé que la question #24 : si $A$ et $B$ sont des événements :",
+            "choix": [
+              {"texte": "a. Indépendants", "est_correct": false},
+              {"texte": "b. Disjoints", "est_correct": false},
+              {"texte": "c. Opposés", "est_correct": false},
+              {"texte": "d. Aucune des réponses", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Même énoncé que la question #24 : si $A$ et $B$ sont des événements :",
+            "choix": [
+              {"texte": "a. $a = 0$", "est_correct": false},
+              {"texte": "b. $c = 0$", "est_correct": false},
+              {"texte": "c. $a \\neq 0$", "est_correct": false},
+              {"texte": "d. Aucune des réponses", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "La forme factorisée de $x^2 - 5x + 6$ est :",
+            "choix": [
+              {"texte": "a. $(x - 2)(x - 3)$", "est_correct": true},
+              {"texte": "b. $(x + 2)(x + 3)$", "est_correct": false},
+              {"texte": "c. $(x - 1)(x - 6)$", "est_correct": false},
+              {"texte": "d. $(x - 3)(x + 2)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Pour une fonction $f$ strictement croissante sur un intervalle, sa dérivée :",
+            "choix": [
+              {"texte": "a. Est toujours positive", "est_correct": false},
+              {"texte": "b. Est toujours négative", "est_correct": false},
+              {"texte": "c. Peut-être nulle ou positive", "est_correct": true},
+              {"texte": "d. Peut-être nulle ou négative", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Une équation de la forme $ax^2 + bx + c = 0$ existe si et seulement si :",
+            "choix": [
+              {"texte": "a. $a = 0$", "est_correct": false},
+              {"texte": "b. $c = 0$", "est_correct": false},
+              {"texte": "c. $a \\neq 0$", "est_correct": true},
+              {"texte": "d. Aucune de ces réponses", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

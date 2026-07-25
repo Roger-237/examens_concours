@@ -1,0 +1,335 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve d'Anglais",
+        "annee": 2025,
+        "latex": false,
+        "mini_cours": "Épreuve d'anglais sous forme de QCM comprenant des questions de grammaire, de conjugaison, de vocabulaire, de recherche d'erreurs et de prépositions.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Choose the correct answer:\nI believe that .................................................................................. can be very hurtful.",
+            "choix": [
+              {"texte": "a. Critical", "est_correct": false},
+              {"texte": "b. Criticism", "est_correct": true},
+              {"texte": "c. Critic", "est_correct": false},
+              {"texte": "d. Criticize", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Choose the correct answer:\nI usually wake up .................................. 7 a.m.",
+            "choix": [
+              {"texte": "a. In", "est_correct": false},
+              {"texte": "b. At", "est_correct": true},
+              {"texte": "c. On", "est_correct": false},
+              {"texte": "d. To", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Find the mistake\nMr. Smith, who is one of the most well liked worker in the company, is retiring at the end of the month.",
+            "choix": [
+              {"texte": "a. Who", "est_correct": false},
+              {"texte": "b. The most", "est_correct": false},
+              {"texte": "c. Worker", "est_correct": true},
+              {"texte": "d. At the end of the", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Choose the correct answer:\nThe meeting is scheduled .................................. next Wednesday.",
+            "choix": [
+              {"texte": "a. In", "est_correct": false},
+              {"texte": "b. On", "est_correct": false},
+              {"texte": "c. At", "est_correct": false},
+              {"texte": "d. From", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "U.N.E.S.C.O. stands for: ............................................................................",
+            "choix": [
+              {"texte": "a. Union nation of education, science and culture organization", "est_correct": false},
+              {"texte": "b. Unified notification of economy service organization", "est_correct": false},
+              {"texte": "c. United nations educational, scientific and cultural organization", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "NDONG is a friend of ............................................................................",
+            "choix": [
+              {"texte": "a. Mine", "est_correct": true},
+              {"texte": "b. Me", "est_correct": false},
+              {"texte": "c. Myself", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Choose the correct answer:\nIt has been a long time .................................................................. I read such a good book.",
+            "choix": [
+              {"texte": "a. For", "est_correct": false},
+              {"texte": "b. Since", "est_correct": true},
+              {"texte": "c. Ago", "est_correct": false},
+              {"texte": "d. During", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Choose the correct answer:\nThe shop is .................................. the corner.",
+            "choix": [
+              {"texte": "a. On", "est_correct": true},
+              {"texte": "b. In", "est_correct": false},
+              {"texte": "c. At", "est_correct": false},
+              {"texte": "d. To", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "MBOUMBA will enter INSG as soon as he .................................. his examen.",
+            "choix": [
+              {"texte": "a. Will pass", "est_correct": false},
+              {"texte": "b. Passes", "est_correct": true},
+              {"texte": "c. Has passed", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Where .................................. in Libreville?",
+            "choix": [
+              {"texte": "a. Are you born", "est_correct": false},
+              {"texte": "b. Were you born", "est_correct": true},
+              {"texte": "c. Did you born", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Choose the correct answer:\nThis factory produces .................................................................. units per month.",
+            "choix": [
+              {"texte": "a. Twenty-five millions of", "est_correct": false},
+              {"texte": "b. Twenty-five millions", "est_correct": false},
+              {"texte": "c. Twenty-five million of", "est_correct": false},
+              {"texte": "d. Twenty-five million", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Choose the correct answer:\nHe arrived .................................. The party late.",
+            "choix": [
+              {"texte": "a. At", "est_correct": true},
+              {"texte": "b. In", "est_correct": false},
+              {"texte": "c. On", "est_correct": false},
+              {"texte": "d. To", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "He wants to get a better .................................. And earn more money.",
+            "choix": [
+              {"texte": "a. Employ", "est_correct": false},
+              {"texte": "b. Job", "est_correct": true},
+              {"texte": "c. Work", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "choose the correct answer:\nIf the weather had been better, we .................................................................. the day in the country.",
+            "choix": [
+              {"texte": "a. Would have spend", "est_correct": false},
+              {"texte": "b. Will spend", "est_correct": false},
+              {"texte": "c. Would have spent", "est_correct": true},
+              {"texte": "d. Spent", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "The unions now represent less .................................. 10% of the French work force.",
+            "choix": [
+              {"texte": "a. Of", "est_correct": false},
+              {"texte": "b. Than", "est_correct": true},
+              {"texte": "c. Then", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Choose the correct answer:\nWhen I .................... In Paris, I .................... you.",
+            "choix": [
+              {"texte": "a. Will arrive / will call", "est_correct": false},
+              {"texte": "b. Arrive / will call", "est_correct": true},
+              {"texte": "c. Arrive / call", "est_correct": false},
+              {"texte": "d. Will arrive / call", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "A defect can be caused .................................. negligence by one of the members of the team.",
+            "choix": [
+              {"texte": "a. By", "est_correct": true},
+              {"texte": "b. To", "est_correct": false},
+              {"texte": "c. At", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Choose the correct answer:\nBecause he no longer had the necessary funds, he decided to back .................... the venture.",
+            "choix": [
+              {"texte": "a. Out of", "est_correct": true},
+              {"texte": "b. Off", "est_correct": false},
+              {"texte": "c. Down", "est_correct": false},
+              {"texte": "d. Of", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Fly Gabon is .................................................................. Than Air France.",
+            "choix": [
+              {"texte": "a. Cheapest", "est_correct": false},
+              {"texte": "b. The cheapest", "est_correct": false},
+              {"texte": "c. Cheaper", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Choose the correct answer:\nMy brother is good .................................................................. English.",
+            "choix": [
+              {"texte": "a. With", "est_correct": false},
+              {"texte": "b. On", "est_correct": false},
+              {"texte": "c. At", "est_correct": true},
+              {"texte": "d. In", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "Choose the correct answer:\nSince General OLIGUI .................... President, Gabon .................... To change.",
+            "choix": [
+              {"texte": "a. Became / has started", "est_correct": true},
+              {"texte": "b. Has become / starts", "est_correct": false},
+              {"texte": "c. become / is starting", "est_correct": false},
+              {"texte": "d. Is becoming / is changing", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Bob is not used to .................................................................. left alone.",
+            "choix": [
+              {"texte": "a. Be", "est_correct": false},
+              {"texte": "b. Being", "est_correct": true},
+              {"texte": "c. Been", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Choose the correct answer:\nIf Charles isn't willing, I will have to .................................................................. Paul to help me.",
+            "choix": [
+              {"texte": "a. Get", "est_correct": true},
+              {"texte": "b. Have", "est_correct": false},
+              {"texte": "c. Got", "est_correct": false},
+              {"texte": "d. Make", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Find the word that is closest in meaning to the underlined word\nThe managing director is toying with the idea of opening a subsidiary or a branch in China.",
+            "choix": [
+              {"texte": "a. Discussing", "est_correct": false},
+              {"texte": "b. Examining in detail", "est_correct": false},
+              {"texte": "c. Playing", "est_correct": false},
+              {"texte": "d. Considering", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Choose the correct answer\nStop disturbing the class, .................................................................. ?",
+            "choix": [
+              {"texte": "a. Do you", "est_correct": false},
+              {"texte": "b. Will you", "est_correct": true},
+              {"texte": "c. Would you", "est_correct": false},
+              {"texte": "d. Don't you", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "In 1789: ............................................................................",
+            "choix": [
+              {"texte": "a. In seventeen eighty-nine", "est_correct": true},
+              {"texte": "b. In seventeen eight nine", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Find the word that is closest in meaning to the underlined word\nThe shareholders learnt that their firm was on the brink of collapse.",
+            "choix": [
+              {"texte": "a. Near", "est_correct": false},
+              {"texte": "b. Side", "est_correct": false},
+              {"texte": "c. Peak", "est_correct": false},
+              {"texte": "d. Verge", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Choose the correct answer:\nThe library is .................................. the street.",
+            "choix": [
+              {"texte": "a. On", "est_correct": true},
+              {"texte": "b. In", "est_correct": false},
+              {"texte": "c. At", "est_correct": false},
+              {"texte": "d. Over", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Choose the correct answer:\nMy brother .................................................................. tonight.",
+            "choix": [
+              {"texte": "a. Travelling", "est_correct": false},
+              {"texte": "b. Travels", "est_correct": true},
+              {"texte": "c. To travel", "est_correct": false},
+              {"texte": "d. Had travelled", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Find the mistake.\nIt was not until the end of the war when the truth of the matter was discovered.",
+            "choix": [
+              {"texte": "a. Until", "est_correct": false},
+              {"texte": "b. When", "est_correct": true},
+              {"texte": "c. The", "est_correct": false},
+              {"texte": "d. Was discovered", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "ecole": "IST",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée IST - Épreuve de Culture Générale",
+        "annee": 2025,
+        "latex": false,
+        "mini_cours": "Épreuve de culture générale sous forme de QCM (40 questions) portant sur l'histoire, la géographie, la politique du Gabon et de l'Afrique, la littérature, la langue française et la logique générale.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "L'hymne national du Gabon, la « Concorde », a été composé par",
+            "choix": [
+              {"texte": "A. Georges Damas Aleka", "est_correct": true},
+              {"texte": "B. Claude Damas Ozimo", "est_correct": false},
+              {"texte": "C. Léon Mba", "est_correct": false},
+              {"texte": "D. Paul-Marie Yembit", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Quel peuple de la liste suivante n'est pas autochtone de Libreville ?",
+            "choix": [
+              {"texte": "A. Les Mpongwé", "est_correct": false},
+              {"texte": "B. Les Akélé", "est_correct": false},
+              {"texte": "C. Les Sékiani", "est_correct": false},
+              {"texte": "D. Les Pové", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "L'Almamy Samory Touré, né en Guinée Conakry, est mort en 1900 à",
+            "choix": [
+              {"texte": "A. Miniambaladougou", "est_correct": false},
+              {"texte": "B. Ndjolé", "est_correct": true},
+              {"texte": "C. Dakar", "est_correct": false},
+              {"texte": "D. Tombouctou", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Le capitaine Charles Ntschoréré est mort en France le 7 juin",
+            "choix": [
+              {"texte": "A. 1914", "est_correct": false},
+              {"texte": "B. 1918", "est_correct": false},
+              {"texte": "C. 1940", "est_correct": true},
+              {"texte": "D. 1945", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Félix-Roland MOUMIÉ était un résistant panafricaniste originaire du",
+            "choix": [
+              {"texte": "A. Bénin", "est_correct": false},
+              {"texte": "B. Cameroun", "est_correct": true},
+              {"texte": "C. Tchad", "est_correct": false},
+              {"texte": "D. Congo", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Le Savant inutile est un roman de :",
+            "choix": [
+              {"texte": "A. Chantal Magali Mbazo'o", "est_correct": false},
+              {"texte": "B. Parfaite Ollame", "est_correct": false},
+              {"texte": "C. Armel Nguimbi", "est_correct": false},
+              {"texte": "D. Jean René Ovono Mendame", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "De la liste des animaux suivants, indiquez le saurien",
+            "choix": [
+              {"texte": "A. Le léopard", "est_correct": false},
+              {"texte": "B. La tortue", "est_correct": false},
+              {"texte": "C. Le lézard", "est_correct": true},
+              {"texte": "D. Le gorille", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Les pays membres de la CEMAC :",
+            "choix": [
+              {"texte": "A. Centrafrique", "est_correct": true},
+              {"texte": "B. Angola", "est_correct": false},
+              {"texte": "C. Bénin", "est_correct": false},
+              {"texte": "D. Rwanda", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Le sigle U.D.E.G. signifie",
+            "choix": [
+              {"texte": "A. Union Des Ecrivains Gabonais", "est_correct": false},
+              {"texte": "B. Union Départementale des Entrepreneurs Gabonais", "est_correct": false},
+              {"texte": "C. Union Des Etudiants Gabonais", "est_correct": true},
+              {"texte": "D. Union Des Economistes Gabonais", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Cocher la phrase correcte",
+            "choix": [
+              {"texte": "A. Mes sœurs se sont données la peine d'aider cet enfant", "est_correct": false},
+              {"texte": "B. Mes sœurs se sont donnée la peine d'aider cet enfant.", "est_correct": true},
+              {"texte": "C. Mes sœurs se sont donnés la peine d'aider cet enfant", "est_correct": false},
+              {"texte": "D. Mes sœurs se sont donné la peine d'aider cet enfant", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Quelle est la forme correcte consacrée ?",
+            "choix": [
+              {"texte": "A. Il faut que Koumba est une bonne note en mathématiques", "est_correct": false},
+              {"texte": "B. Il faut que Koumba ai une bonne note en mathématiques", "est_correct": false},
+              {"texte": "C. Il faut que Koumba ait une bonne note en mathématiques", "est_correct": true},
+              {"texte": "D. Il faut que Koumba ais une bonne note en mathématiques", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Cocher la phrase correcte",
+            "choix": [
+              {"texte": "A. Les filles se sont tapé une amende au poste de contrôle", "est_correct": true},
+              {"texte": "B. Les filles se sont tapées une amende au poste de contrôle ;", "est_correct": false},
+              {"texte": "C. Les filles se sont écrites durant les vacances", "est_correct": false},
+              {"texte": "D. Les filles se sont plues à la sortie de la scène.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Quelle est la forme consacrée ?",
+            "choix": [
+              {"texte": "A. Les automobilistes n'admettent pas que l'essence...vaut... autant", "est_correct": false},
+              {"texte": "B. Les automobilistes n'admettent pas que l'essence... Vale.... autant", "est_correct": false},
+              {"texte": "C. Les automobilistes n'admettent pas que l'essence... vaille...autant", "est_correct": true},
+              {"texte": "D. Les automobilistes n'admettent pas que l'essence... valle...autant", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Cocher la phrase correcte",
+            "choix": [
+              {"texte": "A. Les femmes se sont partagé les bijoux", "est_correct": true},
+              {"texte": "B. Les femmes se sont partagées les bijoux", "est_correct": false},
+              {"texte": "C. Les femmes se sont partagés les bijoux", "est_correct": false},
+              {"texte": "D. Les femmes se sont partager les bijoux", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Accordez correctement le participe passé :",
+            "choix": [
+              {"texte": "A. Vous avez accepté les chèques et vous les avez adressés à notre gestionnaire.", "est_correct": true},
+              {"texte": "B. Vous avez acceptés les chèques et vous les avez adressé à notre gestionnaire.", "est_correct": false},
+              {"texte": "C. Vous avez accepter les chèques et vous les avez adresser à notre gestionnaire.", "est_correct": false},
+              {"texte": "D. Vous avez acceptez les chèques et vous les avez adressez à notre gestionnaire.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Compléter l'adage « pierre qui roule... »",
+            "choix": [
+              {"texte": "A. ... tombe dans un trou", "est_correct": false},
+              {"texte": "B. ... peut faire mal", "est_correct": false},
+              {"texte": "C. ... n'amasse pas mousse", "est_correct": true},
+              {"texte": "D. ... se perd à jamais", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Compléter l'adage « qui veut aller loin... »",
+            "choix": [
+              {"texte": "A. ...se repose bien d'abord", "est_correct": false},
+              {"texte": "B. .... s'informe sur sa destination", "est_correct": false},
+              {"texte": "C. ...prépare bien son voyage", "est_correct": false},
+              {"texte": "D. ... ménage sa monture", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Compléter l'adage « qui ne dit mot... »",
+            "choix": [
+              {"texte": "A. ... comprend", "est_correct": false},
+              {"texte": "B. ... consent", "est_correct": true},
+              {"texte": "C. ... défend", "est_correct": false},
+              {"texte": "D. ... reprend", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Excluez l'intrus au langage des nouveaux médias :",
+            "choix": [
+              {"texte": "A. CQFS", "est_correct": true},
+              {"texte": "B. Intranet", "est_correct": false},
+              {"texte": "C. Spam", "est_correct": false},
+              {"texte": "D. Malwares", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Qui a dit : « En Afrique, quand un vieillard meurt, c'est toute une bibliothèque qui brûle » ?",
+            "choix": [
+              {"texte": "A. Cheikh Hamidou Kane", "est_correct": false},
+              {"texte": "B. Amadou Hampaté Bâ", "est_correct": true},
+              {"texte": "C. Sembène Ousmane", "est_correct": false},
+              {"texte": "D. Henri Lopès", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "L'un des leaders ci-après est mort assassiné le 4 avril 1968",
+            "choix": [
+              {"texte": "A. Malcom X", "est_correct": false},
+              {"texte": "B. Medgar Wiley Evers", "est_correct": false},
+              {"texte": "C. James Chaney", "est_correct": false},
+              {"texte": "D. Martin Luther King Jr", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Choisissez la définition qui convient : « Une décision arbitraire signifie » :",
+            "choix": [
+              {"texte": "A. Qui dépend du sentiment d'un seul homme", "est_correct": true},
+              {"texte": "B. Qui est prise par un arbitre", "est_correct": false},
+              {"texte": "C. Qui est mûrement réfléchi", "est_correct": false},
+              {"texte": "D. Qui suscite le volontariat", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Quelle est la forme consacrée ?",
+            "choix": [
+              {"texte": "A. La raison du plus fort est meilleure que tout", "est_correct": false},
+              {"texte": "B. La raison du plus fort est partout la meilleure", "est_correct": false},
+              {"texte": "C. La raison du plus fort est la meilleure qui soit", "est_correct": false},
+              {"texte": "D. La raison du plus fort est toujours la meilleure", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Quelle est la forme correcte ?",
+            "choix": [
+              {"texte": "A. Quelles que soient ses fonctions", "est_correct": true},
+              {"texte": "B. Quel que soient ses fonctions", "est_correct": false},
+              {"texte": "C. Quelques soient ses fonctions", "est_correct": false},
+              {"texte": "D. Quels que soient ses fonctions", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Le coup d'Etat postélectoral au Gabon a eu lieu :",
+            "choix": [
+              {"texte": "A. Le 14 juillet 2023", "est_correct": false},
+              {"texte": "B. Le 30 août 2023", "est_correct": true},
+              {"texte": "C. Le 17 août 2023", "est_correct": false},
+              {"texte": "D. Le 15 août 2023", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Le référendum constitutionnel a eu lieu",
+            "choix": [
+              {"texte": "A. Le 12 septembre 2023", "est_correct": false},
+              {"texte": "B. Le 30 octobre 2024", "est_correct": false},
+              {"texte": "C. Le 16 novembre 2024", "est_correct": true},
+              {"texte": "D. Le 15 décembre 2024", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Le « Délégué spécial » est une appellation qui désigne :",
+            "choix": [
+              {"texte": "A. Le président du Sénat", "est_correct": false},
+              {"texte": "B. Le président de l'Assemblée nationale", "est_correct": false},
+              {"texte": "C. Le maire", "est_correct": true},
+              {"texte": "D. Le conseiller municipal", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "La prochaine élection présidentielle au Cameroun est prévue le :",
+            "choix": [
+              {"texte": "A. Le 12 septembre 2025", "est_correct": false},
+              {"texte": "B. Le 12 octobre 2025", "est_correct": true},
+              {"texte": "C. Le 12 novembre 2025", "est_correct": false},
+              {"texte": "D. Le 12 décembre 2025", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "L'AES est un sigle qui signifie :",
+            "choix": [
+              {"texte": "A. Association des Etats socialistes", "est_correct": false},
+              {"texte": "B. Afrique équatoriale socialiste", "est_correct": false},
+              {"texte": "C. Alliance des Etats du Sahel", "est_correct": true},
+              {"texte": "D. Alliance économique et sociale", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Le Sarmat ou « Satan 2 » est :",
+            "choix": [
+              {"texte": "A. Le titre d'un film d'horreur", "est_correct": false},
+              {"texte": "B. Une arme nucléaire iranienne", "est_correct": false},
+              {"texte": "C. Une arme nucléaire américaine", "est_correct": false},
+              {"texte": "D. Un nouveau missile russe", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 31,
+            "texte": "La Mouche et la glu est un roman gabonais écrit par :",
+            "choix": [
+              {"texte": "A. Vincent de Paul Nyonda", "est_correct": true},
+              {"texte": "B. Honorine Ngou", "est_correct": false},
+              {"texte": "C. Maurice Okoumba Nkoghe", "est_correct": false},
+              {"texte": "D. Georges Rawiri", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 32,
+            "texte": "Le mot « Kongossa » veut dire :",
+            "choix": [
+              {"texte": "A. Sommeil", "est_correct": false},
+              {"texte": "B. Voyage", "est_correct": false},
+              {"texte": "C. Ragot", "est_correct": true},
+              {"texte": "D. Venir", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 33,
+            "texte": "Le capitaine Charles Ntschoréré est mort en 1940 :",
+            "choix": [
+              {"texte": "A. Le 10 janvier", "est_correct": false},
+              {"texte": "B. Le 17 mars", "est_correct": false},
+              {"texte": "C. Le 20 mai", "est_correct": false},
+              {"texte": "D. Le 7 juin", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 34,
+            "texte": "Que signifie l'expression : « Le vin est tiré, il faut le boire » ?",
+            "choix": [
+              {"texte": "A. Le débat est clos", "est_correct": false},
+              {"texte": "B. Il faut finir ce qu'on a commencé", "est_correct": true},
+              {"texte": "C. La situation est compromise", "est_correct": false},
+              {"texte": "D. Il n'y a plus aucun espoir", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 35,
+            "texte": "Que signifie le sigle UA ?",
+            "choix": [
+              {"texte": "A. Union Aéronautique", "est_correct": false},
+              {"texte": "B. Unité Africaine", "est_correct": false},
+              {"texte": "C. Union Africaine", "est_correct": true},
+              {"texte": "D. Unanimité Australe", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 36,
+            "texte": "Que signifie \"Mettre bas\" ?",
+            "choix": [
+              {"texte": "A. Descendre quelque chose", "est_correct": false},
+              {"texte": "B. Ramener vers le bas", "est_correct": false},
+              {"texte": "C. Descendre quelqu'un de son piédestal", "est_correct": false},
+              {"texte": "D. Accoucher (pour un animal)", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 37,
+            "texte": "Que signifie \"Être aux anges\" ?",
+            "choix": [
+              {"texte": "A. Être ravi", "est_correct": true},
+              {"texte": "B. Avoir le regard tourné au ciel", "est_correct": false},
+              {"texte": "C. Avoir l'esprit ailleurs", "est_correct": false},
+              {"texte": "D. Être subitement surpris", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 38,
+            "texte": "La Conférence nationale du Gabon a eu lieu en :",
+            "choix": [
+              {"texte": "A. 1985", "est_correct": false},
+              {"texte": "B. 1990", "est_correct": true},
+              {"texte": "C. 1995", "est_correct": false},
+              {"texte": "D. 2000", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 39,
+            "texte": "Le premier ministre issu de la Conférence nationale fut :",
+            "choix": [
+              {"texte": "A. Léon Mebiame", "est_correct": false},
+              {"texte": "B. Casimir Oyé Mba", "est_correct": true},
+              {"texte": "C. Pr Daniel Ona Ondo", "est_correct": false},
+              {"texte": "D. Paul Biyoghé Mba", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 40,
+            "texte": "Le président de la République a prêté serment au stade d'Angondje le :",
+            "choix": [
+              {"texte": "A. 10 mars 2024", "est_correct": false},
+              {"texte": "B. 20 décembre 2024", "est_correct": false},
+              {"texte": "C. 1er avril 2025", "est_correct": false},
+              {"texte": "D. 3 mai 2025", "est_correct": true}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

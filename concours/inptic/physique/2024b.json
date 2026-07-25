@@ -1,0 +1,236 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "RT",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée INPTIC - Épreuve de Physique & Électronique b",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Épreuve de physique abordant l'électrostatique, la propagation des ondes électromagnétiques et sonores, les circuits électriques en régime sinusoïdal (puissance et résonance RLC), et le mouvement de particules chargées dans des champs électromagnétiques (Loi de Lorentz).",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "On charge un condensateur, à courant constant, avec une intensité $i = 50\\text{ mA}$ pendant une durée $dt = 30\\text{ min}$ la charge $Q$ du condensateur est alors :",
+            "choix": [
+              {"texte": "a. $Q = 105\\text{ C}$", "est_correct": false},
+              {"texte": "b. $Q = 9 \\times 10^3\\text{ C}$", "est_correct": false},
+              {"texte": "c. $Q = 90\\text{ C}$", "est_correct": true},
+              {"texte": "d. $Q = 15 \\times 10^{-2}\\text{ C}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Soit deux charges $q_1 = 10^{-9}\\text{ C}$ et $q_2 = 2 \\times 10^{-7}\\text{ C}$ placées en 2 points de l'espace distants de $r = 1\\text{ mm}$. Quelle est l'intensité de la force répulsive $F$ qu'exercent l'une sur l'autre charge.",
+            "choix": [
+              {"texte": "a. $F = 18 \\cdot 10^{-2}\\text{ N}$", "est_correct": false},
+              {"texte": "b. $F = 18 \\cdot 10^{-3}\\text{ N}$", "est_correct": false},
+              {"texte": "c. $F = 18 \\cdot 10^{-4}\\text{ N}$", "est_correct": false},
+              {"texte": "d. $F = 18 \\cdot 10^{-5}\\text{ N}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Soit 2 plaques métalliques parallèles distantes de $2\\text{ cm}$, chargées sous une différence de potentiel de $5\\text{ V}$. Quelle est la valeur du champ électrique $E$ qui règne entre les plaques.",
+            "choix": [
+              {"texte": "a. $E = 2,5\\text{ kV/m}$", "est_correct": false},
+              {"texte": "b. $E = 0,25\\text{ kV/m}$", "est_correct": true},
+              {"texte": "c. $E = 25\\text{ kV/m}$", "est_correct": false},
+              {"texte": "d. $E = 250\\text{ kV/m}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Soit le transistor, un composant électronique. Quel est le rôle d'un transistor dans un circuit.",
+            "choix": [
+              {"texte": "a. Transformer le signal électrique en signal sonore", "est_correct": false},
+              {"texte": "b. Amplifier le signal", "est_correct": true},
+              {"texte": "c. Mélanger les signaux", "est_correct": false},
+              {"texte": "d. Moduler les signaux", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Soit un phénomène périodique de fréquence $8\\text{ kHz}$. Quelle est la période temporelle de ce phénomène.",
+            "choix": [
+              {"texte": "a. $T = 125\\text{ secondes}$", "est_correct": false},
+              {"texte": "b. $T = 125\\text{ millisecondes}$", "est_correct": false},
+              {"texte": "c. $T = 125\\text{ nanosecondes}$", "est_correct": false},
+              {"texte": "d. $T = 125\\text{ microsecondes}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Soit une onde électromagnétique de fréquence $9\\text{ GHz}$ se propageant dans un milieu d'indice de réfraction $n = 0,8$. Quelle est la vitesse de propagation de cette onde dans le milieu.",
+            "choix": [
+              {"texte": "a. $V = 210\\ 000\\ 000\\text{ m/s}$", "est_correct": false},
+              {"texte": "b. $V = 220\\ 000\\ 000\\text{ m/s}$", "est_correct": false},
+              {"texte": "c. $V = 230\\ 000\\ 000\\text{ m/s}$", "est_correct": false},
+              {"texte": "d. $V = 240\\ 000\\ 000\\text{ m/s}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Lors d'un orage, le temps s'écoulant entre l'éclair et le son du tonnerre est de $2\\text{ secondes}$. Quelle est la distance parcourue par la foudre.",
+            "choix": [
+              {"texte": "a. $560\\text{ m}$", "est_correct": false},
+              {"texte": "b. $680\\text{ m}$", "est_correct": true},
+              {"texte": "c. $480\\text{ m}$", "est_correct": false},
+              {"texte": "d. $760\\text{ m}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "La célérité $v$ du son dans l'air est proportionnelle à la racine carrée de la température absolue $T$. Exprimez mathématiquement cette propriété.\n*NB : Cette énoncée concerne les questions 8 et 9*",
+            "choix": [
+              {"texte": "a. $v = 1/K\\sqrt{T}$", "est_correct": false},
+              {"texte": "b. $v = -K\\sqrt{T}$", "est_correct": false},
+              {"texte": "c. $v = K\\sqrt{T}$", "est_correct": true},
+              {"texte": "d. $v = K^2\\sqrt{T}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "On donne $v = 340\\text{ m}\\cdot\\text{s}^{-1}$ pour la célérité du son dans l'air à $15^\\circ\\text{C}$. Calculez la célérité du son dans l'air à $0^\\circ\\text{C}$.",
+            "choix": [
+              {"texte": "a. $v = 331\\text{ m}\\cdot\\text{s}^{-1}$", "est_correct": true},
+              {"texte": "b. $v = 100\\text{ m}\\cdot\\text{s}^{-1}$", "est_correct": false},
+              {"texte": "c. $v = 250\\text{ m}\\cdot\\text{s}^{-1}$", "est_correct": false},
+              {"texte": "d. $v = 10\\text{ m}\\cdot\\text{s}^{-1}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "La célérité des ondes le long d'une corde élastique dépend de sa tension $F$ (en newtons N) et de sa masse linéique $\\mu$ (masse par unité de longueur, en $\\text{kg}\\cdot\\text{m}^{-1}$) : $v = \\sqrt{F/\\mu}$. Calculez la célérité $v$ pour une corde de longueur $l = 10\\text{ m}$ dont la masse est de $1,0\\text{ kg}$, tendue par une force de $2,5\\text{ N}$.",
+            "choix": [
+              {"texte": "a. $V = 15\\text{ ms}^{-1}$", "est_correct": false},
+              {"texte": "b. $V = 5\\text{ ms}^{-1}$", "est_correct": true},
+              {"texte": "c. $V = 0,5\\text{ ms}^{-1}$", "est_correct": false},
+              {"texte": "d. $V = 10,5\\text{ ms}^{-1}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Le circuit représenté sur le schéma ci-dessous est alimenté par une source de tension de force électromotrice sinusoïdale de pulsation $\\omega = 100\\pi\\text{ rad}\\cdot\\text{s}^{-1}$ et de valeur efficace $E_0 = 220\\text{ V}$. La résistance $R$ est variable et $L_0 = 1\\text{ H}$.\n\nExprimer la puissance moyenne $P$, calculée sur une période, qui est absorbée par la résistance $R$.\n*NB : Cet énoncé concerne les questions 11, 12, 13 et 14*",
+            "choix": [
+              {"texte": "a. $P = RE_0^2 / (R^2 + L_0^2 \\omega^2)$", "est_correct": true},
+              {"texte": "b. $P = RE_0^2 / (R^2 + L_1^2 \\omega^2)$", "est_correct": false},
+              {"texte": "c. $P = RE_0^2 / (L_1^2 \\omega^2 + L_0^2 \\omega^2)$", "est_correct": false},
+              {"texte": "d. $P = RC\\omega E_0^2 / \\sqrt{(R^2 + L_1^2 \\omega^2)}$", "est_correct": false}
+            ],
+            "image": "images/q11.png"
+          },
+          {
+            "ordre": 12,
+            "texte": "Calculer la valeur $R_0$ de $R$ pour laquelle la puissance $P$ est maximale.",
+            "choix": [
+              {"texte": "a. $R_0 = (L_1 + L_0)\\omega$", "est_correct": false},
+              {"texte": "b. $R_0 = L_0 / (L_1 C \\omega)$", "est_correct": false},
+              {"texte": "c. $R_0 = L_1 \\omega$", "est_correct": true},
+              {"texte": "d. $R_0 = L_1 / (L_0 C \\omega)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Calculer $L_1$ lorsque $P$ est à sa valeur maximale $P_M$ sachant que $R_0 = 12\\ \\Omega$",
+            "choix": [
+              {"texte": "a. $L_1 = 7,37 \\cdot 10^{-2}\\text{ H}$", "est_correct": false},
+              {"texte": "b. $L_1 = 3,82 \\cdot 10^{-2}\\text{ H}$", "est_correct": true},
+              {"texte": "c. $L_1 = 1,72 \\cdot 10^{-1}\\text{ H}$", "est_correct": false},
+              {"texte": "d. $L_1 = 5,15 \\cdot 10^{-1}\\text{ H}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Calculer dans ces conditions la valeur maximale $P_M$ de $P$",
+            "choix": [
+              {"texte": "a. $P_M = 2\\ 017\\text{ W}$", "est_correct": false},
+              {"texte": "b. $P_M = 4\\ 810\\text{ W}$", "est_correct": false},
+              {"texte": "c. $P_M = 7\\ 340\\text{ W}$", "est_correct": false},
+              {"texte": "d. $P_M = 987\\text{ W}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Un électron de charge $q \\approx -1,6 \\cdot 10^{-19}\\text{ C}$ et de masse $m \\approx 9,1 \\cdot 10^{-31}\\text{ kg}$, assimilé à un point matériel $M$, évolue dans le référentiel du laboratoire $\\mathcal{R}$ supposé galiléen et muni d'un repère cartésien $\\{O, \\vec{e}_x, \\vec{e}_y, \\vec{e}_z\\}$ sous l'action d'un champ électrique $\\vec{E} = E\\vec{e}_x$ et d'un champ magnétique $\\vec{B} = B\\vec{e}_x$, tous deux uniformes et stationnaires. On désigne par $x, y$ et $z$ les coordonnées cartésiennes de $M$ dans $\\mathcal{R}$ et par $\\vec{v}_0 = v_0 \\vec{e}_z$ la vitesse initiale de $M$ telle que $v_0 = 500\\text{ km}\\cdot\\text{s}^{-1}$. On place en $z_0 = 10\\text{ cm}$ un écran d'observation $P$ parallèle au plan $(O, \\vec{e}_x, \\vec{e}_y)$, destiné à intercepter $M$.\n\nDans le cas particulier où $B = 0$ et $E = 0\\text{ V}\\cdot\\text{m}^{-1}$, déterminer l'abscisse $x_e$ de $M$ sur $E$.\n*NB : cet énoncé concerne les questions 15, 16, 17, 18, 19 et 20*",
+            "choix": [
+              {"texte": "a. $x_e = 7,2\\text{ mm}$", "est_correct": false},
+              {"texte": "b. $x_e = 3,5\\text{ mm}$", "est_correct": false},
+              {"texte": "c. $x_e = -3,5\\text{ mm}$", "est_correct": false},
+              {"texte": "d. $x_e = -7\\text{ mm}$", "est_correct": true}
+            ],
+            "image": "images/q15.png"
+          },
+          {
+            "ordre": 16,
+            "texte": "Dans le cas particulier où $E = 10\\text{ V}\\cdot\\text{m}^{-1}$, et $B = 10^{-5}\\text{ T}$, la trajectoire est un cercle de rayon $R$. Calculer $R$.",
+            "choix": [
+              {"texte": "a. $R = 10,9\\text{ cm}$", "est_correct": false},
+              {"texte": "b. $R = 13,8\\text{ cm}$", "est_correct": false},
+              {"texte": "c. $R = 13,1\\text{ cm}$", "est_correct": false},
+              {"texte": "d. $R = 28,4\\text{ cm}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Que vaut alors l'abscisse $x_m$ de $M$ sur $P$ ?",
+            "choix": [
+              {"texte": "a. $x_m = 1,8\\text{ cm}$", "est_correct": false},
+              {"texte": "b. $x_m = 3,8\\text{ cm}$", "est_correct": false},
+              {"texte": "c. $x_m = -4,3\\text{ cm}$", "est_correct": true},
+              {"texte": "d. $x_m = -6,6\\text{ cm}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "En supposant $E = 1\\text{ kV}\\cdot\\text{m}^{-1}$, déterminer $B$ afin que le mouvement de $M$ soit rectiligne et uniforme.",
+            "choix": [
+              {"texte": "a. $B = 2\\text{ T}$", "est_correct": false},
+              {"texte": "b. $B = 2\\text{ mT}$", "est_correct": true},
+              {"texte": "c. $B = -4\\text{ mT}$", "est_correct": false},
+              {"texte": "d. $B = -200\\text{ mT}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Soit l'énoncé suivant :\nOn suppose $E$ et $B$ non nuls et on pose $\\omega_c = \\frac{qB}{m}$. L'équation différentielle d'évolution de l'abscisse $x$ de $M$ s'écrit sous la forme $\\frac{d^2x}{dt^2} + \\omega_c^2 x = a$, où $a$ est une constante indépendante du temps. Déterminer $a$.",
+            "choix": [
+              {"texte": "a. $a = q/m(E + Bv_0)$", "est_correct": true},
+              {"texte": "b. $a = -q/m(E + Bv_0)$", "est_correct": false},
+              {"texte": "c. $a = q/m(-E + Bv_0)$", "est_correct": false},
+              {"texte": "d. $a = q/m(E - Bv_0)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "On suppose $B = 2E/v_0$. Exprimer $x(t)$.",
+            "choix": [
+              {"texte": "a. $x(t) = -mE/qB^2 [1 + \\cos(\\omega_c t)]$", "est_correct": false},
+              {"texte": "b. $x(t) = mE/qB^2 [\\cos(\\omega_c t) - 1]$", "est_correct": false},
+              {"texte": "c. $x(t) = -mE/qB^2 [1 - \\cos(\\omega_c t)]$", "est_correct": true},
+              {"texte": "d. $x(t) = mE/qB^2 [1 + \\cos(\\omega_c t)]$", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

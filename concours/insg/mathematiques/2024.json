@@ -1,0 +1,342 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve de Mathématiques",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Épreuve de mathématiques comprenant de l'arithmétique, de l'algèbre, des résolutions de systèmes et d'équations, des calculs de limites, des dérivées, des intégrales/primitives, des logarithmes, des probabilités et des statistiques.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Je dispose d'un capital de 735 €. J'en place les $\\frac{2}{15}$ sur un compte d'épargne et j'en verse les $\\frac{3}{5}$ sur mon compte bancaire. Combien me reste-t-il ?",
+            "choix": [
+              {"texte": "a. 490 €", "est_correct": false},
+              {"texte": "b. 215 €", "est_correct": false},
+              {"texte": "c. 147 €", "est_correct": true},
+              {"texte": "d. 196 €", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Trouver la valeur de $x$ et $y$ dans le système d'équations suivant :\n$$\\begin{cases} 4x + y = 5 \\\\ x - y = 2 \\end{cases}$$",
+            "choix": [
+              {"texte": "a. $(2 ; \\frac{4}{5})$", "est_correct": false},
+              {"texte": "b. $(\\frac{5}{2} ; 2)$", "est_correct": false},
+              {"texte": "c. $(\\frac{7}{5} ; -\\frac{3}{5})$", "est_correct": true},
+              {"texte": "d. (-1 ; 5/2)", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "L'équation suivante : $4(x-3) - \\frac{3}{2}x + 7 - 4(\\frac{1}{8}x + \\frac{1}{4}) = 0$ a pour solution :",
+            "choix": [
+              {"texte": "a. $-\\frac{3}{2}$", "est_correct": false},
+              {"texte": "b. 3", "est_correct": true},
+              {"texte": "c. $\\frac{5}{2}$", "est_correct": false},
+              {"texte": "d. $\\frac{13}{2}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "$\\lim_{x \\to -\\infty} \\frac{5x^3 - 1}{x^2 + 1}$ est égale à :",
+            "choix": [
+              {"texte": "a. $+\\infty$", "est_correct": false},
+              {"texte": "b. 0", "est_correct": false},
+              {"texte": "c. 5", "est_correct": false},
+              {"texte": "d. $-\\infty$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Soit $f$ la fonction définie par $f(x) = \\frac{2e^x}{e^x + 1}$ alors :",
+            "choix": [
+              {"texte": "a. $\\forall x \\in \\mathbb{R}, f(x) = \\frac{2}{1+e^{-x}}$", "est_correct": true},
+              {"texte": "b. $\\lim_{x \\to +\\infty} f(x) = +\\infty$", "est_correct": false},
+              {"texte": "c. $\\lim_{x \\to +\\infty} f(x) = 0$", "est_correct": false},
+              {"texte": "d. $\\forall x \\in \\mathbb{R}, f'(x) < 0$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Soit $E = \\{x \\in \\mathbb{R} \\mid (x+8)^2 = 9^2\\}$. Sous quelle forme peut-on écrire l'ensemble $E$ :",
+            "choix": [
+              {"texte": "a. $E = \\{1\\}$", "est_correct": false},
+              {"texte": "b. $E = \\emptyset$", "est_correct": false},
+              {"texte": "c. $E = \\{-17\\}$", "est_correct": false},
+              {"texte": "d. $E = \\{1, -17\\}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Soit $f$ une fonction, et $\\lim_{x \\to +\\infty} f(x) = 3$, alors $(\\mathcal{C}_f)$ admet une asymptote :",
+            "choix": [
+              {"texte": "a. Verticale", "est_correct": false},
+              {"texte": "b. Horizontale", "est_correct": true},
+              {"texte": "c. Oblique", "est_correct": false},
+              {"texte": "d. Hyperbolique", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "$n$ désigne un entier naturel parmi ces écritures, laquelle est une écriture simplifiée de $\\frac{2^{2n} \\times 2}{2^{n-6}}$ :",
+            "choix": [
+              {"texte": "a. 0", "est_correct": false},
+              {"texte": "b. $2^{2n-5}$", "est_correct": false},
+              {"texte": "c. $2^{n+7}$", "est_correct": true},
+              {"texte": "d. 2", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "$A$ et $B$ sont deux évènements tels que : $P(A) = \\frac{1}{5}$, $P(B) = \\frac{1}{4}$, $P(A \\cap B) = \\frac{1}{10}$. Quelle est la probabilité de l'évènement $A \\cup B$ ?",
+            "choix": [
+              {"texte": "a. $\\frac{9}{20}$", "est_correct": false},
+              {"texte": "b. $\\frac{11}{20}$", "est_correct": false},
+              {"texte": "c. 1", "est_correct": false},
+              {"texte": "d. $\\frac{7}{20}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "On donne la série statistique double suivante :\n| Vendeur | 1 | 2 | 3 | 4 | 5 |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| Ventes | 40 | 52 | 59 | 41 | 58 |\n\nLes coordonnées du point moyen $G$ sont :",
+            "choix": [
+              {"texte": "a. $\\binom{4}{25}$", "est_correct": false},
+              {"texte": "b. $\\binom{3}{50}$", "est_correct": true},
+              {"texte": "c. $\\binom{3}{75}$", "est_correct": false},
+              {"texte": "d. $\\binom{5}{50}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "On donne $f(x) = \\frac{\\ln x}{x} - \\frac{4}{x} + 4$ ; alors $\\lim_{x \\to +\\infty} f(x) = ...?$",
+            "choix": [
+              {"texte": "a. $+\\infty$", "est_correct": false},
+              {"texte": "b. $-\\infty$", "est_correct": false},
+              {"texte": "c. 0", "est_correct": false},
+              {"texte": "d. 4", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "$\\ln 36$ peut s'écrire...",
+            "choix": [
+              {"texte": "a. $2\\ln 2 + 2\\ln 3$", "est_correct": true},
+              {"texte": "b. $2\\ln 18$", "est_correct": false},
+              {"texte": "c. $3\\ln 2$", "est_correct": false},
+              {"texte": "d. $\\ln 6$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "À l'infirmerie de la ville, on utilise l'examen de la goutte épaisse pour la recherche du paludisme. La probabilité pour une personne quelconque d'avoir un examen positif est de $\\frac{2}{3}$. La probabilité d'avoir un examen négatif est :",
+            "choix": [
+              {"texte": "a. $-\\frac{1}{3}$", "est_correct": false},
+              {"texte": "b. $\\frac{1}{2}$", "est_correct": false},
+              {"texte": "c. $-\\frac{1}{2}$", "est_correct": false},
+              {"texte": "d. $\\frac{1}{3}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Les notes d'un devoir de mathématiques obtenues par 70 élèves d'une classe sont données dans le tableau.\n| Notes | 2 | 7 | 8 | 9 | 11 | 14 | 19 |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| Effectifs | 18 | 13 | x | 25 | 4 | 3 | 1 |\n\nLe pourcentage des élèves ayant obtenu une note supérieure ou égale à 8/20 est :",
+            "choix": [
+              {"texte": "a. 55,71 %", "est_correct": false},
+              {"texte": "b. 45,71 %", "est_correct": false},
+              {"texte": "c. 71,55 %", "est_correct": false},
+              {"texte": "d. 55,71 % (Calcul réel : 55,71%)", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "On considère l'équation suivante $2x^2 + x = 3$. L'ensemble solution $S$ de cette équation est :",
+            "choix": [
+              {"texte": "a. $S = \\{1 ; \\frac{3}{2}\\}$", "est_correct": false},
+              {"texte": "b. $S = \\{-1 ; -\\frac{3}{2}\\}$", "est_correct": false},
+              {"texte": "c. $S = \\{-1 ; \\frac{3}{2}\\}$", "est_correct": false},
+              {"texte": "d. $S = \\{1 ; -\\frac{3}{2}\\}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "On considère la fonction réelle $g$ définie par $g(x) = \\frac{x^2 - 8x + 10}{2x - 4}$. Alors $g'(x) = ...$",
+            "choix": [
+              {"texte": "a. $\\frac{-6x^2 - 8x + 12}{(2x-4)^2}$", "est_correct": false},
+              {"texte": "b. $\\frac{-x^2 - 8x + 12}{(2x-4)^2}$", "est_correct": false},
+              {"texte": "c. $\\frac{-6x^2 - 8x + 2}{(2x-4)^2}$", "est_correct": false},
+              {"texte": "d. $\\frac{2x^2 - 8x + 12}{(2x-4)^2}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "La primitive sur $\\mathbb{R}$ de la fonction $g(x) = x\\cos x$ qui prend la valeur 1 en 0 est :",
+            "choix": [
+              {"texte": "a. $\\frac{1}{2}x^2 \\sin x + 1$", "est_correct": false},
+              {"texte": "b. $x\\sin x - \\cos x + 2$", "est_correct": false},
+              {"texte": "c. $\\cos x - x\\sin x$", "est_correct": false},
+              {"texte": "d. $x\\sin x + \\cos x$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Soit $h$ la fonction définie sur $]0 ; +\\infty[$ par $h(x) = \\ln x^2$. Alors $h'(x)$ est égal à :",
+            "choix": [
+              {"texte": "a. $-\\frac{1}{x}$", "est_correct": false},
+              {"texte": "b. $\\frac{1}{x}$", "est_correct": false},
+              {"texte": "c. $-x$", "est_correct": false},
+              {"texte": "d. $\\frac{2}{x}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "La somme $\\frac{1}{2} + \\frac{1}{5}$ est égale à :",
+            "choix": [
+              {"texte": "a. $\\frac{1}{7}$", "est_correct": false},
+              {"texte": "b. $\\frac{1}{10}$", "est_correct": false},
+              {"texte": "c. $\\frac{7}{10}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Parmi les propositions suivantes quelles sont celles qui sont correctes ?",
+            "choix": [
+              {"texte": "a. $e^{x+y} = e^x + e^y$", "est_correct": false},
+              {"texte": "b. $e^{x \\cdot y} = e^x + e^y$", "est_correct": false},
+              {"texte": "c. $e^{x+y} = e^x \\cdot e^y$", "est_correct": true},
+              {"texte": "d. $e^{x \\cdot y} = e^x \\cdot e^y$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "Parmi les propositions suivantes quelles sont celles qui sont correctes ?",
+            "choix": [
+              {"texte": "a. $\\ln(a+b) = \\ln(a) \\cdot \\ln(b)$", "est_correct": false},
+              {"texte": "b. $\\ln(ab) = \\ln(a) \\cdot \\ln(b)$", "est_correct": false},
+              {"texte": "c. $\\ln a = \\ln(a) - \\ln(b)$", "est_correct": false},
+              {"texte": "d. $\\ln(ab) = \\ln(a) + \\ln(b)$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "$\\ln(x^2)$ est égal à :",
+            "choix": [
+              {"texte": "a. $\\ln(x)^2$", "est_correct": false},
+              {"texte": "b. $2\\ln x$", "est_correct": true},
+              {"texte": "c. $2\\ln|x|$", "est_correct": false},
+              {"texte": "d. $x\\ln 2$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Le système d'équation suivant :\n$$\\begin{cases} 2x + y = a \\\\ 3x + 2y = a + 3 \\end{cases}$$",
+            "choix": [
+              {"texte": "a. La valeur de « a » est égale à $y+2x$", "est_correct": true},
+              {"texte": "b. La valeur de $x$ est égale à : $x = 3 - y$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Comparaison de 2 polynômes $f(x) = x^3 + x - 3$ et $g(x) = 2x^3 + x + 1$",
+            "choix": [
+              {"texte": "a. f et g ont le même degré", "est_correct": true},
+              {"texte": "b. f et g ont le même domaine de définition", "est_correct": true},
+              {"texte": "c. f et g ont les mêmes racines", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Donner le discriminant de l'équation suivante : $5x^2 - 2x + 2 = 0$",
+            "choix": [
+              {"texte": "a. 44", "est_correct": false},
+              {"texte": "b. -32", "est_correct": false},
+              {"texte": "c. -40", "est_correct": false},
+              {"texte": "d. -36", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Le domaine de définition $D_f$ de la fonction définie par $f(x) = \\sqrt{x^4 + 2}$ est égal à :",
+            "choix": [
+              {"texte": "a. $\\mathbb{R}$", "est_correct": true},
+              {"texte": "b. $]-2 ; +\\infty[$", "est_correct": false},
+              {"texte": "c. $]-\\infty ; -2[$", "est_correct": false},
+              {"texte": "d. $[-2 ; +\\infty[$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Soit $f$ la fonction définie par $f(x) = \\frac{2e^x}{e^x + 1}$ alors :",
+            "choix": [
+              {"texte": "a. $\\forall x \\in \\mathbb{R}, f(x) = \\frac{2}{1+e^{-x}}$", "est_correct": true},
+              {"texte": "b. $\\lim_{x \\to +\\infty} f(x) = +\\infty$", "est_correct": false},
+              {"texte": "c. $\\lim_{x \\to +\\infty} f(x) = 0$", "est_correct": false},
+              {"texte": "d. $\\forall x \\in \\mathbb{R}, f'(x) < 0$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Soit $E = \\{x \\in \\mathbb{R} \\mid (x+8)^2 = 9^2\\}$. Sous quelle forme peut-on écrire l'ensemble $E$ :",
+            "choix": [
+              {"texte": "a. $E = \\{1\\}$", "est_correct": false},
+              {"texte": "b. $E = \\emptyset$", "est_correct": false},
+              {"texte": "c. $E = \\{-17\\}$", "est_correct": false},
+              {"texte": "d. $E = \\{1, -17\\}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Soit $A = \\{1, 2\\}$ ; $B = \\{\\{1\\}, \\{2\\}\\}$ ; $C = \\{\\{1\\}, \\{1, 2\\}\\}$ on a alors :",
+            "choix": [
+              {"texte": "a. $A = B$", "est_correct": false},
+              {"texte": "b. $A \\subset B$", "est_correct": false},
+              {"texte": "c. $A \\in C$", "est_correct": true},
+              {"texte": "d. $A \\subset C$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "En janvier 2004, le prix de l'abonnement Internet à l'ADSL avait baissé de 50 % par rapport à janvier 2000. En janvier 2007, ce prix avait à nouveau baissé de 14 %. De quel pourcentage le prix de l'abonnement Internet à l'ADSL a-t-il baissé entre janvier 2000 et janvier 2007 ?",
+            "choix": [
+              {"texte": "a. 36", "est_correct": false},
+              {"texte": "b. 57", "est_correct": true},
+              {"texte": "c. 60", "est_correct": false},
+              {"texte": "d. 64", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

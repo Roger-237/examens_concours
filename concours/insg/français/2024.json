@@ -1,0 +1,342 @@
+[
+  {
+    "ecole": "INSG",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve de Français",
+        "annee": 2024,
+        "latex": false,
+        "mini_cours": "Épreuve de français comprenant des questions de grammaire, d'orthographe, de conjugaison, de vocabulaire, de figures de style et de culture littéraire.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Lequel de ces mots n'est pas un adverbe :",
+            "choix": [
+              {"texte": "a. Jamais", "est_correct": false},
+              {"texte": "b. Toujours", "est_correct": false},
+              {"texte": "c. Tellement", "est_correct": false},
+              {"texte": "d. Content", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Choisir la bonne orthographe :",
+            "choix": [
+              {"texte": "a. Des clous tordus", "est_correct": true},
+              {"texte": "b. Des clous tordus", "est_correct": false},
+              {"texte": "c. Des clou tordues", "est_correct": false},
+              {"texte": "d. Des clou tordues", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Cheikh Hamidou Kane est l'auteur de :",
+            "choix": [
+              {"texte": "a. L'aventure ambiguë", "est_correct": true},
+              {"texte": "b. Batouala", "est_correct": false},
+              {"texte": "c. Le petit prince", "est_correct": false},
+              {"texte": "d. Le bourbier", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Hubert Freddy Ndong Mbeng est l'auteur de :",
+            "choix": [
+              {"texte": "a. Les matitis", "est_correct": true},
+              {"texte": "b. Pascaline", "est_correct": false},
+              {"texte": "c. Au bout du silence", "est_correct": false},
+              {"texte": "d. Sidonie", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "« Je mourais » est conjugué à :",
+            "choix": [
+              {"texte": "a. L'imparfait", "est_correct": true},
+              {"texte": "b. Passé simple", "est_correct": false},
+              {"texte": "c. Futur", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Choisir la bonne orthographe : « je partirai .... »",
+            "choix": [
+              {"texte": "a. Sans toi", "est_correct": true},
+              {"texte": "b. Sens toi", "est_correct": false},
+              {"texte": "c. Cent toi", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Choisir la bonne orthographe :",
+            "choix": [
+              {"texte": "a. La forêt est dense", "est_correct": true},
+              {"texte": "b. La forêt est dance", "est_correct": false},
+              {"texte": "c. La forêt est dence", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Cochez la bonne orthographe : « Paul a un »",
+            "choix": [
+              {"texte": "a. Différend avec Marie", "est_correct": true},
+              {"texte": "b. Different avec Marie", "est_correct": false},
+              {"texte": "c. Differand avec Marie", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "La phrase correctement orthographiée est :",
+            "choix": [
+              {"texte": "a. Les parents sont rentrées", "est_correct": false},
+              {"texte": "b. Les parents sont rentré", "est_correct": false},
+              {"texte": "c. Les parents sont rentrer", "est_correct": false},
+              {"texte": "d. Les parents sont rentrés", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "« Tous pour un, un pour tous » correspond à la figure de style suivante :",
+            "choix": [
+              {"texte": "a. Métaphore", "est_correct": false},
+              {"texte": "b. Pléonasme", "est_correct": false},
+              {"texte": "c. Chiasme", "est_correct": true},
+              {"texte": "d. Épenthèse", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Deux mots qui s'écrivent de la même façon sont appelés :",
+            "choix": [
+              {"texte": "a. idéophones", "est_correct": false},
+              {"texte": "b. homophones", "est_correct": false},
+              {"texte": "c. idéogrammes", "est_correct": false},
+              {"texte": "d. homographes", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "L'un des termes désigne le mot « discours officiel », lequel ?",
+            "choix": [
+              {"texte": "a. Allocution", "est_correct": true},
+              {"texte": "b. Allocation", "est_correct": false},
+              {"texte": "c. Elocution", "est_correct": false},
+              {"texte": "d. Eloquence", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Quel est le contraire du mot « amical » ?",
+            "choix": [
+              {"texte": "a. Inamical", "est_correct": false},
+              {"texte": "b. Ennemi", "est_correct": false},
+              {"texte": "c. Adversaire", "est_correct": false},
+              {"texte": "d. Innamical", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Quel est le pluriel de : « deux cent vingt euro » ?",
+            "choix": [
+              {"texte": "a. deux cents vingt euro", "est_correct": false},
+              {"texte": "b. deux cent-vingts euros", "est_correct": false},
+              {"texte": "c. deux-cent vingt euros", "est_correct": false},
+              {"texte": "d. deux cent vingt euros", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": ".......le courage de te défendre !",
+            "choix": [
+              {"texte": "a. Aie", "est_correct": true},
+              {"texte": "b. Aies", "est_correct": false},
+              {"texte": "c. Ai", "est_correct": false},
+              {"texte": "d. Ait", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Parmi ces 4 verbes, lequel se conjugue comme le verbe « dire » ?",
+            "choix": [
+              {"texte": "a. Prédire", "est_correct": false},
+              {"texte": "b. contredire", "est_correct": false},
+              {"texte": "c. redire", "est_correct": true},
+              {"texte": "d. interdire", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "« Ce projet .......l'idée que l'éducation est utile ». Entourez la bonne réponse.",
+            "choix": [
+              {"texte": "a. promouvoit", "est_correct": false},
+              {"texte": "b. promouvoie", "est_correct": false},
+              {"texte": "c. promeut", "est_correct": true},
+              {"texte": "d. promeuve", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Que signifie l'expression : « Volens nolens » ?",
+            "choix": [
+              {"texte": "a. Avec l'intention de voler", "est_correct": false},
+              {"texte": "b. Qu'on le veuille ou non", "est_correct": true},
+              {"texte": "c. La vérité triomphe de tout", "est_correct": false},
+              {"texte": "d. Selon la forme requise", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Entoure le participe passé correctement accordé pour compléter la phrase : « La voiture que j'ai.....roule très vite ».",
+            "choix": [
+              {"texte": "a. pris", "est_correct": false},
+              {"texte": "b. prit", "est_correct": false},
+              {"texte": "c. prise", "est_correct": true},
+              {"texte": "d. pri", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "« Elle est furieuse que sa collègue.......décroché le poste qu'elle voulait » cochez la bonne réponse.",
+            "choix": [
+              {"texte": "a. est", "est_correct": false},
+              {"texte": "b. a", "est_correct": false},
+              {"texte": "c. aie", "est_correct": true},
+              {"texte": "d. ait", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "A quel poète attribue-t-on l'Iliade et l'Odyssée ?",
+            "choix": [
+              {"texte": "a. Hésiode", "est_correct": false},
+              {"texte": "b. Platon", "est_correct": false},
+              {"texte": "c. Homère", "est_correct": true},
+              {"texte": "d. Pindare", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Quelle est l'orthographe correcte désignant un 'instrument de musique ?",
+            "choix": [
+              {"texte": "a. lire", "est_correct": false},
+              {"texte": "b. lyrre", "est_correct": false},
+              {"texte": "c. lyrhe", "est_correct": false},
+              {"texte": "d. Lyre", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Dans l'expression \" ci-gît \", quel est l'infinitif du verbe ici conjugué ?",
+            "choix": [
+              {"texte": "a. gir", "est_correct": false},
+              {"texte": "b. gésir", "est_correct": true},
+              {"texte": "c. giter", "est_correct": false},
+              {"texte": "d. giéter", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Dans la phrase \" le chien de Pierre rongeait un os dans son coin \", \" dans \" est :",
+            "choix": [
+              {"texte": "a. une préposition", "est_correct": true},
+              {"texte": "b. un adverbe", "est_correct": false},
+              {"texte": "c. un adjectif", "est_correct": false},
+              {"texte": "d. un déterminant", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Que signifie l'expression : « N'en faire qu'à sa tête » ?",
+            "choix": [
+              {"texte": "a. Être en colère", "est_correct": false},
+              {"texte": "b. Être têtu", "est_correct": true},
+              {"texte": "c. Être réaliste", "est_correct": false},
+              {"texte": "d. Être avare", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Les frais du concours s'élèvent désormais à dix .......",
+            "choix": [
+              {"texte": "a. mil", "est_correct": false},
+              {"texte": "b. milles", "est_correct": false},
+              {"texte": "c. miles", "est_correct": false},
+              {"texte": "d. mille", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Les patientes ont été déplacées avec les .........",
+            "choix": [
+              {"texte": "a. nouveaux-nés", "est_correct": false},
+              {"texte": "b. nouveau-nés", "est_correct": true},
+              {"texte": "c. nouvaux-né", "est_correct": false},
+              {"texte": "d. nouveaux-né", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Sa femme est de nationalité .........",
+            "choix": [
+              {"texte": "a. burkinabais", "est_correct": false},
+              {"texte": "b. burkinabaise", "est_correct": false},
+              {"texte": "c. burkinabée", "est_correct": true},
+              {"texte": "d. burkinabè", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Il y avait....... deux mille spectateurs au stade.",
+            "choix": [
+              {"texte": "a. quel que", "est_correct": false},
+              {"texte": "b. quelsques", "est_correct": false},
+              {"texte": "c. quelque", "est_correct": true},
+              {"texte": "d. quels que", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Personne n'a été ...... par ce fléau.",
+            "choix": [
+              {"texte": "a. épargner", "est_correct": false},
+              {"texte": "b. épargnée", "est_correct": false},
+              {"texte": "c. épargné", "est_correct": true},
+              {"texte": "d. épargnait", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

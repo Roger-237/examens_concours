@@ -1,0 +1,456 @@
+[
+  {
+    "ecole": "IST",
+    "filiere": "Licences / BTS",
+    "epreuves": [
+      {
+        "titre": "Épreuve de Mathématiques",
+        "annee": 2025,
+        "latex": true,
+        "mini_cours": "Épreuve de mathématiques sous forme de QCM (40 questions) couvrant l'analyse, l'algèbre, les systèmes d'équations, la géométrie, la logique, la probabilité et la résolution de problèmes.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Après $n$ jours de vacances du premier semestre, un étudiant observe que :\n1- Qu'il a plu 7 fois, le matin ou en après-midi ;\n2- Quand il pleut le matin, il ne pleut pas en après-midi ;\n3- Il y a eu 5 après-midis sans pluie ;\n4- Il y a eu 6 matins sans pluie ;\nA la base des informations ci-dessus, nous pouvons affirmer que $n =$",
+            "choix": [
+              {"texte": "a) 7", "est_correct": false},
+              {"texte": "b) 8", "est_correct": false},
+              {"texte": "c) 9", "est_correct": true},
+              {"texte": "d) 11", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Les mesures des côtés d'un triangle sont les suivantes : $5\\text{ cm}$, $12\\text{ cm}$ et $13\\text{ cm}$. En analysant ces mesures, nous pouvons affirmer qu'il s'agit d'un :",
+            "choix": [
+              {"texte": "a) Triangle aigu", "est_correct": false},
+              {"texte": "b) Triangle isocèle", "est_correct": false},
+              {"texte": "c) Triangle obtus", "est_correct": false},
+              {"texte": "d) Triangle rectangle", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Si $x$ est un nombre réel qui satisfait l'équation $x^3 = x + 2$, alors $x^{10}$ est égal à :",
+            "choix": [
+              {"texte": "a) $13x^2 + 16x + 12$", "est_correct": false},
+              {"texte": "b) $5x^2 + 7x + 9$", "est_correct": false},
+              {"texte": "c) $-3x^2 + 6x + 8$", "est_correct": false},
+              {"texte": "d) $9x^2 + 3x + 10$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Soient $a$ et $b$ des nombres entiers positifs. Si $a$ et $b$ sont, dans l'ordre, des termes consécutifs d'une progression géométrique (PG), de raison $1/2$ et si le terme indépendant $(ax \\cdot b/\\sqrt{x})^{12}$ est égal à $7920$, alors $a+b$ est :",
+            "choix": [
+              {"texte": "a) 2", "est_correct": false},
+              {"texte": "b) 3", "est_correct": true},
+              {"texte": "c) 4", "est_correct": false},
+              {"texte": "d) 5", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "On considère les fonctions $f, g : \\mathbb{R} \\to \\mathbb{R}$ définies par $f(x) = ax + b$ et $g(x) = cx + d$, où les constantes $a, b, c, d \\in \\mathbb{R}$, $a \\neq 0$ et $c \\neq 0$. Si $f^{-1} \\circ g^{-1} = g^{-1} \\circ f^{-1}$, alors il existe une relation entre les constantes $a, b, c$ et $d$ telle que :",
+            "choix": [
+              {"texte": "a) $b + ad = d + bc$", "est_correct": true},
+              {"texte": "b) $d + ba = c + db$", "est_correct": false},
+              {"texte": "c) $a + db = b + cd$", "est_correct": false},
+              {"texte": "d) $b + ac = d + ba$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "La moitié du nombre est $2^{12} + 3 \\times 2^{10}$ :",
+            "choix": [
+              {"texte": "a) $2^6 + 3 \\times 2^5$", "est_correct": false},
+              {"texte": "b) $2^{11} + 3 \\times 2^5$", "est_correct": false},
+              {"texte": "c) $2^{11} \\times 7$", "est_correct": false},
+              {"texte": "d) $2^9 \\times 7$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Analyser les affirmations suivantes :\n1- Le degré d'un polynôme est déterminé par le plus grand coefficient de ses variables.\n2- La valeur numérique de $P(x) = 3x^2 - 4x + 2$ quand $x = 2$ est 6\n3- Le polynôme $P(x) = 4x^3 + 2x^2 - 1$ est de degré 4.\nL'alternative correcte est :",
+            "choix": [
+              {"texte": "a) Uniquement 1 est vrai.", "est_correct": false},
+              {"texte": "b) Uniquement 2 est vrai.", "est_correct": true},
+              {"texte": "c) Uniquement 2 est vrai.", "est_correct": true},
+              {"texte": "d) Seules les affirmations 1 et 2 sont vraies.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "L'âge actuel de Charles est la différence entre la moitié de son âge d'ici à 20 ans et le tiers de son âge il y a cinq ans. On peut donc affirmer qu'actuellement Charles :",
+            "choix": [
+              {"texte": "a) est un enfant de moins de 12 ans", "est_correct": false},
+              {"texte": "b) a plus de 21 ans et moins de 30 ans", "est_correct": false},
+              {"texte": "c) est un jeune de plus de 12 ans et de moins de 21 ans", "est_correct": true},
+              {"texte": "d) a plus de 30 ans et moins de 40 ans", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Soient $A, B$ et $C$, des ensembles finis. Le nombre d'éléments de $A \\cap B$ est $30$, le nombre d'éléments de $A \\cap C$ est $20$ et le nombre d'éléments de $A \\cap B \\cap C$ est $15$. Donc, le nombre d'éléments de $A \\cap (B \\cup C)$ est :",
+            "choix": [
+              {"texte": "a) 35", "est_correct": true},
+              {"texte": "b) 15", "est_correct": false},
+              {"texte": "c) 50", "est_correct": false},
+              {"texte": "d) 45", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Soit la définition suivante : « deux cercles sont orthogonaux lorsqu'ils se coupent en deux points distincts et qu'en ces points leurs tangentes sont perpendiculaires ».\nConcernant les cercles $C_1 : x^2 + (y+4)^2 = 7$, $C_2 : x^2 + y^2 = 9$ et $C_3 : (x-5)^2 + y^2 = 16$ ; nous pouvons affirmer que :",
+            "choix": [
+              {"texte": "a) C1 et C2, seulement, sont orthogonaux", "est_correct": false},
+              {"texte": "b) C1 et C3, seulement, sont orthogonaux", "est_correct": false},
+              {"texte": "c) C2 est orthogonal à C1 et à C3", "est_correct": true},
+              {"texte": "d) Il n'existe aucune orthogonalité entre les cercles", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Dans un groupe de supporters,\n1- Tous supportent le Barça, le Bayern ou le Manchester\n2- Personne ne supporte le Barça et le Bayern en même temps\n3- 12 supporters sont pour deux de ces trois équipes\n4- Le nombre de supporters du Barça est le double des supporters du Bayern\n5- Au moins 4 supporters sont pour Manchester\nA la base des informations ci-dessus, c'est correct d'affirmer que le nombre maximal possible des supporters du Manchester est :",
+            "choix": [
+              {"texte": "a) 27", "est_correct": false},
+              {"texte": "b) 29", "est_correct": false},
+              {"texte": "c) 31", "est_correct": false},
+              {"texte": "d) 33", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Les racines du polynôme $1+z+z^2+z^3+z^4+z^5+z^6+z^7$, lorsqu'elles sont représentées dans le plan complexe, forment les sommets d'un polygonne convexe dont l'aire est :",
+            "choix": [
+              {"texte": "a) $(\\sqrt{2}-1)/2$", "est_correct": false},
+              {"texte": "b) $(\\sqrt{2}+1)/2$", "est_correct": false},
+              {"texte": "c) $\\sqrt{2}$", "est_correct": false},
+              {"texte": "d) $(3\\sqrt{2}+1)/2$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Si $\\log_2 \\pi = a$ et $\\log_5 \\pi = b$ alors :",
+            "choix": [
+              {"texte": "a) $1/a + 1/b \\le 1/2$", "est_correct": false},
+              {"texte": "b) $1/2 < 1/a + 1/b \\le 1$", "est_correct": false},
+              {"texte": "c) $3/2 < 1/a + 1/b \\le 2$", "est_correct": false},
+              {"texte": "d) $2 < 1/a + 1/b$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "L'épreuve d'un concours a 40 questions sous forme de QCM. Le total des points obtenus par chaque candidat est calculé de la forme suivante : chaque question vraie ajoute 3 points et chaque fausse retire 1 point. Le candidat déclaré admis est celui qui obtient un score supérieur ou égal à 60 points. Dans ces conditions, les questions vraies du candidat doivent être de au moins :",
+            "choix": [
+              {"texte": "a) 25 questions", "est_correct": true},
+              {"texte": "b) 29 questions", "est_correct": false},
+              {"texte": "c) 27 questions", "est_correct": false},
+              {"texte": "d) 31 questions", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Donner la valeur de la limite ci-dessous :\n$$\\lim_{x \\to \\infty} \\frac{2x^3 + x^2 - x}{3x^2 + x}$$",
+            "choix": [
+              {"texte": "a) 3", "est_correct": false},
+              {"texte": "b) $+\\infty$", "est_correct": true},
+              {"texte": "c) 2/3", "est_correct": false},
+              {"texte": "d) 2", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "La marge brute est la différence entre le prix de vente et le prix d'achat. Si la marge brute sur la vente d'un produit donné est égale à $40\\%$ de son prix de vente et que son prix d'achat unitaire est de $750\\ 000$, chaque unité du produit devrait être vendue à :",
+            "choix": [
+              {"texte": "a) 1.050.000", "est_correct": false},
+              {"texte": "b) 1.250.000", "est_correct": true},
+              {"texte": "c) 1.100.000", "est_correct": false},
+              {"texte": "d) 1.150.000", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "Les 60 soldats d'une équipe ont été répartis équitablement en groupes pour participer à une leçon pratique sur un nouveau programme informatique, chaque groupe étant affecté à un ordinateur. Cependant, pendant la leçon, trois ordinateurs sont tombés en panne, et les autres groupes ont dû se voir attribuer une personne supplémentaire. Après cette redistribution, le nombre de groupes était de :",
+            "choix": [
+              {"texte": "a) 15", "est_correct": false},
+              {"texte": "b) 10", "est_correct": false},
+              {"texte": "c) 9", "est_correct": false},
+              {"texte": "d) 12", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "On considère la droite $r : y = 2x$. Soit $A = (3,3)$, le sommet d'un carré $ABCD$ dont la diagonale $BD$ est dans $r$. Alors, la surface de ce carré est :",
+            "choix": [
+              {"texte": "a) 12/5", "est_correct": false},
+              {"texte": "b) 18/5", "est_correct": true},
+              {"texte": "c) 21/5", "est_correct": false},
+              {"texte": "d) 24/5", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Soit le système d'équations\n$$S = \\begin{cases} \\frac{1}{x} + \\frac{27}{y^2} + \\frac{8}{z^3} = 3 \\\\ \\frac{4}{x} + \\frac{80}{y^2} + \\frac{40}{z^3} = 10 \\\\ \\frac{2}{x} + \\frac{54}{y^2} + \\frac{24}{z^3} = 7 \\end{cases}$$\nSi le triplet $(x, y, z)$ est une solution réelle de $S$, alors $|x| + |y| + |z|$ est égal à :",
+            "choix": [
+              {"texte": "a) 0", "est_correct": false},
+              {"texte": "b) 3", "est_correct": false},
+              {"texte": "c) -6", "est_correct": false},
+              {"texte": "d) 9", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Donner la valeur de la limite ci-dessous :\n$$\\lim_{x \\to -\\infty} \\frac{2x^2 - 5 + 3x}{5x^2 + 2x + 3}$$",
+            "choix": [
+              {"texte": "a) 5", "est_correct": false},
+              {"texte": "b) +\\infty", "est_correct": false},
+              {"texte": "c) 3", "est_correct": false},
+              {"texte": "d) 2/5", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 21,
+            "texte": "On lance 6 fois une pièce de monnaie non truquée ayant deux faces (pile, face). Quelle est la probabilité d'obtenir 4 piles ?",
+            "choix": [
+              {"texte": "a) 20/64", "est_correct": false},
+              {"texte": "b) 15/64", "est_correct": true},
+              {"texte": "c) 6/64", "est_correct": false},
+              {"texte": "d) 1/64", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 22,
+            "texte": "Soit une suite arithmétique de premier terme $U_0 = 2$ et de raison $r = 3$. Quel est le $50^{\\text{ème}}$ terme de cette suite ?",
+            "choix": [
+              {"texte": "a) $U_{50} = 152$", "est_correct": false},
+              {"texte": "b) $U_{49} = 149$", "est_correct": true},
+              {"texte": "c) $U_{50} = 149$", "est_correct": false},
+              {"texte": "d) $U_{49} = 152$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 23,
+            "texte": "Quelle est la dérivée de la fonction $f(x) = 4x^3 + 3x^2 - 5x + 7$ ?",
+            "choix": [
+              {"texte": "a) $12x^3 + 6x - 5$", "est_correct": false},
+              {"texte": "b) $12x^2 - 6x + 5$", "est_correct": false},
+              {"texte": "c) $12x - 6$", "est_correct": false},
+              {"texte": "d) $12x^2 + 6x - 5$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 24,
+            "texte": "Trouver les racines de $3x^2 - 4x + 1 = 0$ ?",
+            "choix": [
+              {"texte": "a) $S = \\{-1, 1/3\\}$", "est_correct": false},
+              {"texte": "b) $S = \\{1, -1/3\\}$", "est_correct": false},
+              {"texte": "c) $S = \\{1, 1/3\\}$", "est_correct": true},
+              {"texte": "d) $S = \\{-1, -1/3\\}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 25,
+            "texte": "Déterminer l'équation de la droite passant par les points $A(2, 7)$ et $B(-5, -3)$ ?",
+            "choix": [
+              {"texte": "a) $-7x + 10y + 29 = 0$", "est_correct": false},
+              {"texte": "b) $-10x + 7y - 29 = 0$", "est_correct": true},
+              {"texte": "c) $10x - 7y - 29 = 0$", "est_correct": false},
+              {"texte": "d) $7x + 10y - 29 = 0$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 26,
+            "texte": "Quelle est la primitive de $g(x) = e^x$ ?",
+            "choix": [
+              {"texte": "a) $e^x + \\text{constante}$", "est_correct": true},
+              {"texte": "b) $e^{2x} + \\text{constante}$", "est_correct": false},
+              {"texte": "c) $2e^x + \\text{constante}$", "est_correct": false},
+              {"texte": "d) $e^{-x} + \\text{constante}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 27,
+            "texte": "Quelle est la négation logique de la proposition suivante « Il pleut alors il se protège » ?",
+            "choix": [
+              {"texte": "a) Il pleut et il se protège.", "est_correct": false},
+              {"texte": "b) Il ne pleut pas mais il se protège.", "est_correct": false},
+              {"texte": "c) Il pleut mais il ne se protège pas.", "est_correct": true},
+              {"texte": "d) Il ne pleut pas et il ne se protège pas.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 28,
+            "texte": "Quelle est la valeur de vérité de la proposition suivante « Si $1+1=3$ alors $4+3=7$ » ?",
+            "choix": [
+              {"texte": "a) Vrai et faux", "est_correct": false},
+              {"texte": "b) Vraie", "est_correct": true},
+              {"texte": "c) ni vrai ni faux", "est_correct": false},
+              {"texte": "d) Faux", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 29,
+            "texte": "Quelle est la dérivée seconde de la fonction $g(x) = x^3 - 7x^2 - 5$ ?",
+            "choix": [
+              {"texte": "a) $6x - 14$", "est_correct": true},
+              {"texte": "b) $3x^2 - 14x$", "est_correct": false},
+              {"texte": "c) $6x - 7$", "est_correct": false},
+              {"texte": "d) $3x - 7$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 30,
+            "texte": "Déterminer la fonction inverse de la fonction $f(x) = \\ln(x)$ ?",
+            "choix": [
+              {"texte": "a) $f^{-1}(x) = e^x$", "est_correct": true},
+              {"texte": "b) $f^{-1}(x) = 1 + e^x$", "est_correct": false},
+              {"texte": "c) $f^{-1}(x) = x \\ln(x)$", "est_correct": false},
+              {"texte": "d) $f^{-1}(x) = x e^x$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 31,
+            "texte": "Compléter la série suivante par des caractères qui conviennent logiquement en remplaçant les points d'interrogation (?) « ABCDEFG- ??????? -OPQRSTU » ?",
+            "choix": [
+              {"texte": "a) HJIKLNM", "est_correct": false},
+              {"texte": "b) HIJKLMN", "est_correct": true},
+              {"texte": "c) KLMNOPQ", "est_correct": false},
+              {"texte": "d) IHJKLM", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 32,
+            "texte": "Calculer le déterminant de la matrice $M = \\begin{pmatrix} -5 & 4 \\\\ 3 & -1 \\end{pmatrix}$ ?",
+            "choix": [
+              {"texte": "a) 10", "est_correct": false},
+              {"texte": "b) 17", "est_correct": false},
+              {"texte": "c) -7", "est_correct": true},
+              {"texte": "d) 7", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 33,
+            "texte": "Déterminer les solutions du système $$\\begin{cases} -x + 2y - 3z = 1 \\\\ 2x - 5y + 4z = -1 \\end{cases}$$ ?",
+            "choix": [
+              {"texte": "a) $\\mathbb{R}^2$", "est_correct": false},
+              {"texte": "b) $S = \\{(-1, 3)\\}$", "est_correct": false},
+              {"texte": "c) $S = \\{(-2k-1, -2k-1, k), \\forall k \\in \\mathbb{R}\\}$", "est_correct": false},
+              {"texte": "d) $S = \\varnothing$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 34,
+            "texte": "Calculer la $\\lim_{x \\to 0^+} x \\ln(x)$ ?",
+            "choix": [
+              {"texte": "a) 1", "est_correct": false},
+              {"texte": "b) 0", "est_correct": true},
+              {"texte": "c) +\\infty", "est_correct": false},
+              {"texte": "d) -\\infty", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 35,
+            "texte": "Dans le plan muni d'un repère orthonormé $(O, i, j)$, on donne les droites $(D)$ et $(D')$ telles que : $(D) : x - y + 1 = 0$ et $(D') : x + y + 3 = 0$. Les deux droites sont -elles ?",
+            "choix": [
+              {"texte": "a) perpendiculaires", "est_correct": true},
+              {"texte": "b) orthogonales", "est_correct": false},
+              {"texte": "c) parallèles", "est_correct": false},
+              {"texte": "d) sécantes", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 36,
+            "texte": "Soit la fonction $h(x) = \\frac{(3x-3)(3x-2)}{(x-1)(3x+7)}$. Quel est le domaine de définition de $h$ ?",
+            "choix": [
+              {"texte": "a) $\\mathbb{R} \\setminus \\{1, -7/3\\}$", "est_correct": true},
+              {"texte": "b) $]1, -7/3[$", "est_correct": false},
+              {"texte": "c) $[1, -7/3]$", "est_correct": false},
+              {"texte": "d) $]1, -7/3]$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 37,
+            "texte": "Un taxi-Gab demande une prise en charge de $120\\text{ F}$ plus le prix du trajet calculé au tarif de $50\\text{ F}$ par kilomètre. Après avoir parcouru $8\\text{ km}$, combien le client payera-t-il ?",
+            "choix": [
+              {"texte": "a) 520 F", "est_correct": true},
+              {"texte": "b) 1360 F", "est_correct": false},
+              {"texte": "c) 170 F", "est_correct": false},
+              {"texte": "d) 960 F", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 38,
+            "texte": "Donner la solution de l'équation $2x - 5 = -1$ ?",
+            "choix": [
+              {"texte": "a) $x = 2$", "est_correct": true},
+              {"texte": "b) $x = 4$", "est_correct": false},
+              {"texte": "c) $x = 3$", "est_correct": false},
+              {"texte": "d) $x = -3$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 39,
+            "texte": "L'expression $\\forall n \\in \\mathbb{N}, U(n) = 4^n - 1$ est :",
+            "choix": [
+              {"texte": "a) divisible par 4", "est_correct": false},
+              {"texte": "b) divisible par 2", "est_correct": false},
+              {"texte": "c) divisible par 3", "est_correct": true},
+              {"texte": "d) divisible par 5", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 40,
+            "texte": "Compléter la série suivante par des caractères qui conviennent logiquement en remplaçant les points d'interrogation (?) « ABCDE-12345-FGHIJ-678910-KLM ??-??131415-PQRST-1617181920-UVWXY-2122232425 » ?",
+            "choix": [
+              {"texte": "a) DE-1112", "est_correct": false},
+              {"texte": "b) XY-2124", "est_correct": false},
+              {"texte": "c) NO-1112", "est_correct": true},
+              {"texte": "d) NP-1314", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

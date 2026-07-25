@@ -1,0 +1,236 @@
+[
+  {
+    "ecole": "Institut National de la Poste des Technologies de l'Information et de la Communication (INPTIC)",
+    "filiere": "Génie Informatique",
+    "epreuves": [
+      {
+        "titre": "Épreuve de Mathématiques & Logique",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Épreuve de mathématiques couvrant l'analyse (suites, limites, continuité, calcul d'intégrales, primitives, dérivées, étude de fonctions), les nombres complexes et les probabilités.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Soit $n$ un entier naturel non nul et $q$ un réel différent de 1 alors on a :\n$$1 + q + q^2 + \\dots + q^n = \\frac{1 - q^{n+1}}{1 - q}$$",
+            "choix": [
+              {"texte": "A. Il s'agit de la somme des $n + 2$ premiers termes d'une suite géométrique de raison $q$ et de premier terme 1.", "est_correct": false},
+              {"texte": "B. Il s'agit de la somme des $n + 1$ premiers termes d'une suite géométrique de raison $q$ et de premier terme 1.", "est_correct": true},
+              {"texte": "C. Il s'agit de la somme des $n$ premiers termes d'une suite géométrique de raison $q$ et de premier terme 1.", "est_correct": false},
+              {"texte": "D. Il s'agit de la somme des $n - 1$ premiers termes d'une suite géométrique de raison $q$ et de premier terme 1.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Soit $(u_n)$ la suite définie par $u_0 = 8$ et pour tout entier naturel $n$, $u_{n+1} = f(u_n)$, où $f$ est la fonction définie par $f(x) = 0,85x + 1,8$. Calculer $u_1$.",
+            "choix": [
+              {"texte": "A. 6,6", "est_correct": false},
+              {"texte": "B. 7,6", "est_correct": false},
+              {"texte": "C. 8,6", "est_correct": true},
+              {"texte": "D. 9,6", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Calculer $\\lim_{n \\to +\\infty} \\left(\\frac{1}{\\sqrt{n}} + 1\\right)(n^2 + 3)$",
+            "choix": [
+              {"texte": "A. $+1$", "est_correct": false},
+              {"texte": "B. $-\\infty$", "est_correct": false},
+              {"texte": "C. $-1$", "est_correct": false},
+              {"texte": "D. $+\\infty$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Soit une fonction $f$ définie sur un intervalle $I$ contenant un réel $a$.",
+            "choix": [
+              {"texte": "A. $f$ est continue en $a$ si : $\\lim_{x \\to a} f(x) = f(-a)$.", "est_correct": false},
+              {"texte": "B. $f$ est continue en $a$ si : $\\lim_{x \\to a} f(x) = f(a + 1)$.", "est_correct": false},
+              {"texte": "C. $f$ est continue en $a$ si : $\\lim_{x \\to a} f(x) = f(a - 1)$.", "est_correct": false},
+              {"texte": "D. $f$ est continue en $a$ si : $\\lim_{x \\to a} f(x) = f(a)$.", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "Soit la fonction $f(x) = e^x$",
+            "choix": [
+              {"texte": "A. $f$ est continue sur l'intervalle sur $\\mathbb{R}$", "est_correct": true},
+              {"texte": "B. $f$ est continue sur l'intervalle sur $[0 ; +\\infty[$", "est_correct": false},
+              {"texte": "C. $f$ est continue sur l'intervalle sur et $]0 ; +\\infty[$", "est_correct": false},
+              {"texte": "D. $f$ est continue sur l'intervalle sur $]-\\infty ; 0[$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "On considère la fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = \\begin{cases} -x + 2, & \\text{pour } x < 3 \\\\ x - 4, & \\text{pour } 3 \\le x < 5 \\\\ -2x + 13, & \\text{pour } x \\ge 5 \\end{cases}$\n\n$f$ est continue en 3 car :",
+            "choix": [
+              {"texte": "A. $\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3^+} f(x)$", "est_correct": false},
+              {"texte": "B. $\\lim_{x \\to 3^+} f(x) = f(3)$", "est_correct": false},
+              {"texte": "C. $\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3^+} f(x) = 3$", "est_correct": false},
+              {"texte": "D. $\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3^+} f(x) = f(3)$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "On considère la fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = x^3 - x^2 - 1$. L'équation $f(x) = 0$ admet une unique solution $\\alpha$ sur l'intervalle $[1 ; 2]$, car on a :",
+            "choix": [
+              {"texte": "A. $f(1) = -1$ et $f(2) = 1$", "est_correct": false},
+              {"texte": "B. $f(1) = -1$ et $f(2) = 3$", "est_correct": true},
+              {"texte": "C. $f(1) = +1$ et $f(2) = 3$", "est_correct": false},
+              {"texte": "D. $f(1) = +1$ et $f(2) = -2$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Calculer l'intégrale $I = \\int_{-1}^{1} e^{-2x} dx$",
+            "choix": [
+              {"texte": "A. $\\frac{1}{3} \\left(e^2 + \\frac{1}{e^2}\\right)$", "est_correct": false},
+              {"texte": "B. $\\frac{1}{2} \\left(e^2 - \\frac{1}{e^2}\\right)$", "est_correct": true},
+              {"texte": "C. $\\frac{1}{5} \\left(e^2 + \\frac{1}{e^2}\\right)$", "est_correct": false},
+              {"texte": "D. $\\frac{1}{4} \\left(e^2 - \\frac{1}{e^2}\\right)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Soit $f$ définie sur $\\mathbb{R}^*$ par $f(x) = \\frac{e^{2x}(2x-1)}{x^2}$. Trouver une primitive de la fonction $f$ qui s'annule en $x = 1$.",
+            "choix": [
+              {"texte": "A. $\\frac{e^{2x}}{x} - e^2$", "est_correct": true},
+              {"texte": "B. $\\frac{e^{-2x}}{x} - e^2$", "est_correct": false},
+              {"texte": "C. $\\frac{e^x}{x} - e^2$", "est_correct": false},
+              {"texte": "D. $\\frac{e^{-x}}{x} - e^2$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "Résoudre dans $\\mathbb{C}$ l'équation $z^2 + 3z + 4 = 0$",
+            "choix": [
+              {"texte": "A. $z1 = -\\frac{3}{2} - \\frac{\\sqrt{7}}{2}i$ et $z2 = -\\frac{3}{2} - \\frac{\\sqrt{7}}{2}i$", "est_correct": false},
+              {"texte": "B. $z1 = -\\frac{3}{2} + \\frac{\\sqrt{7}}{2}i$ et $z2 = -\\frac{3}{2} - \\frac{\\sqrt{7}}{2}i$", "est_correct": true},
+              {"texte": "C. $z1 = -\\frac{3}{2} + \\frac{\\sqrt{7}}{2}i$ et $z2 = -\\frac{3}{2} + \\frac{\\sqrt{7}}{2}i$", "est_correct": false},
+              {"texte": "D. $z1 = -\\frac{3}{2} - \\frac{\\sqrt{7}}{2}i$ et $z2 = +\\frac{3}{2} + \\frac{\\sqrt{7}}{2}i$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "Factoriser dans $\\mathbb{C}$ le polynôme : $P(z) = z^3 + z^2 + 4z + 4$.",
+            "choix": [
+              {"texte": "A. $P(z) = (z - 1)(z - 2i)(z + 2i)$", "est_correct": false},
+              {"texte": "B. $P(z) = (z + 1)(z - 2i)(z + 2i)$", "est_correct": true},
+              {"texte": "C. $P(z) = (z - 1)(z + 2i)(z + 2i)$", "est_correct": false},
+              {"texte": "D. $P(z) = (z + 1)(z + 2i)(z + 2i)$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Déterminer le conjugué du nombre complexe $z_1 = \\frac{3+2i}{i}$ et exprimer le résultat sous la forme algébrique.",
+            "choix": [
+              {"texte": "A. $\\frac{(3-2i)i}{-i^2}$", "est_correct": false},
+              {"texte": "B. $\\frac{(3+2i)i}{-i^2}$", "est_correct": false},
+              {"texte": "C. $\\frac{(3-2i)i}{+i^2}$", "est_correct": false},
+              {"texte": "D. $\\frac{(3+2i)i}{+i^2}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "Écrire le nombre complexe sous la forme exponentielle : $z_1 = \\sqrt{3} - 3i$",
+            "choix": [
+              {"texte": "A. $2\\sqrt{3}e^{-i\\frac{\\pi}{2}}$", "est_correct": false},
+              {"texte": "B. $2\\sqrt{3}e^{+i\\frac{\\pi}{2}}$", "est_correct": false},
+              {"texte": "C. $2\\sqrt{3}e^{+i\\frac{\\pi}{3}}$", "est_correct": false},
+              {"texte": "D. $2\\sqrt{3}e^{-i\\frac{\\pi}{3}}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "Résoudre dans $\\mathbb{C}$ l'équation suivante $3z - 2 = \\bar{z} + 1$",
+            "choix": [
+              {"texte": "A. $z = \\frac{5}{3}$", "est_correct": false},
+              {"texte": "B. $z = \\frac{3}{5}$", "est_correct": false},
+              {"texte": "C. $z = \\frac{2}{3}$", "est_correct": false},
+              {"texte": "D. $z = \\frac{3}{2}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Calculer la dérivée de la fonction $f$ définie sur $]0 ; 2[$ par $f(x) = \\ln(2x - x^2)$.",
+            "choix": [
+              {"texte": "A. $f'(x) = \\frac{2 - 2x}{2x + x^2}$", "est_correct": false},
+              {"texte": "B. $f'(x) = \\frac{2 + 2x}{2x - x^2}$", "est_correct": false},
+              {"texte": "C. $f'(x) = \\frac{2 - 2x}{2x - x^2}$", "est_correct": true},
+              {"texte": "D. $f'(x) = \\frac{2 + 2x}{2x + x^2}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "Déterminer les variations de la fonction $f$ définie sur $]0 ; +\\infty[$ par $f(x) = 3 - x + 2\\ln(x)$",
+            "choix": [
+              {"texte": "A. La dérivée $f'$ est positive sur $]0 ; 1]$ et négative sur $[1 ; +\\infty[$.", "est_correct": false},
+              {"texte": "B. La dérivée $f'$ est positive sur $]0 ; 2]$ et négative sur $[2 ; +\\infty[$.", "est_correct": true},
+              {"texte": "C. La dérivée $f'$ est négative sur $]0 ; 1]$ et positive sur $[1 ; +\\infty[$.", "est_correct": false},
+              {"texte": "D. La dérivée $f'$ est négative sur $]0 ; 2]$ et positive sur $[2 ; +\\infty[$.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "On considère deux épreuves indépendantes. La probabilité d'obtenir l'issue $A$ pour la première épreuve suivie de l'issue $B$ pour la deuxième épreuve est :",
+            "choix": [
+              {"texte": "A. $P(A; B) = P(A) - P(B)$.", "est_correct": false},
+              {"texte": "B. $P(A; B) = P(A) + P(B)$.", "est_correct": false},
+              {"texte": "C. $P(A; B) = P(A) / P(B)$.", "est_correct": false},
+              {"texte": "D. $P(A; B) = P(A) \\times P(B)$.", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "On considère deux urnes contenant des billets indiscernables au touché. La 1$^{re}$ urne contient 10 billets dont 8 de billets de 5000 FCFA et 2 billets de 10 000 FCFA. La 2$^e$ urne contient 10 billets dont 6 de billets de 2000 FCFA et 4 billets de 1000 FCFA. On tire un billet de la 1$^{re}$ urne puis un billet de la 2$^e$ urne.\n\nPour la 1$^{re}$ urne, on a :",
+            "choix": [
+              {"texte": "A. $P_1(5000) = 0,6$ et $P_1(10000) = 0,4$", "est_correct": false},
+              {"texte": "B. $P_1(5000) = 0,7$ et $P_1(10000) = 0,3$", "est_correct": false},
+              {"texte": "C. $P_1(5000) = 0,8$ et $P_1(10000) = 0,2$", "est_correct": true},
+              {"texte": "D. $P_1(5000) = 0,9$ et $P_1(10000) = 0,1$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "Pour la 2$^e$ urne, on a :",
+            "choix": [
+              {"texte": "A. $P_2(2000) = 0,6$ et $P_2(1000) = 0,4$", "est_correct": true},
+              {"texte": "B. $P_2(2000) = 0,5$ et $P_2(1000) = 0,5$", "est_correct": false},
+              {"texte": "C. $P_2(2000) = 0,4$ et $P_2(1000) = 0,6$", "est_correct": false},
+              {"texte": "D. $P_2(2000) = 0,3$ et $P_2(1000) = 0,7$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Calculer la probabilité de gagner au moins 12 000 FCFA",
+            "choix": [
+              {"texte": "A. $P = 0,54$", "est_correct": false},
+              {"texte": "B. $P = 0,44$", "est_correct": false},
+              {"texte": "C. $P = 0,34$", "est_correct": false},
+              {"texte": "D. $P = 0,24$", "est_correct": false}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]

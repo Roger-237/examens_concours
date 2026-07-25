@@ -1,0 +1,236 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "RT",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée INPTIC - Épreuve de Mathématiques & Physique a",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Épreuve à choix unique abordant l'analyse (suites, limites, dérivées, intégrales, logarithmes), la géométrie dans l'espace et le plan complexe, la logique par récurrence, l'arithmétique, et les calculs de probabilités.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "On considère la somme : $S_n = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots + \\frac{1}{2^n}$. On a :",
+            "choix": [
+              {"texte": "A : $\\lim_{n \\to +\\infty} S_n = +\\infty$", "est_correct": false},
+              {"texte": "B : $\\lim_{n \\to +\\infty} S_n = 1$", "est_correct": true},
+              {"texte": "C : $\\lim_{n \\to +\\infty} S_n = \\frac{1}{2}$", "est_correct": false},
+              {"texte": "D : $\\lim_{n \\to +\\infty} S_n = -1$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 2,
+            "texte": "Le triplet $(\\vec{i}, \\vec{j}, \\vec{k})$ est une base directe de l'espace. Laquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : $(-2\\vec{j}, \\vec{i}, -\\vec{k})$ est une base indirecte de l'espace", "est_correct": false},
+              {"texte": "B : $(-\\vec{i}, -\\vec{j}, -\\vec{k})$ est une base directe de l'espace", "est_correct": false},
+              {"texte": "C : $(\\vec{k}, \\vec{i}, \\vec{j})$ est une base indirecte de l'espace", "est_correct": false},
+              {"texte": "D : $(\\vec{i}, 2\\vec{j}, \\vec{k})$ est une base directe de l'espace", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 3,
+            "texte": "Les fonctions $f$ et $g$ définies par : $f(x) = \\ln[(x-1)(x-2)]$ et $g(x) = \\ln(x-1) + \\ln(x-3)$. $D_f$ et $D_g$ sont des ensembles de définition respectifs de $f$ et $g$.",
+            "choix": [
+              {"texte": "A : $D_f = D_g$", "est_correct": false},
+              {"texte": "B : $f = g$ sur $\\mathbb{R}$", "est_correct": false},
+              {"texte": "C : $D_g = ]-\\infty; -3[ \\cup ]1; +\\infty[$", "est_correct": false},
+              {"texte": "D : $D_g = ]3; +\\infty[$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 4,
+            "texte": "Le système $(S) : \\begin{cases} x - 5y - 7z = 3 \\\\ 5x + 3y + z = 3 \\\\ 3x + y - 2z = -1 \\end{cases}$",
+            "choix": [
+              {"texte": "A : $(2; 3; 2)$", "est_correct": false},
+              {"texte": "B : $(2; 3; -2)$", "est_correct": false},
+              {"texte": "C : $(2; 3; 2)$", "est_correct": false},
+              {"texte": "A : $(-2; 3; 2)$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 5,
+            "texte": "On considère la fonction $f$ définie sur $\\mathbb{R}$ par : $f(x) = \\sin(x)\\cos^2\\left(\\frac{x}{2}\\right)$. On donne ci-dessous sa représentation graphique sur $[0 ; \\pi]$.\n\nLaquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : $\\int_0^\\pi f(x)dx = \\int_0^{2\\pi} f(x)dx$", "est_correct": false},
+              {"texte": "B : $\\int_0^\\pi f(x)dx = \\pi$", "est_correct": false},
+              {"texte": "C : $\\int_0^\\pi f(x)dx = 0$", "est_correct": false},
+              {"texte": "D : $\\left|\\int_0^\\pi f(x)dx\\right| = \\int_0^\\pi |f(x)|dx$", "est_correct": true}
+            ],
+            "image": "images/q5.png"
+          },
+          {
+            "ordre": 6,
+            "texte": "A, B, C et D sont 4 points distincts d'un cercle. Quels est le plus grand nombre de cordes qu'on peut former avec ces 4 points ?",
+            "choix": [
+              {"texte": "A : 10", "est_correct": false},
+              {"texte": "B : 6", "est_correct": true},
+              {"texte": "C : 4", "est_correct": false},
+              {"texte": "D : 20", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "La suite $(u_n)$ est arithmétique de raison 3 et de premier terme $u_0 = -2$. Le sixième terme de cette suite vaut :",
+            "choix": [
+              {"texte": "A : 16", "est_correct": false},
+              {"texte": "B : -9", "est_correct": false},
+              {"texte": "C : 13", "est_correct": true},
+              {"texte": "D : 5", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Soit la fonction $f$ définie sur l'intervalle $I = [-10 ; 10]$ par : $f(x) = (2x - 3)e^{-3x}$. L'équation $f(x) = 0$ admet sur $I$ :",
+            "choix": [
+              {"texte": "A : 0 solution", "est_correct": false},
+              {"texte": "B : 1 solution", "est_correct": true},
+              {"texte": "C : 2 solutions", "est_correct": false},
+              {"texte": "D : 3 solutions", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 9,
+            "texte": "Dans l'espace muni d'un repère orthonormé, on donne les trois points : $A(0; -1; 1)$, $B(4; -3; 0)$, $C(-1; -2; -1)$. On appelle $(P)$ le plan passant par A, B et C. On appelle $(\\Delta)$ la droite ayant pour représentation paramétrique : $\\begin{cases} x = t \\\\ y = 3t - 1 \\\\ z = -2t + 8 \\end{cases}, t \\in \\mathbb{R}$",
+            "choix": [
+              {"texte": "A : L'intersection de $(\\Delta)$ et $(P)$ est un point de coordonnée $(0; -1; 8)$", "est_correct": true},
+              {"texte": "B : $(\\Delta)$ est incluse dans le plan $(P)$", "est_correct": false},
+              {"texte": "C : $(\\Delta)$ est strictement parallèle à $(P)$", "est_correct": false},
+              {"texte": "D : $(\\Delta)$ est orthogonale à toute droite de $(P)$.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 10,
+            "texte": "$\\lim_{x \\to 0} \\frac{\\sin(\\pi x)}{x} =$",
+            "choix": [
+              {"texte": "A : $\\pi$", "est_correct": true},
+              {"texte": "B : 1", "est_correct": false},
+              {"texte": "C : $\\frac{1}{\\pi}$", "est_correct": false},
+              {"texte": "D : $+\\infty$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 11,
+            "texte": "231 est :",
+            "choix": [
+              {"texte": "A : un nombre impair premier.", "est_correct": false},
+              {"texte": "B : un diviseur de 3", "est_correct": false},
+              {"texte": "C : un multiple de 3", "est_correct": true},
+              {"texte": "D : un nombre premier.", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 12,
+            "texte": "Dans un test de contrôle, on prélève au hasard un bonbon dans l'ensemble de la production. Celui-ci est déformé. Quelle est la probabilité, arrondie au centième, qu'il soit produit par la machine B ?",
+            "choix": [
+              {"texte": "A : 0.02", "est_correct": false},
+              {"texte": "B : 0.67", "est_correct": true},
+              {"texte": "C : 0.44", "est_correct": false},
+              {"texte": "D : 0.01", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 13,
+            "texte": "$f$ est la fonction définie et dérivable sur $]-1 ; +\\infty[$ par : $f(x) = \\frac{-2e^x}{x+1}$ alors sa dérivée $f'$ s'écrit :",
+            "choix": [
+              {"texte": "A : $f'(x) = \\frac{-2e^x}{(x+1)^2}$", "est_correct": false},
+              {"texte": "B : $f'(x) = \\frac{-2xe^x}{(x+1)^2}$", "est_correct": true},
+              {"texte": "C : $f'(x) = \\frac{2e^x}{(x+1)^2}$", "est_correct": false},
+              {"texte": "D : $f'(x) = \\frac{2xe^x}{(x+1)^2}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 14,
+            "texte": "On considère la symétrie orthogonale $S_\\Delta$ d'axe $(\\Delta)$ de vecteur normal $\\vec{u}$ et $T_{\\vec{u}}$ la translation du vecteur $\\vec{u}$. Laquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : $S_\\Delta \\circ T_{\\vec{u}}$ est une symétrie orthogonale", "est_correct": false},
+              {"texte": "B : $S_\\Delta \\circ T_{\\vec{u}}$ est une symétrie glissée", "est_correct": true},
+              {"texte": "C : $S_\\Delta \\circ T_{\\vec{u}}$ est une translation", "est_correct": false},
+              {"texte": "D : $S_\\Delta \\circ T_{\\vec{u}}$ est l'application identique", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 15,
+            "texte": "Le plan complexe est rapporté à un repère orthonormé $(O; \\vec{u}, \\vec{v})$. Soit A et B les points d'affixes respectifs $z_A = 1 + i$ et $z_B = -i$. On note $(\\Gamma)$ l'ensemble des points M d'affixes $z$ tel que : |$\\bar{z} - 1 - i| = |\\bar{z} - 1|$. Laquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : $(\\Gamma)$ est la droite d'équation $x - y + 2 = 0$", "est_correct": false},
+              {"texte": "B : $(\\Gamma)$ est le cercle de diamètre [AB]", "est_correct": false},
+              {"texte": "C : $(\\Gamma)$ est le cercle de diamètre [AM]", "est_correct": false},
+              {"texte": "D : $(\\Gamma)$ est la médiatrice du segment [AB]", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 16,
+            "texte": "On veut démontrer par récurrence que pour tout entier naturel $\\ge 0$, $u_n = n^2 + 4$. Laquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : Supposant que pour un entier $k \\ge 0$, $u_k = k^2 + 4$", "est_correct": true},
+              {"texte": "B : Supposant que pour un entier $k \\ge 0$, $u_k = n^2 + 4$", "est_correct": false},
+              {"texte": "C : Supposant que pour un entier $k \\le 0$, $u_k = k^2 + 4$", "est_correct": false},
+              {"texte": "D : Supposant que pour un entier $k \\ge 0$, $u_k = u_{k+1}$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 17,
+            "texte": "À un carrefour, une voiture a une probabilité d'être contrôlée de $\\frac{1}{4}$. Un taxi doit passer 5 fois à ce carrefour. Quelle est la probabilité que ce taxi soit contrôlé 3 fois ?",
+            "choix": [
+              {"texte": "A : $\\frac{9}{1024}$", "est_correct": false},
+              {"texte": "B : $\\frac{135}{512}$", "est_correct": false},
+              {"texte": "C : $\\frac{27}{1024}$", "est_correct": false},
+              {"texte": "D : $\\frac{45}{512}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 18,
+            "texte": "Soit $n$ un entier naturel non nul et $k$ un entier compris entre 1 et $n$. On lance $n$ fois de suite une pièce de monnaie parfaitement équilibrée. Quelle est la probabilité d'obtenir exactement $k$ fois pile ?",
+            "choix": [
+              {"texte": "A : $C_n^k p^n (1-p)^{n-k}$", "est_correct": false},
+              {"texte": "B : $\\frac{k!}{n!(n-k)!} \\times (\\frac{1}{2})^k \\times (\\frac{1}{2})^{n-k}$", "est_correct": false},
+              {"texte": "C : $\\frac{1}{2}$", "est_correct": false},
+              {"texte": "D : $\\frac{n!}{2^n \\times k! (n-k)!}$", "est_correct": true}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 19,
+            "texte": "On pose $A = \\int_0^{\\frac{\\pi}{2}} \\left(\\frac{\\sin 2x}{1 + 2\\sin x}\\right) dx$ et $B = \\int_0^{\\frac{\\pi}{2}} \\left(\\frac{\\cos x}{1 + 2\\sin x}\\right) dx$. Laquelle des affirmations suivantes est correcte ?",
+            "choix": [
+              {"texte": "A : $B = 1 - \\frac{1}{2}\\ln 3$", "est_correct": false},
+              {"texte": "B : $A = 1 - \\frac{1}{2}\\ln 3$", "est_correct": true},
+              {"texte": "C : $B = 2\\ln 3$", "est_correct": false},
+              {"texte": "D : $A = 2\\ln 3$", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 20,
+            "texte": "Le plan est muni d'un repère orthonormé direct $(O, \\vec{u}, \\vec{v})$. Soit $f$ l'application du plan dans lui-même qui au point $M(x; y)$ associe le point $M'(x'; y')$ tel que : $\\begin{cases} x' = y + 4 \\\\ y' = x - 2 \\end{cases}$. Si $z = x + iy$ et $z' = x' + iy'$ avec $x, y, x', y'$ les nombres réels, alors l'écriture complexe de $f$ est :",
+            "choix": [
+              {"texte": "A : $z' = iz + 4 - 2i$", "est_correct": false},
+              {"texte": "B : $z' = -i\\bar{z} + 4 - 2i$", "est_correct": false},
+              {"texte": "C : $z' = -iz + 4 - 2i$", "est_correct": false},
+              {"texte": "D : $i\\bar{z} + 4 - 2i$", "est_correct": true}
+            ],
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
+]
