@@ -60,18 +60,7 @@
   <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand d-inline-flex gap-2 align-items-center lh-1" href="{% url 'accueil' %}">
-        <span class="text-primary">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
-            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-            class="icon icon-tabler icons-tabler-outline icon-tabler-book">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-            <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-            <path d="M3 6l0 13" />
-            <path d="M12 6l0 13" />
-            <path d="M21 6l0 13" />
-          </svg>
-        </span>
+        <img src="{% static 'ui/images/favicon-32x32.png' %}" alt="ExamensPro" width="32" height="32" class="rounded-circle" />
         <span class="fw-bold">ExamensPro</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -83,6 +72,20 @@
           <li class="nav-item"><a href="#hero" class="nav-link">Accueil</a></li>
           <li class="nav-item"><a href="#epreuves" class="nav-link">Épreuves</a></li>
           <li class="nav-item"><a href="#pricing" class="nav-link">Tarifs</a></li>
+          {% if classement_concours_pub %}
+          <li class="nav-item">
+            <a href="{% url 'concours:classement' %}" class="nav-link fw-bold text-success">
+              Résultats publiés
+            </a>
+          </li>
+          {% endif %}
+          {% if concours_blanc_actif %}
+          <li class="nav-item">
+            <a href="{% url 'concours:accueil' %}" class="nav-link fw-bold text-success">
+              Concours Blanc
+            </a>
+          </li>
+          {% endif %}
         </ul>
         <div class="d-flex gap-3 align-items-center">
           {% if request.user.is_authenticated %}

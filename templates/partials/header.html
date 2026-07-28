@@ -1,0 +1,40 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-inline-flex gap-2 align-items-center lh-1" href="{% url 'accueil' %}">
+      <img src="{% static 'ui/images/favicon-32x32.png' %}" alt="ExamensPro" width="32" height="32" class="rounded-circle" />
+      <span class="fw-bold">ExamensPro</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeaderNav"
+      aria-controls="navbarHeaderNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarHeaderNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="{% url 'accueil' %}">Accueil</a></li>
+        {% if classement_concours_pub %}
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-success" href="{% url 'concours:classement' %}">Résultats publiés</a>
+        </li>
+        {% endif %}
+        {% if concours_blanc_actif %}
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-success" href="{% url 'concours:accueil' %}">Concours Blanc</a>
+        </li>
+        {% endif %}
+      </ul>
+      <div class="d-flex gap-3 align-items-center">
+        {% if request.user.is_authenticated %}
+          {% if request.user.role == 'admin' %}
+            <a href="/admin/tableau-de-bord/" class="btn btn-primary">Mon espace</a>
+          {% else %}
+            <a href="/eleve/tableau-de-bord/" class="btn btn-primary">Mon espace</a>
+          {% endif %}
+        {% else %}
+          <a href="{% url 'comptes:connexion' %}" class="btn btn-primary">Se connecter</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>
+<script defer src="{% static 'js/app.js' %}"></script>

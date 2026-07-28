@@ -10,6 +10,7 @@ URLS_PUBLIQUES = [
     '/auth/connexion/',
     '/auth/deconnexion/',
     '/privacy-policy/',
+    '/concours-blanc/',
 ]
 
 

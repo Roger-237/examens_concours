@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Classements publiés — Concours Blanc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f6f8;
+      color: #152a19;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 24px rgba(12, 42, 22, 0.08);
+    }
+    .btn-primary {
+      background-color: var(--forest-medium);
+      border-color: var(--forest-medium);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background-color: var(--forest-dark);
+      border-color: var(--forest-dark);
+    }
+    .badge-soft {
+      background: rgba(82, 183, 136, 0.16);
+      color: var(--forest-dark);
+    }
+  </style>
+</head>
+<body>
+  {% include 'partials/header.html' %}
+
+  <div class="container py-6 col-lg-10 mx-auto">
+    <div class="card p-4 mb-4">
+      <h1 class="fw-bold">Résultats publiés</h1>
+      <p class="text-muted mb-0">Sélectionnez un concours blanc publiés pour consulter son classement officiel.</p>
+    </div>
+
+    <div class="row g-4">
+      {% for concours in classements %}
+      <div class="col-lg-6">
+        <div class="card p-4 h-100">
+          <div class="d-flex justify-content-between align-items-start mb-3">
+            <div>
+              <h4 class="fw-bold mb-1">{{ concours.titre }}</h4>
+              <p class="text-muted mb-1">{{ concours.ecole.nom }}</p>
+              <span class="badge badge-soft rounded-pill px-3 py-2">{{ concours.participants_count }} participants</span>
+            </div>
+            <span class="badge bg-success text-white">Publié</span>
+          </div>
+
+          <p class="text-muted mb-4">
+            Créneau : {{ concours.heure_debut|date:'d/m/Y H:i' }} → {{ concours.heure_fin|date:'d/m/Y H:i' }}
+          </p>
+
+          <a href="{% url 'concours:classement_detail' concours.id %}" class="btn btn-primary">Voir le classement</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>

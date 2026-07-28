@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% block title %}Résultats — {{ concours.titre }}{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainages</span>
+    </a>
+</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="/admin/concours-blanc/">
+        <i class="align-middle" data-feather="award"></i>
+        <span class="align-middle">Concours Blanc</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <div>
+    <a href="{% url 'admin_examens:concours_liste' %}" class="text-muted text-decoration-none">&larr; Retour aux concours</a>
+    <h1 class="h3 text-dark fw-bold mt-2 mb-0">Résultats : {{ concours.titre }}</h1>
+    <small class="text-muted">{{ concours.ecole.nom }} | Total inscrits : {{ participants|length }} / {{ concours.nb_places_max }}</small>
+  </div>
+  <div>
+    <form method="post" action="{% url 'admin_examens:concours_basculer_classement' concours.id %}">
+      {% csrf_token %}
+      {% if concours.classement_publie %}
+        <button type="submit" class="btn btn-warning">
+          <i class="align-middle me-1" data-feather="eye-off"></i> Masquer le classement public
+        </button>
+      {% else %}
+        <button type="submit" class="btn btn-success">
+          <i class="align-middle me-1" data-feather="eye"></i> Publier le classement
+        </button>
+      {% endif %}
+    </form>
+  </div>
+</div>
+
+<div class="card shadow-sm">
+  <div class="card-body p-0">
+    <div class="table-responsive">
+      <table class="table table-striped align-middle mb-0">
+        <thead class="table-dark">
+          <tr>
+            <th>Rang</th>
+            <th>Nom du participant</th>
+            <th>Date d'inscription</th>
+            {% for ce in epreuves_concours %}
+            <th>Épreuve {{ ce.ordre }} ({{ ce.epreuve.titre }})</th>
+            {% endfor %}
+            <th class="text-end">Score Total</th>
+            <th class="text-end">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for p in participants %}
+          <tr>
+            <td class="fw-bold">#{{ forloop.counter }}</td>
+            <td>{{ p.nom }}</td>
+            <td><small>{{ p.date_inscription|date:"d/m/Y H:i" }}</small></td>
+            {% for ce in epreuves_concours %}
+              <td>
+                {% with tent=p.tentatives.all %}
+                  {% for t in tent %}
+                    {% if t.epreuve_id == ce.epreuve_id %}
+                      <span class="fw-bold">{{ t.score }} pts</span>
+                      {% if not t.terminee %}
+                        <small class="text-danger">(en cours)</small>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                {% endwith %}
+              </td>
+            {% endfor %}
+            <td class="text-end fw-bold text-success fs-5">{{ p.score_total }} pts</td>
+            <td class="text-end">
+              <form method="post" action="{% url 'admin_examens:concours_participant_supprimer' concours.id p.id %}" class="d-inline" onsubmit="return confirm('Supprimer définitivement ce participant et ses résultats ?');">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-outline-danger">Supprimer</button>
+              </form>
+            </td>
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan="{{ epreuves_concours|length|add:'5' }}" class="text-center text-muted py-4">Aucun participant n'est encore inscrit.</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -127,8 +127,9 @@
     <!-- ── Sidebar ── -->
     <nav id="sidebar" class="sidebar js-sidebar">
       <div class="sidebar-content js-simplebar">
-        <a class="sidebar-brand" href="#">
-          <span class="align-middle"> ExamensPro</span>
+        <a class="sidebar-brand d-flex align-items-center gap-2" href="#">
+          <img src="{% static 'ui/images/favicon-32x32.png' %}" alt="ExamensPro" width="32" height="32" class="rounded-circle" />
+          <span class="align-middle">ExamensPro</span>
         </a>
 
         <ul class="sidebar-nav">
@@ -147,6 +148,15 @@
               <span class="align-middle">Accueil</span>
             </a>
           </li>
+
+          {% if concours_blanc_actif %}
+          <li class="sidebar-item">
+            <a class="sidebar-link text-warning fw-bold" href="{% url 'concours:accueil' %}">
+              <i class="align-middle" data-feather="award"></i>
+              <span class="align-middle">Concours Blanc 🏆</span>
+            </a>
+          </li>
+          {% endif %}
 
           {% block sidebar_extra %}{% endblock %}
 

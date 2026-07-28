@@ -37,4 +37,15 @@ urlpatterns = [
     # Parrainages
     path('parrainages/',                          vues_admin.VueParrainagesAdmin.as_view(),  name='parrainages'),
     path('parrainages/<int:eleve_id>/bonus-paye/', vues_admin.VueMarquerBonusPaye.as_view(), name='bonus_paye'),
+
+    # Concours Blanc
+    path('concours-blanc/',                                      vues_admin.VueListeConcoursBlanc.as_view(),        name='concours_liste'),
+    path('concours-blanc/ajouter/',                              vues_admin.VueAjouterConcoursBlanc.as_view(),      name='concours_ajouter'),
+    path('concours-blanc/<int:concours_id>/modifier/',            vues_admin.VueModifierConcoursBlanc.as_view(),     name='concours_modifier'),
+    path('concours-blanc/<int:concours_id>/publier/',             vues_admin.VuePublierConcoursBlanc.as_view(),      name='concours_publier'),
+    path('concours-blanc/<int:concours_id>/resultats/',           vues_admin.VueResultatsConcoursBlanc.as_view(),    name='concours_resultats'),
+        path('concours-blanc/<int:concours_id>/supprimer/',          vues_admin.VueSupprimerConcoursBlanc.as_view(),    name='concours_supprimer'),
+    path('concours-blanc/<int:concours_id>/participants/<int:participant_id>/supprimer/',
+         vues_admin.VueSupprimerParticipantConcours.as_view(),      name='concours_participant_supprimer'),
+    path('concours-blanc/<int:concours_id>/basculer-classement/', vues_admin.VueBasculerPublicationClassement.as_view(), name='concours_basculer_classement'),
 ]

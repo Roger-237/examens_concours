@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Participation enregistrée — Concours Blanc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+    }
+    body {
+      background-color: #f4f6f8;
+      font-family: 'Inter', sans-serif;
+      color: #152a19;
+    }
+    .status-icon {
+      width: 4rem;
+      height: 4rem;
+      margin: 0 auto 1rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(82, 183, 136, 0.18);
+      color: var(--forest-dark);
+    }
+    .info-box {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(82, 183, 136, 0.2);
+      color: var(--forest-dark);
+    }
+    .btn-primary {
+      background-color: var(--forest-medium);
+      border-color: var(--forest-medium);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background-color: var(--forest-dark);
+      border-color: var(--forest-dark);
+    }
+    .btn-outline-secondary {
+      color: #4b5b50;
+      border-color: #c7d4c7;
+    }
+    .btn-outline-secondary:hover {
+      background-color: #f8f9fa;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 24px rgba(12, 42, 22, 0.08);
+    }
+    @media (max-width: 767px) {
+      .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .d-flex.justify-content-center {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include 'partials/header.html' %}
+
+  <div class="container py-6 text-center col-lg-6 mx-auto">
+    <div class="card shadow p-5 rounded-4 bg-white">
+      <div class="status-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm-1 14.17l-3.59-3.58 1.42-1.42L11 13.34l5.59-5.58 1.41 1.42Z"/>
+        </svg>
+      </div>
+      <h2 class="fw-bold mb-3">Participation enregistrée</h2>
+      
+      {% if participant %}
+        <p class="lead mb-4">
+          Félicitations <strong>{{ participant.nom }}</strong>, toutes vos réponses pour le concours <strong>{{ participant.concours.titre }}</strong> ont bien été enregistrées.
+        </p>
+      {% endif %}
+
+      <div class="alert alert-info py-4 my-4 rounded-3 info-box">
+        <h5 class="fw-bold mb-2">Remarque importante</h5>
+        <p class="mb-0">
+          Votre participation est enregistrée. Le classement sera publié ultérieurement par l'organisateur.
+        </p>
+      </div>
+
+      <div class="d-flex justify-content-center gap-3">
+        <a href="{% url 'concours:classement' %}" class="btn btn-outline-success btn-lg">Voir la page du classement</a>
+        <a href="{% url 'accueil' %}" class="btn btn-primary btn-lg">Retour à l'accueil</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

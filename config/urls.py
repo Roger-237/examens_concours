@@ -13,6 +13,7 @@ urlpatterns = [
     path('auth/',         include('comptes.urls',        namespace='comptes')),
     path('admin/',        include('examens.urls_admin',  namespace='admin_examens')),
     path('eleve/',        include('examens.urls_eleve',  namespace='eleve')),
+    path('concours-blanc/', include('examens.urls_concours', namespace='concours')),
 ]
 
 if settings.DEBUG:

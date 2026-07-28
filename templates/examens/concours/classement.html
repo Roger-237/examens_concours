@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Classement Officiel — Concours Blanc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+      --forest-soft: #eff7ef;
+    }
+    body {
+      background-color: #f4f6f8;
+      font-family: 'Inter', sans-serif;
+      color: #152a19;
+    }
+    .podium-card {
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 0 8px 30px rgba(18, 52, 28, 0.12);
+    }
+    .page-badge {
+      background: rgba(82, 183, 136, .15);
+      color: var(--forest-dark);
+    }
+    .search-input {
+      max-width: 360px;
+    }
+    .table-responsive {
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+    .table thead th {
+      border-bottom: 2px solid #cfe8d6;
+    }
+    .table tbody tr:hover {
+      background: rgba(82, 183, 136, 0.08);
+    }
+    .table tbody tr.table-top-1 {
+      background: rgba(82, 183, 136, 0.22);
+    }
+    .table tbody tr.table-top-2 {
+      background: rgba(48, 117, 68, 0.12);
+    }
+    .table tbody tr.table-top-3 {
+      background: rgba(38, 95, 57, 0.1);
+    }
+    .thin-divider {
+      border-top: 1px solid #cfe8d6;
+    }
+    .icon-svg {
+      width: 1.1rem;
+      height: 1.1rem;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.35rem;
+    }
+    .btn-primary,
+    .btn-success {
+      background-color: var(--forest-medium);
+      border-color: var(--forest-medium);
+      color: #fff;
+    }
+    .btn-primary:hover,
+    .btn-success:hover {
+      background-color: var(--forest-dark);
+      border-color: var(--forest-dark);
+    }
+    .btn-outline-secondary {
+      color: #4b5b50;
+      border-color: #c7d4c7;
+    }
+    .btn-outline-secondary:hover {
+      background-color: #f8f9fa;
+    }
+    .table thead th {
+      background-color: #fff;
+    }
+    @media (max-width: 767px) {
+      .search-input {
+        max-width: 100%;
+      }
+      .search-input .input-group {
+        flex-direction: column;
+      }
+      .search-input .form-control {
+        width: 100%;
+      }
+      .navbar .container {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      .ms-auto {
+        width: 100%;
+        justify-content: flex-start;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include 'partials/header.html' %}
+
+  <div class="container py-6 col-lg-10 mx-auto">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-4 mb-4">
+      <div>
+        <span class="badge page-badge px-3 py-2 rounded-pill fw-bold mb-2 d-inline-flex align-items-center text-dark bg-success bg-opacity-10">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 3h10v4a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5V3Zm0 2v2a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3V5H7Zm-3 4v2a7 7 0 0 0 6 6.92V21H7v2h10v-2h-3v-3.08A7 7 0 0 0 20 11V9h-2v2a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5V9H4Z"/>
+          </svg>
+          Classement officiel publié
+        </span>
+        <h1 class="fw-bold">{{ concours.titre }}</h1>
+        <p class="text-muted mb-0">{{ concours.ecole.nom }} · {{ participants|length }} participant(s)</p>
+      </div>
+      <div class="search-input w-100 w-md-auto">
+        <label class="form-label small text-uppercase text-muted mb-2">Rechercher un participant</label>
+        <div class="input-group">
+          <span class="input-group-text bg-white border-success text-success">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 2a8 8 0 1 1-5.29 14.29L2 22l1.41 1.41 3.71-3.71A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/>
+            </svg>
+          </span>
+          <input id="classement-search" type="search" class="form-control border-success" placeholder="Nom ou rang...">
+        </div>
+      </div>
+    </div>
+
+    <div class="card podium-card bg-white p-0 overflow-hidden">
+      <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+          <thead>
+            <tr style="background-color: var(--forest-medium); color: white;">
+              <th class="ps-4">Rang</th>
+              <th>Nom du participant</th>
+              {% for ce in epreuves_concours %}
+              <th class="text-center">{{ ce.epreuve.titre }}</th>
+              {% endfor %}
+              <th class="text-end pe-4">Score total</th>
+            </tr>
+          </thead>
+          <tbody id="classement-body">
+            {% for p in participants %}
+            <tr class="{% if forloop.counter == 1 %}table-top-1{% elif forloop.counter == 2 %}table-top-2{% elif forloop.counter == 3 %}table-top-3{% endif %}">
+              <td class="ps-4 text-success fw-semibold">#{{ forloop.counter }}</td>
+              <td>{{ p.nom }}</td>
+              {% for ce in epreuves_concours %}
+              <td class="text-center">
+                {% for t in p.tentatives.all %}
+                  {% if t.epreuve.id == ce.epreuve.id %}
+                    {{ t.score }}
+                  {% endif %}
+                {% endfor %}
+              </td>
+              {% endfor %}
+              <td class="text-end pe-4 fs-5 text-success fw-bold">{{ p.score_total }} pts</td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="{{ epreuves_concours|length|add:3 }}" class="text-center text-muted py-4">Aucun résultat.</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('classement-search');
+      const rows = Array.from(document.querySelectorAll('#classement-body tr'));
+
+      if (!searchInput) return;
+
+      searchInput.addEventListener('input', function() {
+        const query = this.value.trim().toLowerCase();
+        let visible = 0;
+
+        rows.forEach(row => {
+          const text = row.textContent.toLowerCase();
+          const match = query === '' || text.includes(query);
+          row.style.display = match ? '' : 'none';
+          if (match) visible += 1;
+        });
+
+        if (visible === 0) {
+          let emptyRow = document.querySelector('#classement-body .no-results');
+          if (!emptyRow) {
+            emptyRow = document.createElement('tr');
+            emptyRow.classList.add('no-results');
+            const headerRow = document.querySelector('#classement-body').previousElementSibling.querySelector('tr');
+            const colCount = headerRow ? headerRow.children.length : 3;
+            emptyRow.innerHTML = '<td colspan="' + colCount + '" class="text-center text-muted py-4">Aucun participant ne correspond à la recherche.</td>';
+            document.getElementById('classement-body').appendChild(emptyRow);
+          }
+        } else {
+          const emptyRow = document.querySelector('#classement-body .no-results');
+          if (emptyRow) emptyRow.remove();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

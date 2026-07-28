@@ -1,0 +1,234 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Concours Blanc | ExamensPro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+      --forest-soft: #eff7ef;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--forest-pale);
+      color: #172b1f;
+    }
+    .hero-concours {
+      background: linear-gradient(135deg, var(--forest-dark), var(--forest-medium));
+      color: #fff;
+      border-radius: 1.5rem;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.16);
+    }
+    .badge-status {
+      background: rgba(82, 183, 136, 0.18);
+      color: #134122;
+    }
+    .info-chip {
+      background: rgba(255,255,255,0.16);
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 220px;
+    }
+    .info-chip svg {
+      width: 1rem;
+      height: 1rem;
+      flex-shrink: 0;
+      color: #fff;
+    }
+    .navbar-brand .icon-svg,
+    .btn .icon-svg {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.35rem;
+    }
+    .btn-primary,
+    .btn-success {
+      background-color: var(--forest-medium);
+      border-color: var(--forest-medium);
+      color: #fff;
+    }
+    .btn-primary:hover,
+    .btn-success:hover {
+      background-color: var(--forest-dark);
+      border-color: var(--forest-dark);
+    }
+    .btn-outline-success {
+      color: var(--forest-dark);
+      border-color: var(--forest-medium);
+    }
+    .btn-outline-success:hover {
+      background-color: var(--forest-medium);
+      color: #fff;
+      border-color: var(--forest-dark);
+    }
+    .btn-outline-secondary {
+      color: #4b5b50;
+      border-color: #c7d4c7;
+    }
+    .btn-outline-secondary:hover {
+      background-color: #f8f9fa;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 24px rgba(12, 42, 22, 0.08);
+    }
+    @media (max-width: 991px) {
+      .hero-concours {
+        padding: 3rem 2rem;
+      }
+    }
+    @media (max-width: 767px) {
+      .hero-concours {
+        padding: 2rem 1.25rem;
+      }
+      .hero-concours .row {
+        gap: 1.5rem;
+      }
+      .info-chip {
+        width: 100%;
+        justify-content: space-between;
+        min-width: auto;
+      }
+      .d-flex.gap-2 {
+        flex-wrap: wrap;
+      }
+    }
+    @media (max-width: 575px) {
+      .navbar .container {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      .navbar-brand {
+        width: 100%;
+      }
+      .ms-auto {
+        width: 100%;
+        justify-content: flex-start;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include 'partials/header.html' %}
+
+  <div class="container py-6">
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags }}{% endif %} alert-dismissible fade show mb-4">
+          {{ message }}
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {% if concours %}
+      <div class="hero-concours p-5 p-md-8 mb-6 shadow">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <span class="badge bg-success text-white px-3 py-2 rounded-pill fw-bold mb-3">En direct — {{ concours.ecole.nom }}</span>
+            <h1 class="display-5 fw-bold mb-3">{{ concours.titre }}</h1>
+            <p class="lead mb-4">
+              Participez au grand concours blanc officiel. 3 épreuves consécutives en une seule session.
+            </p>
+            <div class="d-flex flex-wrap gap-4 text-sm">
+              <div class="info-chip">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2a9.99 9.99 0 0 0-9 5.5l1.79 1.03A8 8 0 1 1 20 12h2a10 10 0 1 0-10-10Zm-.5 4h1v6l5.25 3.15-.75 1.23L11 12.5V6Z"/>
+                </svg>
+                <strong>Début :</strong> {{ concours.heure_debut|date:"d/m/Y H:i" }}
+              </div>
+              <div class="info-chip">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
+                </svg>
+                <strong>Fin nette :</strong> {{ concours.heure_fin|date:"d/m/Y H:i" }}
+              </div>
+              <div class="info-chip">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 14H7v-2h6v2Zm2.07-7.75-4.01 4.01L8.93 11.9l1.41-1.41 1.63 1.63 2.59-2.59 1.41 1.41Z"/>
+                </svg>
+                <strong>Places restantes :</strong>
+                <span class="badge bg-light text-dark fs-6">{{ places_restantes }} / {{ concours.nb_places_max }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% if participant %}
+        <div class="card shadow-sm border-success mb-6">
+          <div class="card-body p-4 text-center">
+            <h4 class="fw-bold text-success">Bienvenue {{ participant.nom }} !</h4>
+            <p>Vous êtes déjà inscrit à ce concours.</p>
+            <div class="mb-3">
+              <a href="{% url 'concours:passer_token' participant.token %}" class="btn btn-success btn-lg px-5">
+                Continuer mon épreuve &rarr;
+              </a>
+            </div>
+            <div class="bg-light p-3 rounded text-start mx-auto" style="max-width: 600px;">
+              <div class="fw-bold d-block mb-1 d-flex align-items-center gap-2">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14l4-4h12c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2Zm0 10H7.83L5 17.83V5h14v8Z"/>
+                </svg>
+                Votre lien direct de secours
+              </div>
+              <small class="text-muted">Gardez-le précieusement.</small>
+              <input type="text" readonly class="form-control form-control-sm bg-white mt-3" value="{{ request.scheme }}://{{ request.get_host }}{% url 'concours:passer_token' participant.token %}" onclick="this.select();">
+            </div>
+          </div>
+        </div>
+      {% else %}
+
+        {% if places_restantes > 0 %}
+          <div class="card shadow col-lg-6 mx-auto rounded-4">
+            <div class="card-body p-5">
+              <h3 class="fw-bold text-center mb-3">S'inscrire au Concours Blanc</h3>
+              <p class="text-muted text-center mb-4">Accès libre sans mot de passe. Entrez simplement votre nom complet.</p>
+
+              <form method="post" action="{% url 'concours:inscription' %}">
+                {% csrf_token %}
+                <div class="mb-4">
+                  {{ formulaire.nom }}
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-success btn-lg fw-bold py-3">
+                    Démarrer le Concours Blanc Now &rarr;
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        {% else %}
+          <div class="alert alert-danger text-center p-5 rounded-4 shadow">
+            <h3 class="fw-bold mb-2">Inscriptions closes</h3>
+            <p class="mb-0">Le nombre maximum de places ({{ concours.nb_places_max }}) a été atteint pour ce concours blanc.</p>
+          </div>
+        {% endif %}
+
+      {% endif %}
+
+    {% else %}
+      <div class="text-center py-8">
+        <h2 class="fw-bold text-muted mb-3">Aucun Concours Blanc actif</h2>
+        <p>Revenez ultérieurement pour participer au prochain concours blanc officiel.</p>
+        <a href="{% url 'accueil' %}" class="btn btn-primary mt-3">Retour à l'accueil</a>
+      </div>
+    {% endif %}
+
+  </div>
+</body>
+</html>

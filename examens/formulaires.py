@@ -1,6 +1,6 @@
 from django import forms
 from django.forms import inlineformset_factory
-from .models import Ecole, Filiere, Epreuve, Question, Choix
+from .models import Ecole, Filiere, Epreuve, Question, Choix, ConcoursBlanc
 from comptes.models import Eleve, Utilisateur, Role, generer_code_acces
 
 
@@ -127,3 +127,66 @@ class FormulaireEleve(forms.Form):
             'placeholder': 'Ex : Jean Dupont'
         })
     )
+
+
+# ─────────────────────────────────────────
+#  CONCOURS BLANC
+# ─────────────────────────────────────────
+class FormulaireConcoursBlanc(forms.ModelForm):
+
+    epreuve_1 = forms.ModelChoiceField(
+        queryset=Epreuve.objects.all(),
+        label='Épreuve 1',
+        widget=forms.Select(attrs={'class': 'form-select'})
+    )
+    epreuve_2 = forms.ModelChoiceField(
+        queryset=Epreuve.objects.all(),
+        label='Épreuve 2',
+        widget=forms.Select(attrs={'class': 'form-select'})
+    )
+    epreuve_3 = forms.ModelChoiceField(
+        queryset=Epreuve.objects.all(),
+        label='Épreuve 3',
+        widget=forms.Select(attrs={'class': 'form-select'})
+    )
+
+    class Meta:
+        model  = ConcoursBlanc
+        fields = ['ecole', 'titre', 'heure_debut', 'heure_fin', 'nb_places_max']
+        widgets = {
+            'ecole': forms.Select(attrs={'class': 'form-select'}),
+            'titre': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Ex: Grand Concours Blanc INPTIC 2026'}),
+            'heure_debut': forms.DateTimeInput(attrs={'class': 'form-control', 'type': 'datetime-local'}),
+            'heure_fin': forms.DateTimeInput(attrs={'class': 'form-control', 'type': 'datetime-local'}),
+            'nb_places_max': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Ex: 100'}),
+        }
+
+    def clean(self):
+        cleaned_data = super().clean()
+        ep1 = cleaned_data.get('epreuve_1')
+        ep2 = cleaned_data.get('epreuve_2')
+        ep3 = cleaned_data.get('epreuve_3')
+
+        if ep1 and ep2 and ep3:
+            if len({ep1.id, ep2.id, ep3.id}) < 3:
+                raise forms.ValidationError("Les 3 épreuves doivent être différentes.")
+
+        h_debut = cleaned_data.get('heure_debut')
+        h_fin   = cleaned_data.get('heure_fin')
+        if h_debut and h_fin and h_fin <= h_debut:
+            raise forms.ValidationError("L'heure de fin doit être postérieure à l'heure de début.")
+
+        return cleaned_data
+
+
+class FormulaireInscriptionConcours(forms.Form):
+
+    nom = forms.CharField(
+        label='Votre Nom complet',
+        max_length=150,
+        widget=forms.TextInput(attrs={
+            'class': 'form-control form-control-lg',
+            'placeholder': 'Entrez votre Nom complet (ex: Jean Dupont)',
+            'required': True,
+        })
+    )

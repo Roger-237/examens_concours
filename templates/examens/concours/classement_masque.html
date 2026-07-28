@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Classement non disponible — Concours Blanc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark: #1b4332;
+      --forest-medium: #2d6a4f;
+      --forest-accent: #52b788;
+      --forest-pale: #d8f3dc;
+    }
+    body {
+      background-color: #f4f6f8;
+      font-family: 'Inter', sans-serif;
+      color: #152a19;
+    }
+    .status-icon {
+      width: 4rem;
+      height: 4rem;
+      margin: 0 auto 1rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(82, 183, 136, 0.18);
+      color: var(--forest-dark);
+    }
+    .info-box {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(82, 183, 136, 0.2);
+      color: var(--forest-dark);
+    }
+    .btn-primary {
+      background-color: var(--forest-medium);
+      border-color: var(--forest-medium);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background-color: var(--forest-dark);
+      border-color: var(--forest-dark);
+    }
+    .btn-outline-secondary {
+      color: #4b5b50;
+      border-color: #c7d4c7;
+    }
+    .btn-outline-secondary:hover {
+      background-color: #f8f9fa;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 24px rgba(12, 42, 22, 0.08);
+    }
+    @media (max-width: 767px) {
+      .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% include 'partials/header.html' %}
+
+  <div class="container py-6 text-center col-lg-6 mx-auto">
+    <div class="card shadow p-5 rounded-4 bg-white">
+      <div class="status-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/>
+        </svg>
+      </div>
+      <h2 class="fw-bold mb-3">Classement non encore publié</h2>
+      <p class="lead text-muted mb-4">
+        Le classement pour le concours <strong>{{ concours.titre }}</strong> n'est pas encore disponible.
+      </p>
+      <div class="alert alert-secondary py-3 mb-4 info-box">
+        Le classement sera visible dès que l'administrateur activera la publication des résultats.
+      </div>
+      <div>
+        <a href="{% url 'accueil' %}" class="btn btn-primary btn-lg">Retour à l'accueil</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

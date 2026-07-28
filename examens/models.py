@@ -1,4 +1,6 @@
+import uuid
 from django.db import models
+from django.utils import timezone
 
 
 # ─────────────────────────────────────────
@@ -130,3 +132,110 @@ class ReponseEleve(models.Model):
 
     def __str__(self):
         return f"{self.tentative.eleve.nom_complet} — Q{self.question.ordre}"
+
+
+# ─────────────────────────────────────────
+#  CONCOURS BLANC
+# ─────────────────────────────────────────
+class ConcoursBlanc(models.Model):
+
+    STATUT_CHOICES = [
+        ('brouillon', 'Brouillon'),
+        ('publie',    'Publié'),
+        ('termine',    'Terminé'),
+    ]
+
+    ecole             = models.ForeignKey(Ecole, on_delete=models.CASCADE, related_name='concours_blancs')
+    titre             = models.CharField(max_length=200, verbose_name='Titre')
+    heure_debut       = models.DateTimeField(verbose_name='Heure de début')
+    heure_fin         = models.DateTimeField(verbose_name='Heure de fin')
+    nb_places_max     = models.PositiveIntegerField(verbose_name='Nombre de places maximum')
+    statut            = models.CharField(max_length=15, choices=STATUT_CHOICES, default='brouillon', verbose_name='Statut')
+    classement_publie = models.BooleanField(default=False, verbose_name='Classement publié')
+    date_creation     = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name        = 'Concours Blanc'
+        verbose_name_plural = 'Concours Blancs'
+        ordering            = ['-date_creation']
+
+    def __str__(self):
+        return f"{self.titre} ({self.ecole.nom}) — {self.get_statut_display()}"
+
+    def est_ouvert(self):
+        maintenant = timezone.now()
+        return self.statut == 'publie' and self.heure_debut <= maintenant <= self.heure_fin
+
+    def places_restantes(self):
+        return max(0, self.nb_places_max - self.participants.count())
+
+
+class ConcoursBlancEpreuve(models.Model):
+
+    concours = models.ForeignKey(ConcoursBlanc, on_delete=models.CASCADE, related_name='concours_epreuves')
+    epreuve  = models.ForeignKey(Epreuve, on_delete=models.CASCADE, related_name='epreuves_concours')
+    ordre    = models.PositiveIntegerField(default=1, verbose_name='Ordre')
+
+    class Meta:
+        verbose_name        = 'Épreuve du concours blanc'
+        verbose_name_plural = 'Épreuves du concours blanc'
+        ordering            = ['ordre']
+        unique_together     = [('concours', 'epreuve'), ('concours', 'ordre')]
+
+    def __str__(self):
+        return f"{self.concours.titre} — Épreuve {self.ordre} : {self.epreuve.titre}"
+
+
+class ParticipantConcours(models.Model):
+
+    concours         = models.ForeignKey(ConcoursBlanc, on_delete=models.CASCADE, related_name='participants')
+    nom              = models.CharField(max_length=150, verbose_name='Nom du participant')
+    token            = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
+    date_inscription = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name        = 'Participant concours blanc'
+        verbose_name_plural = 'Participants concours blanc'
+        ordering            = ['date_inscription']
+        unique_together     = ['concours', 'nom']
+
+    def __str__(self):
+        return f"{self.nom} ({self.concours.titre})"
+
+    @property
+    def score_total(self):
+        return sum(t.score for t in self.tentatives.filter(terminee=True))
+
+
+class TentativeConcoursParticipant(models.Model):
+
+    participant = models.ForeignKey(ParticipantConcours, on_delete=models.CASCADE, related_name='tentatives')
+    epreuve     = models.ForeignKey(Epreuve, on_delete=models.CASCADE, related_name='tentatives_concours')
+    score       = models.IntegerField(default=0, verbose_name='Score')
+    date_debut  = models.DateTimeField(auto_now_add=True)
+    date_fin    = models.DateTimeField(null=True, blank=True)
+    terminee    = models.BooleanField(default=False)
+    revue       = models.BooleanField(default=False, verbose_name='Revue')
+
+    class Meta:
+        verbose_name        = 'Tentative concours participant'
+        verbose_name_plural = 'Tentatives concours participant'
+        unique_together     = ['participant', 'epreuve']
+
+    def __str__(self):
+        return f"{self.participant.nom} — {self.epreuve.titre} ({self.score}pts)"
+
+
+class ReponseConcoursParticipant(models.Model):
+
+    tentative = models.ForeignKey(TentativeConcoursParticipant, on_delete=models.CASCADE, related_name='reponses')
+    question  = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choix     = models.ForeignKey(Choix, on_delete=models.SET_NULL, null=True, blank=True)
+
+    class Meta:
+        verbose_name        = 'Réponse concours participant'
+        verbose_name_plural = 'Réponses concours participant'
+        unique_together     = ['tentative', 'question']
+
+    def __str__(self):
+        return f"{self.tentative.participant.nom} — Q{self.question.ordre}"

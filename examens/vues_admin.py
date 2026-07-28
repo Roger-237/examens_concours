@@ -1,10 +1,14 @@
 from django.views import View
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.utils import timezone
 from comptes.middleware import AdminRequis
 from comptes.models import Eleve, Utilisateur, Role, generer_code_acces, Parrainage, Notification
-from examens.models import Ecole, Epreuve
-from examens.formulaires import FormulaireEcole
+from examens.models import (
+    Ecole, Epreuve, ConcoursBlanc, ConcoursBlancEpreuve,
+    ParticipantConcours, TentativeConcoursParticipant
+)
+from examens.formulaires import FormulaireEcole, FormulaireConcoursBlanc
 
 
 # ─────────────────────────────────────────
@@ -480,3 +484,181 @@ class VueMarquerBonusPaye(AdminRequis, View):
 
         messages.success(request, f'Bonus marqué comme payé pour {eleve.nom_complet}.')
         return redirect('admin_examens:parrainages')
+
+
+# ─────────────────────────────────────────
+#  FONCTION UTILITAIRE : FINALISATION AUTOMATIQUE
+# ─────────────────────────────────────────
+def finaliser_tentatives_expirees(concours):
+    """
+    Finalise automatiquement toute tentative non terminée d'un concours
+    dont l'heure de fin est dépassée.
+    """
+    if timezone.now() > concours.heure_fin:
+        tentatives_en_cours = TentativeConcoursParticipant.objects.filter(
+            participant__concours=concours,
+            terminee=False
+        ).select_related('epreuve', 'participant')
+
+        for tentative in tentatives_en_cours:
+            reponses = {
+                r.question_id: r.choix
+                for r in tentative.reponses.select_related('choix').all()
+            }
+            questions = tentative.epreuve.questions.all()
+            score = 0
+            for q in questions:
+                choix = reponses.get(q.id)
+                if choix:
+                    if choix.est_correct:
+                        score += 1
+                    else:
+                        score -= 1
+            tentative.score = score
+            tentative.terminee = True
+            tentative.date_fin = concours.heure_fin
+            tentative.save()
+
+
+# ─────────────────────────────────────────
+#  CONCOURS BLANC — ADMINISTRATION
+# ─────────────────────────────────────────
+class VueListeConcoursBlanc(AdminRequis, View):
+
+    def get(self, request):
+        concours_list = ConcoursBlanc.objects.select_related('ecole').prefetch_related('participants').all()
+        return render(request, 'examens/admin/concours_liste.html', {'concours_list': concours_list})
+
+
+class VueAjouterConcoursBlanc(AdminRequis, View):
+
+    def get(self, request):
+        formulaire = FormulaireConcoursBlanc()
+        return render(request, 'examens/admin/concours_form.html', {
+            'form': formulaire,
+            'titre': 'Créer un concours blanc',
+        })
+
+    def post(self, request):
+        formulaire = FormulaireConcoursBlanc(request.POST)
+        if formulaire.is_valid():
+            concours = formulaire.save(commit=False)
+            concours.statut = 'brouillon'
+            concours.save()
+
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_1'], ordre=1)
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_2'], ordre=2)
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_3'], ordre=3)
+
+            messages.success(request, 'Concours blanc créé avec succès en statut brouillon.')
+            return redirect('admin_examens:concours_liste')
+
+        return render(request, 'examens/admin/concours_form.html', {
+            'form': formulaire,
+            'titre': 'Créer un concours blanc',
+        })
+
+
+class VueModifierConcoursBlanc(AdminRequis, View):
+
+    def get(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+        epreuves_ord = list(concours.concours_epreuves.order_by('ordre'))
+
+        initial = {}
+        if len(epreuves_ord) >= 3:
+            initial['epreuve_1'] = epreuves_ord[0].epreuve
+            initial['epreuve_2'] = epreuves_ord[1].epreuve
+            initial['epreuve_3'] = epreuves_ord[2].epreuve
+
+        formulaire = FormulaireConcoursBlanc(instance=concours, initial=initial)
+        return render(request, 'examens/admin/concours_form.html', {
+            'form': formulaire,
+            'titre': 'Modifier le concours blanc',
+            'concours': concours,
+        })
+
+    def post(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+        formulaire = FormulaireConcoursBlanc(request.POST, instance=concours)
+        if formulaire.is_valid():
+            concours = formulaire.save()
+            concours.concours_epreuves.all().delete()
+
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_1'], ordre=1)
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_2'], ordre=2)
+            ConcoursBlancEpreuve.objects.create(concours=concours, epreuve=formulaire.cleaned_data['epreuve_3'], ordre=3)
+
+            messages.success(request, 'Concours blanc modifié avec succès.')
+            return redirect('admin_examens:concours_liste')
+
+        return render(request, 'examens/admin/concours_form.html', {
+            'form': formulaire,
+            'titre': 'Modifier le concours blanc',
+            'concours': concours,
+        })
+
+
+class VuePublierConcoursBlanc(AdminRequis, View):
+
+    def post(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+        concours.statut = 'publie'
+        concours.save()
+        messages.success(request, f'Le concours blanc "{concours.titre}" a été publié.')
+        return redirect('admin_examens:concours_liste')
+
+
+class VueSupprimerConcoursBlanc(AdminRequis, View):
+
+    def post(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+
+        titre = concours.titre
+        concours.delete()
+        messages.success(request, f'Le concours blanc "{titre}" a été supprimé avec succès.')
+        return redirect('admin_examens:concours_liste')
+
+
+class VueResultatsConcoursBlanc(AdminRequis, View):
+
+    def get(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+
+        # Finalisation automatique des tentatives si l'heure de fin est dépassée
+        finaliser_tentatives_expirees(concours)
+
+        participants = concours.participants.prefetch_related('tentatives', 'tentatives__epreuve').all()
+
+        # Tri par score total décroissant
+        participants_liste = list(participants)
+        participants_liste.sort(key=lambda p: p.score_total, reverse=True)
+
+        return render(request, 'examens/admin/concours_resultats.html', {
+            'concours': concours,
+            'participants': participants_liste,
+            'epreuves_concours': concours.concours_epreuves.select_related('epreuve').order_by('ordre'),
+        })
+
+
+class VueSupprimerParticipantConcours(AdminRequis, View):
+
+    def post(self, request, concours_id, participant_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+        participant = get_object_or_404(ParticipantConcours, id=participant_id, concours=concours)
+
+        participant.delete()
+        messages.success(request, f'Le résultat de {participant.nom} a été supprimé avec succès.')
+        return redirect('admin_examens:concours_resultats', concours_id=concours.id)
+
+
+class VueBasculerPublicationClassement(AdminRequis, View):
+
+    def post(self, request, concours_id):
+        concours = get_object_or_404(ConcoursBlanc, id=concours_id)
+        concours.classement_publie = not concours.classement_publie
+        concours.save()
+
+        etat = "publié" if concours.classement_publie else "masqué"
+        messages.success(request, f'Le classement est désormais {etat} publiquement.')
+        return redirect('admin_examens:concours_resultats', concours_id=concours.id)

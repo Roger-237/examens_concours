@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% block title %}{{ titre }}{% endblock %}
+{% block nav_dashboard %}{% endblock %}
+{% block dashboard_url %}/admin/tableau-de-bord/{% endblock %}
+
+{% block sidebar_extra %}
+<li class="sidebar-header">Gestion</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:ecoles_liste' %}">
+        <i class="align-middle" data-feather="book"></i>
+        <span class="align-middle">Écoles</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:filieres_liste' %}">
+        <i class="align-middle" data-feather="layers"></i>
+        <span class="align-middle">Filières</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:epreuves_liste' %}">
+        <i class="align-middle" data-feather="file-text"></i>
+        <span class="align-middle">Épreuves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:eleves_liste' %}">
+        <i class="align-middle" data-feather="users"></i>
+        <span class="align-middle">Élèves</span>
+    </a>
+</li>
+
+<li class="sidebar-item">
+    <a class="sidebar-link" href="{% url 'admin_examens:parrainages' %}">
+        <i class="align-middle" data-feather="gift"></i>
+        <span class="align-middle">Parrainages</span>
+    </a>
+</li>
+
+<li class="sidebar-item active">
+    <a class="sidebar-link" href="/admin/concours-blanc/">
+        <i class="align-middle" data-feather="award"></i>
+        <span class="align-middle">Concours Blanc</span>
+    </a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+  <a href="{% url 'admin_examens:concours_liste' %}" class="text-muted text-decoration-none">
+    &larr; Retour à la liste des concours blancs
+  </a>
+  <h1 class="h3 text-dark fw-bold mt-2">{{ titre }}</h1>
+</div>
+
+<div class="card shadow-sm col-lg-8 mx-auto">
+  <div class="card-body p-4">
+    <form method="post">
+      {% csrf_token %}
+      
+      {% if form.non_field_errors %}
+      <div class="alert alert-danger">
+        {% for err in form.non_field_errors %}{{ err }}<br>{% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">École organisatrice</label>
+        {{ form.ecole }}
+        {% if form.ecole.errors %}<div class="text-danger small">{{ form.ecole.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">Titre du concours</label>
+        {{ form.titre }}
+        {% if form.titre.errors %}<div class="text-danger small">{{ form.titre.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label fw-bold">Heure de début (Ouverture)</label>
+          {{ form.heure_debut }}
+          {% if form.heure_debut.errors %}<div class="text-danger small">{{ form.heure_debut.errors.0 }}</div>{% endif %}
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label fw-bold">Heure de fin (Fermeture nette)</label>
+          {{ form.heure_fin }}
+          {% if form.heure_fin.errors %}<div class="text-danger small">{{ form.heure_fin.errors.0 }}</div>{% endif %}
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">Nombre de places maximum</label>
+        {{ form.nb_places_max }}
+        {% if form.nb_places_max.errors %}<div class="text-danger small">{{ form.nb_places_max.errors.0 }}</div>{% endif %}
+      </div>
+
+      <h5 class="fw-bold text-primary border-bottom pb-2 mt-4 mb-3">Sélection des 3 épreuves (ordre de passage)</h5>
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">1ère Épreuve</label>
+        {{ form.epreuve_1 }}
+        {% if form.epreuve_1.errors %}<div class="text-danger small">{{ form.epreuve_1.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">2ème Épreuve</label>
+        {{ form.epreuve_2 }}
+        {% if form.epreuve_2.errors %}<div class="text-danger small">{{ form.epreuve_2.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label fw-bold">3ème Épreuve</label>
+        {{ form.epreuve_3 }}
+        {% if form.epreuve_3.errors %}<div class="text-danger small">{{ form.epreuve_3.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="d-flex justify-content-end gap-2 mt-4">
+        <a href="{% url 'admin_examens:concours_liste' %}" class="btn btn-secondary">Annuler</a>
+        <button type="submit" class="btn btn-primary">Enregistrer le Concours Blanc</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
