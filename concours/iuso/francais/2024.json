@@ -1,0 +1,195 @@
+[
+{
+"ecole": "IUSO",
+"filiere": "Toutes filières",
+"epreuves": [
+{
+"titre": "Culture Générale (simulation)",
+"annee": 2024,
+"mini_cours": "--- POINTS TRÈS AVANCÉS À MAÎTRISER (IUSO CULTURE GÉNÉRALE - NIVEAU TRÈS DIFFICILE) ---\n\n1. LE GABON DANS LA SECONDE GUERRE MONDIALE :\n- À l'été 1940, contrairement au Tchad, au Cameroun, au Congo et à l'Oubangui-Chari (ralliés lors des « Trois Glorieuses » d'août 1940), le Gabon reste fidèle au régime de Vichy.\n- Le général Leclerc (alors capitaine de Hauteclocque) mène l'offensive contre le Gabon : Lambaréné tombe le 5 novembre 1940, Libreville se rend le 9-10 novembre, et Port-Gentil le 12 novembre 1940.\n- Le sous-marin vichyste Poncelet se saborde au large de Libreville durant ces combats.\n- Cette « campagne du Gabon » permet de réunir tout l'AEF (Afrique-Équatoriale Française) sous la France Libre, avec Brazzaville comme capitale.\n\n2. INSTITUTIONS, ONU ET DIPLOMATIE :\n- Le Gabon a siégé quatre fois au Conseil de sécurité de l'ONU comme membre non permanent : 1978-1979, 1998-1999, 2010-2011, 2022-2023.\n- Élu le 11 juin 2021 avec 183 voix, le Gabon a présidé le Conseil de sécurité en octobre 2022.\n- Le Gabon est membre de l'ECOSOC depuis 2020 et du Conseil des droits de l'Homme de l'ONU depuis 2021.\n\n3. CHRONOLOGIE PRÉSIDENTIELLE ET RÉGIME :\n- Léon Mba (1er président, 1961-1967) meurt le 28 novembre 1967 à Paris ; un coup d'État manqué avait déjà menacé son régime en février 1964, réprimé par l'intervention militaire française.\n- Omar Bongo Ondimba succède à Léon Mba le 2 décembre 1967 et dirige jusqu'à sa mort le 8 juin 2009 à Barcelone.\n- Ali Bongo Ondimba est renversé le 30 août 2023 par le CTRI, dirigé par Brice Oligui Nguema.\n\n4. GÉOGRAPHIE, ENVIRONNEMENT ET ÉCONOMIE :\n- Les 13 parcs nationaux gabonais, créés le 4 septembre 2002 à l'annonce d'Omar Bongo Ondimba au Sommet de la Terre de Johannesburg, couvrent environ 11 % du territoire.\n- Le parc national de la Lopé est inscrit au patrimoine mondial de l'UNESCO pour sa biodiversité et son art rupestre.\n- Le Franc CFA (XAF) de la zone CEMAC est arrimé à l'Euro par une parité fixe garantie par le Trésor français.\n- Le Gabon est membre de la CEMAC, de la CEEAC, de l'Union Africaine, de l'OPEP et de l'OIF.",
+"questions": [
+{"ordre": 1, "texte": "Contrairement au Tchad, au Cameroun, au Congo et à l'Oubangui-Chari, quel territoire d'AEF est resté fidèle à Vichy après les « Trois Glorieuses » d'août 1940 ?", "choix": [
+{"texte": "A- Le Gabon", "est_correct": true},
+{"texte": "B- Le Congo", "est_correct": false},
+{"texte": "C- Le Cameroun", "est_correct": false},
+{"texte": "D- L'Oubangui-Chari", "est_correct": false}
+]},
+{"ordre": 2, "texte": "Quel officier français a mené l'offensive militaire qui a rallié le Gabon à la France Libre en novembre 1940 ?", "choix": [
+{"texte": "A- Le colonel de Larminat", "est_correct": false},
+{"texte": "B- Le capitaine de Hauteclocque (futur général Leclerc)", "est_correct": true},
+{"texte": "C- Le général de Gaulle en personne", "est_correct": false},
+{"texte": "D- Le général Têtu", "est_correct": false}
+]},
+{"ordre": 3, "texte": "Quelle ville gabonaise est tombée aux mains des Forces françaises libres le 5 novembre 1940, lors de la progression vers Libreville ?", "choix": [
+{"texte": "A- Port-Gentil", "est_correct": false},
+{"texte": "B- Lambaréné", "est_correct": true},
+{"texte": "C- Mouila", "est_correct": false},
+{"texte": "D- Oyem", "est_correct": false}
+]},
+{"ordre": 4, "texte": "Quel bâtiment de guerre vichyste s'est sabordé au large de Libreville durant les combats de novembre 1940 ?", "choix": [
+{"texte": "A- Le sous-marin Poncelet", "est_correct": true},
+{"texte": "B- L'aviso Bougainville", "est_correct": false},
+{"texte": "C- Le croiseur Savorgnan de Brazza", "est_correct": false},
+{"texte": "D- Le HMS Milford", "est_correct": false}
+]},
+{"ordre": 5, "texte": "Quelle ville est devenue la capitale de la France Libre après le ralliement complet de l'AEF fin 1940 ?", "choix": [
+{"texte": "A- Brazzaville", "est_correct": true},
+{"texte": "B- Libreville", "est_correct": false},
+{"texte": "C- Douala", "est_correct": false},
+{"texte": "D- Fort-Lamy", "est_correct": false}
+]},
+{"ordre": 6, "texte": "En quel mois de 1964 un coup d'État manqué a-t-il menacé le régime de Léon Mba, réprimé par l'intervention militaire française ?", "choix": [
+{"texte": "A- Février", "est_correct": true},
+{"texte": "B- Août", "est_correct": false},
+{"texte": "C- Novembre", "est_correct": false},
+{"texte": "D- Décembre", "est_correct": false}
+]},
+{"ordre": 7, "texte": "Combien de fois le Gabon a-t-il siégé comme membre non permanent du Conseil de sécurité de l'ONU jusqu'en 2023 ?", "choix": [
+{"texte": "A- Deux fois", "est_correct": false},
+{"texte": "B- Trois fois", "est_correct": false},
+{"texte": "C- Quatre fois", "est_correct": true},
+{"texte": "D- Une seule fois", "est_correct": false}
+]},
+{"ordre": 8, "texte": "Avec combien de voix le Gabon a-t-il été élu au Conseil de sécurité de l'ONU le 11 juin 2021 ?", "choix": [
+{"texte": "A- 150 voix", "est_correct": false},
+{"texte": "B- 183 voix", "est_correct": true},
+{"texte": "C- 120 voix", "est_correct": false},
+{"texte": "D- 175 voix", "est_correct": false}
+]},
+{"ordre": 9, "texte": "En quel mois le Gabon a-t-il assuré la présidence tournante du Conseil de sécurité de l'ONU en 2022 ?", "choix": [
+{"texte": "A- Janvier", "est_correct": false},
+{"texte": "B- Octobre", "est_correct": true},
+{"texte": "C- Juin", "est_correct": false},
+{"texte": "D- Décembre", "est_correct": false}
+]},
+{"ordre": 10, "texte": "Depuis quelle année le Gabon siège-t-il au Conseil des droits de l'Homme de l'ONU ?", "choix": [
+{"texte": "A- 2015", "est_correct": false},
+{"texte": "B- 2021", "est_correct": true},
+{"texte": "C- 2023", "est_correct": false},
+{"texte": "D- 2018", "est_correct": false}
+]},
+{"ordre": 11, "texte": "À quelle date précise Omar Bongo Ondimba a-t-il succédé à Léon Mba ?", "choix": [
+{"texte": "A- 2 décembre 1967", "est_correct": true},
+{"texte": "B- 28 novembre 1967", "est_correct": false},
+{"texte": "C- 17 août 1967", "est_correct": false},
+{"texte": "D- 12 février 1968", "est_correct": false}
+]},
+{"ordre": 12, "texte": "Dans quelle ville Omar Bongo Ondimba est-il décédé en 2009 ?", "choix": [
+{"texte": "A- Barcelone", "est_correct": true},
+{"texte": "B- Paris", "est_correct": false},
+{"texte": "C- Genève", "est_correct": false},
+{"texte": "D- Libreville", "est_correct": false}
+]},
+{"ordre": 13, "texte": "À quelle date précise le régime d'Ali Bongo Ondimba a-t-il été renversé par le CTRI ?", "choix": [
+{"texte": "A- 30 août 2023", "est_correct": true},
+{"texte": "B- 3 mars 2023", "est_correct": false},
+{"texte": "C- 17 août 2023", "est_correct": false},
+{"texte": "D- 27 novembre 2023", "est_correct": false}
+]},
+{"ordre": 14, "texte": "Quel parc national gabonais est inscrit au patrimoine mondial de l'UNESCO pour son art rupestre et sa biodiversité ?", "choix": [
+{"texte": "A- La Lopé", "est_correct": true},
+{"texte": "B- Loango", "est_correct": false},
+{"texte": "C- Akanda", "est_correct": false},
+{"texte": "D- Minkébé", "est_correct": false}
+]},
+{"ordre": 15, "texte": "Lors de quel sommet international la création des 13 parcs nationaux du Gabon a-t-elle été annoncée en 2002 ?", "choix": [
+{"texte": "A- Le Sommet de la Terre de Johannesburg", "est_correct": true},
+{"texte": "B- La COP21 de Paris", "est_correct": false},
+{"texte": "C- Le Sommet de Rio", "est_correct": false},
+{"texte": "D- Le Sommet du G8", "est_correct": false}
+]},
+{"ordre": 16, "texte": "Quelle institution française garantit la parité fixe du Franc CFA avec l'Euro ?", "choix": [
+{"texte": "A- Le Trésor français", "est_correct": true},
+{"texte": "B- La Banque de France", "est_correct": false},
+{"texte": "C- La BCE", "est_correct": false},
+{"texte": "D- Le FMI", "est_correct": false}
+]},
+{"ordre": 17, "texte": "Quel massif abrite le point culminant du Gabon ?", "choix": [
+{"texte": "A- Le massif du Chaillu", "est_correct": true},
+{"texte": "B- Les monts de Cristal", "est_correct": false},
+{"texte": "C- Le plateau Batéké", "est_correct": false},
+{"texte": "D- Les monts Birougou", "est_correct": false}
+]},
+{"ordre": 18, "texte": "Quel événement footballistique le Gabon a-t-il co-organisé en 2012 avec la Guinée Équatoriale ?", "choix": [
+{"texte": "A- La Coupe d'Afrique des Nations", "est_correct": true},
+{"texte": "B- La Coupe du Monde U20", "est_correct": false},
+{"texte": "C- Les Jeux Africains", "est_correct": false},
+{"texte": "D- La CAN féminine", "est_correct": false}
+]},
+{"ordre": 19, "texte": "Quel pays a remporté la CAN 2017, organisée seul par le Gabon ?", "choix": [
+{"texte": "A- Le Cameroun", "est_correct": true},
+{"texte": "B- L'Égypte", "est_correct": false},
+{"texte": "C- Le Gabon", "est_correct": false},
+{"texte": "D- La Côte d'Ivoire", "est_correct": false}
+]},
+{"ordre": 20, "texte": "Que signifie l'acronyme OPEP, organisation dont le Gabon est membre ?", "choix": [
+{"texte": "A- Organisation des Pays Exportateurs de Pétrole", "est_correct": true},
+{"texte": "B- Organisation pour la Protection de l'Environnement en Afrique", "est_correct": false},
+{"texte": "C- Organisation Panafricaine des Échanges Pétroliers", "est_correct": false},
+{"texte": "D- Organisation Pour l'Économie et la Production", "est_correct": false}
+]},
+{"ordre": 21, "texte": "Quel principe juridique interdit qu'une loi pénale plus sévère s'applique rétroactivement à des faits antérieurs à son entrée en vigueur ?", "choix": [
+{"texte": "A- La non-rétroactivité de la loi pénale", "est_correct": true},
+{"texte": "B- La présomption d'innocence", "est_correct": false},
+{"texte": "C- Le principe du contradictoire", "est_correct": false},
+{"texte": "D- La prescription", "est_correct": false}
+]},
+{"ordre": 22, "texte": "Quel est le sens exact du terme juridique « dirimant » ?", "choix": [
+{"texte": "A- Qui constitue un obstacle décisif et rédhibitoire", "est_correct": true},
+{"texte": "B- Qui est accessoire et sans conséquence", "est_correct": false},
+{"texte": "C- Qui favorise la conciliation", "est_correct": false},
+{"texte": "D- Qui est provisoire", "est_correct": false}
+]},
+{"ordre": 23, "texte": "Que signifie le terme « probité » attendu d'un candidat à un poste administratif ?", "choix": [
+{"texte": "A- Honnêteté rigoureuse et intégrité morale", "est_correct": true},
+{"texte": "B- Rapidité d'exécution des tâches", "est_correct": false},
+{"texte": "C- Aptitude au commandement", "est_correct": false},
+{"texte": "D- Créativité dans la résolution de problèmes", "est_correct": false}
+]},
+{"ordre": 24, "texte": "Choisissez la forme correcte : « Les décisions qu'ils se sont ... de contester restent en vigueur. »", "choix": [
+{"texte": "A- abstenus", "est_correct": true},
+{"texte": "B- abstenu", "est_correct": false},
+{"texte": "C- abstenue", "est_correct": false},
+{"texte": "D- abstenues", "est_correct": false}
+]},
+{"ordre": 25, "texte": "Quelle est l'orthographe correcte de l'adverbe dérivé de l'adjectif « précédent » ?", "choix": [
+{"texte": "A- précédemment", "est_correct": true},
+{"texte": "B- précédamment", "est_correct": false},
+{"texte": "C- précédentement", "est_correct": false},
+{"texte": "D- précédement", "est_correct": false}
+]},
+{"ordre": 26, "texte": "Quel principe économique désigne une hausse générale et durable des prix, érodant le pouvoir d'achat ?", "choix": [
+{"texte": "A- L'inflation", "est_correct": true},
+{"texte": "B- La déflation", "est_correct": false},
+{"texte": "C- La stagflation exclusivement", "est_correct": false},
+{"texte": "D- La récession", "est_correct": false}
+]},
+{"ordre": 27, "texte": "Quel indicateur mesure la richesse totale produite par un pays sur une année donnée ?", "choix": [
+{"texte": "A- Le PIB", "est_correct": true},
+{"texte": "B- Le taux de change", "est_correct": false},
+{"texte": "C- L'IDH exclusivement", "est_correct": false},
+{"texte": "D- La balance commerciale", "est_correct": false}
+]},
+{"ordre": 28, "texte": "Quel document fondamental garantit la séparation des pouvoirs exécutif, législatif et judiciaire ?", "choix": [
+{"texte": "A- La Constitution", "est_correct": true},
+{"texte": "B- Le Code civil", "est_correct": false},
+{"texte": "C- Le règlement intérieur", "est_correct": false},
+{"texte": "D- Le Code pénal", "est_correct": false}
+]},
+{"ordre": 29, "texte": "Quelle organisation a succédé à la Société des Nations (SDN) en 1945 ?", "choix": [
+{"texte": "A- L'ONU", "est_correct": true},
+{"texte": "B- L'Union Africaine", "est_correct": false},
+{"texte": "C- L'OTAN", "est_correct": false},
+{"texte": "D- L'Union Européenne", "est_correct": false}
+]},
+{"ordre": 30, "texte": "Quel principe juridique protège un accusé tant que sa culpabilité n'a pas été légalement établie ?", "choix": [
+{"texte": "A- La présomption d'innocence", "est_correct": true},
+{"texte": "B- La prescription", "est_correct": false},
+{"texte": "C- Le contradictoire", "est_correct": false},
+{"texte": "D- La non-rétroactivité", "est_correct": false}
+]}
+]
+}
+]
+}
+]
