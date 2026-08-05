@@ -1,0 +1,244 @@
+[
+  {
+    "ecole": "INPTIC",
+    "filiere": "GI",
+    "epreuves": [
+      {
+        "titre": "Concours d'entrée INPTIC - Épreuve de Test Psychotechnique & Logique",
+        "annee": 2024,
+        "latex": true,
+        "mini_cours": "Épreuve de tests psychotechniques et de logique évaluant le raisonnement abstrait, les suites numériques et alphabétiques, les matrices visuelles, les dominos ainsi que le repérage spatial.",
+        "questions": [
+          {
+            "ordre": 1,
+            "texte": "Une de ces figures est une intruse : laquelle ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": false},
+              {"texte": "d. Figure 4", "est_correct": false},
+              {"texte": "e. Figure 5", "est_correct": true},
+              {"texte": "f. Figure 6", "est_correct": false}
+            ],
+            "image": "images/q1.png"
+          },
+          {
+            "ordre": 2,
+            "texte": "Une de ces figures est une intruse : laquelle ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": false},
+              {"texte": "d. Figure 4", "est_correct": false},
+              {"texte": "e. Figure 5", "est_correct": true},
+              {"texte": "f. Figure 6", "est_correct": false}
+            ],
+            "image": "images/q2.png"
+          },
+          {
+            "ordre": 3,
+            "texte": "Quelle figure numérotée continue la série ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": true},
+              {"texte": "d. Figure 4", "est_correct": false}
+            ],
+            "image": "images/q3.png"
+          },
+          {
+            "ordre": 4,
+            "texte": "Quelle figure numérotée continue la série ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": true},
+              {"texte": "c. Figure 3", "est_correct": false},
+              {"texte": "d. Figure 4", "est_correct": false}
+            ],
+            "image": "images/q4.png"
+          },
+          {
+            "ordre": 5,
+            "texte": "Quel nombre continue cette suite numérique ? 5 – 7 – 14 – 16 – 32 – 34 – ...",
+            "choix": [
+              {"texte": "a. 36", "est_correct": false},
+              {"texte": "b. 68", "est_correct": true},
+              {"texte": "c. 66", "est_correct": false},
+              {"texte": "d. 40", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 6,
+            "texte": "Quel nombre continue cette suite numérique ? 328 – 343 – 359 – 376 – 394 – ...",
+            "choix": [
+              {"texte": "a. 412", "est_correct": false},
+              {"texte": "b. 413", "est_correct": true},
+              {"texte": "c. 415", "est_correct": false},
+              {"texte": "d. 420", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 7,
+            "texte": "Quelle lettre continue cette suite alphabétique ? S – O – P – L – M – I – ...",
+            "choix": [
+              {"texte": "a. J", "est_correct": true},
+              {"texte": "b. H", "est_correct": false},
+              {"texte": "c. K", "est_correct": false},
+              {"texte": "d. G", "est_correct": false}
+            ],
+            "image": null
+          },
+          {
+            "ordre": 8,
+            "texte": "Quel nombre faut-il placer logiquement à la place du point d'interrogation ?",
+            "choix": [
+              {"texte": "a. 5", "est_correct": false},
+              {"texte": "b. 6", "est_correct": true},
+              {"texte": "c. 7", "est_correct": false},
+              {"texte": "d. 8", "est_correct": false}
+            ],
+            "image": "images/q8.png"
+          },
+          {
+            "ordre": 9,
+            "texte": "Quel nombre faut-il placer logiquement à la place du point d'interrogation ? (5 , 3 = 19) ; (4 , 3 = 17) ; (6 , 7 = ?)",
+            "choix": [
+              {"texte": "a. 31", "est_correct": true},
+              {"texte": "b. 43", "est_correct": false},
+              {"texte": "c. 25", "est_correct": false},
+              {"texte": "d. 37", "est_correct": false}
+            ],
+            "image": "images/q9.png"
+          },
+          {
+            "ordre": 10,
+            "texte": "Quelle figure numérotée s'inscrit logiquement dans la case du centre de la matrice ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": false},
+              {"texte": "d. Figure 4", "est_correct": false},
+              {"texte": "e. Figure 5", "est_correct": true},
+              {"texte": "f. Figure 6", "est_correct": false}
+            ],
+            "image": "images/q10.png"
+          },
+          {
+            "ordre": 11,
+            "texte": "Par quel domino faut-il remplacer celui avec les points d'interrogation ?",
+            "choix": [
+              {"texte": "a. 5 | 2", "est_correct": false},
+              {"texte": "b. 4 | 1", "est_correct": true},
+              {"texte": "c. 6 | 3", "est_correct": false},
+              {"texte": "d. 3 | 0", "est_correct": false}
+            ],
+            "image": "images/q11.png"
+          },
+          {
+            "ordre": 12,
+            "texte": "Par quel domino faut-il remplacer celui avec les points d'interrogation ?",
+            "choix": [
+              {"texte": "a. 5 / 3", "est_correct": false},
+              {"texte": "b. 6 / 2", "est_correct": false},
+              {"texte": "c. 4 / 0", "est_correct": true},
+              {"texte": "d. 3 / 1", "est_correct": false}
+            ],
+            "image": "images/q12.png"
+          },
+          {
+            "ordre": 13,
+            "texte": "Par quel domino faut-il remplacer celui avec les points d'interrogation ?",
+            "choix": [
+              {"texte": "a. 5 / 2", "est_correct": false},
+              {"texte": "b. 3 / 3", "est_correct": false},
+              {"texte": "c. 4 / 1", "est_correct": true},
+              {"texte": "d. 2 / 0", "est_correct": false}
+            ],
+            "image": "images/q13.png"
+          },
+          {
+            "ordre": 14,
+            "texte": "Quelle figure numérotée peut s'intégrer logiquement dans l'ensemble A ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": true},
+              {"texte": "d. Figure 4", "est_correct": false},
+              {"texte": "e. Figure 5", "est_correct": false},
+              {"texte": "f. Figure 6", "est_correct": false}
+            ],
+            "image": "images/q14.png"
+          },
+          {
+            "ordre": 15,
+            "texte": "Quelle figure numérotée continue la série ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": true},
+              {"texte": "c. Figure 3", "est_correct": false},
+              {"texte": "d. Figure 4", "est_correct": false}
+            ],
+            "image": "images/q15.png"
+          },
+          {
+            "ordre": 16,
+            "texte": "Quel nombre faut-il placer logiquement à la place du point d'interrogation ?",
+            "choix": [
+              {"texte": "a. 12", "est_correct": false},
+              {"texte": "b. 18", "est_correct": false},
+              {"texte": "c. 24", "est_correct": true},
+              {"texte": "d. 30", "est_correct": false}
+            ],
+            "image": "images/q16.png"
+          },
+          {
+            "ordre": 17,
+            "texte": "Quel nombre faut-il placer logiquement à la place du point d'interrogation ?",
+            "choix": [
+              {"texte": "a. 3", "est_correct": false},
+              {"texte": "b. 5", "est_correct": true},
+              {"texte": "c. 8", "est_correct": false},
+              {"texte": "d. 10", "est_correct": false}
+            ],
+            "image": "images/q17.png"
+          },
+          {
+            "ordre": 18,
+            "texte": "Par quelle carte faut-il remplacer celle qui a été retournée ?",
+            "choix": [
+              {"texte": "a. 7 de Trèfle", "est_correct": false},
+              {"texte": "b. 8 de Trèfle", "est_correct": true},
+              {"texte": "c. 9 de Pique", "est_correct": false},
+              {"texte": "d. Valet de Trèfle", "est_correct": false}
+            ],
+            "image": "images/q18.png"
+          },
+          {
+            "ordre": 19,
+            "texte": "Quel nombre faut-il placer au sommet du schéma ?",
+            "choix": [
+              {"texte": "a. 1", "est_correct": false},
+              {"texte": "b. 2", "est_correct": true},
+              {"texte": "c. 3", "est_correct": false},
+              {"texte": "d. 4", "est_correct": false}
+            ],
+            "image": "images/q19.png"
+          },
+          {
+            "ordre": 20,
+            "texte": "Ici, un seul élément se déplace dans chaque série, que ce soit de façon linéaire, circulaire ou alternative. Quelle figure numérotée continue la série ?",
+            "choix": [
+              {"texte": "a. Figure 1", "est_correct": false},
+              {"texte": "b. Figure 2", "est_correct": false},
+              {"texte": "c. Figure 3", "est_correct": true},
+              {"texte": "d. Figure 4", "est_correct": false}
+            ],
+            "image": "images/q20.png"
+          }
+        ]
+      }
+    ]
+  }
+]
