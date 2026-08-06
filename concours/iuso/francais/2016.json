@@ -1,0 +1,675 @@
+[
+    {
+        "ecole": "IUSO",
+        "filiere": "Toutes filières",
+        "epreuves": [
+            {
+                "titre": "Culture Générale",
+                "annee": 2016,
+                "mini_cours": "--- POINTS TRÈS AVANCÉS (IUSO CULTURE GÉNÉRALE) ---\n\n1. LA RÉSISTANCE DU GABON À VICHY EN 1940 :\n- Lors des « Trois Glorieuses » d'août 1940, le Tchad (26 août), le Cameroun (27 août), le Congo (28 août) et l'Oubangui-Chari rallient la France Libre. Seul le Gabon résiste, restant fidèle à Vichy.\n- Le général Têtu, envoyé par Vichy, dispose de troupes, de bombardiers Glenn Martin et de bâtiments de guerre (l'aviso Bougainville, le sous-marin Poncelet) pour défendre le territoire.\n- L'offensive de Leclerc et Kœnig force la reddition de Libreville (9-10 novembre 1940) puis de Port-Gentil (12 novembre 1940), achevant le ralliement de toute l'AEF à la France Libre.\n- Charles de Gaulle institue l'ordre de la Libération le 16 novembre 1940 en Afrique-Équatoriale française.\n\n2. FEMMES DE POUVOIR ET INSTITUTIONS :\n- Rose Christiane Ossouka Raponda devient la première femme Première ministre du Gabon le 16 juillet 2020, après avoir été la première femme maire de Libreville (2014-2019).\n\n3. DIPLOMATIE MULTILATÉRALE :\n- Le 25 juin 2022, à Kigali, le Gabon devient le 55e membre du Commonwealth, aux côtés du Togo (56e membre), lors du CHOGM 2022.\n- Le Gabon a présidé le Conseil de sécurité de l'ONU en octobre 2022, durant son quatrième mandat comme membre non permanent (2022-2023).\n\n4. RAPPELS GÉOGRAPHIQUES ET ÉCONOMIQUES :\n- Les 13 parcs nationaux gabonais, créés le 4 septembre 2002, couvrent environ 11 % du territoire.\n- Le Franc CFA de la zone CEMAC est arrimé à l'Euro par une parité fixe garantie par le Trésor français.",
+                "questions": [
+                    {
+                        "ordre": 1,
+                        "texte": "Lors des « Trois Glorieuses » d'août 1940, quel territoire d'AEF a résisté au ralliement à la France Libre, contrairement au Tchad, au Cameroun et au Congo ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Gabon",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'Oubangui-Chari",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Congo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le Cameroun",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 2,
+                        "texte": "Quel général vichyste a été envoyé pour défendre le Gabon face à l'offensive de la France Libre en 1940 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le général Têtu",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le général de Larminat",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le général Kœnig",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le général Dio",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 3,
+                        "texte": "Quel type de bombardiers équipait les forces vichystes stationnées au Gabon en 1940 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Des Glenn Martin",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Des Spitfire",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Des Junkers",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Des Lysander",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 4,
+                        "texte": "À quelle date Libreville s'est-elle rendue aux Forces françaises libres en 1940 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Dans la nuit du 9 au 10 novembre",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le 27 octobre",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le 5 novembre",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le 16 novembre",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 5,
+                        "texte": "À quelle date Port-Gentil est-elle tombée, achevant la campagne du Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- 12 novembre 1940",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 27 octobre 1940",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 5 novembre 1940",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 30 novembre 1940",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 6,
+                        "texte": "Quel ordre Charles de Gaulle a-t-il institué en Afrique-Équatoriale française le 16 novembre 1940 ?",
+                        "choix": [
+                            {
+                                "texte": "A- L'ordre de la Libération",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La Légion d'Honneur",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- L'ordre du Mérite",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Croix de Guerre",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 7,
+                        "texte": "Quel officier français, futur maréchal, a mené l'offensive terrestre et maritime contre le Gabon en 1940 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Leclerc (alors capitaine de Hauteclocque)",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- De Lattre de Tassigny",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Juin",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Koenig (seul, sans Leclerc)",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 8,
+                        "texte": "Quel sous-marin vichyste s'est sabordé au large de Libreville durant la campagne du Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Poncelet",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Bougainville",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Surcouf",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le Casabianca",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 9,
+                        "texte": "Qui est la première femme à avoir occupé le poste de maire de Libreville ?",
+                        "choix": [
+                            {
+                                "texte": "A- Rose Christiane Ossouka Raponda",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Paulette Missambo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Marie-Madeleine Mborantsuo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Liliane Massala",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 10,
+                        "texte": "De quelle année à quelle année Rose Christiane Ossouka Raponda a-t-elle été maire de Libreville ?",
+                        "choix": [
+                            {
+                                "texte": "A- 2014 à 2019",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 2009 à 2014",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 2012 à 2020",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 2019 à 2023",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 11,
+                        "texte": "À quelle date précise le Gabon est-il devenu le 55e membre du Commonwealth ?",
+                        "choix": [
+                            {
+                                "texte": "A- 25 juin 2022",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 30 août 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 11 juin 2021",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 12 novembre 1940",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 12,
+                        "texte": "Dans quelle ville s'est tenu le sommet du Commonwealth qui a admis le Gabon en 2022 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Kigali",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Nairobi",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Londres",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Accra",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 13,
+                        "texte": "En quel mois le Gabon a-t-il assuré la présidence tournante du Conseil de sécurité de l'ONU en 2022 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Octobre",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Janvier",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Juin",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Décembre",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 14,
+                        "texte": "Combien de fois le Gabon a-t-il siégé au Conseil de sécurité de l'ONU comme membre non permanent, jusqu'en 2023 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Quatre fois",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Deux fois",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Trois fois",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Cinq fois",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 15,
+                        "texte": "Quelle ville gabonaise est tombée le 5 novembre 1940 lors de la progression des colonnes terrestres vers Libreville ?",
+                        "choix": [
+                            {
+                                "texte": "A- Lambaréné",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Mouila",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Oyem",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Tchibanga",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 16,
+                        "texte": "Quel pourcentage du territoire national les 13 parcs nationaux du Gabon couvrent-ils ?",
+                        "choix": [
+                            {
+                                "texte": "A- Environ 11 %",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Environ 25 %",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Environ 5 %",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Environ 40 %",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 17,
+                        "texte": "Quel parc national gabonais est inscrit au patrimoine mondial de l'UNESCO ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Lopé",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Loango",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Akanda",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Minkébé",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 18,
+                        "texte": "Quelle institution française garantit la parité fixe du Franc CFA avec l'Euro ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Trésor français",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La Banque de France",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La BCE",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le FMI",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 19,
+                        "texte": "Quel massif abrite le point culminant du Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le massif du Chaillu",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Les monts de Cristal",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le plateau Batéké",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Les monts Birougou",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 20,
+                        "texte": "Quel événement a marqué la vie politique du Gabon le 30 août 2023 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le coup d'État renversant Ali Bongo Ondimba",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'adhésion au Commonwealth",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La création des parcs nationaux",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- L'élection présidentielle de Brice Oligui Nguema",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 21,
+                        "texte": "Quel est l'antonyme précis du terme juridique « dirimant » ?",
+                        "choix": [
+                            {
+                                "texte": "A- Accessoire ou secondaire",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Rédhibitoire",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Décisif",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Impératif",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 22,
+                        "texte": "Choisissez la forme correcte : « La confiance qu'ils se sont ... mutuellement a facilité les négociations. »",
+                        "choix": [
+                            {
+                                "texte": "A- témoignée",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- témoigné",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- témoignés",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- témoignées",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 23,
+                        "texte": "Quel principe économique désigne une hausse générale et durable des prix ?",
+                        "choix": [
+                            {
+                                "texte": "A- L'inflation",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La déflation",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La stagflation exclusivement",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La récession",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 24,
+                        "texte": "Quel indicateur mesure la richesse totale produite par un pays sur une année ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le PIB",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le taux de change",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- L'IDH",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La balance commerciale",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 25,
+                        "texte": "Quel principe juridique protège un accusé tant que sa culpabilité n'a pas été légalement établie ?",
+                        "choix": [
+                            {
+                                "texte": "A- La présomption d'innocence",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La prescription",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le contradictoire",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La non-rétroactivité",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 26,
+                        "texte": "Que signifie le terme « probité » attendu d'un candidat à un poste administratif ?",
+                        "choix": [
+                            {
+                                "texte": "A- Honnêteté rigoureuse et intégrité morale",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Rapidité d'exécution",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Aptitude au commandement",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Créativité",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 27,
+                        "texte": "Quel pays a remporté la CAN 2017, organisée seul par le Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Cameroun",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'Égypte",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Gabon",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Côte d'Ivoire",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 28,
+                        "texte": "Avec quel pays le Gabon a-t-il co-organisé la CAN 2012 ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Guinée Équatoriale",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Cameroun",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Congo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Côte d'Ivoire",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 29,
+                        "texte": "Quel document fondamental garantit la séparation des pouvoirs exécutif, législatif et judiciaire ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Constitution",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Code civil",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le règlement intérieur",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le Code pénal",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 30,
+                        "texte": "Quelle organisation a succédé à la Société des Nations (SDN) en 1945 ?",
+                        "choix": [
+                            {
+                                "texte": "A- L'ONU",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'Union Africaine",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- L'OTAN",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- L'Union Européenne",
+                                "est_correct": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

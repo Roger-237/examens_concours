@@ -1,0 +1,675 @@
+[
+    {
+        "ecole": "IUSO",
+        "filiere": "Toutes filières",
+        "epreuves": [
+            {
+                "titre": "Culture Générale",
+                "annee": 2017,
+                "mini_cours": "--- POINTS EXPERTS (IUSO CULTURE GÉNÉRALE) ---\n\n1. FEMMES DE POUVOIR AU GABON :\n- Rose Christiane Ossouka Raponda, née le 30 juin 1963 à Franceville, est nommée Première ministre le 16 juillet 2020 par Ali Bongo Ondimba : première femme à ce poste au Gabon.\n- Économiste diplômée de l'Institut gabonais de l'économie et des finances, elle avait été la première femme maire de Libreville (2014-2019) avant de devenir ministre de la Défense en 2019.\n- Elle devient ensuite vice-présidente de la République en janvier 2023, poste qu'elle occupe jusqu'au coup d'État du 30 août 2023.\n\n2. LE GABON ET LE COMMONWEALTH :\n- Le 25 juin 2022, le Gabon devient officiellement le 55e membre du Commonwealth, lors du sommet des chefs d'État (CHOGM) tenu à Kigali, au Rwanda.\n- Le Togo rejoint l'organisation le même jour, comme 56e membre.\n- Le Gabon et le Togo deviennent alors les 3e et 4e pays sans lien colonial historique avec le Royaume-Uni à rejoindre le Commonwealth, après le Mozambique (1995) et le Rwanda (2009).\n\n3. LE CTRI, ORGANE DE LA TRANSITION :\n- Le CTRI (Comité pour la Transition et la Restauration des Institutions) est instauré le 30 août 2023, après l'annulation de l'élection générale contestée de 2023.\n- Il est dissous le 2 mai 2025, après l'élection présidentielle et l'investiture de Brice Oligui Nguema.\n\n4. RAPPELS INSTITUTIONNELS :\n- Le Gabon a siégé quatre fois au Conseil de sécurité de l'ONU (1978-1979, 1998-1999, 2010-2011, 2022-2023).\n- La CEMAC regroupe 6 pays d'Afrique centrale autour du Franc CFA (XAF).",
+                "questions": [
+                    {
+                        "ordre": 1,
+                        "texte": "Qui est la première femme à occuper le poste de Première ministre au Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- Rose Christiane Ossouka Raponda",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Paulette Missambo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Liliane Massala",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Marie-Madeleine Mborantsuo",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 2,
+                        "texte": "À quelle date Rose Christiane Ossouka Raponda a-t-elle été nommée Première ministre ?",
+                        "choix": [
+                            {
+                                "texte": "A- 16 juillet 2020",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 30 janvier 2019",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 9 janvier 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 12 février 2019",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 3,
+                        "texte": "Quel poste ministériel Rose Christiane Ossouka Raponda occupait-elle juste avant de devenir Première ministre ?",
+                        "choix": [
+                            {
+                                "texte": "A- Ministre de la Défense",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Ministre du Budget",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Ministre des Affaires Étrangères",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Ministre de l'Économie",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 4,
+                        "texte": "Quelle fonction municipale Rose Christiane Ossouka Raponda a-t-elle occupée entre 2014 et 2019 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Maire de Libreville (première femme au poste)",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Maire de Port-Gentil",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Gouverneure de l'Estuaire",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Maire de Franceville",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 5,
+                        "texte": "Quel poste Rose Christiane Ossouka Raponda a-t-elle occupé de janvier à août 2023 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Vice-présidente de la République",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Présidente de l'Assemblée Nationale",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Première ministre (un second mandat)",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Ministre des Finances",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 6,
+                        "texte": "À quelle date précise le Gabon est-il devenu membre du Commonwealth ?",
+                        "choix": [
+                            {
+                                "texte": "A- 25 juin 2022",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 30 août 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 17 août 2022",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 12 juin 2021",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 7,
+                        "texte": "Dans quelle ville s'est tenu le sommet du Commonwealth (CHOGM) lors duquel le Gabon a été admis ?",
+                        "choix": [
+                            {
+                                "texte": "A- Kigali (Rwanda)",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Londres (Royaume-Uni)",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Nairobi (Kenya)",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Kampala (Ouganda)",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 8,
+                        "texte": "En tant que combientième membre le Gabon a-t-il rejoint le Commonwealth ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le 55e",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le 50e",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le 56e",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le 60e",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 9,
+                        "texte": "Quel autre pays africain francophone a rejoint le Commonwealth le même jour que le Gabon, en 2022 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Togo",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Bénin",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Sénégal",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Côte d'Ivoire",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 10,
+                        "texte": "Quel pays est devenu le tout premier membre du Commonwealth sans lien colonial historique avec le Royaume-Uni, en 1995 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Mozambique",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Rwanda",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Gabon",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le Cameroun",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 11,
+                        "texte": "En quelle année le Rwanda a-t-il rejoint le Commonwealth ?",
+                        "choix": [
+                            {
+                                "texte": "A- 2009",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 1995",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 2013",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 2018",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 12,
+                        "texte": "À quelle date le CTRI (Comité pour la Transition et la Restauration des Institutions) a-t-il été instauré ?",
+                        "choix": [
+                            {
+                                "texte": "A- 30 août 2023",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 25 juin 2022",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 3 mars 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 2 mai 2025",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 13,
+                        "texte": "À quelle date le CTRI a-t-il été officiellement dissous ?",
+                        "choix": [
+                            {
+                                "texte": "A- 2 mai 2025",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 30 août 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Avril 2025",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Janvier 2024",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 14,
+                        "texte": "Combien de fois le Gabon a-t-il siégé au Conseil de sécurité de l'ONU comme membre non permanent ?",
+                        "choix": [
+                            {
+                                "texte": "A- Quatre fois",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Deux fois",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Trois fois",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Une seule fois",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 15,
+                        "texte": "Combien de pays regroupe la zone CEMAC autour du Franc CFA ?",
+                        "choix": [
+                            {
+                                "texte": "A- 6",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 8",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 4",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 10",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 16,
+                        "texte": "Quel événement a précédé, en 2023, l'instauration du CTRI ?",
+                        "choix": [
+                            {
+                                "texte": "A- L'annulation d'une élection générale contestée",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'adhésion au Commonwealth",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La démission volontaire d'Ali Bongo Ondimba",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Un référendum constitutionnel",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 17,
+                        "texte": "Qui a présidé le Gabon durant la présidence tournante du Conseil de sécurité de l'ONU, en octobre 2022 ?",
+                        "choix": [
+                            {
+                                "texte": "A- Ali Bongo Ondimba (encore président à l'époque)",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Brice Oligui Nguema",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Rose Christiane Ossouka Raponda",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Omar Bongo Ondimba",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 18,
+                        "texte": "Quel est le sens exact du terme « probité » ?",
+                        "choix": [
+                            {
+                                "texte": "A- Honnêteté rigoureuse et intégrité morale",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Rapidité d'exécution",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Aptitude au commandement",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Créativité",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 19,
+                        "texte": "Choisissez la forme correcte : « Les fonctions qu'elle a ... exercer avec rigueur lui ont valu des éloges. »",
+                        "choix": [
+                            {
+                                "texte": "A- su",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- sue",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- sues",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- sus",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 20,
+                        "texte": "Quel principe juridique protège un accusé tant que sa culpabilité n'a pas été légalement établie ?",
+                        "choix": [
+                            {
+                                "texte": "A- La présomption d'innocence",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La prescription",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le contradictoire",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La non-rétroactivité",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 21,
+                        "texte": "Quel indicateur économique mesure la richesse totale produite par un pays sur une année ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le PIB",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le taux de change",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- L'IDH",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La balance commerciale",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 22,
+                        "texte": "Quelle institution française garantit la parité fixe du Franc CFA avec l'Euro ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Trésor français",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La Banque de France",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La BCE",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le FMI",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 23,
+                        "texte": "Combien de parcs nationaux le Gabon compte-t-il, créés en 2002 ?",
+                        "choix": [
+                            {
+                                "texte": "A- 13",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 11",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 15",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 9",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 24,
+                        "texte": "Quel parc national gabonais est classé au patrimoine mondial de l'UNESCO ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Lopé",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Loango",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Akanda",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Minkébé",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 25,
+                        "texte": "À quelle date précise Ali Bongo Ondimba a-t-il été renversé ?",
+                        "choix": [
+                            {
+                                "texte": "A- 30 août 2023",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- 25 juin 2022",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- 3 mars 2023",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- 9 janvier 2023",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 26,
+                        "texte": "En quel mois de 2025 Brice Oligui Nguema a-t-il été investi Président ?",
+                        "choix": [
+                            {
+                                "texte": "A- Mai",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Avril",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Août",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Janvier",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 27,
+                        "texte": "Quel pays a remporté la CAN 2017, organisée seul par le Gabon ?",
+                        "choix": [
+                            {
+                                "texte": "A- Le Cameroun",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- L'Égypte",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Gabon",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Côte d'Ivoire",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 28,
+                        "texte": "Avec quel pays le Gabon a-t-il co-organisé la CAN 2012 ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Guinée Équatoriale",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Cameroun",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le Congo",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La Côte d'Ivoire",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 29,
+                        "texte": "Quel document fondamental garantit la séparation des pouvoirs exécutif, législatif et judiciaire ?",
+                        "choix": [
+                            {
+                                "texte": "A- La Constitution",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- Le Code civil",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- Le règlement intérieur",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- Le Code pénal",
+                                "est_correct": false
+                            }
+                        ]
+                    },
+                    {
+                        "ordre": 30,
+                        "texte": "Quel principe économique désigne une hausse générale et durable des prix, érodant le pouvoir d'achat ?",
+                        "choix": [
+                            {
+                                "texte": "A- L'inflation",
+                                "est_correct": true
+                            },
+                            {
+                                "texte": "B- La déflation",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "C- La stagflation exclusivement",
+                                "est_correct": false
+                            },
+                            {
+                                "texte": "D- La récession",
+                                "est_correct": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
