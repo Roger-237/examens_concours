@@ -60,8 +60,8 @@ class VueInscriptionConcours(View):
     def post(self, request):
         concours = ConcoursBlanc.objects.filter(statut='publie').first()
 
-        if not concours or timezone.now() < concours.heure_debut:
-            messages.error(request, "Les inscriptions pour ce concours ne sont pas ouvertes actuellement.")
+        if not concours:
+            messages.error(request, "Aucun concours disponible pour l'inscription.")
             return redirect('concours:accueil')
 
         if timezone.now() > concours.heure_fin:
@@ -125,6 +125,14 @@ class VuePasserConcours(View):
             return redirect('concours:accueil')
 
         concours = participant.concours
+
+        # Bloqué si le concours n'a pas encore commencé
+        if timezone.now() < concours.heure_debut:
+            return render(request, 'examens/concours/attente.html', {
+                'participant': participant,
+                'concours': concours,
+                'temps_avant_debut': int((concours.heure_debut - timezone.now()).total_seconds()),
+            })
 
         # Bloqué net si l'heure de fin est dépassée
         if timezone.now() > concours.heure_fin:

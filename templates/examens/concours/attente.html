@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attente — {{ concours.titre }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'ui/css/index.css' %}">
+  <style>
+    :root {
+      --forest-dark   : #1b4332;
+      --forest-medium : #2d6a4f;
+      --forest-light  : #40916c;
+      --forest-accent : #52b788;
+      --forest-pale   : #d8f3dc;
+    }
+
+    body { 
+      background: linear-gradient(135deg, #f4f6f8 0%, #e8f0f4 100%);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .attente-container {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      padding: 3rem;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .attente-icon {
+      width: 80px;
+      height: 80px;
+      background: var(--forest-pale);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+    }
+
+    .attente-icon svg {
+      width: 40px;
+      height: 40px;
+      fill: var(--forest-dark);
+    }
+
+    .attente-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--forest-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .attente-subtitle {
+      font-size: 1rem;
+      color: #6c757d;
+      margin-bottom: 2rem;
+    }
+
+    .timer-display {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--forest-medium);
+      margin: 1.5rem 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .timer-label {
+      font-size: 0.9rem;
+      color: #6c757d;
+      margin-bottom: 1rem;
+    }
+
+    .participant-info {
+      background: var(--forest-pale);
+      border-radius: 10px;
+      padding: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .participant-name {
+      font-weight: 600;
+      color: var(--forest-dark);
+    }
+
+    .concours-badge {
+      display: inline-block;
+      background: var(--forest-medium);
+      color: #fff;
+      padding: 0.4rem 1rem;
+      border-radius: 50rem;
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    .timer-display {
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @media (max-width: 768px) {
+      .attente-container {
+        padding: 2rem;
+        width: 95%;
+      }
+
+      .attente-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+      }
+
+      .attente-icon svg {
+        width: 30px;
+        height: 30px;
+      }
+
+      .attente-title {
+        font-size: 1.25rem;
+      }
+
+      .attente-subtitle {
+        font-size: 0.9rem;
+      }
+
+      .timer-display {
+        font-size: 2.5rem;
+      }
+
+      .timer-label {
+        font-size: 0.85rem;
+      }
+
+      .participant-info {
+        padding: 0.75rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .attente-container {
+        padding: 1.5rem;
+      }
+
+      .attente-title {
+        font-size: 1.1rem;
+      }
+
+      .timer-display {
+        font-size: 2rem;
+      }
+
+      .concours-badge {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="attente-container">
+    <div class="attente-icon">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+      </svg>
+    </div>
+
+    <div class="concours-badge">{{ concours.titre }}</div>
+
+    <h1 class="attente-title">Le concours n'a pas encore commencé</h1>
+    <p class="attente-subtitle">Vous serez redirigé automatiquement vers les questions</p>
+
+    <div class="timer-label">Temps avant le début :</div>
+    <div class="timer-display" id="timer">--:--:--</div>
+
+    <div class="participant-info">
+      <div class="participant-name">{{ participant.nom }}</div>
+      <div class="text-muted small">{{ concours.ecole.nom }}</div>
+    </div>
+  </div>
+
+  <script>
+    const TEMPS_AVANT_DEBUT = {{ temps_avant_debut }};
+
+    function afficherTemps(secondes) {
+      const h = Math.floor(secondes / 3600);
+      const m = Math.floor((secondes % 3600) / 60);
+      const s = secondes % 60;
+      
+      if (h > 0) {
+        document.getElementById('timer').textContent = 
+          `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+      } else {
+        document.getElementById('timer').textContent = 
+          `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+      }
+    }
+
+    let tempsRestant = TEMPS_AVANT_DEBUT;
+    afficherTemps(tempsRestant);
+
+    const interval = setInterval(function() {
+      tempsRestant--;
+      afficherTemps(tempsRestant);
+      
+      if (tempsRestant <= 0) {
+        clearInterval(interval);
+        window.location.reload();
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
