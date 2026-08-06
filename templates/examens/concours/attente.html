@@ -16,22 +16,46 @@
     }
 
     body { 
-      background: linear-gradient(135deg, #f4f6f8 0%, #e8f0f4 100%);
       font-family: 'Inter', sans-serif;
       min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
+      overflow-x: hidden;
+      margin: 0;
+    }
+
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+
+    .video-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: -1;
     }
 
     .attente-container {
-      background: #fff;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
       border-radius: 20px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-      padding: 3rem;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+      padding: 2.5rem 3rem;
       max-width: 500px;
       width: 90%;
       text-align: center;
+      margin: 2rem auto;
     }
 
     .attente-icon {
@@ -61,21 +85,21 @@
     .attente-subtitle {
       font-size: 1rem;
       color: #6c757d;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     .timer-display {
       font-size: 3rem;
       font-weight: 700;
       color: var(--forest-medium);
-      margin: 1.5rem 0;
+      margin: 1rem 0;
       font-variant-numeric: tabular-nums;
     }
 
     .timer-label {
       font-size: 0.9rem;
       color: #6c757d;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
     .participant-info {
@@ -97,7 +121,29 @@
       padding: 0.4rem 1rem;
       border-radius: 50rem;
       font-size: 0.85rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .btn-retour {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #4b5b50;
+      background: #f0f4f2;
+      border: 1px solid #d0ded6;
+      border-radius: 20px;
+      padding: 0.4rem 1.2rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      margin-top: 1.25rem;
+    }
+
+    .btn-retour:hover {
+      background: var(--forest-medium);
+      color: #fff;
+      border-color: var(--forest-medium);
     }
 
     @keyframes pulse {
@@ -112,7 +158,7 @@
     @media (max-width: 768px) {
       .attente-container {
         padding: 2rem;
-        width: 95%;
+        width: 92%;
       }
 
       .attente-icon {
@@ -137,37 +183,17 @@
       .timer-display {
         font-size: 2.5rem;
       }
-
-      .timer-label {
-        font-size: 0.85rem;
-      }
-
-      .participant-info {
-        padding: 0.75rem;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .attente-container {
-        padding: 1.5rem;
-      }
-
-      .attente-title {
-        font-size: 1.1rem;
-      }
-
-      .timer-display {
-        font-size: 2rem;
-      }
-
-      .concours-badge {
-        font-size: 0.75rem;
-        padding: 0.3rem 0.8rem;
-      }
     }
   </style>
 </head>
 <body>
+
+  <!-- Video Background & Overlay -->
+  <video class="video-background" autoplay loop muted playsinline>
+    <source src="{% static 'videos/background.mp4' %}" type="video/mp4">
+  </video>
+  <div class="video-overlay"></div>
+
   <div class="attente-container">
     <div class="attente-icon">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -186,6 +212,13 @@
     <div class="participant-info">
       <div class="participant-name">{{ participant.nom }}</div>
       <div class="text-muted small">{{ concours.ecole.nom }}</div>
+    </div>
+
+    <!-- Bouton de retour -->
+    <div>
+      <a href="{% url 'concours:accueil' %}" class="btn-retour">
+        &larr; Retour à l'accueil du concours
+      </a>
     </div>
   </div>
 
@@ -221,3 +254,4 @@
   </script>
 </body>
 </html>
+
